@@ -1,6 +1,6 @@
 ## Overview
 
-This repo contains the code and data for the [Beam Summit website](beamsummit.org). 
+This repo contains the code and data for the [CCOSS website](ccoss.org). 
 
 ## Structure
 * There are branches for each summit edition. They can be old events which are kept here for archiving or current/upcoming
@@ -18,7 +18,7 @@ Previous editions of beam summit websites were built with [Project Hoverboard](h
 ## Adding/editing content
 
 ### Homepage
-* For layout, modify `/themes/beamsummit/layouts/index.html`
+* For layout, modify `/themes/ccoss/layouts/index.html`
 * For messages/content, modify `/data/homepage.yml`
 
 ### Speakers
