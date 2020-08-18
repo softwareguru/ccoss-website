@@ -4,7 +4,7 @@ date: 2020-05-20T13:51:25+06:00
 draft: false
 description: ""
 # post thumb
-image : "https://ccoss.org/images/social-share.jpg"
+image : "images/blog/social-share.jpg"
 # author
 author: "CCOSS"
 
