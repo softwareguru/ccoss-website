@@ -1,6 +1,6 @@
 
 ######################## default configuration ####################
-baseURL = "https://beamsummit.org"
+baseURL = "ccoss.org"
 title = "CCOSS"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
@@ -73,12 +73,10 @@ logo = "/images/logo-monochrome.svg"
 home = "Home"
 
 # Meta data
-description = """The Beam Summit brings together experts and community to 
-share the exciting ways they are using, changing, and advancing Apache Beam 
-and the world of data and stream processing."""
+description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
 image = "/images/card-aug.png"
-twitter_user = "@beamsummit"
-email = "contact@beamsummit.org"
+twitter_user = ""
+email = "hola@ccoss.org"
 author = "Software Guru"
 
 # Google Analitycs
