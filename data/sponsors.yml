@@ -1,0 +1,34 @@
+enable :  true
+title : "Patrocinadores"
+sponsor_group:
+  - title : "Premier"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/google.png"
+        link : "https://about.google/"
+
+  - title : "Gold"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/wizeline.png"
+        link : "https://www.wizeline.com/about-us/"
+
+  - title : "Partner"
+    slug : "community"
+    sponsor:
+      - logo : "/images/logos/osom.jpeg"
+        link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
+      - logo : "/images/logos/apache.jpg"
+        link : "https://www.apache.org/"
+      - logo : "/images/logos/labsol.jpg"
+        link : "https://cozcyt.gob.mx/labsol/"
+          
+                      
+# call to action in sponsor
+sponsorship:
+  enable : true
+  title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
+  #button
+  label : "Únete como patrocinador"
+  link : "https://docs.google.com/presentation/d/13B-mTZrW0-rRNuu5T8do17zd0j5rQuUq41FsrLyjfI4/edit"
+

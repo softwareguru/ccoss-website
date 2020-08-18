@@ -1,0 +1,28 @@
+---
+label: Team
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Name
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: file
+  name: image
+  label: Picture
+- type: text
+  name: twitter
+  label: Twitter url
+- type: text
+  name: linkedin
+  label: Linkedin url
+pages:
+- content/team/brittany-hermann.md
+- content/team/griselda-cuevas.md
+- content/team/matthias-baetens.md
+- content/team/maximilian-michels.md

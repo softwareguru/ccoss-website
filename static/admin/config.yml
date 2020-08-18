@@ -1,0 +1,40 @@
+backend:
+  name: git-gateway
+  branch: master 
+
+media_folder: "static/images/uploads" 
+public_folder: "/images/uploads" 
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: "speakers" # Used in routes, e.g., /admin/collections/blog
+    label: "Speaker" # Used in the UI
+    folder: "content/es-mx/speakers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Nombre", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
+      - {label: "Título", name: "designation", widget: "string"}
+      - {label: "País", name: "country", widget: "string", default: "mx"}
+      - {label: "Twitter url", name: "twitter", widget: "string"}
+      - {label: "LinkedIn url", name: "linkedin", widget: "string"}
+      - {label: "Github url", name: "github", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "sessions" # Used in routes, e.g., /admin/collections/blog
+    label: "Sesión" # Used in the UI
+    folder: "content/es-mx/sessions" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Speaker(s)", name: "speakers", widget: "relation", collection: "speakers", searchFields: ["title"], valueField: "title", multiple: true }
+      - {label: "Track", name: "tracks", widget: "select", options: ["Agile & Cultura", "Arquitectura & DevOps", "Carrera", "Data", "Tendencias", "Testing", "UX / CX"], multiple: true }
+      - {label: "Día", name: "day_num", widget: "number"}
+      - {label: "Hora inicio", name: "time_start", widget: "datetime", default: "2020-04-21T18:00:00.000Z" }
+      - {label: "Hora fin", name: "time_end", widget: "datetime", default: "2020-04-21T18:50:00.000Z" }
+      - {label: "Body", name: "body", widget: "markdown"}

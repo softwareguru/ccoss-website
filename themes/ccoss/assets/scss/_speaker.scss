@@ -1,0 +1,32 @@
+.speakers-wrapper {
+	margin: 20px 0;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 240px));
+	grid-gap: 50px;
+}
+
+.speaker {
+	text-align: center;
+	cursor: pointer;
+}
+
+.speaker-strip {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 60px;
+
+	@include tablet {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@include mobile {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}
+
+.speaker-info a {
+	color: #ff6200;
+}
+

@@ -1,0 +1,130 @@
+
+######################## default configuration ####################
+baseURL = "https://beamsummit.org"
+title = "CCOSS"
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+
+theme = "ccoss"
+# post pagination
+paginate = "8"
+
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "/plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "/plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/4a6d2efc2e.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "Inicio"
+  weight = 1
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 6
+
+  [[menu.main]]
+  name = "CFP"
+  URL = "/about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Patrocinadores"
+  URL = "/sponsors"
+  weight = 3
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "/faq"
+  weight = 5
+
+  [[menu.main]]
+  name = "Organizadores"
+  URL = "/team"
+  weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "/images/logo-monochrome.svg"
+home = "Home"
+
+# Meta data
+description = """The Beam Summit brings together experts and community to 
+share the exciting ways they are using, changing, and advancing Apache Beam 
+and the world of data and stream processing."""
+image = "/images/card-aug.png"
+twitter_user = "@beamsummit"
+email = "contact@beamsummit.org"
+author = "Software Guru"
+
+# Google Analitycs
+google_analitycs_id = "UA-165970215-1" # your id
+# search for blog page
+search = true
+
+disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) 
+es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
+
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Regístrate"
+link = "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2020-tickets-91491063233"
+
+
+
+############################# social icon ############################
+
+[[params.social]]
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/playlist?list=PLnLzwYW6HOC6rbYIcrLnVkIMdG_9WB7vn"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:hola@ccoss.org"
+
+[[params.footer_about]]
+name = "?Quién organiza¿"
+link = "/team/"
+
+[[params.footer_previous]]
+name = "Prospectus"
+link = "https://docs.google.com/presentation/d/13B-mTZrW0-rRNuu5T8do17zd0j5rQuUq41FsrLyjfI4/edit#slide=id.g5d1e7ea227_7_0"
+
+[[params.footer_previous]]
+name = "Código de Conducta"
+link = "/coc/"
+
+[[params.footer_resources]]
+name = "Email"
+link = "mailto:hola@ccoss.org"

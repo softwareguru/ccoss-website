@@ -1,0 +1,56 @@
+- id: read_more
+  translation: Leer mas
+
+- id: posted_by
+  translation: Posted by this author
+
+- id: message_us
+  translation: Message Us
+
+- id: send
+  translation: Enviar
+
+- id: search
+  translation: Buscar
+
+- id: categories
+  translation: Track
+
+- id: tags
+  translation: Tags
+
+- id: follow_us
+  translation: Follow us
+
+- id: subscribe
+  translation: Suscríbete
+
+- id: not_spam
+  translation: We will not spam at your inbox. Don't panic
+
+- id: email
+  translation: Email
+
+- id: professional_skills
+  translation: Professional Skills
+
+- id: by
+  translation: Por
+
+- id: language
+  translation: Idioma  
+
+- id: more_sg
+  translation: Otras maravillas de SG
+
+- id: topics
+  translation: Temas
+
+- id: register
+  translation: Regístrate
+
+- id: add_cal
+  translation: Agendar
+
+- id: participa
+  translation: ¡Participa!
