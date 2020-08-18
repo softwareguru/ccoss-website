@@ -1,6 +1,6 @@
 
 ######################## default configuration ####################
-baseURL = "ccoss.org"
+baseURL = "https://ccoss.org/"
 title = "CCOSS"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
