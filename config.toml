@@ -48,7 +48,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
   name = "CFP"
-  URL = "/about"
+  URL = "/cfp"
   weight = 2
 
   [[menu.main]]
