@@ -6,7 +6,7 @@ description: ""
 # post thumb
 image : "https://odoo-community.org/web/image/816663/ccoss.jpeg?access_token=6174cb8d-c73e-41e4-8b27-2f0ff02f1030"
 # author
-author: "CCOSS"
+author: "CCOSS" 
 
 ---
 La comunidad Open Source México, Google, y Software Guru organizaron exitosamente la 1er Cumbre de Contribuidores de Open Source Software (CCOSS) el pasado 14 y 15 de septiembre en la ciudad de Guadalajara, Jalisco. El objetivo de la cumbre fue impulsar la participación de desarrolladores de software de América Latina en proyectos de código abierto, buscando que pasemos de ser usuarios a contribuidores.
