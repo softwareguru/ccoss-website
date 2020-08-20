@@ -3,9 +3,9 @@ banner:
   enable : true
   title : "The future <br> & Tech Expo"
   logo : "/images/logo.svg"
-  img: "/images/background-ccoss.jpg"
+  img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "Online. 13 al 17 de octubre de 2020."
+  date_time : "Online. 19 al 24 de octubre de 2020."
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : true
@@ -18,6 +18,7 @@ event_info:
   enable : true
   title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo? ¡Participa!"
   description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto. Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo."
+  contribution: "Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo, culminando con un hackathon de contribución."
   cta_text: "Registrate"
   cta_link: "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2020-tickets-91491063233"
   features: 
