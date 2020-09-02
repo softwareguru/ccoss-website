@@ -17,7 +17,7 @@ banner:
 event_info:
   enable : true
   title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo? ¡Participa!"
-  description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto. Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo."
+  description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto."
   contribution: "Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo, culminando con un hackathon de contribución."
   cta_text: "Registrate"
   cta_link: "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2020-tickets-91491063233"
