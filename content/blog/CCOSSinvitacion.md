@@ -17,7 +17,7 @@ Tenemos un par de categorías en nuestra primera edición de reconocimientos:
 
 * Contribuidor, conoces alguien que ha contribuido a un proyecto de código abierto de forma constante y que te gustaría agradecerle. 
 
-* Facilitador, conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source,.
+* Facilitador, conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source.
 
 Puedes nominar hasta el 17 de septiembre en la siguiente [forma](https://docs.google.com/forms/d/e/1FAIpQLSdnvCfHiRNq5A_ePxI2ZWKonvu_nF8pMS57XYSBfSRb7mdakg/viewform)
 
