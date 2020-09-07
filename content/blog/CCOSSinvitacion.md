@@ -1,5 +1,5 @@
 ---
-title: "Convocatoria de nominaciones para la comunidad"
+title: "Nominaciones de reconocimientos"
 date: 2020-09-07T10:36:23-05:00
 draft: false
 description: ""
