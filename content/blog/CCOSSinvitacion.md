@@ -1,5 +1,5 @@
 ---
-title: "CCOSS invitación de reconocimientos para la comunidad"
+title: "Convocatoria de reconocimientos para la comunidad"
 date: 2020-09-07T10:36:23-05:00
 draft: false
 description: ""
