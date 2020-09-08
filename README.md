@@ -39,6 +39,9 @@ Sponsors info is currently kept under `/data/sponsors.yml`. Add the image file t
 ### Schedule
 The repo currently has layout files which we used at other event. They are here for reference and will be updated once the best layout is defined based on the structure of the final agenda.
 
+### Updating the live website
+The live website is currently hosted on Netlify and is updated automatically from commits to the main branch of this repo. So, when you commit and push, a task will be automatically triggered.
+
 -----
 
 The project is published under the [MIT license](/LICENSE.md).
