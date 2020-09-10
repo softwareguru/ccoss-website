@@ -2,18 +2,16 @@
 
 This repo contains the code and data for the [CCOSS website](ccoss.org). 
 
-## Structure
-* There are branches for each summit edition. They can be old events which are kept here for archiving or current/upcoming
-events where the branch is used for development. Each branch will be used to setup independant auto-build processes.  
-* Master branch will be used to keep up-to-date with what is live on beamsummit.org
-
-Previous editions of beam summit websites were built with [Project Hoverboard](https://github.com/gdg-x/hoverboard) but for the 2020 edition we are using [Hugo](https://gohugo.io) with a custom theme.
-
+## Structure / branching
+* Main branch will be used to keep up-to-date with what is live at https://ccoss.org
+* If you are not sure of what you are doing, you are welcome to create a branch and submit for review before being merged.
+  
 ## Building the site
 1. Install Hugo
 2. Clone this repo and cd to it.
-4. Build the site with `hugo`. You can optionally add `--gc --minify` for clean and minimized output. This creates a `public` directory with the static html.
-5. Deploy the `public` directory to hosting.
+3. From the root, type `hugo server` and it will launch a web server with the website which you can check locally.
+4. To build the site type `hugo`. This creates a `public` directory with the static html.  
+5. Deploy the `public` directory to hosting. Note: In this case, this is not necessary since we are running from Netlify, which automatically builds the site whenever it detects a new commit/push to the main branch.
 
 ## Adding/editing content
 
@@ -38,6 +36,9 @@ Sponsors info is currently kept under `/data/sponsors.yml`. Add the image file t
 
 ### Schedule
 The repo currently has layout files which we used at other event. They are here for reference and will be updated once the best layout is defined based on the structure of the final agenda.
+
+### Updating the live website
+The live website is currently hosted on Netlify and is updated automatically from commits to the main branch of this repo. So, when you commit and push, a task will be automatically triggered.
 
 -----
 
