@@ -14,6 +14,12 @@ sponsor_group:
         link : "https://www.wizeline.com/about-us/"
       - logo : "/images/logos/AWS_logo_RGB.png"
         link : "https://aws.amazon.com/"
+
+  - title : "Silver"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/Datastax.png"
+        link : "https://www.datastax.com/"               
     
   - title : "Partner"
     slug : "community"
@@ -24,13 +30,9 @@ sponsor_group:
         link : "https://www.apache.org/"
       - logo : "/images/logos/labsol.jpg"
         link : "https://cozcyt.gob.mx/labsol/"    
-
-  - title : "Silver"
-    slug : "community"
-    sponsor:
-      - logo : "/images/logos/Datastax.png"
-        link : "https://www.datastax.com/"                  
-            
+      - logo : "/images/logos/logo-gnome.svg"
+        link : "https://www.gnome.org/"  
+                  
                       
 # call to action in sponsor
 sponsorship:
