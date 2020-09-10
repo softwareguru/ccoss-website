@@ -12,7 +12,9 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/wizeline.png"
         link : "https://www.wizeline.com/about-us/"
-
+      - logo : "/images/logos/AWS_logo_RGB.png"
+        link : "https://aws.amazon.com/"
+    
   - title : "Partner"
     slug : "community"
     sponsor:
@@ -21,8 +23,14 @@ sponsor_group:
       - logo : "/images/logos/apache.jpg"
         link : "https://www.apache.org/"
       - logo : "/images/logos/labsol.jpg"
-        link : "https://cozcyt.gob.mx/labsol/"
-          
+        link : "https://cozcyt.gob.mx/labsol/"    
+
+  - title : "Silver"
+    slug : "community"
+    sponsor:
+      - logo : "/images/logos/Datastax.png"
+        link : "https://www.datastax.com/"                  
+            
                       
 # call to action in sponsor
 sponsorship:
