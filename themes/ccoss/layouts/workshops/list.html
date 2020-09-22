@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section class="workshops section">
+  <div class="container">
+    <div>
+      {{ .Content }}
+    </div>
+    <div class="row workshop-strip">
+      {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.workshop" true) ".Params.time_start" }}
+      <div class="col-12 col-md-4 px-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ $time_start := .Params.time_start | time  }}
+            {{ $time_end := .Params.time_end | time  }}
+            <h6 class="card-subtitle mb-2 text-muted">Día y hora: Por confirmar</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Instructor(s): {{ with .Params.speakers }} {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</h6>
+            <p class="card-text">{{ .Summary }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -47,8 +47,13 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   weight = 6
 
   [[menu.main]]
-  name = "CFP"
-  URL = "/cfp"
+  name = "Charlas"
+  URL = "/talks"
+  weight = 2
+
+  [[menu.main]]
+  name = "Talleres"
+  URL = "/workshops"
   weight = 2
 
   [[menu.main]]
@@ -74,7 +79,7 @@ home = "Home"
 
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
-image = "/images/card-aug.png"
+image = "/images/card.jpg"
 twitter_user = ""
 email = "hola@ccoss.org"
 author = "Software Guru"
