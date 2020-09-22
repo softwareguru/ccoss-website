@@ -19,6 +19,13 @@ Tenemos un par de categorías en nuestra primera edición de reconocimientos:
 
 * Facilitador, conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source.
 
-Puedes nominar hasta el 22 de septiembre en la siguiente [forma](https://docs.google.com/forms/d/e/1FAIpQLSdnvCfHiRNq5A_ePxI2ZWKonvu_nF8pMS57XYSBfSRb7mdakg/viewform)
+
+
+Puedes nominar hasta el domingo 27 de septiembre. También puedes realizar tu votación, del miércoles 30 de septiembre al domingo 11 de octubre.
+
+Consulta la forma de: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnvCfHiRNq5A_ePxI2ZWKonvu_nF8pMS57XYSBfSRb7mdakg/viewform" target="_blank">Nominaciones de reconocimientos</a>.
+
+
+
 
 
