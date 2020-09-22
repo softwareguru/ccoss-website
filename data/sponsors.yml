@@ -1,7 +1,7 @@
 enable :  true
 title : "Patrocinadores"
 sponsor_group:
-  - title : "Premier"
+  - title : "Platino"
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/google.png"
