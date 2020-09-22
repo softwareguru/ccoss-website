@@ -1,7 +1,7 @@
 ---
 title: "Javier Pérez"
 date: 2020-09-22T03:08:20-05:00
-image : /images/speakers/javier-perez.jpg
+image : "/images/speakers/javier-perez.jpg"
 designation: Open Source Program Leader @ IBM
 country: us
 twitter: https://twitter.com/jperezp_bos
