@@ -35,6 +35,12 @@ event_info:
       label : "Actividades"
 
 
+
+####################### Speakers #############################
+speakers:
+  enable : true
+  title : "Keynote speakers"
+
 ####################### Schedule #############################
 schedule:
   enable : true

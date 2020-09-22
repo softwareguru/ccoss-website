@@ -24,14 +24,16 @@ sponsor_group:
   - title : "Partner"
     slug : "community"
     sponsor:
-      - logo : "/images/logos/osom.jpeg"
+      - logo : "/images/logos/osom.jpg"
         link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
       - logo : "/images/logos/apache.jpg"
         link : "https://www.apache.org/"
       - logo : "/images/logos/labsol.jpg"
         link : "https://cozcyt.gob.mx/labsol/"    
-      - logo : "/images/logos/logo-gnome.svg"
+      - logo : "/images/logos/gnome.png"
         link : "https://www.gnome.org/"  
+      - logo : "/images/logos/lpi.png"
+        link : "https://www.lpi.org/es"  
                   
                       
 # call to action in sponsor
