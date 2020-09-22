@@ -41,6 +41,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   name = "Inicio"
   weight = 1
 
+
   [[menu.main]]
   name = "Blog"
   URL = "/blog"
