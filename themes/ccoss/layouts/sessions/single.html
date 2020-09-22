@@ -6,11 +6,8 @@
     {{ if .Params.speakers }}
     <div>
       Speaker(s):
-      <span class="speakers-list">
-        {{ range .Params.speakers }}
-        {{ with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
-        <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-        {{ end }}
+      <span class="speakers-list">{{ with .Params.speakers }}
+        {{ delimit . ", " " & " }}
         {{ end }}
       </span>
     </div>

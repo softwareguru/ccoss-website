@@ -40,20 +40,22 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 [menu]
 
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "/blog"
-  weight = 6
 
   [[menu.main]]
-  name = "Charlas"
-  URL = "/sessions"
+  name = "Programa"
+  URL = "/program"
   weight = 2
 
   [[menu.main]]
   name = "Talleres"
   URL = "/workshops"
   weight = 2
+
+  [[menu.main]]
+  name = "Conferencistas"
+  URL = "/speakers"
+  weight = 3
+
 
   [[menu.main]]
   name = "Patrocinadores"

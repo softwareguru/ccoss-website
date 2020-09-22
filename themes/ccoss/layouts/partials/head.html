@@ -2,29 +2,18 @@
     <meta charset="utf-8">
     <title>{{ .Title }}{{ if not .IsHome }} | CCOSS 2020{{ end }}</title>
   
-    {{ "<!-- mobile responsive meta -->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ hugo.Generator }}
   
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+  
     {{ "<!-- plugins -->" | safeHTML }}
     {{ range .Site.Params.plugins.css }}
     <link rel="stylesheet" href="{{ .link | relURL }}">
     {{ end }}
-  
-    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    {{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}" />{{ end }}
-    {{ with .Site.Params.image }}<meta property="og:image" content="{{ . }}" />{{ end }}
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ .Title }}" />
-    <meta name="twitter:url" content="{{ .Permalink }}" />
-    {{ with .Site.Params.twitter_user }}<meta name="twitter:site" content="{{ . }}" />{{ end }}
-    {{ with .Site.Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
-  
 
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
     {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
@@ -33,7 +22,7 @@
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
     <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
-
+    
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css">
