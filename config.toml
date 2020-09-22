@@ -32,14 +32,13 @@ link = "/plugins/jquery/jquery.js"
 [[params.plugins.js]]
 link = "/plugins/bootstrap/js/bootstrap.min.js"
 [[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
+[[params.plugins.js]]
 link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Inicio"
-  weight = 1
 
   [[menu.main]]
   name = "Blog"
@@ -48,7 +47,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
   name = "Charlas"
-  URL = "/talks"
+  URL = "/sessions"
   weight = 2
 
   [[menu.main]]
@@ -79,7 +78,7 @@ home = "Home"
 
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
-image = "/images/card.jpg"
+image = "/images/card.png"
 twitter_user = ""
 email = "hola@ccoss.org"
 author = "Software Guru"
