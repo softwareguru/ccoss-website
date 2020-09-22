@@ -1,7 +1,7 @@
 ---
 title: "Miguel Useche"
 date: 2020-09-22T02:41:04-05:00
-image : /images/speakers/miguel-useche.jpg
+image : /images/speakers/miguel-useche.bmp
 designation: Profesor y desarrollador web
 country: ve
 twitter: https://twitter.com/skatox
