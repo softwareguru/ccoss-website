@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section class="speaker-2 section">
+    <div class="container">
+        <div class="lead">
+            {{ .Content }}
+        </div>
+        <table class="table" data-toggle="table" data-search="true">
+            <thead>
+                <tr>
+                    <th scope="col" data-field="title" data-sortable="true">Titulo</th>
+                    <th scope="col" data-field="speaker" data-sortable="true">Conferencista</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range sort (.Data.Pages) "Params.time_start" }}
+                  {{ with .Params.workshop }}
+                  {{ else }}
+                  <tr>
+                    <td>{{ .Title }}</td>
+                    <td>{{ with .Params.speakers }}
+                        {{ delimit . ", " }}
+                        {{ end }}
+                    </td>
+                  </tr>
+                  {{ end }}
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+{{ end }}
