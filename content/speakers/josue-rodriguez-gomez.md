@@ -1,7 +1,7 @@
 ---
 title: "Josué Rodríguez Gómez"
 date: 2020-09-22T03:46:50-05:00
-image : /images/speakers/josue-rodriguez-gomez.jpg
+image : /images/speakers/avatar.jpg
 designation: 
 country: 
 twitter: 

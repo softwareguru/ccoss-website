@@ -1,7 +1,7 @@
 ---
 title: "Edwin Alberto Castañeda"
 date: 2020-09-22T03:36:35-05:00
-image : /images/speakers/edwin-alberto-castañeda.jpg
+image : /images/speakers/avatar.jpg
 designation: Desarrollador de software
 country: mx
 twitter: https://twitter.com/eacg91
