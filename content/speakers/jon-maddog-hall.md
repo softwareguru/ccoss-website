@@ -1,6 +1,6 @@
 ---
 title: Jon "maddog" Hall
-date: 2020-07-22T06:27:31-05:00
+date: 2020-07-22T06:50:31-05:00
 image : /images/speakers/jon-maddog-hall.jpg
 designation: Board Chair @ Linux Professional Institute
 country: 

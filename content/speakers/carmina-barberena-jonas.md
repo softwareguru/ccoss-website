@@ -1,6 +1,6 @@
 ---
 title: "Carmina Barberena Jonas"
-date: 2020-09-22T03:04:45-05:00
+date: 2020-07-22T06:27:40-05:00
 image : /images/speakers/carmina-barberena-jonas.jpg
 designation: 
 country: 

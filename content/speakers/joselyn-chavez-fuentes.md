@@ -1,6 +1,6 @@
 ---
 title: "Joselyn Chavez Fuentes"
-date: 2020-09-22T02:59:04-05:00
+date: 2020-07-22T06:27:33-05:00
 image : /images/speakers/joselyn-chavez-fuentes.jpg
 designation: 
 country: 

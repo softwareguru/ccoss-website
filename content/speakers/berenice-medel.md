@@ -1,6 +1,6 @@
 ---
 title: "Berenice Medel"
-date: 2020-09-22T03:12:33-05:00
+date: 2020-07-22T06:27:31-05:00
 image : /images/speakers/berenice-medel.jpg
 designation: Desarrolladora de software @ Bunsan
 country: mx
