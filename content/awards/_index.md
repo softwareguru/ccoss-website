@@ -1,6 +1,6 @@
 ---
 title: "Reconocimientos"
-description: "Vota por "
+description: "Conoce a las personas nominadas para ser reconocidos por contribuir al open source."
 
 ---
 
