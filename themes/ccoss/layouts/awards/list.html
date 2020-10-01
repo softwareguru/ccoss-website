@@ -1,44 +1,53 @@
 {{ define "main" }}
 
-<section class="speaker-2 section">
+<section class="awards section">
     <div class="container">
         <div>
             {{ .Content }}
         </div>
-        <div class="awards-list">
-            {{ range .Data.Pages }}
-            <div class="awards-item d-flex my-3 pt-2 border">
-                <div class="person-meta col-5">
-                    <h4>{{ .Title }}</h4>
-                    <span class="text-secondary">{{ .Params.Designation }}</span>
-                    <ul class="list-inline social-single mt-1">
-                        {{ with .Params.twitter }}
-                        {{ if ne . "" }}
-                        <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
-                                    class="tf-ion-social-twitter"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-                        {{ with .Params.linkedin }}
-                        {{ if ne . "" }}
-                        <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
-                                    class="tf-ion-social-linkedin"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-                        {{ with .Params.github }}
-                        {{ if ne . "" }}
-                        <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
-                                    class="tf-ion-social-github"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-                    </ul>
-                </div>
-                <div>
-                    <em>{{ .Content }}</em>
-                </div>
-            </div>
-            {{ end }}
-        </div>
+        <table class="awards-list">
+            <thead>
+                <tr class="border">
+                    <th class="py-4 pl-4">
+                        Contribuidor
+                    </th>
+                    <th>Justificación/comentarios de la comunidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Data.Pages }}
+                <tr class="border">
+                    <td class="py-4 pl-4">
+                        <h4 class="mb-0">{{ .Title }}</h4>
+                        <span class="text-secondary">{{ .Params.Designation }}</span>
+                        <ul class="list-inline social-single mt-1">
+                            {{ with .Params.purl }}
+                            <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
+                                        class="fas fa-link"></i></a></li>
+                            {{ end }}
+                            {{ with .Params.github }}
+                            <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
+                                        class="tf-ion-social-github"></i></a></li>
+                            {{ end }}
+                            {{ with .Params.twitter }}
+                            <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
+                                        class="tf-ion-social-twitter"></i></a></li>
+                            {{ end }}
+                            {{ with .Params.linkedin }}
+                            <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i
+                                        class="tf-ion-social-linkedin"></i></a></li>
+                            {{ end }}
+                        </ul>
+                    </td>
+                    <td class="py-4" style="vertical-align: top;">
+                        <em>{{ .Content }}</em>
+                    </td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
     </div>
 </section>
+
 
 {{ end }}
