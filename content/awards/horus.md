@@ -9,5 +9,5 @@ purl:
 award_type: Contribuidor
 ---
 
-Horus es el autor de [Hanumat](https://hanumat.carpathialab.com), además de otras herramientas free & open source, así como gran contribuidor y difusor del software no privativo.
+Autor de [Hanumat](https://hanumat.carpathialab.com), además de otras herramientas free & open source.
 

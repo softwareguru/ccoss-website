@@ -12,4 +12,4 @@ award_type: Facilitador
 
 Ha sido promotor del software libre por más de 30 años.
 
-
+Traduce y contribuye en muchos proyectos de software libre.
