@@ -11,13 +11,13 @@
                     <th class="py-4 pl-4">
                         Contribuidor
                     </th>
-                    <th>Justificación/comentarios de la comunidad</th>
+                    <th class="pl-4">Justificación/comentarios de la comunidad</th>
                 </tr>
             </thead>
             <tbody>
-                {{ range .Data.Pages }}
+                {{ range .Data.Pages.ByTitle }}
                 <tr class="border">
-                    <td class="py-4 pl-4">
+                    <td class="py-4 pl-4 pr-2" width="30%">
                         <h4 class="mb-0">{{ .Title }}</h4>
                         <span class="text-secondary">{{ .Params.Designation }}</span>
                         <ul class="list-inline social-single mt-1">
