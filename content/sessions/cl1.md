@@ -4,6 +4,7 @@ title: "El modelo de contratistas open source en la industria de criptomonedas"
 url: /sessions/contratistas-open-source-cripto
 speakers:
  - Ana Dalia Chávez
+
 time_start: 2020-10-21T17:00:00.000Z
 time_end:   2020-10-21T17:15:00.000Z
 day_num: 3

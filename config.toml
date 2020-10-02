@@ -62,14 +62,14 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   weight = 3
 
   [[menu.main]]
+  name = "Reconocimientos"
+  URL = "/awards"
+  weight = 4
+
+  [[menu.main]]
   name = "FAQ"
   URL = "/faq"
   weight = 5
-
-  [[menu.main]]
-  name = "Organizadores"
-  URL = "/team"
-  weight = 4
 
 
 #################### default parameters ################################
