@@ -1,7 +1,7 @@
 ---
 title: "Yuliana Reyna (tuxxy)"
 date: 2020-10-02T07:06:22-05:00
-designation: 
+designation: Difusión @ Mozilla México | Ing. de software
 twitter: https://twitter.com/tuxxy/
 linkedin: https://www.linkedin.com/in/yulireyji/
 github: 
