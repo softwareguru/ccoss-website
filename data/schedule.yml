@@ -1,32 +1,32 @@
 schedule:
   enable : true
-  title_outline : "Schedule"
+  title_outline : "Charlas"
   title : "El horario de referencia es <br>Ciudad de México (GMT-5)"
   schedule_tab:
     ################# tab itam loop ################
-    - title : "Monday"
-      date_time : "August 24th"
-      tracks: "Agile, Cultura & Testing"
+    - title : "Lunes"
+      date_time : "19 de octubre"
+      tracks: ""
           
     ################# tab itam loop ################
-    - title : "Tuesday"
-      date_time : "August 25th"
-      tracks: "Arquitectura & DevOps"
+    - title : "Martes"
+      date_time : "20 de octubre"
+      tracks: ""
           
     ################# tab itam loop ################
-    - title : "Wednesday"
-      date_time : "August 26th"
-      tracks: "Data science & engineering"
+    - title : "Miércoles"
+      date_time : "21 de octubre"
+      tracks: ""
 
     ################# tab itam loop ################
-    - title : "Thursday"
-      date_time : "August 27th"
-      tracks: "User & Customer eXperience"
+    - title : "Jueves"
+      date_time : "22 de octubre"
+      tracks: ""
           
     ################# tab itam loop ################
-    - title : "Friday"
-      date_time : "August 28th"
-      tracks: "Tendencias & Carrera"
+    - title : "Fin de semana"
+      date_time : "23-24 de octubre"
+
 
           
 

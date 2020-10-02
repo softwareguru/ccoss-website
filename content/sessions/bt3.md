@@ -1,6 +1,6 @@
 ---
 id: bt3
-title: "Openstreetmap: Caminos para Contribuir a la Geobase de Datos más Grande del Mundo "
+title: "Openstreetmap: Caminos para Contribuir a la Geobase de Datos más Grande del Mundo"
 url: /sessions/openstreetmap
 speakers:
  - Josué Rodríguez Gómez

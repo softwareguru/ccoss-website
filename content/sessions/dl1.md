@@ -1,6 +1,6 @@
 ---
 id: dl1
-title: "Dl1"
+title: "Aprendizaje y Experiencias Positivas en el proyecto de Traducción de la Documentación de Python al español"
 url: /sessions/dl1
 speakers:
  - Hristo Roque
