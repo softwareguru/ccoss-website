@@ -9,4 +9,4 @@ purl:
 award_type: Facilitador
 ---
 
-Yuli ha sido una incansable promotora de Firefox y una de las fundadoras de la comunidad de Rust en Mexico así como siempre velar por que los eventos de comunidad sean diversos e incluyentes.
+Yuli ha sido una incansable promotora de Firefox y una de las fundadoras de la comunidad de Rust en Mexico así como siempre ha velado porque los eventos de comunidad sean diversos e incluyentes.
