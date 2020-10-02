@@ -4,8 +4,8 @@ title: "Contributing to Apache Airflow"
 url: /sessions/w-airflow
 speakers:
 
-time_start: 2020-10-24T14:00:00.000Z
-time_end:   2020-10-24T14:00:00.000Z
+time_start: 2020-10-22T22:30:00.000Z
+time_end:   2020-10-23T01:30:00.000Z
 day_num: 
 summary: Learn how to become a code contributor to the Apache Airflow project.
 workshop: true

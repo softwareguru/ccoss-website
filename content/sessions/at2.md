@@ -4,8 +4,8 @@ title: "El proyecto CHAOSS"
 url: /sessions/chaoss
 speakers:
  - Daniel Izquierdo
-time_start: 2020-10-19T17:20:00.000Z
-time_end:   2020-10-19T17:45:00.000Z
+time_start: 2020-10-19T12:20:00-05:00
+time_end:   2020-10-19T12:45:00-05:00
 day_num: 1
 ---
 

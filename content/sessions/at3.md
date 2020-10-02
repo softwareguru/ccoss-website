@@ -4,8 +4,8 @@ title: "¿Inner Source? ¿Quién es ese pokemon?"
 url: /sessions/inner-source
 speakers:
  - Joel Humberto Gómez
-time_start: 2020-10-19T17:50:00.000Z
-time_end:   2020-10-19T18:15:00.000Z
+time_start: 2020-10-19T12:50:00-05:00
+time_end:   2020-10-19T13:15:00-05:00
 day_num: 1
 ---
 

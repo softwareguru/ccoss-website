@@ -5,8 +5,8 @@ url: /sessions/al1
 speakers:
  - Diego Ponce
 
-time_start: 2020-10-19T17:00:00.000Z
-time_end:   2020-10-19T17:15:00.000Z
+time_start: 2020-10-19T12:00:00-05:00
+time_end:   2020-10-19T12:15:00-05:00
 day_num: 1
 ---
 

@@ -25,15 +25,15 @@
     <div>
       {{ $time_start := .Params.time_start | time  }}
       {{ $time_end := .Params.time_end | time  }}
-      When:
-      <span id="adjTime"></span> <em>({{ $time_start.Format "Jan-2 15:04 MST" }})</em>
+      Cuándo:
+      <span id="adjTime"></span> <em>({{ $time_start.UTC.Format "Jan-2 15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
 
       <script>
         function adjTime(timeStart, timeEnd) {
           let dateStart = new Date(Date.parse(timeStart));
           let dateEnd = new Date(Date.parse(timeEnd));
-          var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-          let adjString = days[dateStart.getDay()]+", August "+dateStart.getDate()+" "+dateStart.getHours() + ":" + (('0' + dateStart.getMinutes()).slice(-2)) + "-" + dateEnd.getHours() + ":" + (('0' + dateEnd.getMinutes()).slice(-2));
+          var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+          let adjString = days[dateStart.getDay()]+" "+dateStart.getDate()+" de octubre, "+dateStart.getHours() + ":" + (('0' + dateStart.getMinutes()).slice(-2)) + "-" + dateEnd.getHours() + ":" + (('0' + dateEnd.getMinutes()).slice(-2));
           document.getElementById("adjTime").innerHTML = adjString;
         }
         {{ $time_start := .Params.time_start | time }}

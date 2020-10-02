@@ -3,11 +3,14 @@ id: w-archlinux
 title: "Taller de contribución a Arch Linux"
 url: /sessions/w-archlinux
 speakers:
+ - Santiago Torres-Arias
  - Jesús Castro
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
+ - Andrea Gómez
+time_start: 2020-10-22T22:30:00.000Z
+time_end:   2020-10-23T01:30:00.000Z
 day_num: 
 workshop: true
+register_link: https://us02web.zoom.us/webinar/register/WN_5y5B4x_mTCayzURTT1rp2A
 ---
 
 Arch Linux es una distribución Linux que se adhiere a los principios de simplicidad, modernidad, pragmatismo, centrado en usuario y versatilidad.

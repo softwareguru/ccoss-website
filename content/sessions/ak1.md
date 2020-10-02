@@ -5,8 +5,8 @@ url: /sessions/what-do-developers-like-best
 speakers:
   - Jon "maddog" Hall
 
-time_start: 2020-10-19T15:00:00.000Z
-time_end:   2020-10-19T15:35:00.000Z
+time_start: 2020-10-19T10:00:00-05:00
+time_end:   2020-10-19T10:35:00-05:00
 day_num: 1
 
 ---
