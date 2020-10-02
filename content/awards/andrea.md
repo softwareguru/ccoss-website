@@ -1,5 +1,5 @@
 ---
-title: "Andrea Denisse Gomez"
+title: "Andrea Denisse Gómez"
 date: 
 designation: Contribuidora @ Arch Linux
 twitter: https://twitter.com/da_edra

@@ -6,7 +6,7 @@ speakers:
   - Jon "maddog" Hall
 
 time_start: 2020-10-19T15:00:00.000Z
-time_end:   2020-10-19T15:30:00.000Z
+time_end:   2020-10-19T15:35:00.000Z
 day_num: 1
 
 ---

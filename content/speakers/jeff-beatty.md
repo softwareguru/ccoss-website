@@ -7,7 +7,7 @@ country:
 twitter: https://twitter.com/guerojeff
 linkedin: https://www.linkedin.com/in/jeff-beatty/
 github: 
-featured: true
+featured: 
 ---
 
 * I’m a husband & a father.

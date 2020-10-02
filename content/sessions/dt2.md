@@ -1,5 +1,5 @@
 ---
-id: p1
+id: dt2
 title: "Creando una nueva ola de desarrolladores de software libre en México y LatinoAmérica con la comunidad CDSB"
 url: /sessions/creando-ola-desarrolladores
 speakers:
@@ -7,9 +7,9 @@ speakers:
  - Carmina Barberena Jonas
  - Alejandro Reyes
  - Leonardo Collado Torres
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
-day_num: 
+time_start: 2020-10-22T17:20:00.000Z
+time_end:   2020-10-22T17:45:00.000Z
+day_num: 4
 ---
 
 Hace tres años, fundamos la Comunidad de Desarrolladores de Software en Bioinformática (CDSB) con la meta de fomentar contribuciones de latinoamericanos a los grandes proyectos de software científico. En esta charla presentaremos nuestras estrategias, objetivos, y resultados. Además, presentaremos a regutools, un paquete desarrollado por miembos de la CDSB.

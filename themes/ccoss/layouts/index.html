@@ -76,7 +76,7 @@
     {{ partial "section_title.html" . }}
     {{ end }}
     <div class="speakers-wrapper">
-      {{ range (where (where .Site.RegularPages "Type" "speakers") ".Params.featured" true) }}
+      {{ range (where (where .Site.RegularPages.ByTitle "Type" "speakers") ".Params.featured" true) }}
 
       <div class="speaker">
         <a href="{{ .Permalink }}">

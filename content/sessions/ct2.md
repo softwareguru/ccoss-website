@@ -1,12 +1,12 @@
 ---
-id: p7
+id: ct2
 title: "Licencias de Software: el derecho a copiar"
 url: /sessions/licencias-software
 speakers:
  - Edwin Alberto Castañeda
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
-day_num: 
+time_start: 2020-10-21T17:20:00.000Z
+time_end:   2020-10-21T17:45:00.000Z
+day_num: 3
 ---
 
 En esta sesión repasaremos distintas opciones de licenciamiento al construir y publicar tu software. Estudiaremos conceptos como: shareware, freeware, abandonware, dominio público, software libre y open source. 
