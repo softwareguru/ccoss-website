@@ -47,13 +47,13 @@
     
     -----
     <div class="content mt-2">{{ .Content }}</div>
+    {{ with .Params.register_link }}
+    <div class="text-center">
+      <a href="{{ . }}" target="_blank" class="btn btn-primary btn-lg">Regístrate aquí</a>
+    </div>
+    {{ end }}
     {{ with .Params.slides }}
     <div class="mb-3"><a href="/slides/{{ . }}" download>Download slides</a></div>
-    {{ end }}
-    {{ with .Params.ticket }}
-    <div class="text-center">
-      <a href="{{ . }}" class="btn btn-primary btn-lg">Get your ticket for this workshop!</a>
-    </div>
     {{ end }}
     {{ with .Params.video }}
     <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
