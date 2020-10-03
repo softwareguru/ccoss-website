@@ -29,7 +29,7 @@
       {{ $time_start := .Params.time_start | time  }}
       {{ $time_end := .Params.time_end | time  }}
       Cuándo:
-      <span id="adjTime"></span> <em>({{ $time_start.UTC.Format "Jan-2 15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+      <span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
 
       <script>
         function adjTime(timeStart, timeEnd) {

@@ -1,13 +1,14 @@
 ---
 id: w-nmap
-title: "W Nmap"
+title: "Taller de contribución a Nmap"
 url: /sessions/w-nmap
 speakers:
  - Paulino Calderón
 workshop: true
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
+time_start: 2020-10-22T14:00:00-05:00
+time_end:   2020-10-22T17:00:00-05:00
 day_num: 
+register_link: https://us02web.zoom.us/webinar/register/WN_hMp3-5ekSlyx8dhGYikxXw
 ---
 
-Detalles por confirmar.
+[Nmap](https://nmap.org) ("Network Mapper") es una herramienta de software libre y abierto para auditoría de seguridad y redes. En este taller aprenderás su funcionamiento y cómo puedes contribuir.

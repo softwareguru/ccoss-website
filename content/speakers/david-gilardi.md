@@ -1,7 +1,7 @@
 ---
 title: "David Gilardi"
 date: 2020-09-25T12:46:06-05:00
-image : /images/speakers/david-gilardi.jpeg
+image : /images/speakers/david-gilardi.jpg
 designation: Developer Advocate @ DataStax
 country: 
 twitter: 

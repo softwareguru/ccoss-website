@@ -6,8 +6,8 @@ speakers:
  - Santiago Torres-Arias
  - Jesús Castro
  - Andrea Gómez
-time_start: 2020-10-22T22:30:00.000Z
-time_end:   2020-10-23T01:30:00.000Z
+time_start: 2020-10-22T17:30:00-05:00
+time_end:   2020-10-22T20:30:00-05:00
 day_num: 
 workshop: true
 register_link: https://us02web.zoom.us/webinar/register/WN_5y5B4x_mTCayzURTT1rp2A

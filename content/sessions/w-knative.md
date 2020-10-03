@@ -3,10 +3,13 @@ id: w-knative
 title: "Taller de contribución a Knative"
 url: /sessions/w-knative
 speakers:
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
+ - Ignacio Cano
+ - Daniel Sánchez
+time_start: 2020-10-22T14:00:00-05:00
+time_end:   2020-10-22T17:00:00-05:00
 day_num: 
 workshop: true
+register_link: https://zoom.us/webinar/register/WN_PxnWUMwKTSucJMmjvnzO7Q
 ---
 
-Detalles por confirmar.
+Knative es una plataforma basada en Kubernetes para construir servicios serverless. En este taller revisaremos sus conceptos principales y cómo contribuir al proyecto.
