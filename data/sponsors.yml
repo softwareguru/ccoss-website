@@ -19,7 +19,12 @@ sponsor_group:
     slug : "gold"
     sponsor:
       - logo : "/images/logos/Datastax.png"
-        link : "https://www.datastax.com/"               
+        link : "https://www.datastax.com/" 
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com/"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com/"  
+
     
   - title : "Partner"
     slug : "community"
