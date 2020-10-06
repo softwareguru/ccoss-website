@@ -14,7 +14,7 @@ Tenemos un par de categorías en nuestra primera edición de reconocimientos:
 
 * Facilitador, conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source,.
 
-Del 1 al 27 de septiembre tuvimos una convocatoria abierta de nominaciones, y ahora es momento de votar por los nominados. Para controlar debes estar registrada(o) a CCOSS. Te llegará un correo con tu enlace para votar el 5 de octubre. 
+Del 1 al 27 de septiembre tuvimos una convocatoria abierta de nominaciones, y ahora es momento de votar por los nominados. Para controlar debes estar registrada(o) a CCOSS. Te llegará un correo con tu enlace para votar a partir del 8 de octubre. 
 
 Si desean agregar informacion a la justificación/comentarios de la comunidad, pueden enviarlo a hola@ccoss.org
 
