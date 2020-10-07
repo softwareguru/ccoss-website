@@ -1,7 +1,7 @@
 ---
 title: "Adolfo Garcia"
 date: 2020-10-07T16:46:48-05:00
-image : /images/speakers/adolfo-garcia.png
+image : /images/speakers/avatar.jpg
 designation: Release Manager Associate @ Kubernetes
 country: 
 twitter: https://twitter.com/puerco
