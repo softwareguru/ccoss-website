@@ -1,5 +1,5 @@
 ---
-title: "Neil Mcgovern"
+title: "Neil McGovern"
 date: 2020-09-21T22:57:47-05:00
 image : /images/speakers/neil-mcgovern.jpg
 designation: Executive Director @ GNOME Foundation
