@@ -9,8 +9,8 @@ banner:
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : true
-    label : "Nomina un contribuidor - facilitador"
-    link : "https://docs.google.com/forms/d/e/1FAIpQLSdnvCfHiRNq5A_ePxI2ZWKonvu_nF8pMS57XYSBfSRb7mdakg/viewform"
+    label : "Conoce los nominados"
+    link : "awards/"
 
 
 ############################## Event ##############################
