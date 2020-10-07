@@ -9,4 +9,4 @@ time_end:   2020-10-20T18:15:00.000Z
 day_num: 2
 ---
 
-OpenStreetMap es un mapa abierto del mundo que es construido y mantenido por una comunidad de voluntarios en todo el mundo. En esta sesión platicaré sobre el modelo de contribución y mi experiencia participando en este proyecto.
+En esta charla se hará un recorrido por los diferentes elementos que integran el ecosistema de OpenStreetMap desde contribuir a mapear una calle hasta conocer los diferentes proyectos de código abierto que hacen posible la existencia de dicho ecosistema.
