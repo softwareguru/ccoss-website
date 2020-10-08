@@ -10,11 +10,4 @@ github:
 featured: 
 ---
 
-* I’m a husband & a father.
-* I live in Utah (yes, I’m a practicing Mormon).
-* I love languages & cultures.
-* I’ve visited 30+ countries (as of 2019).
-* I speak English (native), Spanish (near-native), & Portuguese (conversational). One day I hope to speak Swedish, Hindi, Icelandic, and Welsh.
-* I love food, especially Indian food.
-* I have the greatest job in the world: empowering communities of people to customize software & the Web for their native languages.
-* As part of my career in localization, I’m a frequent world traveler. 
+ Jeff Beatty es el gerente senior de localización de Mozilla, los creadores del navegador Firefox, así como miembro la facultad en la Universidad Brigham Young en Utah, dónde capacita la próxima generación de traductores profesionales. Tiene una maestría en la computación multilingüe y la localización de la Universidad de Limerick. También ha aparecido como experto en la comunidad y la localización en destacadas publicaciones mundiales.
