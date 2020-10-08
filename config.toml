@@ -65,11 +65,17 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   name = "Reconocimientos"
   URL = "/awards"
   weight = 4
+  
+  #[[menu.main]]
+  #name = "Kit virtual"
+  #URL = "/faq"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
   URL = "/faq"
-  weight = 5
+  weight = 6
+
 
 
 #################### default parameters ################################
