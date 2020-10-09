@@ -56,10 +56,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   weight = 3
 
 
-  [[menu.main]]
-  name = "Patrocinadores"
-  URL = "/sponsors"
-  weight = 3
+  #[[menu.main]]
+  #name = "Patrocinadores"
+  #URL = "/sponsors"
+  #weight = 3
 
   [[menu.main]]
   name = "Reconocimientos"

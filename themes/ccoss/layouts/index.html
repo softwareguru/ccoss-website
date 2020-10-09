@@ -94,17 +94,66 @@
 {{ end }}
 <!-- /speaker -->
 
+
+<!-- sponsor -->
+{{ if $data.sponsors }}
+<section class="section-sponsors section">
+    <div class="description-wrapper">
+        <div class="container">
+        <p>Participa como patrocinador de CCOSS y vincúlate con más de 500 desarrolladores de software interesados en construir software de clase mundial.</p>
+
+        <p>Consulta la <a href="https://docs.google.com/presentation/d/1K4QQjUxUOnYm2g6POtIOvKIY9p_mw4zyeinHJU1Gc2c/edit?usp=sharing">guía de patrocinios</a></p>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row section-heading">
+        <div class="col-md-8">
+          <div class="heading">
+            <h2>Patrocinadores</h2>
+          </div>
+        </div>
+      </div>
+      <br><br>
+        {{ $data := index .Site.Data }}
+        {{ with $data.sponsors }}
+        {{ range .sponsor_group }}
+        <div class="row mb-5">
+            <div class="col-lg-8">
+                <h4 class="mb-4 letter-spacing text-sm">{{ .title | markdownify }}</h4>
+            </div>
+            <div class="sponsor-strip {{ .slug }}">
+                {{ range .sponsor }}
+                <div class="sponsor-item">
+                    {{ if and (ne .link "") (ne .link "#") }}
+                    <a href="{{ .link }}"><img src="{{ .logo | absURL }}" alt="" class="img-fluid"></a>
+                    {{ else }}
+                    <img src="{{ .logo | absURL }}" alt="" class="img-fluid">
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ if .sponsorship.enable }}
+        {{ with .sponsorship }}
+        <div class="col-lg-12">
+            <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }} <i
+                    class="fas fa-arrow-circle-right"></i></a>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+<!-- /sponsor -->
+
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 {{ partial "blog.html" . }}
 {{ end }}
 <!-- /blog -->
-
-<!-- sponsor -->
-{{ if $data.homepage.sponsors.enable }}
-{{ partial "sponsor.html" . }}
-{{ end }}
-<!-- /sponsor -->
 
 <!-- organized-by -->
 {{ if $data.homepage.sponsors.enable }}
@@ -113,3 +162,4 @@
 <!-- /organized-by -->
 
 {{ end }}
+
