@@ -24,8 +24,8 @@ sponsor_group:
         link : "https://www.packtpub.com/"
       - logo : "/images/logos/manning.png"
         link : "https://www.manning.com/"  
-
-    
+      - logo : "/images/logos/abiztar.jpg"
+        link : "https://www.abiztar.com.mx/" 
   - title : "Partner"
     slug : "community"
     sponsor:
