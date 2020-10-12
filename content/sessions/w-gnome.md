@@ -6,8 +6,8 @@ workshop: true
 speakers:
  - Felipe Borges
 
-time_start: 2020-10-18T14:00:00.000Z
-time_end:   2020-10-18T14:00:00.000Z
+time_start: 2020-10-21T19:00:00.000Z
+time_end:   2020-10-21T22:00:00.000Z
 day_num: 
 draft: false
 ---
