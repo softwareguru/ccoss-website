@@ -8,7 +8,7 @@ time_start: 2020-10-20T17:30:00-05:00
 time_end:   2020-10-20T20:30:00-05:00
 day_num: 
 summary: Learn how to become a code contributor to the Apache Airflow project.
-workshop: true
+workshop: false
 register_link: https://zoom.us/webinar/register/WN_uNWv4jUlQ_qCy9IrUnoUAQ
 ---
 
