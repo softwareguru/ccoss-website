@@ -1,7 +1,7 @@
 ---
 title: "Josué Rodríguez Gómez"
 date: 2020-09-22T03:46:50-05:00
-image : /images/speakers/avatar.jpg
+image : /images/speakers/josue-rodriguez.jpg
 designation: Arqueólogo
 country: 
 twitter: 

@@ -5,7 +5,7 @@
     <div class="lead">
       {{ .Content }}
     </div>
-    <div class="row workshop-strip">
+    <div class="row">
         {{ range .Data.Pages.ByTitle }}
       <div class="col-12 col-md-6 px-3 mb-3">
         <div class="card h-100">
@@ -16,15 +16,15 @@
             <h6 class="card-subtitle mb-4 text-muted">{{ .Params.Description }}</h6>
             <div>
                 <img src="{{ .Params.Image }}" class="col-md-7 px-4 mb-4" alt="">
-                <button type="button" style="align-items: center;" class="btn btn-primary col-md-4 px-3">¡Conoce más!</button>
+                <a href="{{ .Params.Link }}" target="_blank"><button type="button" style="align-items: center;" class="btn btn-primary col-md-4 px-3">{{ .Params.Button}}</button></a>
               </div>
                 
             </div>
             
           </div>
         </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
