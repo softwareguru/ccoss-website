@@ -1,10 +1,9 @@
 ---
-title: "Royal Holiday: Gana un viaje a la playa"
+title: "Después de la tormenta viene la playa."
 date: 2020-10-12T13:45:53-05:00
-description: "Participa y Gana un viaje a la playa con CCOSS y Royal Holiday. Se la afortunada de tirar la toalla pero en la playa.
-
-* Aplican términos y condiciones
-* No incluye boletos de avión"
+description: "Participa y Gana una estancia vacacional de 4 dúas 3 noches
+2 adultos 2 menores en nuestros Hoteles Park Royal.
+*Aplican términos y condiciones*"
 image: /images/logos/royal.png
 link: https://vacationtravel.wixsite.com/royal
 button: Registrate aquí
