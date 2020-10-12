@@ -2,7 +2,7 @@
 title: "Programa"
 description: "Conoce las sesiones que se impartirán durante CCOSS."
 ---
- ### Previo de CCOSS e intro a Git
+ ### Webinar: Panorama de CCOSS e intro a Git
  Adicionalmente, el lunes 12 de octubre a las 6 pm, tendremos una sesión para explicar detalles del evento, y un minitaller de introducción al uso de Git, donde explicaremos el proceso típico para enviar un pull request.
 
 <center>
