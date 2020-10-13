@@ -1,6 +1,6 @@
 ---
 id: ak2
-title: "Keynote con Nuritsi Sánchez"
+title: "Keynote con Nuritzi Sánchez"
 url: /sessions/keynote-nuritzi
 speakers:
  - Nuritzi Sánchez
@@ -9,4 +9,4 @@ time_end:   2020-10-19T11:15:00-05:00
 day_num: 1
 ---
 
-Detalle por confirmar.
+Un repaso por las tecnologías utilizadas para construir ChromeOS.dev, un proyecto de código abierto, para proveer documentación sobre desarrollo para Chrome OS. Incluye un repaso de la estructura del proyecto, que permitió la internacionalización del sitio al español. Así como también una breve explicación de las herramientas que utilizamos, por ejemplo: eleventy, gulp, firebase functions y lunr.js.
