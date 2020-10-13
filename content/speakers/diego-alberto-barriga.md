@@ -1,5 +1,5 @@
 ---
-title: "Diego Alberto Barriga"
+title: "Diego Alberto Barriga Martínez"
 date: 2020-09-22T03:21:33-05:00
 image : /images/speakers/diego-alberto-barriga.jpg
 designation: Desarrollador de software @ Elotl

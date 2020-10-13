@@ -1,6 +1,6 @@
 ---
 id: ck2
-title: "Utilizando ROS & AWS RoboMaker Para el Desarollo de Robots Intelligentes"
+title: "Keynote: Utilizando ROS & AWS RoboMaker Para el Desarollo de Robots Intelligentes"
 url: /sessions/ros-aws-robomaker
 speakers:
  - Camilo Buscarón

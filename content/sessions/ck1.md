@@ -1,6 +1,6 @@
 ---
 id: ck1
-title: "Estado de la diversidad e inclusión en Apache Software Foundation"
+title: "Keynote: Estado de la diversidad e inclusión en Apache Software Foundation"
 url: /sessions/asf
 speakers:
  - Griselda Cuevas
@@ -9,4 +9,4 @@ time_end:   2020-10-21T15:35:00.000Z
 day_num: 3
 ---
 
-Compartiremos información obtenida por el comité de diversidad e inclusión de la Apache Software Foundation, ahondando en el estatus actual, impacto y acciones para mejorar.
+En esta presentación exploramos el diseño del estudio de la recoleción de datos y el analisís de la estrategía de diversidad e inclusión de la ASF. 

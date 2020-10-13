@@ -14,8 +14,10 @@
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
             <h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }}</h6>
-            <h6 class="card-subtitle mb-2 text-muted">Instructor(s): {{ with .Params.speakers }}
-              {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted"><a href=""> Instructor(s): {{ with .Params.speakers }}
+              {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</a></h6>
+           
+              
             <p class="card-text">{{ .Summary }}</p>
 
           </div>

@@ -1,6 +1,6 @@
 ---
 id: ak1
-title: "What do developers like best: Coffee, Beer or Free Software?"
+title: "Keynote: What do developers like best: Coffee, Beer or Free Software?"
 url: /sessions/what-do-developers-like-best
 speakers:
   - Jon "maddog" Hall

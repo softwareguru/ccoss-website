@@ -10,4 +10,4 @@ github:
 featured: true
 ---
 
-Nuritzi se especializa en dirigir iniciativas complejas globales y lanzar productos de software globales. Actualmente se desempeña como Open Source Program Manager en GitLab, y previo a eso fue Presidente de la GNOME Foundation.  
+Nuritzi is currently the Sr. Open Source Program Manager at GitLab. She is a founding team member of Endless, a company making Linux-based computers for users with little to no internet access, and she is a former President and Chairperson of the Board at the GNOME Foundation.

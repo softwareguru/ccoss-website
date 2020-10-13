@@ -1,6 +1,6 @@
 ---
 id: ak2
-title: "Keynote con Nuritzi Sánchez"
+title: "Keynote: Hackeando la comunicación: consejos para evitar conflictos y colaborar en comunidades abiertas"
 url: /sessions/keynote-nuritzi
 speakers:
  - Nuritzi Sánchez

@@ -1,11 +1,13 @@
 ---
 id: bt1
-title: "(Título por confirmar)"
-url: /sessions/bt1
+title: "Openstreetmap: Caminos para Contribuir a la Geobase de Datos más Grande del Mundo"
+url: /sessions/openstreetmap
 speakers:
- - María Cruz
+ - Josué Rodríguez Gómez
 
 time_start: 2020-10-20T16:30:00.000Z
 time_end:   2020-10-20T16:55:00.000Z
 day_num: 2
 ---
+
+En esta charla se hará un recorrido por los diferentes elementos que integran el ecosistema de OpenStreetMap desde contribuir a mapear una calle hasta conocer los diferentes proyectos de código abierto que hacen posible la existencia de dicho ecosistema.
