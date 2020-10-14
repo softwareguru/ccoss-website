@@ -1,6 +1,6 @@
 ---
 id: dk1
-title: "Seguridad en open source software"
+title: "Keynote: Seguridad en open source software"
 url: /sessions/seguridad-open-source
 speakers:
  - Javier Pérez

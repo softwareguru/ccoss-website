@@ -1,6 +1,6 @@
 ---
 id: bt3
-title: "Experiencia en contribuciones de Open Source"
+title: "Experiencia en contribuciones Open Source: del conocimiento abierto, a tecnologías cloud"
 url: /sessions/experiencia-en-contribuciones-de-open-source
 speakers:
  - María Crúz
@@ -9,4 +9,4 @@ time_end:   2020-10-20T18:15:00.000Z
 day_num: 2
 ---
 
-Detalle por confirmar
+En esta sesión, María Cruz compartirá cómo fue su comienzo en Open Source con el movimiento Wikimedia, cuáles fueron sus primeros aprendizajes, qué aspectos de la cultura son más desafiantes, y cómo fue su transición a Google Open Source. Compartirá su experiencia como profesional no técnico en el sector, y mencionará algunos caminos para involucrarse en proyectos open source.

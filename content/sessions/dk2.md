@@ -1,6 +1,6 @@
 ---
 id: dk2
-title: "Ask Me Anything con Chris DiBona"
+title: "Keynote: Ask Me Anything con Chris DiBona"
 url: /sessions/ama-chris-dibona
 speakers:
  - Chris DiBona
