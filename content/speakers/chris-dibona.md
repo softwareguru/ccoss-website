@@ -10,9 +10,7 @@ github:
 featured: true
 ---
 
-Chris DiBona is the Director of Open Source and Science Outreach for Mountain View, Ca. based Google. His teams oversees license compliance and supports the open source developer community through programs such as the Google Summer of Code and through the release of open source software projects and patches. Additionally, he runs Google Making Science, an emerging scientific outreach program focused on the maker movement. For Google Ideas, he looks after Uproxy and Project Shield, two projects that try to help people living under repressive regimes. 
+Chris DiBona oversees a variety of programs across Google, heading the Open Source Programs Office. In his career he’s helped google release thousands of projects, including tensorflow, chromium, kubernetes, android and Go. He is also on the board of the open usage commons, a new organization trying to connect naming and the open source definition. 
+Chris joined Google in 2004, and is an internationally known expert in the field of open source software and related methodologies. He was a visiting scientist at the MIT Sloan School of Management and has his masters in software engineering from Carnegie Mellon University. Additionally, Chris is a technical advisor to the UK-based Royal United Services Institute. Until 2016, Chris also served on the United States Commerce Department's Data Advisory Council (CDAC).
 
-Mr. DiBona is an internationally known and long time advocate of open source software and related methodologies. He is a visiting scientist at the MIT Sloan School of Management and has a masters in software engineering from Carnegie Mellon University. Additionally, he serves as an advisor to a number of firms, most of which are in the open hardware and making space. As of 2015, he is serving a two year term sitting on the US Commerce Department's Data Advisory Council.
-
-Before joining Google, Mr. DiBona was an editor and author for the venerable website Slashdot.org . Additionally, he co-edited the award-winning essay compilations "Open Sources" and "Open Sources 2.0" and writes for several publications. 
-
+Chris is a published author and former editor and podcast host. Chris can occasionally be found in the background of HBOs 'Silicon Valley’ where he is a senior technical advisor. Additionally, he's recently helped with FXs’ ‘Devs’

@@ -7,6 +7,7 @@ speakers:
  - Luis Héctor Chávez
 time_start: 2020-10-19T14:00:00-05:00
 time_end:   2020-10-19T17:00:00-05:00
+datee: 14:00-17:00
 day_num: 
 language: Spanish
 register_link: https://us02web.zoom.us/webinar/register/WN_Eojn0VmBQLi6UVglD0z1zg

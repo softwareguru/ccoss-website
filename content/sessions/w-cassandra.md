@@ -8,6 +8,7 @@ speakers:
  - Patrick McFadin  
 time_start: 2020-10-20T14:00:00-05:00
 time_end:   2020-10-20T17:00:00-05:00
+datee: 14:00-17:00
 day_num: 
 language: English
 guide: 

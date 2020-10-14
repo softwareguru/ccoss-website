@@ -13,7 +13,12 @@
             <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
-            <h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }} {{ .Params.Datee }} GMT-5<span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+
+            </h6>
+
+            
+            
             <h6 class="card-subtitle mb-2 text-muted"><a href=""> Instructor(s): {{ with .Params.speakers }}
               {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</a></h6>
             <h6 class="card-subtitle mb-2 text-muted">Language: {{ .Params.Language }}</h6>

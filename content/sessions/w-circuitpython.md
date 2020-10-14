@@ -7,6 +7,7 @@ speakers:
  - Eduardo Contreras
 time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T16:00:00-05:00
+datee: 14:00-16:00
 day_num: 
 language: Spanish
 workshop: true
