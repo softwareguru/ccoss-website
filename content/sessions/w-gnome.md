@@ -14,5 +14,6 @@ language: Spanish
 draft: false
 ---
 
-[GNOME](https://www.gnome.org/GNOME) es un ambiente desktop abierto para sistemas operativos Unix/Linux. En este taller aprenderás cómo puedes contribuir al proyecto.
+
+Learn how to contribute to GNOME using [GNOME](https://www.gnome.org/GNOME) Builder and Flatpak
  
