@@ -4,10 +4,8 @@ description: "Conoce las sesiones que se impartirán durante CCOSS."
 ---
  ### Webinar: Panorama de CCOSS e intro a Github
  El martes 13 de octubre a las 6:00 pm (GMT-5), tendremos una sesión para explicar detalles del evento, y un minitaller de introducción al uso de Github, donde explicaremos el proceso típico para enviar un pull request.
-
 <center>
-<a href="https://us02web.zoom.us/webinar/register/WN_k5_gfcrnRFSD8SbU96rhjg?fbclid=IwAR0BfO-Vsr5cIaitLu2BWLrn1x7VSbtwJAF2S1VPUMkJeh_hosKzTtgrVqA" target="_blank">
- <button type="button" class="btn btn-info">Registrate aquí</button></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NPc2UPyiAj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ### Horario (GMT-5)
