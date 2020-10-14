@@ -10,6 +10,7 @@ time_end:   2020-10-19T17:00:00-05:00
 datee: 14:00-17:00
 day_num: 
 language: Spanish
+guide: https://chromeos.dev/es/linux
 workshop: true
 register_link: https://zoom.us/webinar/register/WN_hHzu2iBRTpSSNoVRdbVX1Q
 ---

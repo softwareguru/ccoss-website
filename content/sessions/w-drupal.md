@@ -10,6 +10,7 @@ time_end:   2020-10-20T01:30:00.000Z
 datee: 17:30-20:30
 day_num: 
 language: Spanish
+guide: https://wiki.ros.org/es
 register_link: https://zoom.us/webinar/register/WN_BNXrzxt5ROiGCSuYNI3Osw
 workshop: true
 ---

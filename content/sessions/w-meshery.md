@@ -10,6 +10,7 @@ time_end:   2020-10-19T20:30:00-05:00
 datee: 17:30-20:30
 day_num: 
 language: Spanish
+guide: https://docs.google.com/document/d/1Oymr64J2JddpO2e-9GbaysiEEmAEspvLILkpcJCM0k8/edit?usp=sharing
 workshop: true
 register_link: https://us02web.zoom.us/webinar/register/WN_X-0DF3UdRHCGU7SRGVYLWA
 

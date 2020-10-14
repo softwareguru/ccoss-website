@@ -10,6 +10,7 @@ time_end:   2020-10-20T20:30:00-05:00
 datee: 17:30-20:30
 day_num: 
 language: Spanish
+guide: https://docs.google.com/document/d/1W2j-D8jZ86606G1dEbYuw-mpTdM0QZbhkwM6jxTOjkk/edit
 register_link: https://us02web.zoom.us/webinar/register/WN_reY5i8Y1SHelVHqxulT1GQ
 summary: "Odoo es un software empresarial que incluye componentes de  CRM, e-commerce, cobranza, contabilidad, manufactura, inventario, logística y gestión de proyectos."
 ---

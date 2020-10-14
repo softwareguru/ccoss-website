@@ -10,6 +10,7 @@ time_end:   2020-10-21T20:30:00-05:00
 datee: 17:30-20:30
 day_num: 
 language: Spanish
+guide: https://kubernetes.io/es/docs/contribute/
 workshop: true
 register_link: https://zoom.us/webinar/register/WN_HhjyZWZwRQ6i1jyhpymZug
 ---

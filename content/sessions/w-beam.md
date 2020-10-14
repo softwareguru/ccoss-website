@@ -11,6 +11,7 @@ time_end:   2020-10-19T20:30:00-05:00
 datee: 17:30-20:30
 day_num: 
 language: Spanish
+guide: https://docs.google.com/document/d/1WOgusasEpO7STmb0ZVoVSRZ_7K7Yzty-MARc6HqtyUs/edit?usp=sharing
 workshop: true
 summary: "¿Tienes un caso de uso de procesamiento de streams de datos que te gustaría implementar? Participa en 
 este taller y lo resolvemos juntos"
