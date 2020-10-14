@@ -8,6 +8,9 @@ speakers:
 time_start: 2020-10-20T19:00:00.000Z
 time_end:   2020-10-20T22:00:00.000Z
 day_num: 
+language: Spanish
 register_link: https://zoom.us/webinar/register/WN_JYBt9Wz0RguJTzE-W0jDXQ
 workshop: true
 ---
+
+En este taller aprenderás lo necesario para contribuir a ROS

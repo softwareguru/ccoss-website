@@ -9,6 +9,7 @@ speakers:
 time_start: 2020-10-19T17:30:00-05:00
 time_end:   2020-10-19T20:30:00-05:00
 day_num: 
+language: Spanish
 workshop: true
 summary: "¿Tienes un caso de uso de procesamiento de streams de datos que te gustaría implementar? Participa en 
 este taller y lo resolvemos juntos"

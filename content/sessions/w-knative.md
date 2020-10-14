@@ -8,6 +8,7 @@ speakers:
 time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T17:00:00-05:00
 day_num: 
+language: Spanish
 workshop: true
 register_link: https://zoom.us/webinar/register/WN_PxnWUMwKTSucJMmjvnzO7Q
 ---

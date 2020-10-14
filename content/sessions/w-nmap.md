@@ -8,6 +8,7 @@ workshop: true
 time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T17:00:00-05:00
 day_num: 
+language: Spanish
 register_link: https://us02web.zoom.us/webinar/register/WN_hMp3-5ekSlyx8dhGYikxXw
 ---
 
