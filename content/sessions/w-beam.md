@@ -1,6 +1,6 @@
 ---
 id: w-beam
-title: "Implementa tu pipeline de procesamiento de streams"
+title: "Implementa tu pipeline de procesamiento de streams con Apache Beam"
 url: /sessions/w-beam
 speakers:
  - Pablo Estrada
@@ -10,7 +10,7 @@ time_start: 2020-10-19T17:30:00-05:00
 time_end:   2020-10-19T20:30:00-05:00
 datee: 17:30-20:30
 day_num: 
-language: Spanish
+language: Español
 guide: https://docs.google.com/document/d/1WOgusasEpO7STmb0ZVoVSRZ_7K7Yzty-MARc6HqtyUs/edit?usp=sharing
 workshop: true
 summary: "¿Tienes un caso de uso de procesamiento de streams de datos que te gustaría implementar? Participa en 

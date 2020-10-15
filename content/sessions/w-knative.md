@@ -9,7 +9,7 @@ time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T17:00:00-05:00
 datee:  14:00-17:00
 day_num: 
-language: Spanish
+language: Español
 guide: https://docs.google.com/document/d/1MyD6Hfl1Od2nEXRB2j2TBeSTK87etPl9k8ltqXeiBwY/edit?usp=sharing
 workshop: true
 register_link: https://zoom.us/webinar/register/WN_PxnWUMwKTSucJMmjvnzO7Q

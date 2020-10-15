@@ -10,7 +10,7 @@ time_start: 2020-10-20T14:00:00-05:00
 time_end:   2020-10-20T17:00:00-05:00
 datee: 14:00-17:00
 day_num: 
-language: English
+language: Inglés
 guide: https://docs.google.com/document/d/1rqqciGgMf6DHhfk1qlp8P-i1a8fnMus3kp8L8B3FCHc/edit#
 workshop: true
 register_link: https://us02web.zoom.us/webinar/register/WN_fGOJ3XIOS4urzV7L26CDLw

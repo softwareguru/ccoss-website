@@ -21,9 +21,9 @@
             
             <h6 class="card-subtitle mb-2 text-muted"><a href=""> Instructor(s): {{ with .Params.speakers }}
               {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</a></h6>
-            <h6 class="card-subtitle mb-2 text-muted">Language: {{ .Params.Language }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>
             
-            <a href="{{ .Params.Guide }}" target="_blank"><h6>Translated guide</h6></a>
+            <a href="{{ .Params.Guide }}" target="_blank"><h6>Guía de contribución en español</h6></a>
            
               
             <p class="card-text">{{ .Summary }}</p>

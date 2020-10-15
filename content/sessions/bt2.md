@@ -1,7 +1,7 @@
 ---
 id: bt2
-title: "(Título por confirmar)"
-url: /sessions/bt2
+title: "Ser contribuidor: Filosofía y grandes oportunidades profesionales"
+url: /sessions/ser-contribuidor-filosofía-y-grandes-oportunidades-profesionales
 speakers:
  - Manuel Haro
 
