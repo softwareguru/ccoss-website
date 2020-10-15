@@ -1,5 +1,5 @@
 ---
-title: "Joel Humberto Gomez"
+title: "Joel Humberto Gómez"
 date: 2020-09-22T02:47:57-05:00
 image : /images/speakers/joel-humberto-gomez.jpg
 designation: 
