@@ -4,6 +4,9 @@ title: "Openstreetmap: Caminos para Contribuir a la Geobase de Datos más Grande
 url: /sessions/openstreetmap
 speakers:
  - Josué Rodríguez Gómez
+speaker1: Josué Rodríguez Gómez
+linkspeaker1: /speakers/josue-rodriguez-gomez/
+language: Español
 
 time_start: 2020-10-20T16:30:00.000Z
 time_end:   2020-10-20T16:55:00.000Z

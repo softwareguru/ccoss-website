@@ -4,6 +4,7 @@ title: "Sprint de contribución"
 url: /sessions/contribution-sprint
 speakers:
  - Abierto
+speaker1: Abierto
 time_start: 2020-10-23T18:00:00.000Z
 time_end:   2020-10-25T5:00:00.000Z
 day_num: 5

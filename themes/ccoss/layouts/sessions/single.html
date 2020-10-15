@@ -4,16 +4,22 @@
   <div class="container">
     <h2>{{ .Title }}</h2>
 
-    {{ if .Params.speakers }}
     <div>
       Speaker(s):
-      <span class="speakers-list">{{ with .Params.speakers }}
-        {{ delimit . ", " " & " }}
-        {{ end }}
-      </span>
+       <a href="{{ .Params.Linkspeaker1 }}">
+        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker1 }}</h6>
+    </a>
+    <a href="{{ .Params.Linkspeaker2 }}">
+        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker2 }}</h6>
+    </a>
+    <a href="{{ .Params.Linkspeaker3 }}">
+        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker3 }}</h6>
+    </a>
+     
+    
     </div>
   
-    {{ end }}
+
     {{ if .Params.tracks }}
     <div>
       Track:

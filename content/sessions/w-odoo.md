@@ -4,7 +4,11 @@ title: "Taller de contribución a Odoo"
 url: /sessions/w-odoo
 workshop: true
 speakers:
- - Maxime Chambreuil
+
+speaker1: Maxime Chambreuil
+
+linkspeaker1: /speakers/maxime-chambreuil/
+
 time_start: 2020-10-20T17:30:00-05:00
 time_end:   2020-10-20T20:30:00-05:00
 datee: 17:30-20:30

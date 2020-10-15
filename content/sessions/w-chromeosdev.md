@@ -3,8 +3,8 @@ id: w-chromeosdev
 title: "Construcción de aplicaciones para ChromeOS"
 url: /sessions/w-chromeosdev
 speakers:
- - Adriana Jara
-link: /speakers/adriana-jara/
+speaker1: Adriana Jara
+linkspeaker1: /speakers/adriana-jara/
 time_start: 2020-10-19T14:00:00-05:00
 time_end:   2020-10-19T17:00:00-05:00
 datee: 14:00-17:00

@@ -4,7 +4,8 @@ title: "Taller de contribución a Omegaup"
 url: /sessions/w-omegaup
 workshop: true
 speakers:
- - Luis Héctor Chávez
+speaker1: Luis Héctor Chávez
+linkspeaker1: /speakers/luis-hector-chavez/
 time_start: 2020-10-19T14:00:00-05:00
 time_end:   2020-10-19T17:00:00-05:00
 datee: 14:00-17:00

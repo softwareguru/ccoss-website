@@ -3,8 +3,13 @@ id: w-knative
 title: "Taller de contribución a Knative"
 url: /sessions/w-knative
 speakers:
- - Ignacio Cano
- - Daniel Sánchez
+
+speaker1: Ignacio Cano
+speaker2: Daniel Sánchez
+
+linkspeaker1: /speakers/ignacio-cano/
+linkspeaker2: /speakers/daniel-sanchez/
+
 time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T17:00:00-05:00
 datee:  14:00-17:00

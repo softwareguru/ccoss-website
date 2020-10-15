@@ -1,5 +1,5 @@
 ---
-title: "Jesus Castro"
+title: "Jesús Castro"
 date: 2020-10-06T18:21:03-05:00
 image : /images/speakers/jesus-castro.jpg
 designation: Desarrollador de software Open Source

@@ -4,7 +4,10 @@ title: "Taller de Contribución a GNOME"
 url: /sessions/w-gnome
 workshop: true
 speakers:
- - Felipe Borges
+
+speaker1: Felipe Borges
+
+linkspeaker1: /speakers/felipe-borges/
 
 time_start: 2020-10-21T19:00:00.000Z
 time_end:   2020-10-21T22:00:00.000Z

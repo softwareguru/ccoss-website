@@ -3,8 +3,12 @@ id: w-beam
 title: "Implementa tu pipeline de procesamiento de streams con Apache Beam"
 url: /sessions/w-beam
 speakers:
- - Pablo Estrada
- - Griselda Cuevas
+
+speaker1: Pablo Estrada
+speaker2: Griselda Cuevas
+
+Linkspeaker1: /speakers/pablo-estrada/
+Linkspeaker2: /speakers/griselda-cuevas/
 
 time_start: 2020-10-19T17:30:00-05:00
 time_end:   2020-10-19T20:30:00-05:00

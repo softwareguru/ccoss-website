@@ -3,7 +3,11 @@ id: w-nmap
 title: "Taller de contribución a Nmap"
 url: /sessions/w-nmap
 speakers:
- - Paulino Calderón
+
+speaker1: Paulino Calderón
+
+linkspeaker1: /speakers/paulino-calderon/
+
 workshop: true
 time_start: 2020-10-22T14:00:00-05:00
 time_end:   2020-10-22T17:00:00-05:00

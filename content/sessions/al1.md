@@ -5,6 +5,10 @@ url: /sessions/al1
 speakers:
  - Diego Ponce
 
+speaker1: Diego Ponce
+linkspeaker1: /speakers/diego-ponce/
+language: Español
+
 time_start: 2020-10-19T12:00:00-05:00
 time_end:   2020-10-19T12:15:00-05:00
 day_num: 1

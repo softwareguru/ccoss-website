@@ -19,9 +19,18 @@
 
             
             
-            <h6 class="card-subtitle mb-2 text-muted"><a href=""> Instructor(s): {{ with .Params.speakers }}
-              {{ delimit . ", " " & " }}{{ else }}Por confirmar{{ end }}</a></h6>
-            <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted"> Instructor(s):</h6>
+              
+            <a href="{{ .Params.Linkspeaker1 }}">
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker1 }}</h6>
+            </a>
+            <a href="{{ .Params.Linkspeaker2 }}">
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker2 }}</h6>
+            </a>
+            <a href="{{ .Params.Linkspeaker3 }}">
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker3 }}</h6>
+            </a> 
+                <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>
             
             <a href="{{ .Params.Guide }}" target="_blank"><h6>Guía de contribución en español</h6></a>
            

@@ -7,6 +7,18 @@ speakers:
  - Carmina Barberena Jonas
  - Alejandro Reyes
  - Leonardo Collado Torres
+ 
+speaker1: Joselyn Chávez Fuentes
+speaker2: Carmina Barberena Jonas
+speaker3: Alejandro Reyes
+speaker4: Leonardo Collado Torres
+linkspeaker1: /speakers/joselyn-chavez-fuentes/
+linkspeaker2: /speakers/carmina-barberena-jonas/
+linkspeaker3: /speakers/alejandro-reyes/
+linkspeaker4: /leonardo-collado-torres/
+language: Español
+
+
 time_start: 2020-10-22T17:20:00.000Z
 time_end:   2020-10-22T17:45:00.000Z
 day_num: 4

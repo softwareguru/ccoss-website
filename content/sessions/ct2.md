@@ -4,6 +4,9 @@ title: "Licencias de Software: el derecho a copiar"
 url: /sessions/licencias-software
 speakers:
  - Edwin Alberto Castañeda
+speaker1: Edwin Alberto Castañeda
+linkspeaker1: /speakers/edwin-alberto-castañeda/
+language: Español
 time_start: 2020-10-21T17:20:00.000Z
 time_end:   2020-10-21T17:45:00.000Z
 day_num: 3

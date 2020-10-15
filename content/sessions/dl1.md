@@ -4,6 +4,9 @@ title: "Aprendizaje y Experiencias Positivas en el proyecto de Traducción de la
 url: /sessions/dl1
 speakers:
  - Hristo Roque
+speaker1: Hristo Roque
+linkspeaker1: /speakers/hristo-roque/
+language: Español
 
 time_start: 2020-10-22T17:00:00.000Z
 time_end:   2020-10-22T17:15:00.000Z

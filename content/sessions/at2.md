@@ -4,6 +4,10 @@ title: "Negocio en época de crisis y pandemia con software libre"
 url: /sessions/negocio-en-epoca-de-crisis-y-pandemia-con-software-libre
 speakers:
  - Daniel Izquierdo
+speaker1: Daniel Izquierdo
+linkspeaker1: /speakers/daniel-izquierdo/
+language: Español
+
 time_start: 2020-10-19T12:20:00-05:00
 time_end:   2020-10-19T12:45:00-05:00
 day_num: 1

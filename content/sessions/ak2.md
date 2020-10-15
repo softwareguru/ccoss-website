@@ -4,8 +4,17 @@ title: "Keynote: Hackeando la comunicación: consejos para evitar conflictos y c
 url: /sessions/keynote-nuritzi
 speakers:
  - Nuritzi Sánchez
+
+speaker1: Nuritzi Sánchez
+
+linkspeaker1: /speakers/nuritzi-sanchez/
+
 time_start: 2020-10-19T10:40:00-05:00
 time_end:   2020-10-19T11:15:00-05:00
+
+
+language: Español
+
 day_num: 1
 ---
 

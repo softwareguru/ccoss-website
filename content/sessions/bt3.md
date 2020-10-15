@@ -4,6 +4,9 @@ title: "Experiencia en contribuciones Open Source: del conocimiento abierto, a t
 url: /sessions/experiencia-en-contribuciones-de-open-source
 speakers:
  - María Crúz
+speaker1: María Crúz
+linkspeaker1: /speakers/maria-cruz/
+language: Español
 time_start: 2020-10-20T17:50:00.000Z
 time_end:   2020-10-20T18:15:00.000Z
 day_num: 2

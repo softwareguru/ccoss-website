@@ -3,7 +3,11 @@ id: w-ros
 title: "Taller de interfaces conversacionales con AWS"
 url: /sessions/w-ros
 speakers:
- - Camilo Buscarón
+
+speaker1: Camilo Buscarón
+
+linkspeaker1: /speakers/camilo-buscaron/
+
 
 time_start: 2020-10-20T19:00:00.000Z
 time_end:   2020-10-20T22:00:00.000Z

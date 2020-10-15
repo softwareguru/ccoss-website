@@ -3,7 +3,11 @@ id: w-phoenix
 title: "Taller de contribución a Elixir/Phoenix"
 url: /sessions/w-phoenix
 speakers:
- - Norberto Ortigoza
+
+speaker1: Norberto Ortigoza
+
+linkspeaker1: /speakers/norberto-ortigoza/
+
 time_start: 2020-10-22T17:30:00-05:00
 time_end:   2020-10-22T20:30:00-05:00
 datee: 17:30-20:30

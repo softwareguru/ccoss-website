@@ -5,6 +5,13 @@ url: /sessions/w-fedora
 speakers:
  - Alex Callejas
  - Iván Chavero
+
+speaker1: Alex Callejas
+speaker2: Iván Chavero
+
+linkspeaker1: /speakers/alex-callejas/
+linkspeaker2: /speakers/ivan-chavero/
+
 workshop: true
 time_start: 2020-10-21T17:30:00-05:00
 time_end:   2020-10-21T20:30:00-05:00

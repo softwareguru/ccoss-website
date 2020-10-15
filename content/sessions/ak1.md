@@ -3,10 +3,17 @@ id: ak1
 title: "Keynote: What do developers like best: Coffee, Beer or Free Software?"
 url: /sessions/what-do-developers-like-best
 speakers:
-  - Jon "maddog" Hall
+ - Jon "maddog" Hall
+
+speaker1: Jon "maddog" Hall
+
+linkspeaker1: /speakers/jon-maddog-hall/
 
 time_start: 2020-10-19T10:00:00-05:00
 time_end:   2020-10-19T10:35:00-05:00
+
+language: Inglés
+guide: https://docs.google.com/document/d/1WOgusasEpO7STmb0ZVoVSRZ_7K7Yzty-MARc6HqtyUs/edit
 day_num: 1
 
 ---
