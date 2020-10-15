@@ -1,11 +1,11 @@
 ---
 id: w-ros
-title: "Taller de interfaces conversacionales con AWS"
+title: "Simulando robots con Gazebo y ROS en AWS RoboMaker"
 url: /sessions/w-ros
 speakers:
+ - Camilo Buscarón
 
 speaker1: Camilo Buscarón
-
 linkspeaker1: /speakers/camilo-buscaron/
 
 time_start: 2020-10-20T19:00:00.000Z
@@ -18,4 +18,8 @@ register_link: https://zoom.us/webinar/register/WN_JYBt9Wz0RguJTzE-W0jDXQ
 workshop: true
 ---
 
-En este taller aprenderás lo necesario para contribuir a ROS
+
+ En este taller, se familiarizará con el sistema operativo open source para robots [ROS](http://www.ros.org) y [AWS RoboMaker](https://aws.amazon.com/robomaker), un servicio que le permite desarrollar, simular e implementar fácilmente aplicaciones de robots inteligentes que se integran con otros servicios de AWS. Esto incluye los servicios de aprendizaje automático de AWS, los servicios de monitoreo y los servicios de análisis que permiten a un robot transmitir datos, navegar, comunicarse, comprender y aprender.
+
+Como parte del taller realizaremos simulaciones robóticas utilizando [Gazebo](http://gazebosim.org) y ejecutaremos un caso de prueba en simulación utilizando AWS RoboMaker.
+
