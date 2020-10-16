@@ -53,9 +53,12 @@
 
     <span>Idioma: {{ .Params.Language }}</span>
     <br>
-     <a href="{{ .Params.Guide }}" target="_blank"><span>Guía de contribución en español</span></a>
+
+    {{ with .Params.guide }}
+     <a href="{{ . }}" target="_blank">Guía de contribución en español</a>
+    {{ end }}
     <br>
-    
+
     -----
     <div class="content mt-2">{{ .Content }}</div>
     {{ with .Params.register_link }}
