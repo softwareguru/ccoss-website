@@ -23,3 +23,5 @@ Odoo es un software empresarial que incluye componentes de  CRM, e-commerce, cob
 
 En este taller revisaremos cómo se puede contribuir a Odoo y/o construir componentes para su ecosistema.
 
+Instrucciones de instalación de Odoo: https://github.com/max3903/odoo-tutorial/blob/master/INSTALL.md
+

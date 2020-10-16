@@ -9,4 +9,4 @@ linkedin:
 github: https://github.com/CarBarJon
 ---
 
-I'm a graduate of the Undergraduate Program on Genomic Sciences from the National Autonomous University of Mexico (UNAM). My current project in MorenoLab involves the analysis of identity-by-descent genomic segments to determine the population structure of Mexico and their implications in biomedical traits using the data from the Mexican BioBank. I am also involved in other projects as the Oceanian Genome Variation Project. I like photography, surrealist paintings, and good-looking cocktails, I also love rats; one of my dreams is to have a pet rat named Bojack.
+Soy una estudiante de maestría en el posgrado de Biología Integrativa en el LANGEBIO, donde soy parte del MorenoLab y me dedico a estudíar la estructura de poblaciones humanas. Estudíe la Licenciatura en Ciencias Genómicas en UNAM. Me gusta la fotografía, las pinturas surrealistas y la divulgación cientifica. 
