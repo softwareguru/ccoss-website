@@ -50,10 +50,11 @@
         adjTime("{{ $time_start.Format "02 Jan 2006 15: 04: 05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15: 04: 05 MST" }}");  
       </script>
     </div>
-
-    <span>Idioma: {{ .Params.Language }}</span>
+    {{ with .Params.language }}
+    <span>Idioma: {{ . }}</span>
     <br>
-
+    {{ end }}
+    
     {{ with .Params.guide }}
      <a href="{{ . }}" target="_blank">Guía de contribución en español</a>
     {{ end }}

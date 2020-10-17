@@ -4,9 +4,15 @@ title: "Simulando robots con Gazebo y ROS en AWS RoboMaker"
 url: /sessions/w-ros
 speakers:
  - Camilo Buscarón
+ - Cindy Polin
+ - Gabriel Gasca Torres
 
 speaker1: Camilo Buscarón
+speaker2: Cindy Polin
+speaker3: Gabriel Gasca Torres
 linkspeaker1: /speakers/camilo-buscaron/
+linkspeaker2: /speakers/cindy-polin/
+linkspeaker3: /speakers/gabriel-gasca-torres/
 
 time_start: 2020-10-20T19:00:00.000Z
 time_end:   2020-10-20T22:00:00.000Z
