@@ -4,7 +4,7 @@ title: "El modelo de contratistas open source en la industria de criptomonedas"
 url: /sessions/contratistas-open-source-cripto
 speakers:
  - Ana Dalia Chávez
-speaker1: Lorena Mesa
+speaker1: Ana Dalia Chávez
 linkspeaker1: /speakers/ana-dalia-chavez/
 language: Español
 
