@@ -16,7 +16,12 @@
             <h6 class="card-subtitle mb-4 text-muted">{{ .Params.Description }}</h6>
             <div>
                 <img src="{{ .Params.Image }}" class="col-md-7 px-4 mb-4" alt="">
-                <a href="{{ .Params.Link }}" target="_blank"><button type="button" style="align-items: center;" class="btn btn-primary col-md-4 px-3">{{ .Params.Button}}</button></a>
+
+                
+                <a href="{{ .Params.Link }}" target="_blank">
+                  {{ with .Params.button }}
+                  <button type="button" style="align-items: center;" class="btn btn-primary col-md-4 px-3">{{ . }}</button></a>
+                {{ end }}
               </div>
                 
             </div>
