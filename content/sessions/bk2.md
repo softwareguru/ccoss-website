@@ -6,7 +6,7 @@ speakers:
  - Lorena Mesa
 speaker1: Lorena Mesa
 linkspeaker1: /speakers/lorena-mesa/
-language: Español
+language: 
 
 time_start: 2020-10-20T15:40:00.000Z
 time_end:   2020-10-20T16:15:00.000Z

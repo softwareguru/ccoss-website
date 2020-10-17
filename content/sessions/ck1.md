@@ -6,7 +6,7 @@ speakers:
  - Griselda Cuevas
 speaker1: Griselda Cuevas
 linkspeaker1: /speakers/griselda-cuevas/
-language: Español
+language: 
 time_start: 2020-10-21T15:00:00.000Z
 time_end:   2020-10-21T15:35:00.000Z
 day_num: 3

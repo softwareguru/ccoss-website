@@ -9,7 +9,7 @@ speaker1: Camilo Buscarón
 speaker2: Aldo Luévano
 linkspeaker1: /speakers/camilo-buscaron/
 linkspeaker2: /speakers/aldo-luevano/
-language: Español
+language:
 time_start: 2020-10-21T15:40:00.000Z
 time_end:   2020-10-21T16:15:00.000Z
 day_num: 3

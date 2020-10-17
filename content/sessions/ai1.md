@@ -17,7 +17,7 @@ linkspeaker2: /speakers/arianne-navarro/
 time_start: 2020-10-19T09:30:00-05:00
 time_end:   2020-10-19T10:00:00-05:00
 
-language: Español
+language: 
 guide:
 day_num: 1
 ---

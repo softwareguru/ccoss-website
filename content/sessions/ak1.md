@@ -8,7 +8,7 @@ speaker1: Jon "maddog" Hall
 linkspeaker1: /speakers/jon-maddog-hall/
 time_start: 2020-10-19T10:00:00-05:00
 time_end:   2020-10-19T10:35:00-05:00
-language: Inglés
+language:
 day_num: 1
 
 ---

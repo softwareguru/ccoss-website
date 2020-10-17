@@ -6,7 +6,7 @@ speakers:
  - Javier Pérez
 speaker1: Javier Pérez
 linkspeaker1: /speakers/javier-perez/
-language: Español
+language:
 time_start: 2020-10-22T15:00:00.000Z
 time_end:   2020-10-22T15:35:00.000Z
 day_num: 4
