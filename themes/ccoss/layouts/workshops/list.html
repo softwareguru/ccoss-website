@@ -22,14 +22,21 @@
             <h6 class="card-subtitle mb-2 text-muted"> Instructor(s):</h6>
               
             <a href="{{ .Params.Linkspeaker1 }}">
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker1 }}</h6>
+              {{ with .Params.speaker1 }}
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
+              {{ end }}
             </a>
             <a href="{{ .Params.Linkspeaker2 }}">
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker2 }}</h6>
+              {{ with .Params.speaker2 }}
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
+              {{ end }}                
             </a>
             <a href="{{ .Params.Linkspeaker3 }}">
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;{{ .Params.Speaker3 }}</h6>
+              {{ with .Params.speaker3 }}
+                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
+              {{ end }}   
             </a> 
+
                 <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>
             
             {{ with .Params.guide }}

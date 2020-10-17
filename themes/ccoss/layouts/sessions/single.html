@@ -6,17 +6,22 @@
 
     <div>
       Speaker(s):
-       <a href="{{ .Params.Linkspeaker1 }}">
-        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker1 }}</h6>
-    </a>
-    <a href="{{ .Params.Linkspeaker2 }}">
-        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker2 }}</h6>
-    </a>
-    <a href="{{ .Params.Linkspeaker3 }}">
-        <h6>&nbsp;&nbsp;&nbsp{{ .Params.Speaker3 }}</h6>
-    </a>
-     
-    
+
+      <a href="{{ .Params.Linkspeaker1 }}">
+        {{ with .Params.speaker1 }}
+        <h6>&nbsp;&nbsp;{{ . }}</h6>
+        {{ end }}
+      </a>
+      <a href="{{ .Params.Linkspeaker2 }}">
+        {{ with .Params.speaker2 }}
+        <h6>&nbsp;&nbsp;{{ . }}</h6>
+        {{ end }}
+      </a>
+      <a href="{{ .Params.Linkspeaker3 }}">
+        {{ with .Params.speaker3 }}
+        <h6>&nbsp;&nbsp;{{ . }}</h6>
+        {{ end }}
+      </a>
     </div>
   
 
