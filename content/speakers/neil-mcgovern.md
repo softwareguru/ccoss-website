@@ -10,4 +10,4 @@ github:
 featured: true
 ---
 
-Neil McGovern is the Executive Director of the GNOME Foundation, responsible for the day to day running of the organization. Neil was the Debian Project Leader from 2014-15. He has been on the Boards of numerous organizations, including Software in the Public Interest, Inc., and the Open Rights Group.
+A long-term contributor to free software, Neil McGovern has held posts on the boards of Software in the Public Interest, Open Rights Group and served a term as the Debian Project Leader. Neil currently works as the Executive Director of the GNOME Foundation.
