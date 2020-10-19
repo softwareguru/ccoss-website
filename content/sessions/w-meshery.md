@@ -21,7 +21,4 @@ register_link: https://us02web.zoom.us/webinar/register/WN_X-0DF3UdRHCGU7SRGVYLW
 
 ---
 
-[Meshery](https://meshery.io) is the multi-service mesh management plane offering lifecycle, configuration and performance management of service meshes and their workloads.
-<!--more-->
-
-In this workshop we will study the basic concepts behind Meshery and its architecture and we will go over the process of how to contribute to the project.
+[Meshery](https://meshery.io) es una herramienta que te permite hacer deploy, configurar, medir, operar y modificiar multiples service mesh (istio, linkerd, etc). En este taller aprenderás que es un service mesh, y cómo meshery te puede servir para evaluar el landscape de service meshes que existen en el mercado. Tambien se dará una sesión para trabajar en las traducciones de la documentación al español, así que si estás buscando un buen proyecto para iniciar y participar durante el sprint de contribución este taller es la opción ideal.
