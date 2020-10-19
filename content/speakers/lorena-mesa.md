@@ -10,4 +10,12 @@ github: https://github.com/lorenanicole
 featured: true
 ---
 
-Political scientist turned coder, Lorena Mesa is a data engineer at GitHub, Director and Vice-Chair, Elect on the Python Software Foundation, and PyLadies Chicago co-organizer. Lorena's time at Obama for America and her subsequent graduate research required her to learn how to transform messy, incomplete data into intelligible analysis on topics like predicting Latinx voter behavior. It's this unique background in research and applied mathematics that drove Lorena to pursue a career in engineering and data science. One part activist, one part Star Wars fanatic, and another part Trekkie, Lorena abides by the motto to "live long and prosper".
+Political scientist turned coder, Lorena Mesa is a GitHub data 
+engineer, Director & Chair of the Python Software Foundation, JOSS
+ editor, and PyLadies Chicago co-organizer. Lorena's time at Obama for 
+America and her subsequent graduate research required her to learn how 
+to transform messy, incomplete data into intelligible analysis on topics
+ like predicting Latinx voter behavior. It's this unique background in 
+research and applied mathematics that drove Lorena to pursue a career in
+ engineering and data science. One part activist, one part Star Wars 
+fanatic, and another part Trekkie, Lorena abides by the motto to "live long and prosper"
