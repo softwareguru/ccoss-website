@@ -71,6 +71,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   URL = "/kit-virtual"
   weight = 5
 
+   [[menu.main]]
+  name = "Networking"
+  URL = "/networking"
+  weight = 5
 
   [[menu.main]]
   name = "FAQ"
