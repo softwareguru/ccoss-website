@@ -7,18 +7,20 @@
     </div>
     <div class="row">
         {{ range .Data.Pages.ByTitle }}
-      <div class="col-12 col-md-3 px-3 mb-3">
+      <div class="col-12 col-md-4 px-3 mb-3">
         <div class="card h-100">
-            <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200" height="200">
+            <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">
           <div class="card-body">
             <h3 class="card-title">{{ .Title }}</h3>        
             <h6 class="card-subtitle mb-4 text-muted">{{ .Params.Description }}</h6>
-            <center>
-                  <a href="{{ .Params.Link }}" target="_blank">
-                    <button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3">{{ .Params.Button}}</button>
-                 </a>
-            </center>
+            
             </div>
+            <center>
+              <a href="{{ .Params.Link }}" target="_blank">
+                <button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3">{{ .Params.Button}}</button>
+             </a>
+        </center>
+        <br>
           </div>
         </div>
         {{ end }}
