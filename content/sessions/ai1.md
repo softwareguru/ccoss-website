@@ -1,6 +1,6 @@
 ---
 id: ai1
-title: "Intro OSOM"
+title: "Bienvenida con Open source México (OSOM)"
 url: /sessions/intro-OSOM
 speakers:
  - Griselda Cuevas
@@ -22,4 +22,4 @@ guide:
 day_num: 1
 ---
 
-Bienvenida e introducción al evento por parte de la comunidad de Open Source Mexico. (OSOM) en donde daremos un repaso de la historia de OSOM/CCOSS, el futuro de estos dos proyectos, y una revision de la agenda de CCOSS a alto nivel 
+Bienvenida e introducción al evento por parte de la comunidad de Open Source México. (OSOM) en donde daremos un repaso de la historia de OSOM/CCOSS, el futuro de estos dos proyectos, y una revision de la agenda de CCOSS a alto nivel 

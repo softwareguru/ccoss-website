@@ -19,9 +19,7 @@ register_link: https://us02web.zoom.us/webinar/register/WN_reY5i8Y1SHelVHqxulT1G
 summary: "Odoo es un software empresarial que incluye componentes de  CRM, e-commerce, cobranza, contabilidad, manufactura, inventario, logística y gestión de proyectos."
 ---
 
-Odoo es un software empresarial que incluye componentes de  CRM, e-commerce, cobranza, contabilidad, manufactura, inventario, logística y gestión de proyectos. Utiliza un modelo de open core donde hay componentes open source complementados con componentes propietarios y/o hospedados en la nube.
+Odoo es un software empresarial que incluye componentes de  CRM, e-commerce, cobranza, contabilidad, manufactura, inventario, logística y gestión de proyectos. Utiliza un modelo de open core donde hay componentes open source complementados con componentes propietarios y/o hospedados en la nube. En este taller revisaremos cómo se puede contribuir a Odoo y/o construir componentes para su ecosistema.
 
-En este taller revisaremos cómo se puede contribuir a Odoo y/o construir componentes para su ecosistema.
-
-Instrucciones de instalación de Odoo: https://github.com/max3903/odoo-tutorial/blob/master/INSTALL.md
+Por favor descarga e instala Odoo previo al taller. Instrucciones: https://github.com/max3903/odoo-tutorial/blob/master/INSTALL.md
 

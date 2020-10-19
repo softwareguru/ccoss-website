@@ -1,6 +1,6 @@
 ---
 id: at1
-title: "Mi experiencia contribuyendo a OS: Phoenix framework y los árboles de supervisión."
+title: "Mi experiencia contribuyendo a OS: Phoenix framework y los árboles de supervisión"
 url: /sessions/contribucion-phoenix-arboles-supervision
 speakers:
  - Berenice Medel Sánchez
