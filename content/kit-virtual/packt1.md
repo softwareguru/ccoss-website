@@ -5,6 +5,6 @@ description: "25% de descuento en libros (impresos) con el código para Packt we
 image: /images/logos/packt.png
 link:  https://www.packtpub.com 
 button: Títulos disponibles
-draft: false
+draft: true
 ---
 
