@@ -12,7 +12,8 @@ datee: 14:00-17:00
 day_num: 
 guide: https://github.com/omegaup/omegaup
 language: Español
-register_link: https://us02web.zoom.us/webinar/register/WN_Eojn0VmBQLi6UVglD0z1zg
+register_link:
+video: https://www.youtube.com/embed/I1QdErsumUA
 
 ---
 

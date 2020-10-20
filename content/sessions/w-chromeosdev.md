@@ -12,7 +12,8 @@ day_num:
 language: Español
 guide: https://chromeos.dev/es/linux
 workshop: true
-register_link: https://zoom.us/webinar/register/WN_hHzu2iBRTpSSNoVRdbVX1Q
+register_link:
+video: https://www.youtube.com/embed/tUgtLgWfeUY
 ---
 
 Aprende cómo construir aplicaciones para ChromeOS de forma abierta y colaborativa.

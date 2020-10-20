@@ -17,7 +17,8 @@ day_num:
 language: Inglés + Español
 guide: https://docs.google.com/document/d/1Oymr64J2JddpO2e-9GbaysiEEmAEspvLILkpcJCM0k8/edit?usp=sharing
 workshop: true
-register_link: https://us02web.zoom.us/webinar/register/WN_X-0DF3UdRHCGU7SRGVYLWA
+register_link: 
+video: https://www.youtube.com/embed/_d9CF288N6U
 
 ---
 
