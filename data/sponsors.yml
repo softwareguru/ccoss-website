@@ -26,6 +26,9 @@ sponsor_group:
         link : "https://www.manning.com/"  
       - logo : "/images/logos/abiztar.jpg"
         link : "https://www.abiztar.com.mx/" 
+      - logo : "/images/logos/bedu.png"
+        link : "https://bedu.org/"
+
   - title : "Partner"
     slug : "community"
     sponsor:
