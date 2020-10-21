@@ -14,7 +14,8 @@ datee: 17:30-20:30
 day_num: 
 language: Español
 guide: https://www.drupal.org/documentation
-register_link: https://zoom.us/webinar/register/WN_BNXrzxt5ROiGCSuYNI3Osw
+register_link: 
+video: https://www.youtube.com/embed/ew4Y0ry_e-c
 workshop: true
 ---
 

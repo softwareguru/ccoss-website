@@ -19,8 +19,9 @@ day_num:
 language: Inglés
 guide: https://docs.google.com/document/d/1rqqciGgMf6DHhfk1qlp8P-i1a8fnMus3kp8L8B3FCHc/edit#
 workshop: true
-register_link: https://us02web.zoom.us/webinar/register/WN_fGOJ3XIOS4urzV7L26CDLw
+register_link: 
 summary: "Learn how to build a Cassandra Microservices app and then learn how you can contribute to the Apache Cassandra project."
+video: https://www.youtube.com/embed/4IGTS4VBpxk
 ---
 
 This workshop will consist of two parts:

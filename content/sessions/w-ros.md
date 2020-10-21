@@ -20,8 +20,9 @@ datee: 14:00-17:00
 day_num: 
 language: Español
 guide: https://wiki.ros.org/es
-register_link: https://zoom.us/webinar/register/WN_JYBt9Wz0RguJTzE-W0jDXQ
+register_link:
 workshop: true
+video: https://www.youtube.com/embed/IHX_Na7DROk
 ---
 
 
