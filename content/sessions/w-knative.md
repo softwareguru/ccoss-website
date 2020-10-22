@@ -4,10 +4,10 @@ title: "Taller de contribución a Knative"
 url: /sessions/w-knative
 speakers:
 
-speaker1: Ignacio Cano
+speaker1: Nicolás López
 speaker2: Daniel Sánchez
 
-linkspeaker1: /speakers/ignacio-cano/
+linkspeaker1: /speakers/nicolas-lopez/
 linkspeaker2: /speakers/daniel-sanchez/
 
 time_start: 2020-10-22T14:00:00-05:00
