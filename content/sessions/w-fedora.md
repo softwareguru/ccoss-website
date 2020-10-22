@@ -19,7 +19,8 @@ datee: 17:30-20:30
 day_num: 
 language: Español
 guide: https://docs.fedoraproject.org/es/docs/
-register_link: https://us02web.zoom.us/webinar/register/WN_dQ65cDO9S9m0teIn9K-e2g
+register_link:
+video: https://www.youtube.com/embed/W7CCeU5PzKI
 ---
 
 En este taller aprenderás lo necesario para contribuir a Fedora
