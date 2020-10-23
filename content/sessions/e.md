@@ -1,12 +1,17 @@
 ---
 id: e
-title: "Sesión de apertura del Sprint"
+title: "Viernes: Apertura del Sprint"
 url: /sessions/sesion-de-apertura-del-sprint
 speakers:
  - Abierto
 speaker1: Abierto
+<<<<<<< HEAD
 time_start: 2020-10-23T19:00:00.000Z
 time_end:   2020-10-23T21:00:00.000Z
+=======
+time_start: 2020-10-23T14:00:00-05:00
+time_end:   2020-10-23T15:00:00-05:00
+>>>>>>> e6442a2d50bef9622787a553af1e4dc98487f721
 day_num: 5 
 ---
 
@@ -16,10 +21,8 @@ Estaremos interactuando, ayudando y echándonos porras via el Slack de CCOSS.
 
 
 ## Horarios: 
-- 14:00 - 15:00 Sesión de apertura del Sprint
-- 15:00 - 19:00 Sprint de contribución
-- 19:00 - 21:00 Speed mentoring x proyecto en Gather.town
-- 21:00 viernes - 19:00 sábado Continua Sprint de contribución
-- 19:00 - Cierre del Sprint, reconocimiento a los participantes del Sprint y entrega de       reconocimientos a los contribuidores de OSS ganadores.
+- Viernes 14:00 hrs. Apertura del Sprint
+- Viernes 19:00 - 21:00 hrs. Speed mentoring x proyecto en Gather
+- Sábado 19:00 hrs. Cierre del Sprint, reconocimiento a los participantes del Sprint y entrega de reconocimientos a los contribuidores de OSS ganadores.
 
 
