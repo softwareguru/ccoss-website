@@ -15,7 +15,8 @@ day_num:
 language: Español
 guide: 
 workshop: true
-register_link: https://zoom.us/webinar/register/WN_YVULCy3sSZmgsqeRrsiU0w
+register_link: 
+video: https://www.youtube.com/embed/y2uAiC1sPUo
 summary: "Phoenix es un framework para desarrollo de aplicaciones web altamente interactivas y con gran desempeño, utilizando el lenguaje de programación Elixir. En este taller conocermos su estructura y cómo contribuir a ellos."
 ---
 

@@ -19,7 +19,8 @@ day_num:
 language: Español
 guide: https://wiki.archlinux.org/index.php/Getting_involved_(Espa%C3%B1ol)
 workshop: true
-register_link: https://us02web.zoom.us/webinar/register/WN_5y5B4x_mTCayzURTT1rp2A
+register_link: 
+video: https://www.youtube.com/embed/a4KpbdGiwtk
 ---
 
 Arch Linux es una distribución Linux que se adhiere a los principios de simplicidad, modernidad, pragmatismo, centrado en usuario y versatilidad.

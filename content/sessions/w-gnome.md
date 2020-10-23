@@ -15,8 +15,9 @@ datee: 14:00-17:00
 day_num: 
 language: Español
 guide: https://developer.gnome.org/guides
-register_link: https://us02web.zoom.us/webinar/register/WN_-4jcKxiaRPGmRSmgZqA6Mg
-draft: false
+register_link: 
+video: 
+draft: true
 ---
 
 

@@ -17,7 +17,8 @@ day_num:
 language: Español
 guide: https://docs.google.com/document/d/1MyD6Hfl1Od2nEXRB2j2TBeSTK87etPl9k8ltqXeiBwY/edit?usp=sharing
 workshop: true
-register_link: https://zoom.us/webinar/register/WN_PxnWUMwKTSucJMmjvnzO7Q
+register_link: 
+video: https://www.youtube.com/embed/6VV7Ur1WEfA
 ---
 
 Knative es una plataforma basada en Kubernetes para construir servicios serverless. En este taller revisaremos sus conceptos principales y cómo contribuir al proyecto.

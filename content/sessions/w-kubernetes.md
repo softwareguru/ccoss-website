@@ -17,7 +17,8 @@ day_num:
 language: Español
 guide: https://kubernetes.io/es/docs/contribute/
 workshop: true
-register_link: https://zoom.us/webinar/register/WN_HhjyZWZwRQ6i1jyhpymZug
+register_link:
+video: https://www.youtube.com/embed/2hPrd-r2nZk
 ---
 
 Revisaremos conceptos básicos sobre contenedores y para qué sirven. Posteriormente veremos una introducción a Kubernetes y  buenas prácticas para su implementación. Por último, revisaremos cómo se puede contribuir al proyecto.

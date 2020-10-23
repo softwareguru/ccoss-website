@@ -6,7 +6,7 @@ speakers:
  - Abierto
 speaker1: Abierto
 time_start: 2020-10-23T19:00:00.000Z
-time_end:   2020-10-24T21:00:00.000Z
+time_end:   2020-10-23T21:00:00.000Z
 day_num: 5 
 ---
 

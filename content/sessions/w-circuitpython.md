@@ -17,7 +17,8 @@ day_num:
 language: Español
 guide: https://drive.google.com/file/d/1C8JE_9oswkmaOPq4NwoDUB1hJzutCaue/view?usp=sharing
 workshop: true
-register_link: https://zoom.us/webinar/register/WN_dUt7ZrSwQGC2aFS4wWSInQ
+register_link:
+video: https://www.youtube.com/embed/vZWNWpwwEpc
 ---
 
 CircuitPython es un lenguaje de programación para microcontroladores diseñado para simplicidad y accesibilidad. En este taller aprenderás aspectos básicos sobre CircuitPython y cómo puedes contribuir al proyecto.
