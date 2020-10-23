@@ -5,13 +5,8 @@ url: /sessions/sesion-de-apertura-del-sprint
 speakers:
  - Abierto
 speaker1: Abierto
-<<<<<<< HEAD
-time_start: 2020-10-23T19:00:00.000Z
-time_end:   2020-10-23T21:00:00.000Z
-=======
 time_start: 2020-10-23T14:00:00-05:00
 time_end:   2020-10-23T15:00:00-05:00
->>>>>>> e6442a2d50bef9622787a553af1e4dc98487f721
 day_num: 5 
 ---
 
