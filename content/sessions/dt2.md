@@ -17,8 +17,7 @@ linkspeaker2: /speakers/carmina-barberena-jonas/
 linkspeaker3: /speakers/alejandro-reyes/
 linkspeaker4: /leonardo-collado-torres/
 language: Español
-
-
+slides: Creando una nueva ola de desarrolladores de software software libre en México y Latino América con la communidad CDSB.pdf
 time_start: 2020-10-22T17:20:00.000Z
 time_end:   2020-10-22T17:45:00.000Z
 day_num: 4

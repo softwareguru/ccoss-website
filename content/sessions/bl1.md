@@ -11,6 +11,8 @@ language: Español
 time_start: 2020-10-20T17:00:00.000Z
 time_end:   2020-10-20T17:15:00.000Z
 day_num: 2
+slides: Participa-en-el-Release-Team.pdf
+
 ---
 
 El propósito de mi plática es invitarte a participar como parte del Release Team de
