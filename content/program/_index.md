@@ -3,6 +3,10 @@ title: "Programa de sesiones"
 description: "Conoce las sesiones que se impartirán durante CCOSS."
 ---
 
+## Panorama de CCOSS e intro a GitHub
+
+Conoce la dinámica general de la Cumbre de Contribuidores de Open Source Software,  y aprenderás lo básico para contribuir a proyectos open source, como el uso de GitHub. [Ver grabación.](https://www.youtube.com/watch?v=NPc2UPyiAj8)
+
 Consideraciones:
  * El huso horario base de CCOSS es GMT-5 (hora de Centro de México, Colombia, Perú).
  * Las charlas se realizarán del lunes 19 de octubre al jueves 22 de octubre de 10:00am a 1:15pm.
