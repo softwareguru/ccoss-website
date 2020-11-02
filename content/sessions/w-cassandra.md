@@ -21,7 +21,7 @@ guide: https://docs.google.com/document/d/1rqqciGgMf6DHhfk1qlp8P-i1a8fnMus3kp8L8
 workshop: true
 register_link: 
 summary: "Learn how to build a Cassandra Microservices app."
-video: https://www.youtube.com/embed/4IGTS4VBpxk
+video: https://www.youtube.com/embed/IHF9m-9i6m0
 ---
 
 This workshop will consist of two parts:

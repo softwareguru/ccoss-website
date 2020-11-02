@@ -21,7 +21,7 @@ guide: https://docs.google.com/document/d/1rqqciGgMf6DHhfk1qlp8P-i1a8fnMus3kp8L8
 workshop: true
 register_link: 
 summary: "Learn how you can contribute to the Apache Cassandra project."
-video: 
+video: https://www.youtube.com/embed/fT_1HOvbKxM
 ---
 
 This workshop will consist of two parts:
