@@ -4,13 +4,9 @@ title: "Cassandra Workshop: Contributing to Cassandra"
 url: /sessions/Contributing-to-Cassandra
 speakers:
 
-speaker1: David Gilardi
-speaker2: Cedrick Lunven
-speaker3: Patrick McFadin 
+speaker1: Patrick McFadin 
 
-linkspeaker1: /speakers/david-gilardi/
-linkspeaker2: /speakers/cedrick-lunven/
-linkspeaker3: /speakers/patrick-mcfadin/
+linkspeaker1: /speakers/patrick-mcfadin/
 
 time_start: 2020-10-20T14:00:00-05:00
 time_end:   2020-10-20T17:00:00-05:00
