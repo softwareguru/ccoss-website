@@ -12,6 +12,7 @@ time_start: 2020-10-19T12:20:00-05:00
 time_end:   2020-10-19T12:45:00-05:00
 day_num: 1
 slides: Negocio-en- epoca-de-crisis-y-pandemia.pdf
+video: https://www.youtube.com/embed/2_Oqw-EOO94
 ---
 
 Allá por 2012 montamos una empresa basada en software libre unos cuantos compañeros de la universidad. Hoy en día Bitergia sigue viva a pesar de sus fundadores ;).
