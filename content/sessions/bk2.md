@@ -12,6 +12,7 @@ time_start: 2020-10-20T15:40:00.000Z
 time_end:   2020-10-20T16:15:00.000Z
 day_num: 2
 slides: Keynote-Lo-Que-Hablo-Cuando-Hablo-de-Python.pdf
+video: https://www.youtube.com/embed/hjzEoHikng0
 ---
 
 Discusión sobre la intersección del código abierto y la comunidad en Python y cómo las aplicaciones de código abierto de Python están influyendo el futuro de Python.

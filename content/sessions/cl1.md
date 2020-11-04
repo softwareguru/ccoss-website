@@ -11,6 +11,7 @@ language: Español
 time_start: 2020-10-21T17:00:00.000Z
 time_end:   2020-10-21T17:15:00.000Z
 day_num: 3
+video: https://www.youtube.com/embed/TuRAeBmnScQ
 ---
 
 Un criptoactivo es aquello que reune las características de seguridad y confiabilidad necesarias para actuar como reserva de valor. Éstas tienen su origen en el movimiento del software libre y se han construido gracias a contribuidores voluntarios que optan participar con su tiempo y conocimientos en pro del objetivo en común.
