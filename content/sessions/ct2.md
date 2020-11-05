@@ -10,6 +10,7 @@ language: Español
 time_start: 2020-10-21T17:20:00.000Z
 time_end:   2020-10-21T17:45:00.000Z
 day_num: 3
+video: https://www.youtube.com/embed/WEFJQtzQb9E
 ---
 
 En esta sesión repasaremos distintas opciones de licenciamiento al construir y publicar tu software. Estudiaremos conceptos como: shareware, freeware, abandonware, dominio público, software libre y open source. 
