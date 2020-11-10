@@ -21,6 +21,7 @@ language:
 guide:
 day_num: 1
 slides: CCOSS2020-Intro.pdf
+video: https://www.youtube.com/embed/0NwVls8g_e8
 ---
 
 Bienvenida e introducción al evento por parte de la comunidad de Open Source México. (OSOM) en donde daremos un repaso de la historia de OSOM/CCOSS, el futuro de estos dos proyectos, y una revision de la agenda de CCOSS a alto nivel 
