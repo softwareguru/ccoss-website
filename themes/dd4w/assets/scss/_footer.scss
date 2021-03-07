@@ -1,0 +1,93 @@
+.footer {
+	padding-top: 2em;
+	padding-bottom: 35px;
+	background: black;
+	color: white;
+}
+
+.footer-strip {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+
+	@media (min-width:768px) {
+		grid-template-columns: minmax(200px,360px) minmax(150px,1fr) minmax(150px,1fr) minmax(150px,1fr);
+	
+	}
+	
+}
+
+.mb-3{
+	color: white;
+}
+
+ul.footer_links {
+	direction: rtl;
+	list-style-type:none;
+	padding:0;
+	font-size: 14px;
+}
+
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: #A100FF;
+}
+
+.footer i:hover {
+	color: #A100FF;
+}
+
+.footer h5 {
+	color: white;
+}
+
+.footer-socials {
+	a {
+		padding: 0px 10px;
+
+		i {
+			font-size: 30px;
+			color: white;
+		}
+	}
+}
+
+.footer .disclaimer {
+	border-top: 1px solid #606060;
+	font-size: 0.8em;
+	font-style: italic;
+	padding-top: 1em;
+}
+
+.copy.border-top {
+	border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+
+@include mobile {
+	.sub-form .btn {
+		position: relative;
+		margin-top: 16px !important;
+		border-radius: 5px;
+	}
+}
+
+@include mobile-xs {
+	.sub-form .btn {
+		position: relative;
+		margin-top: 16px !important;
+		border-radius: 5px;
+	}
+}
+
+@include tablet {
+	.sub-form .btn {
+		position: relative;
+		margin-top: 16px !important;
+		border-radius: 5px;
+	}
+}

@@ -3,15 +3,16 @@ title: "Programa de sesiones"
 description: "Conoce las sesiones que se impartirán durante CCOSS."
 ---
 
-## Panorama de CCOSS e intro a GitHub
+<div class="container" style="text-align: center;">
 
-Conoce la dinámica general de la Cumbre de Contribuidores de Open Source Software,  y aprenderás lo básico para contribuir a proyectos open source, como el uso de GitHub. [Ver grabación.](https://www.youtube.com/watch?v=NPc2UPyiAj8)
+Estamos armando la agenda del evento, te invitamos a enviar una sugerencia de plática.
 
-Consideraciones:
- * El huso horario base de CCOSS es GMT-5 (hora de Centro de México, Colombia, Perú).
- * Las charlas se realizarán del lunes 19 de octubre al jueves 22 de octubre de 10:00am a 1:15pm.
- * Los [talleres](/workshops) se realizarán del lunes 19 de octubre al jueves 22 de octubre, ya sea de 2:00pm a 5:00pm o de 5:30pm a 8:00pm.
- * El viernes 23 y sábado 24 de octubre realizaremos un "sprint de contribución" donde buscamos que los participantes de CCOSS logren enviar alguna contribución a un proyecto open source.
-* El martes 20 de octubre tendremos un **evento de networking** en [Gather](https://gather.town) donde jugaremos y conoceremos a los asistentes y ponentes del evento.
+ <a href="" class="btn btn-banner1" style="color: white;">Envía una Propuesta</a>
 
-A continuación puedes ver el horario de sesiones.
+ 
+<img src="/images/dd4w-header.png"  class="img-fluid">
+
+
+</div>
+
+

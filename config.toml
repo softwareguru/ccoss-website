@@ -1,11 +1,11 @@
 
 ######################## default configuration ####################
-baseURL = "https://ccoss.org/"
-title = "CCOSS"
+baseURL = "https://devday4w.com/"
+title = "Dev Day 4 Women"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 
-theme = "ccoss"
+theme = "dd4w"
 # post pagination
 paginate = "8"
 
@@ -40,46 +40,31 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 [menu]
 
   [[menu.main]]
-  name = "Programa"
+  name = "Programa 2021"
   URL = "/program"
   weight = 2
 
 
-  [[menu.main]]
-  name = "Talleres"
-  URL = "/workshops"
-  weight = 2
-
-  [[menu.main]]
-  name = "Conferencistas"
-  URL = "/speakers"
-  weight = 3
-
-
   #[[menu.main]]
-  #name = "Patrocinadores"
-  #URL = "/sponsors"
+  #name = "Speakers"
+  #URL = "/speakers"
+  #weight = 2
+
+ 
+  #[[menu.main]]
+  #name = "Kit virtual"
+  #URL = "/kit-virtual"
   #weight = 3
 
-  [[menu.main]]
-  name = "Reconocimientos"
-  URL = "/awards"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Kit virtual"
-  URL = "/kit-virtual"
-  weight = 5
-
-   [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 5
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 4
 
   [[menu.main]]
   name = "FAQ"
   URL = "/faq"
-  weight = 7
+  weight = 5
 
 
 
@@ -89,10 +74,10 @@ logo = "/images/logo-monochrome.svg"
 home = "Home"
 
 # Meta data
-description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
-images = ["/images/card.png"]
+description = """DevDay 4 Women es otro fantástico evento de Software Guru."""
+images = ["/images/blog/dd4w.jpg"]
 twitter_user = ""
-email = "hola@ccoss.org"
+email = "eventos@sg.com.mx"
 author = "Software Guru"
 
 # Google Analitycs
@@ -100,8 +85,7 @@ google_analitycs_id = "UA-165970215-1" # your id
 # search for blog page
 search = true
 
-disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) 
-es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
+disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
 
 
 # Preloader
@@ -111,7 +95,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "live"
 link = "/live"
 
@@ -120,25 +104,31 @@ link = "/live"
 ############################# social icon ############################
 
 [[params.social]]
-icon = "tf-ion-social-youtube"
-link = "https://www.youtube.com/playlist?list=PLnLzwYW6HOC6rbYIcrLnVkIMdG_9WB7vn"
+icon = "tf-ion-social-twitter"
+link = "https://twitter.com/RevistaSG"
+
+[[params.social]]
+icon = "tf-ion-social-facebook"
+link = "https://www.facebook.com/softwareguru"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:hola@ccoss.org"
+link = "mailto:eventos@sg.com.mx"
 
-[[params.footer_about]]
-name = "?Quién organiza¿"
-link = "/team/"
 
 [[params.footer_previous]]
-name = "Prospectus"
-link = "https://docs.google.com/presentation/d/13B-mTZrW0-rRNuu5T8do17zd0j5rQuUq41FsrLyjfI4/edit#slide=id.g5d1e7ea227_7_0"
+name = "Acerca de"
+link = "https://sg.com.mx/sg4w"
 
 [[params.footer_previous]]
 name = "Código de Conducta"
 link = "/coc/"
 
-[[params.footer_resources]]
+[[params.footer_resources]] 
 name = "Email"
-link = "mailto:hola@ccoss.org"
+link = "mailto:eventos@sg.com.mx"
+
+
+
+
+

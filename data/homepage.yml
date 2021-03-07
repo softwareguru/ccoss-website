@@ -1,44 +1,48 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
-  logo : "/images/logo.svg"
+  title : "DEV DAY 4 WOMEN VIRTUAL PRESENTADO POR ACCENTURE"
+ 
   img: "/images/background-ccoss.jpg" 
+  date_time: "14 Y 15 DE ABRIL, 2021"
   bg_image: ""
-  date_time : "Online. 19 al 24 de octubre de 2020."
-  venue : "Forma parte de los principales proyectos open source en el mundo."
+
+  venue : "JUNT@S LIDERANDO LA TRANSFORMACIÓN DIGITAL"
+  where : " 14 Y 15 DE ABRIL, 2021 | EVENTO VIRTUAL | DONDEQUIERA QUE TE ENCUENTRES"
   button:
     enable : true
-    label : "Transmisión en vivo"
-    link : "/live"
+    label : "Envía una Propuesta"
+    link : "https://convoca.dev/dev-day-4-women-marzo-2021/cfp"
 
 
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo? ¡Participa!"
-  description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto."
-  contribution: "Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo, culminando con un sprint de contribución."
-  cta_text: "Registrate"
-  cta_link: "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2020-tickets-91491063233"
-  features: 
-    - number : "500+"
-      label : "Participantes"
-      
-    - number : "6"
-      label : "Días"
+  title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
 
-    - number : "20+"
-      label : "Talleres"
+  description : >
+   Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software. La edición Abril 2021 es presentada por Accenture México, se combinarán conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+   
+  description1: >
 
-    - number : "Más"
-      label : "Actividades"
+   DD4W se realizará el próximo 14 y 15 de abril del 2021.
 
+   Esta edición la enfocaremos en compartir y conocer esas historias de mujeres exitosas que en tiempo de pandemia siguen dando lo mejor de sí, transformando su forma de trabajo, y logrando nuevas metas en el entorno actual.
+
+  description2: >
+   Incluiremos contenidos sobre tendencias tecnológicas, compartiremos retos y experiencias de mujeres en STEAM, también el evento incluirá espacio de virtuales para networking.
+
+  description3: >
+
+   Además tendrás la oportunidad de tener contacto directo con representantes de Accenture y conocer las oportunidades laborales que ofrecen actualmente para chicas en la industria.
+  
+  present_by: Presentado por
+  image : "/images/logos/accenture.png"
 
 
 ####################### Speakers #############################
 speakers:
-  enable : true
+  enable : false
   title : "Keynote speakers"
 
 ####################### Schedule #############################
@@ -52,8 +56,6 @@ pricing:
   # pricing data comes from "pricing.yml" file
 
 
-
-
 ############################### Blog ######################################
 blog:
   enable : true
@@ -62,26 +64,4 @@ blog:
   # blog content comes from "content/blog" folder
 
 
-  
-############################### organized by ######################################
 
-organized_by:
-  logo: "/images/ccoss.JPG"
-
-  organizingTitle: Organizado por
-  organizerDescription: "La Cumbre de Contribuidores de Open Source Software es una iniciativa de la comunidad Open Source México. El evento es producido por Software Guru."
-  organizerButton: Conoce al equipo
-  organizerLink: "/team/"
-
-
-  collaboratingTitle: "¿Cómo colaboro?"
-  collaborationDescription: "Puedes unirte como conferencista, voluntario o patrocinador."
-  contactusButton: "Contáctanos"
-  contactLink: ""
-
-  img: "/images/1.jpg"
-  img2: "/images/2.jpg"
-  img3: "/images/3.JPG"
-  img4: "/images/4.jpg"
-  img5: "/images/5.jpg"
-  img6: "/images/6.JPG"

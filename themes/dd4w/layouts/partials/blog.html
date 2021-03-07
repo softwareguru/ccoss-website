@@ -1,0 +1,39 @@
+
+<section class="section blog">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-md-8">
+        <div class="heading">
+          <h2>Noticias recientes</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card-deck">
+      {{ range first 3 (where .Site.RegularPages "Type" "blog" )}}
+       
+      <div class="card">
+
+     
+    
+        <img src="{{ .Params.Image | absURL }}" class="img-fluid" alt="{{ .Title | markdownify }}">
+        <div class="card-body">
+          <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h5>
+
+                   
+        </div>
+        <a style="color: white;" href="{{ .Permalink }}">
+        <button type="button" class="btn btn-primary">Ver más&nbsp;&nbsp; </a><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a> 
+        <br>
+        <div class="card-footer">
+          <small class="text-muted"><i class="far fa-calendar-alt" >&nbsp;&nbsp;</i>{{ .PublishDate.Format "January 2, 2006" }}</small>
+        </div>
+      </div>
+     
+      {{ end }}
+    </div>
+  
+    </div>
+</section>
+  

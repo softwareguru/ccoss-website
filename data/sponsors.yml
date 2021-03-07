@@ -1,54 +1,39 @@
 enable :  true
-title : "Patrocinadores"
+title : "Presentado por"
 sponsor_group:
-  - title : "Platino"
-    slug : "platinum"
-    sponsor:
-      - logo : "/images/logos/google.png"
-        link : "https://about.google/"
 
-  - title : "Gold"
-    slug : "gold"
+  - title : ""
+    slug : "silver"
     sponsor:
-      - logo : "/images/logos/wizeline.png"
-        link : "https://www.wizeline.com/about-us/"
-      - logo : "/images/logos/AWS_logo_RGB.png"
-        link : "https://aws.amazon.com/"
+      - logo : "/images/logos/accenture.png"
+        link : "https://www.accenture.com/mx-es" 
 
-  - title : "Silver"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/Datastax.png"
-        link : "https://www.datastax.com/" 
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com/"
-      - logo : "/images/logos/manning.png"
-        link : "https://www.manning.com/"  
-      - logo : "/images/logos/abiztar.jpg"
-        link : "https://www.abiztar.com.mx/" 
-      - logo : "/images/logos/bedu.png"
-        link : "https://bedu.org/"
 
-  - title : "Partner"
+  - title : "Apoyado por"
     slug : "community"
     sponsor:
-      - logo : "/images/logos/osom.jpg"
-        link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
-      - logo : "/images/logos/apache.jpg"
-        link : "https://www.apache.org/"
-      - logo : "/images/logos/labsol.jpg"
-        link : "https://cozcyt.gob.mx/labsol/"    
-      - logo : "/images/logos/gnome.png"
-        link : "https://www.gnome.org/"  
-      - logo : "/images/logos/lpi.png"
-        link : "https://www.lpi.org/es"  
-                  
-                      
-# call to action in sponsor
-sponsorship:
-  enable : true
-  title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
-  #button
-  label : "Únete como patrocinador"
-  link : "https://docs.google.com/presentation/d/1K4QQjUxUOnYm2g6POtIOvKIY9p_mw4zyeinHJU1Gc2c/edit?usp=sharing"
+      - logo : "/images/logos/hora-del-codigo-logo.png"
+        link : "https://hourofcode.com/es"
+      - logo : "/images/logos/AMITI-WIT.jpg"
+        link : "https://www.facebook.com/AMITI.WIT.mx"
+      - logo : "/images/logos/Women-in-Voice.png"
+        link : "https://womeninvoice.org/"
+      - logo : "/images/logos/women-in-data.png"
+        link : "https://twitter.com/CommunityWi"   
+      - logo : "/images/logos/Laboratoria.png"
+        link : "https://www.laboratoria.la/"
+      - logo : "/images/logos/WWCode-CDMX.jpeg"
+        link : "https://twitter.com/wwcodemty"     
 
+  - title : "Organizado por"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/sg4w.png"
+        link : "https://sg.com.mx/sg4w" 
+      - logo : "/images/logos/sg.jpg"
+        link : "https://sg.com.mx/"
+      
+
+ 
+                  
+ 

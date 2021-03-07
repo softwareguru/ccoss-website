@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="section {{ .Type }}">
+  <div class="description-wrapper">
+    <div class="container">
+    {{ .Content }}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="team-strip">
+      {{ range .Data.Pages.ByTitle }}
+      <div class="profile-item d-flex">
+        <div class="headshot">
+          <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="info">
+          <h4 class="mt-3">{{ .Title }}</h4>
+          
+          <ul class="list-inline">
+            {{ with .Params.twitter }}
+            <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-twitter"></i></a></li>
+            {{ end }}
+            {{ with .Params.github }}
+            <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-github"></i></a></li>
+            {{ end }}
+            {{ with .Params.linkedin }}
+            <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-linkedin"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,28 @@
+.titulo{
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 25px;
+
+    @media (max-width:768px) {
+        font-size: 1.8em;
+      
+      }
+  }
+
+.imagen h2{
+    margin-bottom: 22px;
+}
+
+
+.imagen{
+    text-align: center;
+    
+}
+
+.imagen > img{
+    width: 40%;
+    @media (max-width:768px) {
+        width: 80%;
+      
+      }
+}

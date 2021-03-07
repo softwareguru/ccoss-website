@@ -1,0 +1,163 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data }}
+
+<!-- banner -->
+{{ with $data.homepage.banner }}
+<section class="section banner" >
+
+  <div class="logo">
+    <!--<img src="{{ .logo }}">-->
+   
+    <h1>{{ .title }}</h1>
+      
+  </div>
+
+  <div class="meta">
+   
+    <b><p>{{ .venue }}</p></b>
+    {{ if .button.enable }}
+    {{ with .button }}
+    <a href="{{ .link | relURL }}" class="btn btn-banner1 mt-3">{{ .label }}</a>
+    {{ end }}
+    <br><br>
+    <p>{{ .where }}</p>
+
+    
+    {{ end }}
+
+
+  </div>
+</section>
+{{ end }}
+<!-- /banner -->
+
+<!-- event_info  -->
+{{ if $data.homepage.event_info.enable }}
+{{ partial "event_info.html" . }}
+{{ end }}
+<!-- /event_info -->
+
+
+<!-- feature -->
+{{ if $data.homepage.feature.enable }}
+{{ with $data.homepage.feature }}
+<section id="section-feature">
+  <div class="container">
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box">
+          <i class="{{ .icon }}"></i>
+          <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
+          <div class="divider"></div>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- schedule -->
+{{ if $data.homepage.schedule.enable }}
+{{ partial "schedule.html" . }}
+{{ end }}
+<!-- /schedule -->
+
+<!-- pricing -->
+{{ if $data.homepage.pricing.enable }}
+{{ partial "pricing.html" . }}
+{{ end }}
+<!-- /pricing  -->
+
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
+
+<!-- speaker -->
+{{ if $data.homepage.speakers.enable }}
+<section class="section speakers">
+  <div class="container">
+    {{ with $data.homepage.speakers }}
+    {{ partial "section_title.html" . }}
+    {{ end }}
+    <div class="speakers-wrapper">
+      {{ range (where (where .Site.RegularPages.ByTitle "Type" "speakers") ".Params.featured" true) }}
+
+      <div class="speaker">
+        <a href="{{ .Permalink }}">
+          <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+        </a>
+        <h4 class="mb-0 mt-3">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h4>
+        <p>{{ .Params.Designation }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /speaker -->
+
+
+<!-- sponsor -->
+{{ if $data.sponsors }}
+<section class="section-sponsors section">
+    
+    <br><br>
+    <div class="container">
+      <div class="row section-heading">
+        <div class="col-md-8">
+          <div class="heading">
+            <h2 style="margin-bottom: -20%;" >Presentado por</h2 >
+          </div>
+        </div>
+      </div>
+      <br><br>
+        {{ $data := index .Site.Data }}
+        {{ with $data.sponsors }}
+        {{ range .sponsor_group }}
+        <div class="row mb-5">
+            <div class="col-lg-8" >
+              {{ with .title }}
+                <h4 class="mb-4 letter-spacing text-sm" style="font-size: 20px;">{{ . }}</h4>
+                {{ end}}
+            </div>
+            <div class="sponsor-strip {{ .slug }}">
+                {{ range .sponsor }}
+                <div  class="sponsor-item">
+                    {{ if and (ne .link "") (ne .link "#") }}
+                    <a href="{{ .link }}"><img src="{{ .logo | absURL }}" alt="" class="img-fluid"></a>
+                    {{ else }}
+                    <img src="{{ .logo | absURL }}" alt="" class="img-fluid">
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            <br>
+        </div>
+        {{ end }}
+        {{ if .sponsorship.enable }}
+        {{ with .sponsorship }}
+        <div class="col-lg-12">
+            <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }} <i
+                    class="fas fa-arrow-circle-right"></i></a>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+<!-- /sponsor -->
+
+
+{{ end }}
+
