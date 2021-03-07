@@ -4,7 +4,7 @@ title: "Bienvenida con Open source México (OSOM)"
 url: /sessions/intro-OSOM
 speakers:
  - Griselda Cuevas
- - Arianne Navarro
+ - Arianne Navarro 
 
 speaker1: Griselda Cuevas
 speaker2: Arianne Navarro
