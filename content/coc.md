@@ -5,9 +5,7 @@ url: "/coc"
 linkTitle: ''
 
 ---
-Código de Conducta para eventos de SG
-
-Al atender una conferencia, meetup, o cualquier otro evento organizado por SG Software Guru, incluyendo como participante, ponente, patrocinador, voluntario, o invitado, aceptas acatar este código de conducta, y cooperar con los organizadores del evento que lo hacen cumplir.
+Al atender una conferencia, meetup, o cualquier otro evento organizado por SG Software Guru, incluyendo como participante, ponente patrocinador, voluntario, o invitado, aceptas acatar este código de conducta, y cooperar con los organizadores del evento que lo hacen cumplir.
 
 ## La Versión Rápida
 SG se encarga de proporcionar una experiencia libre de acoso para todos, sin importar género, orientación sexual, discapacidad, edad, apariencia física, tamaño corporal, raza o religión. No toleramos el acoso de ningún tipo en nuestros asistentes. El lenguaje o las imágenes sexuales no son apropiadas para ningún lugar, incluyendo charlas. Los participantes que violen las reglas podrán ser sancionados o expulsados del evento sin un reembolso bajo la discreción de los organizadores.

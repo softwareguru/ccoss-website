@@ -1,0 +1,165 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data }}
+
+<!-- banner -->
+{{ with $data.homepage.banner }}
+<section class="section banner">
+
+  <div class="logo">
+    <img src="{{ .logo }}">
+  </div>
+
+  <div class="meta">
+    <p>{{ .date_time }}</p>
+    <p>{{ .venue }}</p>
+
+    {{ if .button.enable }}
+    {{ with .button }}
+    <a href="{{ .link | relURL }}" class="btn btn-banner1 mt-3">{{ .label }}</a>
+    {{ end }}
+    {{ end }}
+
+
+  </div>
+</section>
+{{ end }}
+<!-- /banner -->
+
+<!-- event_info  -->
+{{ if $data.homepage.event_info.enable }}
+{{ partial "event_info.html" . }}
+{{ end }}
+<!-- /event_info -->
+
+
+<!-- feature -->
+{{ if $data.homepage.feature.enable }}
+{{ with $data.homepage.feature }}
+<section id="section-feature">
+  <div class="container">
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box">
+          <i class="{{ .icon }}"></i>
+          <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
+          <div class="divider"></div>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- schedule -->
+{{ if $data.homepage.schedule.enable }}
+{{ partial "schedule.html" . }}
+{{ end }}
+<!-- /schedule -->
+
+<!-- pricing -->
+{{ if $data.homepage.pricing.enable }}
+{{ partial "pricing.html" . }}
+{{ end }}
+<!-- /pricing  -->
+
+<!-- speaker -->
+{{ if $data.homepage.speakers.enable }}
+<section class="section speakers">
+  <div class="container">
+    {{ with $data.homepage.speakers }}
+    {{ partial "section_title.html" . }}
+    {{ end }}
+    <div class="speakers-wrapper">
+      {{ range (where (where .Site.RegularPages.ByTitle "Type" "speakers") ".Params.featured" true) }}
+
+      <div class="speaker">
+        <a href="{{ .Permalink }}">
+          <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+        </a>
+        <h4 class="mb-0 mt-3">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h4>
+        <p>{{ .Params.Designation }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /speaker -->
+
+
+<!-- sponsor -->
+{{ if $data.sponsors }}
+<section class="section-sponsors section">
+    <div class="description-wrapper">
+        <div class="container">
+        <p>Participa como patrocinador de CCOSS y vincúlate con más de 500 desarrolladores de software interesados en construir software de clase mundial.</p>
+
+        <p>Consulta la <a href="https://docs.google.com/presentation/d/1K4QQjUxUOnYm2g6POtIOvKIY9p_mw4zyeinHJU1Gc2c/edit?usp=sharing">guía de patrocinios</a></p>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row section-heading">
+        <div class="col-md-8">
+          <div class="heading">
+            <h2>Patrocinadores</h2>
+          </div>
+        </div>
+      </div>
+      <br><br>
+        {{ $data := index .Site.Data }}
+        {{ with $data.sponsors }}
+        {{ range .sponsor_group }}
+        <div class="row mb-5">
+            <div class="col-lg-8">
+                <h4 class="mb-4 letter-spacing text-sm">{{ .title | markdownify }}</h4>
+            </div>
+            <div class="sponsor-strip {{ .slug }}">
+                {{ range .sponsor }}
+                <div class="sponsor-item">
+                    {{ if and (ne .link "") (ne .link "#") }}
+                    <a href="{{ .link }}"><img src="{{ .logo | absURL }}" alt="" class="img-fluid"></a>
+                    {{ else }}
+                    <img src="{{ .logo | absURL }}" alt="" class="img-fluid">
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ if .sponsorship.enable }}
+        {{ with .sponsorship }}
+        <div class="col-lg-12">
+            <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }} <i
+                    class="fas fa-arrow-circle-right"></i></a>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+<!-- /sponsor -->
+
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
+
+<!-- organized-by -->
+{{ if $data.homepage.sponsors.enable }}
+{{ partial "organized-by.html" . }}
+{{ end }}
+<!-- /organized-by -->
+
+{{ end }}
+

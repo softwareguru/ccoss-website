@@ -4,7 +4,7 @@ date: 2020-04-30T13:51:25+06:00
 draft: false
 description: ""
 # post thumb
-image : "images/blog/dd4w.jpg"
+image : "https://odoo-community.org/web/image/816663/ccoss.jpeg?access_token=6174cb8d-c73e-41e4-8b27-2f0ff02f1030"
 # author
 author: "CCOSS" 
 
