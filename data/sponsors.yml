@@ -10,24 +10,19 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/wizeline.png"
-        link : "https://www.wizeline.com/about-us/"
+
       - logo : "/images/logos/AWS_logo_RGB.png"
         link : "https://aws.amazon.com/"
 
   - title : "Silver"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/Datastax.png"
-        link : "https://www.datastax.com/" 
+
       - logo : "/images/logos/packt.png"
         link : "https://www.packtpub.com/"
       - logo : "/images/logos/manning.png"
         link : "https://www.manning.com/"  
-      - logo : "/images/logos/abiztar.jpg"
-        link : "https://www.abiztar.com.mx/" 
-      - logo : "/images/logos/bedu.png"
-        link : "https://bedu.org/"
+
 
   - title : "Partner"
     slug : "community"

@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/jmolivas
 purl: https://jmolivas.com/
 award_type: Contribuidor
+draft: true
 ---
 
 Por más de 10 años ha contribuido a proyectos de open source. Conferencista y evangelista de JAMStack

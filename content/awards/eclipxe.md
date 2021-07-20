@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/eclipxe13
 purl: https://eclipxe.com.mx/
 award_type: Contribuidor
+draft: true
 ---
 
 Por sus contribuciones al desarrollo de las librerías para factura electrónica con PHP.

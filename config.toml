@@ -39,21 +39,38 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Programa"
-  URL = "/program"
-  weight = 2
-
+  
 
   [[menu.main]]
-  name = "Talleres"
-  URL = "/workshops"
-  weight = 2
+    identifier = "program"
+    name = "Programa"
+    url = "/program"
+    weight = 1
 
   [[menu.main]]
-  name = "Conferencistas"
-  URL = "/speakers"
-  weight = 3
+    identifier = "program2020"
+    name = "Programa 2020"
+    url = "/program"
+    parent = "program"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "program2021"
+    name = "Programa 2021"
+    url = "/program2021"
+    parent = "program"
+    weight = 3
+
+
+  #[[menu.main]]
+  #name = "Talleres"
+  #URL = "/workshops"
+  #weight = 2
+
+  #[[menu.main]]
+  #name = "Conferencistas"
+  #URL = "/speakers"
+  #weight = 3
 
 
   #[[menu.main]]
@@ -66,15 +83,15 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   URL = "/awards"
   weight = 4
   
-  [[menu.main]]
-  name = "Kit virtual"
-  URL = "/kit-virtual"
-  weight = 5
+  #[[menu.main]]
+  #name = "Kit virtual"
+  #URL = "/kit-virtual"
+  #weight = 5
 
-   [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 5
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
@@ -112,8 +129,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "live"
-link = "/live"
+label = "Registro"
+link = "https://ccoss2021.eventbrite.com.mx"
 
 
 

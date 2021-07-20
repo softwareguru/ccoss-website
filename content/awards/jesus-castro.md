@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/jcstr
 purl: 
 award_type: Facilitador
+draft: true
 ---
 
 Coordinador de Linuxeros Zapopan y Arch Linux Tester.

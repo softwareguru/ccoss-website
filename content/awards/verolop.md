@@ -7,6 +7,7 @@ linkedin: https://www.linkedin.com/in/verolop/
 github: https://github.com/Verolop
 purl: 
 award_type: Contribuidor
+draft: true
 ---
 
 A lo largo de su carrera ha contribuido a distintos proyectos/productos open source. Actualmente es parte del equipo de Release Management de Kubernetes.

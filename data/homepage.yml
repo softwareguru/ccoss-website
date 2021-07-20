@@ -5,12 +5,12 @@ banner:
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "Online. 19 al 24 de octubre de 2020."
+  date_time : "Online. 4 al 9 de octubre 2021 (workshops previos inician en agosto 2021)."
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : true
-    label : "Transmisión en vivo"
-    link : "/live"
+    label : "Manda tu propuesta de plática o workshop"
+    link : "https://convoca.dev/ccoss-2021-online-cfp/cfp"
 
 
 ############################## Event ##############################
@@ -18,27 +18,27 @@ event_info:
   enable : true
   title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo? ¡Participa!"
   description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto."
-  contribution: "Lo lograremos por medio de pláticas y talleres que guíen a los interesados a contribuir en los principales proyectos open source en el mundo, culminando con un sprint de contribución."
+  contribution: "En esta edición contaremos con sesiones de contribución en vivo, iniciando en agosto."
   cta_text: "Registrate"
-  cta_link: "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2020-tickets-91491063233"
+  cta_link: "https://ccoss2021.eventbrite.com.mx/"
   features: 
-    - number : "500+"
-      label : "Participantes"
+    - number : "+ 1500"
+      label : "Participantes online"
       
     - number : "6"
       label : "Días"
 
-    - number : "20+"
-      label : "Talleres"
+    - number : "+ 30"
+      label : "Pláticas y talleres"
 
-    - number : "Más"
-      label : "Actividades"
+    - number : "49"
+      label : "horas sprint de contribución"
 
 
 
 ####################### Speakers #############################
 speakers:
-  enable : true
+  enable : false
   title : "Keynote speakers"
 
 ####################### Schedule #############################

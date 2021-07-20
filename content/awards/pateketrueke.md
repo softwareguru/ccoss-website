@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/pateketrueke
 purl: https://soypache.co
 award_type: Contribuidor
+draft: true
 ---
 
 Desde muy chavo estuvo contribuyendo al Open Source, sus librerías propias más populares son JSON Schema Faker, Your routing! (for Svelte), entre otras.  

@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/mariorz
 purl: 
 award_type: Contribuidor
+draft: true
 ---
 
 Dirige la iniciativa [@RetioBase](https://twitter.com/retiobase) para fomentar periodismo ciudadano y de datos.

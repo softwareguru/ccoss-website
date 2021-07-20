@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/softr8
 purl: 
 award_type: Contribuidor
+draft: true
 ---
 
 Ha estado muy activo en la comunidad de solidus, un e-commerce open source y ha dado conferencias de como contribuir.

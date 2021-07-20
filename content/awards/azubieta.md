@@ -7,6 +7,7 @@ linkedin: https://www.linkedin.com/in/alexis-l%C3%B3pez-zubieta/
 github: https://github.com/azubieta
 purl: https://azubieta.net/
 award_type: Contribuidor
+draft: true
 ---
 
 

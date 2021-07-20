@@ -7,6 +7,7 @@ linkedin:
 github: 
 purl: 
 award_type: Contribuidor
+draft: true
 ---
 
 Autor de [Hanumat](https://hanumat.carpathialab.com), además de otras herramientas free & open source.

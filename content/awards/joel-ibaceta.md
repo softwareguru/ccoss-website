@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/joelibaceta
 purl: https://joelibaceta.github.io/
 award_type: Facilitador
+draft: true
 ---
 
 Ha creado varios proyectos open source interesantes/divertidos como [video-to-ascii](https://github.com/joelibaceta/video-to-ascii) y promueve las contribuciones al open source con iniciativas como https://github.com/Funny-OpenSource-Projects

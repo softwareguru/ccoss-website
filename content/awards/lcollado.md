@@ -7,6 +7,7 @@ linkedin: https://www.linkedin.com/in/lcollado/
 github: 
 purl: https://lcolladotor.github.io/
 award_type: Contribuidor
+draft: true
 ---
 
 Ha creado paquetes muy importantes en el área biológica como Recount.

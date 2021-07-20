@@ -7,6 +7,7 @@ linkedin:
 github: https://github.com/javier-lopez
 purl: 
 award_type: Contribuidor
+draft: true
 ---
 
 Por que siempre apoya a la comunidad, ha participado como miembro de comunidad Ubuntu y además imparte cursos gratuitos de temas de tecnología para acercar a los usuarios al software libre.

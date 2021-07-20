@@ -8,6 +8,7 @@ linkedin:
 github: 
 purl: https://ipn.elsevierpure.com/en/persons/jesus-antonio-%C3%A1lvarez-cedillo
 award_type: Facilitador
+draft: true
 ---
 
 Ha sido promotor del software libre por más de 30 años.
