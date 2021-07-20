@@ -14,9 +14,7 @@ La participación está abierta a cualquier persona interesada en contribuir a p
 Sí. Hay distintas formas de contribuir a un proyecto que no involucran programar. Por ejemplo, puedes ayudar con diseño, documentación, revisión, coordinación, difusión.
 
 ### ¿Cuál es el horario de sesiones?
-* Las charlas se realizarán del lunes 19 al jueves 22 de octubre de 9:30am a 12:30pm.
-* Los talleres se realizarán del lunes 19 al jueves 22 de octubre, ya sea de 1 a 4pm o de 5 a 8pm.
-* El viernes 23 y sábado 24 de octubre realizaremos un “sprint de contribución” donde buscamos que los participantes de CCOSS logren enviar alguna contribución a un proyecto open source.
+El evento se realizara del 4 al 9 de octubre y los talleres comenzaran en agosto en próximos días compartiremos los horarios
 
 
 ### ¿Hay algún canal de comunicación entre participantes?
