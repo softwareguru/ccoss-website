@@ -11,12 +11,9 @@ Charlas (25 minutos) - Charlas enfocadas en compartir experiencias y recomendaci
 
 Taller de contribución (3 horas) - El objetivo de los workshops es iniciar a los participantes para que puedan contribuir a un proyecto específico. Se mostrará cómo acceder a los repositorios de código y documentación, el procedimiento para hacer cambios, el procedimiento de revisiones, etcétera.
 
+El CFP de CCOSS 2021 ha terminado, en próximos días conocerás la agenda preliminar con sesiones y talleres que se presentaran.
+
 Si tienes dudas sobre tu charla nos pueden escribir a hola@ccoss.org
-
-
-<a href="https://convoca.dev/ccoss-2021-online-cfp/cfp">
-<button class="btn btn-info d-block mx-auto">Manda tu propuesta de plática o workshop</button>
-</a>
 
 <br>
 
