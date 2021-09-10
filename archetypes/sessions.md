@@ -1,10 +1,13 @@
 ---
 id: {{ .Name }}
-title: "{{ replace .Name "-" " " | title }}"
-url: /sessions/{{ .Name }}
+title: ""
+url: /sessions/2021/{{ .Name }}
 speakers:
-
-time_start: 2020-08-24T14:00:00.000Z
-time_end:   2020-08-24T14:00:00.000Z
-day_num: 
+ - 
+tracks:
+block:
+time_start: 2021-06-01T13:30:00-05:00
+time_end: 2021-06-01T14:15:00-05:00
+video:
+slides:
 ---

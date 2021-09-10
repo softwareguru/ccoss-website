@@ -19,6 +19,12 @@ home = ["HTML", "RSS", "JSON"]
     [markup.goldmark.renderer]
       unsafe = true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  speaker = "speakers"
+  track = "tracks"
+
 ############################# Plugins ##############################
 # CSS Plugins
 [[params.plugins.css]]
@@ -43,23 +49,11 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
     identifier = "program"
-    name = "Programa"
-    url = "/program"
+    name = "Agenda"
+    url = "/schedule"
     weight = 1
 
-  [[menu.main]]
-    identifier = "program2020"
-    name = "Programa 2020"
-    url = "/program"
-    parent = "program"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "program2021"
-    name = "Programa 2021"
-    url = "/program2021"
-    parent = "program"
-    weight = 3
+ 
 
 
   #[[menu.main]]
@@ -67,10 +61,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/workshops"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Conferencistas"
-  #URL = "/speakers"
-  #weight = 3
+  [[menu.main]]
+  name = "Conferencistas"
+  URL = "/speakers"
+  weight = 3
 
 
   #[[menu.main]]
@@ -107,7 +101,7 @@ home = "Home"
 
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
-images = ["/images/card.png"]
+images = ["/images/CCOSS2021.png"]
 twitter_user = ""
 email = "hola@ccoss.org"
 author = "Software Guru"

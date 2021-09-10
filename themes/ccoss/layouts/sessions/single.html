@@ -1,89 +1,65 @@
 {{ define "main" }}
 
-<section class="session-single section">
+
+<!-- Speaker Detail -->
+<section class="speaker-detail" style="margin-top: -70px;">
   <div class="container">
-    <h2>{{ .Title }}</h2>
+    <div class="row mt-4">
+      <div class="image-column col-lg-3 d-none d-lg-block">
+        <div class="schedule-block col-lg-10 col-md-12 col-sm-12">
+          <div class="sec-title text-center">
+            <span class="title">Speaker(s):</span>
+            <div class="speaker-info" style="margin-bottom: 20px;">
+              {{ range (.GetTerms "speakers") }}
+              <figure class="thumb">
+                <a href="{{ .Permalink }}">
+                  <img class="rounded-circle" width="150" src="{{ .Params.Image | relURL}}" alt="">
+                  <h5 class="name" style="color: #17A8BC;">{{ .Title }}</h5>
+                </a>
+              </figure>
+              {{ end }}            
+            </div>
+          </div>    
+        </div>
 
-    <div>
-      Speaker(s):
 
-      <a href="{{ .Params.Linkspeaker1 }}">
-        {{ with .Params.speaker1 }}
-        <h6>&nbsp;&nbsp;{{ . }}</h6>
-        {{ end }}
-      </a>
-      <a href="{{ .Params.Linkspeaker2 }}">
-        {{ with .Params.speaker2 }}
-        <h6>&nbsp;&nbsp;{{ . }}</h6>
-        {{ end }}
-      </a>
-      <a href="{{ .Params.Linkspeaker3 }}">
-        {{ with .Params.speaker3 }}
-        <h6>&nbsp;&nbsp;{{ . }}</h6>
-        {{ end }}
-      </a>
+      </div>
+      <div class="info-column col-lg-9 col-md-12 col-sm-12" style="margin-top: -10px;">
+        <div class="inner-column">
+          <div class="text-box">
+            <h3>{{ .Title }}</h3>
+            <!--<p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2. 15:04" }} (CDMX, GMT-5){{ end }}</p>
+            <p class="session-meta" id="lang">{{ with .Params.language }}Language: {{ humanize . }}{{ end }}</p>-->
+            <div class="d-lg-none d-xl-none">
+              By 
+              {{ range (.GetTerms "speakers") }}
+              <a class="speaker-inline-item" href="{{ .Permalink }}">{{ .Title }}</a>
+              {{ end }}  
+            </div>
+            
+            {{ with .Params.slides }}
+            <br>
+            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Descargar slides</a></div>
+            {{ end }}          
+
+            <div class="content mt-4">{{ .Content }}</div>
+          
+          </div>
+        </div>
+      </div>
     </div>
-  
-
-    {{ if .Params.tracks }}
-    <div>
-      Track:
-      {{ range .Params.tracks }}
-      {{ with $.Site.GetPage "taxonomyTerm" (printf "tracks/%s" (urlize .)) }}
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
     
-    <div>
-      {{ $time_start := .Params.time_start | time  }}
-      {{ $time_end := .Params.time_end | time  }}
-      Cuándo:
-      <span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
-
-      <script>
-        function adjTime(timeStart, timeEnd) {
-          let dateStart = new Date(Date.parse(timeStart));
-          let dateEnd = new Date(Date.parse(timeEnd));
-          var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-          let adjString = days[dateStart.getDay()]+" "+dateStart.getDate()+" de octubre, "+dateStart.getHours() + ":" + (('0' + dateStart.getMinutes()).slice(-2)) + "-" + dateEnd.getHours() + ":" + (('0' + dateEnd.getMinutes()).slice(-2));
-          document.getElementById("adjTime").innerHTML = adjString;
-        }
-        {{ $time_start := .Params.time_start | time }}
-        {{ $time_end := .Params.time_end | time }}
-        adjTime("{{ $time_start.Format "02 Jan 2006 15: 04: 05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15: 04: 05 MST" }}");  
-      </script>
-    </div>
-    {{ with .Params.language }}
-    <span>Idioma: {{ . }}</span>
-    <br>
-    {{ end }}
-    
-    {{ with .Params.guide }}
-     <a href="{{ . }}" target="_blank">Guía de contribución en español</a>
-    {{ end }}
-    <br>
-
-    -----
-    <div class="content mt-2">{{ .Content }}</div>
-    {{ with .Params.register_link }}
-    <div class="text-center">
-      <a href="{{ . }}" target="_blank" class="btn btn-primary btn-lg">Regístrate aquí</a>
-    </div>
-    {{ end }}
-    {{ with .Params.slides }}
-    <div class="mb-3"><a href="/slides/{{ . }}" download>Download slides</a></div>
-    {{ end }}
     {{ with .Params.video }}
-    <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
-      allowtransparency="true" src="{{ . }}?navlinks=false&embed=true"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
-      webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <div class="mb-3">
+      <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
+        allowtransparency="true" src="{{ . }}?navlinks=false&embed=true"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
+        webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
     {{ end }}
-    
-
+  </div>
   </div>
 </section>
+<!--End Speker Detail -->
 
 {{ end }}
