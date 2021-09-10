@@ -7,7 +7,7 @@ draft: false
 blocks: 
 
   - id: b
-    info: Talleres confirmados (el registró será habilitado muy pronto)
+    info: Talleres confirmados (el registro será habilitado muy pronto)
     language: 
     time_start: 2021-10-04T16:00:00.000Z
 
