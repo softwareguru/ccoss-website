@@ -19,4 +19,13 @@ blocks:
  
 ---
 
+<h3>Tracks:</h3>
+
+
+<div class="color-code-list">
+  <div class="color-code-item" style="background-color: #00A19A; color: white;">Sessiones</div>
+  <div class="color-code-item" style="background-color: #942581; color: white;">Talleres</div>
+</div>
+<p>&nbsp;</p>	
+
 	

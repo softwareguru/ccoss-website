@@ -1,6 +1,9 @@
 {{ define "main" }}
 
     <div class="container">
+      <div class="content mt-4">
+        {{ .Content }} 
+    </div>  
    
       <div class="row">
           {{ range .Data.Pages }}
@@ -36,19 +39,24 @@
         <h3><span id="date-{{ .info }}">{{ .info }}</span></h3>
         <div class="session-list">
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
+            <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
             <div class="">
                 <div id="time-{{.Params.id}}" class="session-time">
                 </div>
+              </div>
               
-                <div class="session-info" style="background-color: #17A8BC;">
+
+               
+                <div class="session-info">
                     <h4><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.id}}" style="color: white;">{{ .Params.title }}</a>{{ with .Params.language }}{{ if eq . "chinese" }} (Chinese){{ end }}{{ end }}</h4>
                     {{ with .Params.speakers }}<p class="speakers-list" style="color: white;">Por {{ delimit . ", " " & " }}</p>{{ end }}
                     <div class="collapse card-abstract" id="abs-{{.Params.id}}" style="color: white;">
                       {{ .Summary }}
                         <div><a href="{{.Permalink}}" style="color: white;">Leer más ...</a></div>
-                    </div>
                 </div>
             </div>
+          </div>
+          
             {{ end }}
             <br>
         </div>
