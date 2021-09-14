@@ -7,17 +7,13 @@ sponsor_group:
       - logo : "/images/logos/google.png"
         link : "https://about.google/"
 
-  - title : "Gold"
-    slug : "gold"
-    sponsor:
-
-      - logo : "/images/logos/AWS_logo_RGB.png"
-        link : "https://aws.amazon.com/"
 
   - title : "Silver"
     slug : "gold"
     sponsor:
 
+      - logo : "/images/logos/AWS_logo_RGB.png"
+        link : "https://aws.amazon.com/"
       - logo : "/images/logos/packt.png"
         link : "https://www.packtpub.com/"
       - logo : "/images/logos/manning.png"
