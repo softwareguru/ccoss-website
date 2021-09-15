@@ -4,9 +4,9 @@ date: 2021-09-10T12:13:57-05:00
 image : "/images/speakers/manuel-gil.png"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/imgildev"
 linkedin: ""
-github: ""
+github: "https://github.com/manuelgil"
 year: "2021"
 ---
 

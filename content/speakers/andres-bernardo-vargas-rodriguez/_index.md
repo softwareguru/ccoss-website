@@ -1,12 +1,12 @@
 ---
 title: "Andres Bernardo Vargas Rodriguez"
 date: 2021-09-10T12:30:34-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/andres-bernardo.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/zodman"
 linkedin: ""
-github: ""
+github: "https://github.com/zodman/"
 year: "2021"
 ---
 

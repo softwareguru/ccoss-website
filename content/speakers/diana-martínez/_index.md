@@ -4,9 +4,9 @@ date: 2021-09-10T11:51:03-05:00
 image : "/images/speakers/diana-martinez.jpg"
 designation : ""
 country: "mx"
-twitter: ""
-linkedin: ""
-github: ""
+twitter: "https://twitter.com/diana_nerd"
+linkedin: "https://www.linkedin.com/in/diananerd/"
+github: "https://github.com/nerddiana"
 year: "2021"
 ---
 

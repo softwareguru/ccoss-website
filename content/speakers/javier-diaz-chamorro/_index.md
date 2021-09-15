@@ -4,9 +4,9 @@ date: 2021-09-10T12:16:15-05:00
 image : "/images/speakers/javier-diaz.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/coderdiaz"
 linkedin: ""
-github: ""
+github: "https://github.com/coderdiaz"
 year: "2021"
 ---
 

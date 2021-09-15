@@ -1,12 +1,12 @@
 ---
 title: "Joel Ibaceta"
 date: 2021-09-10T12:33:43-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/joel-ibaceta.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/joelibaceta"
 linkedin: ""
-github: ""
+github: "https://github.com/joelibaceta"
 year: "2021"
 ---
 

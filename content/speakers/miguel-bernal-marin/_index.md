@@ -1,7 +1,7 @@
 ---
 title: "Miguel Bernal Marin"
 date: 2021-09-10T12:27:30-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/miguel-bernal.jpg"
 designation : ""
 country: "mx"
 twitter: ""

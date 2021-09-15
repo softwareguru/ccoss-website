@@ -4,9 +4,9 @@ date: 2021-09-10T12:17:43-05:00
 image : "/images/speakers/christos-bacharakis.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/bacharakis"
 linkedin: ""
-github: ""
+github: "https://gitlab.com/cbacharakis"
 year: "2021"
 ---
 

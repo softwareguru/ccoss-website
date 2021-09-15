@@ -1,11 +1,11 @@
 ---
 title: "Ramón Roche"
 date: 2021-09-10T12:38:48-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/ramon-roche.jpg"
 designation : ""
 country: "mx"
-twitter: ""
-linkedin: ""
+twitter: "https://twitter.com/mrpollo"
+linkedin: "https://www.linkedin.com/in/ramon-roche/"
 github: ""
 year: "2021"
 ---

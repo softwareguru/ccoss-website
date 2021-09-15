@@ -1,12 +1,12 @@
 ---
 title: "Juan C. Ruiz"
 date: 2021-09-10T12:35:43-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/juan-c.-ruiz.jpeg"
 designation : ""
 country: "mx"
-twitter: ""
-linkedin: ""
-github: ""
+twitter: "https://twitter.com/JuanCrg90"
+linkedin: "https://www.linkedin.com/in/JuanCrg90/"
+github: "https://github.com/juancrg90"
 year: "2021"
 ---
 

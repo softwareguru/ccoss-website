@@ -4,9 +4,9 @@ date: 2021-09-10T12:19:23-05:00
 image : "/images/speakers/juan-pablo-flores.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/juanpflores_"
 linkedin: ""
-github: ""
+github: "https://github.com/juanpflores"
 year: "2021"
 ---
 

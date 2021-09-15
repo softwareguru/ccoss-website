@@ -1,12 +1,12 @@
 ---
 title: "Victor Morales"
 date: 2021-09-10T12:40:06-05:00
-image : "/images/speakers/avatar.jpg"
+image : "/images/speakers/victor-morales.jpeg"
 designation : ""
 country: "mx"
-twitter: ""
-linkedin: ""
-github: ""
+twitter: "https://twitter.com/electrocucarach"
+linkedin: "https://www.linkedin.com/in/electrocucaracha/"
+github: "https://github.com/electrocucaracha/"
 year: "2021"
 ---
 
