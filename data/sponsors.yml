@@ -8,8 +8,17 @@ sponsor_group:
         link : "https://about.google/"
 
 
-  - title : "Silver"
+  - title : "Gold"
     slug : "gold"
+    sponsor:
+
+      - logo : "/images/logos/microsoft.png"
+        link : "https://azure.microsoft.com/es-mx/resources/join-the-azure-developer-community/"
+
+
+
+  - title : "Silver"
+    slug : "silver"
     sponsor:
 
       - logo : "/images/logos/AWS_logo_RGB.png"

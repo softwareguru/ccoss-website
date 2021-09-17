@@ -132,7 +132,26 @@ article.swag {
 
 .sponsor-strip.gold {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+	justify-content: space-between;
+	justify-items: center;
+	align-items: center;
+
+	@include tablet {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
+
+}
+
+
+.sponsor-strip.silver {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 40px;
 	justify-content: space-between;
 	justify-items: center;
