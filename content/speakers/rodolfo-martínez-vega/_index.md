@@ -4,9 +4,9 @@ date: 2021-09-10T12:22:31-05:00
 image : "/images/speakers/rodolfo-martinez.jpg"
 designation : ""
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/ramrodo"
 linkedin: ""
-github: ""
+github: "https://github.com/ramrodo"
 year: "2021"
 ---
 

@@ -6,7 +6,7 @@ designation : ""
 country: "mx"
 twitter: "https://twitter.com/aloncello"
 linkedin: ""
-github: "https://github.com/ramrodo"
+github: ""
 year: "2021"
 ---
 
