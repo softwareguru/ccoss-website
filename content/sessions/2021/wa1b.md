@@ -1,6 +1,6 @@
 ---
 id: wa1b
-title: "Contribution workshop to Apache Airflow"
+title: "Taller de contribución a Apache Airflow (inglés)"
 url: /sessions/2021/taller-contribucion-airflow
 speakers:
  - Jarek Potiuk

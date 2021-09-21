@@ -13,33 +13,12 @@
             <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
-            <!--<h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }} {{ .Params.Datee }} GMT-5<span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+            <h6 class="card-subtitle mb-4 text-muted">{{ $time_start.Format "Jan-2 15:04" }}-{{ $time_end.Format "15:04" }} CDT ({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+            </h6>
 
-            </h6>-->
-
-        
             
+            <h6 class="card-subtitle mb-2 text-muted">Facilitador(es): {{ with .Params.speakers }}<p class="speakers-list" style="color: black;">{{ delimit . ", " " & " }}</p>{{ end }}</h6>
               
-           
-            
-            <h6 class="card-subtitle mb-2 text-muted"> Instructor(s): {{ with .Params.speakers }}<p class="speakers-list" style="color: black;">Por {{ delimit . ", " " & " }}</p>{{ end }}</h6>
-              
-            <a href="{{ .Params.Linkspeaker1 }}">
-              {{ with .Params.speaker1 }}
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
-              {{ end }}
-            </a>
-            <a href="{{ .Params.Linkspeaker2 }}">
-              {{ with .Params.speaker2 }}
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
-              {{ end }}                
-            </a>
-            <a href="{{ .Params.Linkspeaker3 }}">
-              {{ with .Params.speaker3 }}
-                <h6 class="card-subtitle mb-2 text-muted">&nbsp;&nbsp;&nbsp;- {{ . }}</h6>
-              {{ end }}   
-            </a> 
-
                <!-- <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>-->
             
             {{ with .Params.guide }}

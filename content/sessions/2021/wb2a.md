@@ -6,8 +6,8 @@ speakers:
  - Santiago Valle
 format: workshop
 block: w
-time_start: 2021-06-01T13:30:00-05:00
-time_end: 2021-06-01T14:15:00-05:00
+time_start: 2021-10-05T17:00:00-05:00
+time_end: 2021-10-05T20:00:00-05:00
 video:
 slides:
 year: "2021"
