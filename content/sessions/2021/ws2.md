@@ -1,7 +1,9 @@
 ---
-id: 413
+id: ws2
 title: "Workshop: Taller de contribución a Meshery"
-url: /sessions/2021/413
+url: /sessions/2021/taller-contribucion-meshery
+aliases:
+ - /sessions/2021/ws2
 speakers:
  - Rodolfo Martínez Vega
  - Alonso López Romo

@@ -1,7 +1,9 @@
 ---
-id: 420
+id: ws1
 title: "Workshop: How to contribute to linux, yes I mean the kernel"
-url: /sessions/2021/420
+url: /sessions/2021/how-to-contribute-linux
+aliases:
+ - /sessions/2021/ws1
 speakers:
  - Miguel Bernal Marin
 format: workshop
