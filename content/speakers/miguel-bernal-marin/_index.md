@@ -2,12 +2,12 @@
 title: "Miguel Bernal Marin"
 date: 2021-09-10T12:27:30-05:00
 image : "/images/speakers/miguel-bernal.jpg"
-designation : ""
+designation : "Ingeniero de software @ Intel"
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/miguelbema"
 linkedin: ""
-github: ""
+github: "https://github.com/miguelinux"
 year: "2021"
 ---
 
-Miguel is a Linux enthusiast which has more than 20 year using it. Currently he is working at Intel on the Clear Linux project maintaining the Linux kernel updated in the distro.
+Miguel es un desarrollador de software y entusiasta de Linux con más de 20 años de experiencia. Actualmente colabora en Intel como parte del proyecto Clear Linux manteniendo actualizaciones al kernel.

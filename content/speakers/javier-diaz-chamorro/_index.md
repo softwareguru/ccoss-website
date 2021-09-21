@@ -2,10 +2,10 @@
 title: "Javier Diaz Chamorro"
 date: 2021-09-10T12:16:15-05:00
 image : "/images/speakers/javier-diaz.jpg"
-designation : ""
+designation : "Gerente de Ingeniería @ BEDU"
 country: "mx"
 twitter: "https://twitter.com/coderdiaz"
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/coderdiaz/"
 github: "https://github.com/coderdiaz"
 year: "2021"
 ---

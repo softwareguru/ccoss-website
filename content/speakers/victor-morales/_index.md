@@ -2,7 +2,7 @@
 title: "Victor Morales"
 date: 2021-09-10T12:40:06-05:00
 image : "/images/speakers/victor-morales.jpeg"
-designation : ""
+designation : "Ingeniero de software senior @ Samsung Electronics"
 country: "mx"
 twitter: "https://twitter.com/electrocucarach"
 linkedin: "https://www.linkedin.com/in/electrocucaracha/"

@@ -10,3 +10,4 @@ github: ""
 year: "2021"
 ---
 
+Verónica es una ingeniera de software mexicana. Actualmente radica en Nueva York trabajando con Digital Ocean en el equipo de virtualización de sistemas y ss contribuidora al proyecto de Kubernetes como Release Manager Associate. Una de sus principales áreas de interés son los sistemas distribuidas y también disfruta mucho de resolver problemas matemáticos.

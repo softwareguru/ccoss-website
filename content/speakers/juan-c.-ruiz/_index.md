@@ -2,7 +2,7 @@
 title: "Juan C. Ruiz"
 date: 2021-09-10T12:35:43-05:00
 image : "/images/speakers/juan-c.-ruiz.jpeg"
-designation : ""
+designation : "Desarrollador de software"
 country: "mx"
 twitter: "https://twitter.com/JuanCrg90"
 linkedin: "https://www.linkedin.com/in/JuanCrg90/"

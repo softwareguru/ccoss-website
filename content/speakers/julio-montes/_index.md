@@ -2,7 +2,7 @@
 title: "Julio Montes"
 date: 2021-09-10T12:36:37-05:00
 image : "/images/speakers/julio-montes.jpg"
-designation : ""
+designation : "Ingeniero de software @ Intel"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/julio-montes-4a1ba6105"

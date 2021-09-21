@@ -2,7 +2,7 @@
 title: "Cacu"
 date: 2021-09-10T12:25:58-05:00
 image : "/images/speakers/cacu.jpg"
-designation : ""
+designation : "Colaborador en Cooperativa Tierra Común, Localization Lab y Rancho Electrónico"
 country: "mx"
 twitter: "https://twitter.com/dospesosinc"
 linkedin: ""
