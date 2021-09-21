@@ -1,5 +1,5 @@
 ---
-id: ws7
+id: 
 title: "Workshop: Taller de contribución a Elixir/Phoenix"
 url: /sessions/2021/taller-contribucion-elixir-phoenix
 speakers:
@@ -12,6 +12,7 @@ video:
 slides:
 year: "2021"
 weight: 3
+draft: true
 ---
 
-En este workshop se abordará una introducción y como contribuir a Meshery.
+En este workshop se abordará una introducción y como contribuir a Elixir.

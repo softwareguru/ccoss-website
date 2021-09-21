@@ -1,6 +1,6 @@
 ---
-id: ws3
-title: "Workshop: Taller de contribución a Kubernetes"
+id: wd2a
+title: "Taller de contribución a Kubernetes"
 url: /sessions/2021/emprende-con-open-source
 aliases:
  - /sessions/2021/ws3

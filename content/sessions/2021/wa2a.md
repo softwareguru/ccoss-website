@@ -1,5 +1,5 @@
 ---
-id: ws2
+id: wa2a
 title: "Workshop: Taller de contribución a Meshery"
 url: /sessions/2021/taller-contribucion-meshery
 aliases:
@@ -9,8 +9,8 @@ speakers:
  - Alonso López Romo
 format: workshop
 block: w
-time_start: 2021-06-01T13:30:00-05:00
-time_end: 2021-06-01T14:15:00-05:00
+time_start: 2021-10-04T17:00:00-05:00
+time_end: 2021-10-04T14:20:00-05:00
 video:
 slides:
 year: "2021"
