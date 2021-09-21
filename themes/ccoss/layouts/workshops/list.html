@@ -3,23 +3,26 @@
 <section class="workshops section">
   <div class="container">
     <div class="lead">
-      {{ .Content }}
+      {{ .Content }} 
     </div>
     <div class="row workshop-strip">
-      {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.workshop" true) ".Params.time_start" }}
+      {{range sort  (where (where .Site.RegularPages "Section" "sessions") "Params.year" "2021") ".Params.time_start"}}
       <div class="col-12 col-md-4 px-3 mb-3">
         <div class="card">
           <div class="card-body">
             <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
-            <h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }} {{ .Params.Datee }} GMT-5<span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+            <!--<h6 class="card-subtitle mb-2 text-muted">Fecha: {{ $time_start.Format "2-Jan" }} {{ .Params.Datee }} GMT-5<span id="adjTime" class="mr-1"></span> <em>({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
 
-            </h6>
+            </h6>-->
 
+        
             
+              
+           
             
-            <h6 class="card-subtitle mb-2 text-muted"> Instructor(s):</h6>
+            <h6 class="card-subtitle mb-2 text-muted"> Instructor(s): {{ with .Params.speakers }}<p class="speakers-list" style="color: black;">Por {{ delimit . ", " " & " }}</p>{{ end }}</h6>
               
             <a href="{{ .Params.Linkspeaker1 }}">
               {{ with .Params.speaker1 }}
@@ -37,7 +40,7 @@
               {{ end }}   
             </a> 
 
-                <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>
+               <!-- <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>-->
             
             {{ with .Params.guide }}
                 <a href="{{ . }}" target="_blank">Guía de contribución en español</a>

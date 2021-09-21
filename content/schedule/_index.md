@@ -6,26 +6,30 @@ draft: false
 
 blocks: 
 
-  - id: b
-    info: Talleres confirmados (el registro será habilitado muy pronto)
-    language: 
-    time_start: 2021-10-04T16:00:00.000Z
 
   - id: a
     info: Sesiones confirmadas
     language: 
-    time_start: 2021-10-05T16:00:00.000Z
+    time_start: 2021-10-04T16:00:00.000Z
+
+  - id: b
+    info: Sesiones confirmadas
+    language: 
+    time_start:  2021-10-05T16:00:00.000Z
+
+  - id: c
+    info: Sesiones confirmadas
+    language: 
+    time_start:  2021-10-06T16:00:00.000Z
+
+  - id: d
+    info: Sesiones confirmadas
+    language: 
+    time_start:  2021-10-07T16:00:00.000Z
 
  
 ---
 
-<h3>Tracks:</h3>
 
-
-<div class="color-code-list">
-  <div class="color-code-item" style="background-color: #00A19A; color: white;">Sesiones</div>
-  <div class="color-code-item" style="background-color: #942581; color: white;">Talleres</div>
-</div>
-<p>&nbsp;</p>	
 
 	

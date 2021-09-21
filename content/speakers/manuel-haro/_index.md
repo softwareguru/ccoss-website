@@ -1,12 +1,13 @@
 ---
 title: "Manuel Haro"
-date: 2020-10-08T11:56:20-05:00
-image : /images/team/manuel-haro.png
-designation: Juez GNOME Engagement Challenge @ GNOME Foundation
-country: 
-twitter: https://twitter.com/caxcan70?lang=en
-linkedin: https://www.linkedin.com/in/manuel-haro-89631a56/
-github: 
+date: 2021-09-21T00:44:00-05:00
+image : "/images/team/manuel-haro.png"
+designation : ""
+country: "mx"
+twitter: "https://twitter.com/caxcan70?lang=en"
+linkedin: "https://www.linkedin.com/in/manuel-haro-89631a56/"
+github: ""
+year: "2021"
 ---
 
 Egresado del Instituto Tecnológico de Zacatecas de Ingeniero en Sistemas Computacionales con Especialidad en Redes y Telecomunicaciones por el ITESM Campus Monterrey dentro del Fideicomiso SEP-UNAM; con experiencia de más de 20 años en instalación, manejo y administración de sistemas sobre plataformas Unix y fuerte impulso por más de 15 años del software libre, certificación en varios temas como:
@@ -17,4 +18,3 @@ Cisco Select
 Nortel Option 11C Administration
 Latinux Linux Operator
 Latinux Linux administrator 
-

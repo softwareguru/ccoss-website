@@ -56,10 +56,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
  
 
 
-  #[[menu.main]]
-  #name = "Talleres"
-  #URL = "/workshops"
-  #weight = 2
+  [[menu.main]]
+  name = "Talleres"
+  URL = "/workshops"
+  weight = 2
 
   [[menu.main]]
   name = "Conferencistas"

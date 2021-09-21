@@ -36,13 +36,14 @@
 
     {{ range .Params.blocks}}
     <div class="schedule-block">
-        <h3><span id="date-{{ .info }}">{{ .info }}</span></h3>
+        <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
         <div class="session-list">
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
             <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
             <div class="">
                 <div id="time-{{.Params.id}}" class="session-time">
                 </div>
+                
               </div>
               
 
