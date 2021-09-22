@@ -40,7 +40,14 @@
             {{ with .Params.slides }}
             <br>
             <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Descargar slides</a></div>
-            {{ end }}          
+            {{ end }}    
+            <br>
+
+            {{ with .Params.register }}
+            <a href="{{ . }}" target="_blank">
+              <button  id="nav-button" type="button" class="btn nav-link btn" >¡Quiero Registrarme!</button>
+            </a>
+           {{ end }}
 
             <div class="content mt-4">{{ .Content }}</div>
           

@@ -8,10 +8,11 @@ format: workshop
 block: w
 time_start: 2021-10-04T14:00:00-05:00
 time_end: 2021-10-04T17:00:00-05:00
-video:
+video: 
 slides:
 year: "2021"
 weight: 6
+register:
 ---
 
 **Este taller será en inglés**

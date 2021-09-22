@@ -12,6 +12,7 @@ video:
 slides:
 year: "2021"
 weight: 6
+register: https://us02web.zoom.us/webinar/register/WN_MlAoZSHsRsmRs80Zn0U67A
 ---
 
 

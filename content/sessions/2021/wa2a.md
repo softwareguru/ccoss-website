@@ -15,6 +15,7 @@ video:
 slides:
 year: "2021"
 weight: 1
+register: https://us02web.zoom.us/webinar/register/WN_ggl8eeJYTTqCee3sYm-Zlg
 ---
 
 En este workshop se abordará una introducción a Meshery y qué es un Service Mesh. Después se mostrará todo el flujo para contribuir a varios repositorios de Meshery tales como los workflows de CI, e2e Testing con Cypress, Documentación, Traduccciones, entre otros.
