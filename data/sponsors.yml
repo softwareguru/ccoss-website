@@ -14,6 +14,8 @@ sponsor_group:
 
       - logo : "/images/logos/microsoft.png"
         link : "https://azure.microsoft.com/es-mx/resources/join-the-azure-developer-community/"
+      - logo : "/images/logos/github.png"
+        link : "https://github.com/"
 
 
 
