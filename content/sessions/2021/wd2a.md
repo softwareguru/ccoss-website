@@ -1,7 +1,7 @@
 ---
 id: wd2a
 title: "Taller de contribución a Kubernetes"
-url: /sessions/2021/emprende-con-open-source
+url: /sessions/2021/taller-contribucion-kubernetes
 aliases:
  - /sessions/2021/ws3
 speakers:
