@@ -1,5 +1,5 @@
 ---
-id: ws6
+id: wc2a
 title: "Taller de contribución a Mozilla"
 url: /sessions/2021/taller-contribucion-mozilla
 speakers:

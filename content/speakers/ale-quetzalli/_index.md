@@ -10,5 +10,5 @@ github: "https://github.com/alequetzalli"
 year: "2021"
 ---
 
-Alejandra es una apasionada de hacer la tecnología más accesible y resolver problemas técnicos por medio de documentación, comunicación e instrucción. Actualmente se desempeña como escritora técnica en Postman.
 
+Hola, soy Alejandra Quetzalli! Soy una Senior Technical Writer contratada por Postman para centrarme únicamente en la iniciativa AsyncAPI de código abierto (OSS) qué está bajo la Fundación de Linux. Como dueña principal de la documentación de AsyncAPI, pregúntame acerca de como pueden contribuir a la iniciativa OSS AsyncAPI y / o nuestra documentación. 😀👍🏽
