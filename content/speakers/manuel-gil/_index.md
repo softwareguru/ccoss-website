@@ -2,7 +2,7 @@
 title: "Manuel Gil"
 date: 2021-09-10T12:13:57-05:00
 image : "/images/speakers/manuel-gil.png"
-designation : ""
+designation : "Desarrollador y creador de contenidos"
 country: "vo"
 twitter: "https://twitter.com/imgildev"
 linkedin: ""
