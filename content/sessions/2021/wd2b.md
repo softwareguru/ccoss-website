@@ -1,13 +1,15 @@
 ---
-id: wb2a
+id: wd2b
 title: "Taller de contribución a BlueXolo (gestión de pruebas automatizadas)"
 url: /sessions/2021/bluexolo-pruebas-automatizadas-robot-framework
 speakers:
  - Santiago Valle
+ - Raúl García
+ - Daniel Ruiz
 format: workshop
 block: w
-time_start: 2021-10-05T17:00:00-05:00
-time_end: 2021-10-05T20:00:00-05:00
+time_start: 2021-10-07T17:00:00-05:00
+time_end: 2021-10-07T20:00:00-05:00
 video:
 slides:
 year: "2021"
