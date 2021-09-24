@@ -10,4 +10,4 @@ github: ""
 year: "2021"
 ---
 
-Josseline es una desarrolladora de software originaria de Venezuela. Actualmente colabora en el proyecto Fedora por medio del programa de pasantías de Outreachy.
+Josseline es una ingeniero de software venezolana, enfocada principalmente como backend developer. Actualmente participa activamente como desarrollador en Fedora, luego de su experiencia como desarrollador de software a través del programa de pasantías Outreachy. Entre sus principales áreas de interés se encuentran los sistemas distribuidos y la inteligencia artificial. Fuera del trabajo, Josseline disfruta de la fotografía, el cine y la jardinería.
