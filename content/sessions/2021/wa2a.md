@@ -10,7 +10,7 @@ speakers:
 format: workshop
 block: w
 time_start: 2021-10-04T17:00:00-05:00
-time_end: 2021-10-04T14:20:00-05:00
+time_end: 2021-10-04T20:00:00-05:00
 video:
 slides:
 year: "2021"
