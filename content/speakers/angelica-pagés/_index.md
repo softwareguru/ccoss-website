@@ -10,4 +10,4 @@ github: ""
 year: "2021"
 ---
 
-Soy una diseñadora de UI/UX basada en Argentina. Actualmente colaboro en OpenArchivo como diseñadora, después de haber participado como becaria por medio del programa Outreachy.
+Soy una diseñadora de UI/UX basada en Argentina. Actualmente colaboro en OpenArchive como diseñadora, después de haber participado como becaria por medio del programa Outreachy.

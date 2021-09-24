@@ -1,5 +1,5 @@
 ---
-id: 
+id: wc2b
 title: "Taller de contribución a PromEX"
 url: /sessions/2021/taller-contribucion-elixir-phoenix
 speakers:
@@ -12,8 +12,8 @@ video:
 slides:
 year: "2021"
 weight: 3
-image: /images/workshop/PromEX.png
-draft: true
+image: /images/workshop/PromEX2.png
+
 ---
 
 
