@@ -5,7 +5,7 @@ image : "/images/speakers/josseline-perdomo.jpg"
 designation : "Desarrolladora @ Fedora"
 country: "ve"
 twitter: "https://twitter.com/jossperdomo_"
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/josselineperdomo"
 github: ""
 year: "2021"
 ---
