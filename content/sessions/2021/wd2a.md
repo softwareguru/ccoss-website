@@ -15,6 +15,7 @@ slides:
 year: "2021"
 weight: 5
 register: https://us02web.zoom.us/webinar/register/WN_zhxYfRw8SIWHX_LRDS2sWA
+image: /images/workshop/Kubernetes.png
 ---
 
 En este workshop se abordará una introducción y como contribuir a Kubernetes.

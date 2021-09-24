@@ -13,6 +13,7 @@ slides:
 year: "2021"
 weight: 6
 register:
+image: /images/workshop/Airflow.png
 ---
 
 **Este taller será en inglés**

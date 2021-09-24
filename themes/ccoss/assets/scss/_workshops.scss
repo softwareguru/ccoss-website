@@ -1,0 +1,15 @@
+.module {
+    width: 300px;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+  }
+  
+  .module p {
+    margin: 0;
+  }
+  
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }

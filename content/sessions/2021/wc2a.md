@@ -12,6 +12,7 @@ video:
 slides:
 year: "2021"
 weight: 4
+image: /images/workshop/Mozilla.png
 ---
 
 En este taller exploraremos cómo contribuir a un proyecto de Mozilla (proyecto por confirmar). 

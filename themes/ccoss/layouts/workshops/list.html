@@ -8,24 +8,28 @@
     <div class="row workshop-strip">
       {{range sort  (where (where .Site.RegularPages "Section" "sessions") "Params.year" "2021") ".Params.time_start"}}
       <div class="col-12 col-md-4 px-3 mb-3">
-        <div class="card">
+        <div class="card h-100">
+          <img src="{{ .Params.Image }}" class="card-img-top" alt="..." >
           <div class="card-body">
-            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3 class="card-title"><a href="{{ .Permalink }}" style="color: #17A8BC;">{{ .Title }}</a></h3>
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
-            <h6 class="card-subtitle mb-4 text-muted">{{ $time_start.Format "Jan-2 15:04" }}-{{ $time_end.Format "15:04" }} CDT ({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
+            <h6 class="card-subtitle mb-4" style="color: #E62485;">{{ $time_start.Format "Jan-2 15:04" }}-{{ $time_end.Format "15:04" }} CDT ({{ $time_start.UTC.Format "15:04" }}-{{ $time_end.UTC.Format "15:04" }} UTC)</em>
             </h6>
 
             
-            <h6 class="card-subtitle mb-2 text-muted">Facilitador(es): {{ with .Params.speakers }}<p class="speakers-list" style="color: black;">{{ delimit . ", " " & " }}</p>{{ end }}</h6>
+            <h6 class="card-subtitle mb-2" style="color: #942581;">Facilitador(es): {{ with .Params.speakers }}<p class="speakers-list" style="color: black;">{{ delimit . ", " " & " }}</p>{{ end }}</h6>
               
                <!-- <h6 class="card-subtitle mb-2 text-muted">Idioma: {{ .Params.Language }}</h6>-->
             
             {{ with .Params.guide }}
                 <a href="{{ . }}" target="_blank">Guía de contribución en español</a>
             {{ end }}
-           
-            <p class="card-text">{{ .Summary }}</p>
+
+
+            <p class="module line-clamp">{{ .Summary }}</p>
+
+            <div><a href="{{.Permalink}} " style="color: #00A19A;">Leer más ...</a></div>
 
           </div>
         </div>

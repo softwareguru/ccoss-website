@@ -12,7 +12,8 @@ video:
 slides:
 year: "2021"
 weight: 3
-
+image: /images/workshop/PromEX.png
+draft: true
 ---
 
 

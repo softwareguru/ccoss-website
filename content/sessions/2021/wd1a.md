@@ -16,6 +16,7 @@ workshop: true
 year: "2021"
 weight: 1
 register: https://us02web.zoom.us/webinar/register/WN_2PeXPwzoR7uELE4HN_n0uQ
+image: /images/workshop/Linux.png
 ---
 
 En este taller revisaremos los procedimientos y configuración necesaria para enviar contribuciones (patches) al kernel de Linux. Explicaremos cómo enviar patches via git y por correo utilizando el cliente de correo Mutt. También revisaremos cómo moverse entre distintos commits y manipular el repositorio de Linux.
