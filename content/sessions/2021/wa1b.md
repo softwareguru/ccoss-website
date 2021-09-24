@@ -14,6 +14,7 @@ year: "2021"
 weight: 6
 register:
 image: /images/workshop/Airflow.png
+register: https://us06web.zoom.us/webinar/register/WN_RVLvZshrTyuyNfZQ-Z0p5Q
 ---
 
 **Este taller será en inglés**
