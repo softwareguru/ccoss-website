@@ -4,6 +4,7 @@ title: "Taller de localización/traducción de proyectos de Mozilla"
 url: /sessions/2021/taller-mozilla
 speakers:
  - Yuliana Reyna
+ - Alex Mayorga Adame
 format: workshop
 block: w
 time_start: 2021-10-06T17:00:00-05:00
