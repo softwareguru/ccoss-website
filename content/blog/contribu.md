@@ -58,12 +58,24 @@ LabelImg es una herramienta de anotación de imágenes gráficas y cuadros delim
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6QTSc0y69Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-El episodio 3 estará a cargo de Yuliana Reyna, mejor conocida como Tuxxy.
-En este live descubriremos que no todo es código. Aprenderemos a localizar (traducir) proyectos de Mozilla en tu idioma.
+El episodio 3 fue una charla a cargo de Yuliana Reyna, mejor conocida como Tuxxy.
+En este live descubrimos que no todo es código. Aprenderemos a localizar (traducir) proyectos de Mozilla en tu idioma.
 
 Cuando hablamos de Open Source, lo primero que se nos viene a la mente es que todo va a ser código y que necesitamos conocimientos previos de ciertos lenguajes de programación para poder ser contribuidores. Eso desmotiva a las personas en querer participar activamente. Sin embargo, hay proyectos que son amigables a usuarios que no cuentan con conocimientos técnicos, pero que hacen un gran aporte a ese proyecto, como las traducciones a idiomas regionales. Es por eso que hoy hablaremos de como hacer localizaciones (traducciones) al español mexicano de proyectos de Mozilla. La ventaja de esto, es que ya se cuenta con una interfaz amigable al usuario y puedes hacerlo en tus tiempos libres.
 
 Cuando ves Firefox en español, ves tu trabajo reflejado y, ¡felicidades! Ya eres un(a) contribuidor(a) de Open Source y miles de personas de habla hispana agradecemos eso.
+
+
+
+<br><br>
+
+## Episodio 4: Live de contribución
+
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SZkBaDFHflk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 Dale clic a la campanita para activar un recordatorio.
 
