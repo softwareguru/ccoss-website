@@ -8,6 +8,8 @@ twitter: ""
 linkedin: "https://www.linkedin.com/in/janice-niemeir"
 github: ""
 year: "2021"
-draft: true
+
 ---
 
+
+Janice is a technical writer turned product manager. She currently works at GitHub as Product Manager for documentation.

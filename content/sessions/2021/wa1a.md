@@ -3,7 +3,7 @@ id: wa1a
 title: "Fundamentos de Git y GitHub para contribuir a proyectos open source"
 url: /sessions/2021/taller-git-github
 speakers:
- - Janice Niemeir
+
 format: workshop
 block: w
 time_start: 2021-10-04T14:00:00-05:00
