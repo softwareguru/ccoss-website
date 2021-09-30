@@ -14,7 +14,7 @@ slides:
 year: "2021"
 weight: 4
 image: /images/workshop/Mozilla.png
-register: https://us06web.zoom.us/webinar/register/WN_K3sYQ7M5Qlu4XpK0LmJsOg
+register: https://us02web.zoom.us/webinar/register/WN_vLuwhqrqQPG9r8ADivXbOw
 ---
 
 En este taller aprenderemos cómo hacer localizaciones(traducciones) al español mexicano de proyectos de Mozilla. 
