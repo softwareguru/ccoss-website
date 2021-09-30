@@ -44,6 +44,12 @@ sponsor_group:
         link : "https://www.gnome.org/"  
       - logo : "/images/logos/lpi.png"
         link : "https://www.lpi.org/es"  
+      - logo : "/images/logos/Linuxeros-Zapopan.png"
+        link : "https://linktr.ee/lnxzpn" 
+      - logo : "/images/logos/qgismexico.png"
+        link : "https://qgis.mx/"
+      - logo : "/images/logos/LogoGulagNegro.png"
+        link : "http://www.gulag.org.mx/"  
                   
                       
 # call to action in sponsor
