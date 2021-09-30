@@ -1,5 +1,5 @@
 ---
-id: wa2c
+id: wb1a
 title: "Taller de contribución a Istio"
 url: /sessions/2021/taller-contribuvion-istio
 speakers:
