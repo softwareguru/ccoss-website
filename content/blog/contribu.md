@@ -77,6 +77,6 @@ Cuando ves Firefox en español, ves tu trabajo reflejado y, ¡felicidades! Ya er
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SZkBaDFHflk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-Dale clic a la campanita para activar un recordatorio.
+¡Recordemos la última trasmisión que se dio antes del evento de CCOSS!
 
-¡Nos vemos en el siguiente episodio de ConTRIBU!
+

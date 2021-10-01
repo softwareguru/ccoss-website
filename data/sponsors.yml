@@ -50,6 +50,10 @@ sponsor_group:
         link : "https://qgis.mx/"
       - logo : "/images/logos/LogoGulagNegro.png"
         link : "http://www.gulag.org.mx/"  
+      - logo : "/images/logos/Robots-latam.png"
+        link : "https://robotslatam.org"  
+      - logo : "/images/logos/xalapacode.png"
+        link : "https://xalapacode.com/"  
                   
                       
 # call to action in sponsor
