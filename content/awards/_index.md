@@ -19,6 +19,6 @@ Las nominaciones están cerradas, proximamente abriremos el periodo de votación
 Si desean agregar informacion a la justificación/comentarios de la comunidad, pueden enviarlo a hola@ccoss.org
 
 <center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZkkqF23CZOsxabDPRsFGJw2Df5qjnpFIYJgF0LBjWxIa-Cw/viewform?embedded=true" width="640" height="1146" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZkkqF23CZOsxabDPRsFGJw2Df5qjnpFIYJgF0LBjWxIa-Cw/viewform?embedded=true" width="640" height="620" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
 </center>
