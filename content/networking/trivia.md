@@ -1,10 +1,14 @@
 ---
-title: "Trivia"
-date: 2020-10-13T16:23:16-05:00
+title: "¡Participa en el rally y gana fabulosos premios!"
+date: 2021-10-01T16:22:17-05:00
 image: /images/networking/2.png
-description: "Participa en la Trivia durante el Sprint de contribución y gánate un Echo 4Gen o un Echo Dot"
+description: 
 button: Unirme a Slack
-link: https://sg1.run/ccoss-slack
+link: https://join.slack.com/t/ccoss/shared_invite/zt-8tda67q8-stdStEpGV_2cXG6wGpNm_Q
 draft: false
 ---
 
+
+Demuestra tus conocimientos de data, cultura general, geek y otros temas. ¡El 1er lugar ganará unos Beats studio buds o y el 2do lugar un Echo 4Gen!
+
+Entra al Slack de CCOSS y prepárate para competir.

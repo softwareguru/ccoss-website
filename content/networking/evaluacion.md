@@ -1,10 +1,18 @@
 ---
-title: "Evaluación"
-date: 2020-10-13T16:23:20-05:00
+title: "¡Danos tu opinión y participa por una Amazon Gift card de 100usd!"
+date: 2021-10-01T16:22:17-05:00
 image: /images/networking/4.png
-description: "Áyudanos a mejorar completando la evaluación y gana un headset BOSE."
+description: 
 button: Evaluación del evento
-link: https://docs.google.com/forms/d/e/1FAIpQLSc-fXefBWSP1YyzyEbumvhSCTOAzfxMbPMxRSo7qDZt9W5OKQ/viewform
+link: https://forms.gle/ZokZEucLwBYop14Y8
 draft: false
 ---
+
+
+Tu opinión es muy importante para nosotros. ¿Hay algo en lo que podemos mejorar? ¿Qué salió bien?
+Estaremos rifando una Amazon gift card de $100 usd entre todas las personas que nos ayuden evaluando el evento.
+¡Gracias y mucha suerte!
+
+- Lunes 4 - https://forms.gle/ZokZEucLwBYop14Y8 
+
 

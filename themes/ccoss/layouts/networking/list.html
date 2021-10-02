@@ -9,15 +9,18 @@
         {{ range .Data.Pages.ByTitle }}
       <div class="col-12 col-md-4 px-3 mb-3">
         <div class="card h-100">
-            <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">
+           <!-- <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">-->
           <div class="card-body">
-            <h3 class="card-title">{{ .Title }}</h3>        
-            <h6 class="card-subtitle mb-4 text-muted">{{ .Params.Description }}</h6>
+            <h3 class="card-title" style="color: #17A8BC;">{{ .Title }}</h3>        
+            <p class="module line-clamp">{{ .Summary }}</p>
+          
+
+            <div><a href="{{.Permalink}} " style="color: #E62485;">Leer más ...</a></div>
             
             </div>
             <center>
               <a href="{{ .Params.Link }}" target="_blank">
-                <button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3">{{ .Params.Button}}</button>
+                <button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3" >{{ .Params.Button}}</button>
              </a>
         </center>
         <br>

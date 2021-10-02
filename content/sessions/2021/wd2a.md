@@ -6,6 +6,9 @@ aliases:
  - /sessions/2021/ws3
 speakers:
  - Rodolfo Martínez Vega
+ - Carol Valencia
+ - Rael Garcia
+ - Victor Morales
 format: workshop
 block: w
 time_start: 2021-10-07T17:00:00-05:00
