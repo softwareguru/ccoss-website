@@ -9,7 +9,7 @@
         {{ range .Data.Pages.ByTitle }}
       <div class="col-12 col-md-4 px-3 mb-3">
         <div class="card h-100">
-           <!-- <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">-->
+            <img src="{{ .Params.Image }}" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title" style="color: #17A8BC;">{{ .Title }}</h3>        
             <p class="module line-clamp">{{ .Summary }}</p>

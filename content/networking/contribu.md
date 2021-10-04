@@ -1,7 +1,7 @@
 ---
 title: "El camino hacia un pull request"
 date: 2021-10-01T16:22:17-05:00
-image: /images/networking/4.png
+image: "/images/blog/CCOSS-contribu.png"
 description: 
 button: Conocer más
 link: /blog/contribu/

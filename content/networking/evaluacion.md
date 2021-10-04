@@ -1,7 +1,7 @@
 ---
 title: "¡Danos tu opinión y participa por una Amazon Gift card de 100usd!"
 date: 2021-10-01T16:22:17-05:00
-image: /images/networking/4.png
+image: /images/networking/Evaluaciones.png
 description: 
 button: Evaluación del evento
 link: https://forms.gle/ZokZEucLwBYop14Y8
