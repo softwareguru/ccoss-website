@@ -123,8 +123,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Registro"
-link = "https://ccoss2021.eventbrite.com.mx"
+label = "Live"
+link = "/live"
 
 
 
