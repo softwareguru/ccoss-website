@@ -9,8 +9,8 @@ banner:
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : true
-    label : "Registrate aquí"
-    link : "https://www.eventbrite.com.mx/e/cumbre-de-contribuidores-de-open-source-software-ccoss-2021-tickets-163583505669"
+    label : "LIVE"
+    link : "/live"
 
 
 ############################## Event ##############################
