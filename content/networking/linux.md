@@ -1,7 +1,7 @@
 ---
 title: "30% de descuento en todas sus certificaciones"
 date: 2021-10-01T16:22:17-05:00
-image: "/images/blog/CCOSS-contribu.png"
+image: /images/networking/certificacion.png
 description: 
 button: Conocer más
 link: https://www.lpi.org/
