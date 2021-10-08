@@ -8,8 +8,8 @@ draft: false
 ---
 
 
-Viernes 9 y sábado 10 te invitamos a compartir tu conocimiento y contribuir al Open Source participando en el Sprint de contribución. 
-Sesión de banderazo viernes 10Oct, 13hrs CST, Cierre y premiación sábado 19hrs CST.
+Viernes 8 y Sábado 9 te invitamos a compartir tu conocimiento y contribuir al Open Source participando en el Sprint de contribución. 
+Sesión de banderazo viernes 08 Oct, 13hrs CST, Cierre y premiación sábado 19hrs CST.
 Mentores estaran disponibles para cualquier duda que tengas sobre el proyecto que elijas.
 Estaremos en contacto en slack apoyándote en lo que necesites.
 
