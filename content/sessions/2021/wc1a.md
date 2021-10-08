@@ -14,6 +14,8 @@ year: "2021"
 weight: 6
 register: https://us02web.zoom.us/webinar/register/WN_MlAoZSHsRsmRs80Zn0U67A
 image: /images/workshop/AsyncAPI.png
+video: https://youtu.be/xxOvUoolgY4
+slides:
 ---
 
 

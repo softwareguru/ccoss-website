@@ -4,8 +4,9 @@ date: 2021-10-01T16:22:17-05:00
 image: /images/networking/Evaluaciones.png
 description: 
 button: Evaluación del evento
-link: https://forms.gle/nADkNsNK9VsGAa7M7 
+link: /networking/evaluacion/
 draft: false
+
 ---
 
 

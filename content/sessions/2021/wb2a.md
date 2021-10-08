@@ -16,6 +16,8 @@ workshop: true
 year: "2021"
 register: https://us02web.zoom.us/webinar/register/WN_z2Gff_LBSZGiBfN3xBBeLw
 image: /images/workshop/moodle.png
+video: https://youtu.be/onEB-SM51bg
+slides:
 ---
 
 En este taller aprenderemos sobre el sistema de gestión de aprendizaje Moodle, y cómo puedes operarlo de forma sencilla y escalable en Azure, así como contribuir a este.

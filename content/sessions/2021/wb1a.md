@@ -15,6 +15,8 @@ workshop: true
 year: "2021"
 register: https://us06web.zoom.us/webinar/register/WN_GzltFJ39QE69OZkVYLZaQA
 image: /images/workshop/Istio.png
+video: https://youtu.be/apI-TOoyjsI
+slides:
 ---
 
 Istio es una plataforma open source para conectar y gestionar microservicios de forma segura. En este taller aprenderás cómo formar parte de su comunidad y contribuir.

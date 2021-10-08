@@ -14,6 +14,8 @@ year: "2021"
 weight: 3
 image: /images/workshop/PromEX2.png
 register: https://us06web.zoom.us/webinar/register/WN_K3sYQ7M5Qlu4XpK0LmJsOg
+video: https://youtu.be/JJDuNSI_79k
+slides:
 ---
 
 

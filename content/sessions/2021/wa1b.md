@@ -15,6 +15,8 @@ weight: 6
 register:
 image: /images/workshop/Airflow.png
 register: https://us06web.zoom.us/webinar/register/WN_RVLvZshrTyuyNfZQ-Z0p5Q
+video: https://youtu.be/kvccZizzfTk
+slides:
 ---
 
 **Este taller será en inglés**

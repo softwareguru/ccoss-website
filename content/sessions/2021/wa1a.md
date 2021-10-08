@@ -3,7 +3,7 @@ id: wa1a
 title: "Fundamentos de Git y GitHub para contribuir a proyectos open source"
 url: /sessions/2021/taller-git-github
 speakers:
-
+ - Juan Pablo Flores
 format: workshop
 block: w
 time_start: 2021-10-04T14:00:00-05:00
@@ -15,6 +15,8 @@ weight: 6
 register:
 image: /images/workshop/Github.png
 register: https://us02web.zoom.us/webinar/register/WN_c0QbL_Q9Tc6jJgCTOynYxA
+video: https://youtu.be/XeSZDL70ImU
+slides:
 ---
 
 **Este taller será en inglés**

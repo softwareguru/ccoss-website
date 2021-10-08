@@ -41,13 +41,15 @@
             <br>
             <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Descargar slides</a></div>
             {{ end }}    
+            
+            <!--
             <br>
 
             {{ with .Params.register }}
             <a href="{{ . }}" target="_blank">
               <button  id="nav-button" type="button" class="btn nav-link btn" >¡Quiero Registrarme!</button>
             </a>
-           {{ end }}
+           {{ end }}-->
 
             <div class="content mt-4">{{ .Content }}</div>
           
@@ -59,7 +61,7 @@
     {{ with .Params.video }}
     <div class="mb-3">
       <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
-        allowtransparency="true" src="{{ . }}?navlinks=false&embed=true"
+        allowtransparency="true" src='{{ replace . "https://youtu.be" "https://www.youtube.com/embed"}}'
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
         webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
