@@ -53,8 +53,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
     url = "/schedule"
     weight = 1
 
- 
-
+  #[[menu.main]]
+  #name = "Talleres"
+  #URL = "/sessions/2021/"
+  #weight = 2  
 
   [[menu.main]]
   name = "Talleres"

@@ -1,6 +1,6 @@
 ---
 id: 2021
-title: "2021"
+title: "Sesiones 2021"
 url: /sessions/2021
 speakers:
 
