@@ -8,7 +8,7 @@ banner:
   date_time : "Online. 4 al 9 de octubre 2021 (workshops previos inician en agosto 2021)."
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
-    enable : true
+    enable : false
     label : "LIVE"
     link : "/live"
 

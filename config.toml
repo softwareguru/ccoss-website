@@ -45,13 +45,18 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-  
 
   [[menu.main]]
-    identifier = "program"
-    name = "Agenda"
-    url = "/schedule"
-    weight = 1
+  name = "Sesiones"
+  URL = "/sessions/2021"
+  weight = 2
+  
+
+  #[[menu.main]]
+  #  identifier = "program"
+  #  name = "Agenda"
+  #  url = "/schedule"
+  #  weight = 1
 
   #[[menu.main]]
   #name = "Talleres"
@@ -74,20 +79,20 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/sponsors"
   #weight = 3
 
-  [[menu.main]]
-  name = "Reconocimientos"
-  URL = "/awards"
-  weight = 4
+  #[[menu.main]]
+  #name = "Reconocimientos"
+  #URL = "/awards"
+  #weight = 4
   
   #[[menu.main]]
   #name = "Kit virtual"
   #URL = "/kit-virtual"
   #weight = 5
 
-  [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 5
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
@@ -124,7 +129,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Live"
 link = "/live"
 

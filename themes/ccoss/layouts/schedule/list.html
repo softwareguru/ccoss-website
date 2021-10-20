@@ -43,11 +43,7 @@
             <div class="">
                 <div id="time-{{.Params.id}}" class="session-time">
                 </div>
-                
-              </div>
-              
-
-               
+              </div>            
                 <div class="session-info">
                     <h4><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.id}}" style="color: white;">{{ .Params.title }}</a>{{ with .Params.language }}{{ if eq . "chinese" }} (Chinese){{ end }}{{ end }}</h4>
                     {{ with .Params.speakers }}<p class="speakers-list" style="color: white;">Por {{ delimit . ", " " & " }}</p>{{ end }}

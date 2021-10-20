@@ -8,7 +8,7 @@ format: session
 block: c
 time_start: 2021-10-06T09:00:00-05:00
 time_end: 2021-10-06T09:25:00-05:00
-video:
+video: https://youtu.be/JyUW6RtQdAM
 slides:
 draft: false
 ---
