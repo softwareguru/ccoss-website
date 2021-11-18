@@ -79,10 +79,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/sponsors"
   #weight = 3
 
-  #[[menu.main]]
-  #name = "Reconocimientos"
-  #URL = "/awards"
-  #weight = 4
+  [[menu.main]]
+  name = "Reconocimientos"
+  URL = "/awards"
+  weight = 4
   
   #[[menu.main]]
   #name = "Kit virtual"

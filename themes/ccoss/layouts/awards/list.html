@@ -5,20 +5,24 @@
         <div>
             {{ .Content }}
         </div>
-        <!--
+        
         <table class="awards-list">
             <thead>
                 <tr class="border">
                     <th class="py-4 pl-4">
-                        Contribuidor
+                        Reconocimiento
                     </th>
-                    <th class="pl-4">Justificación/comentarios de la comunidad</th>
+                    <th class="pl-4">Descripción</th>
                 </tr>
             </thead>
             <tbody>
                 {{ range .Data.Pages.ByTitle }}
                 <tr class="border">
                     <td class="py-4 pl-4 pr-2" width="30%">
+                        
+                        <center><h6 class="mb-0">{{ .Params.award_type }}</h6>
+                        <br>
+                        <img src="{{ .Params.image }}" alt="" class="img-fluid">
                         <h4 class="mb-0">{{ .Title }}</h4>
                         <span class="text-secondary">{{ .Params.Designation }}</span>
                         <ul class="list-inline social-single mt-1">
@@ -39,15 +43,16 @@
                                         class="tf-ion-social-linkedin"></i></a></li>
                             {{ end }}
                         </ul>
+                    </center>
                     </td>
-                    <td class="py-4 pl-4" style="vertical-align: top;">
+                    <td class="py-4 pl-4" style="vertical-align: center;">
                         <em>{{ .Content }}</em>
                     </td>
                 </tr>
                 {{ end }}
             </tbody>
         </table>
-        -->
+        
     </div>
 </section>
 
