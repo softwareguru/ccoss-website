@@ -1,35 +1,20 @@
 enable :  true
 title : "Patrocinadores"
 sponsor_group:
-  - title : "Platino"
+  - title : ""
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/google.png"
-        link : "https://about.google/"
 
 
   - title : "Gold"
     slug : "gold"
     sponsor:
+      - logo : "/images/logos/google.png"
+        link : "https://about.google/"
 
-      - logo : "/images/logos/microsoft.png"
-        link : "https://azure.microsoft.com/es-mx/resources/join-the-azure-developer-community/"
-      - logo : "/images/logos/github.png"
-        link : "https://github.com/"
-
-
-
-  - title : "Silver"
+  - title : ""
     slug : "silver"
     sponsor:
-
-      - logo : "/images/logos/AWS_logo_RGB.png"
-        link : "https://aws.amazon.com/"
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com/"
-      - logo : "/images/logos/manning.png"
-        link : "https://www.manning.com/"  
-
 
   - title : "Partner"
     slug : "community"
@@ -38,23 +23,8 @@ sponsor_group:
         link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
       - logo : "/images/logos/apache.jpg"
         link : "https://www.apache.org/"
-      - logo : "/images/logos/labsol.jpg"
-        link : "https://cozcyt.gob.mx/labsol/"    
       - logo : "/images/logos/gnome.png"
-        link : "https://www.gnome.org/"  
-      - logo : "/images/logos/lpi.png"
-        link : "https://www.lpi.org/es"  
-      - logo : "/images/logos/Linuxeros-Zapopan.png"
-        link : "https://linktr.ee/lnxzpn" 
-      - logo : "/images/logos/qgismexico.png"
-        link : "https://qgis.mx/"
-      - logo : "/images/logos/LogoGulagNegro.png"
-        link : "http://www.gulag.org.mx/"  
-      - logo : "/images/logos/Robots-latam.png"
-        link : "https://robotslatam.org"  
-      - logo : "/images/logos/xalapacode.png"
-        link : "https://xalapacode.com/"  
-                  
+        link : "https://www.gnome.org/"
                       
 # call to action in sponsor
 sponsorship:

@@ -8,20 +8,28 @@ type: faq
 
 ---
 ### ¿Quién puede asistir?
-La participación está abierta a cualquier persona interesada en contribuir a proyectos open source.
+La participación está abierta a cualquier persona interesada en contribuir a proyectos open source, desde principiantes hasta expertos
 
 ### ¿Puedo participar aunque no sea un(a) desarrollador(a) de software?
 Sí. Hay distintas formas de contribuir a un proyecto que no involucran programar. Por ejemplo, puedes ayudar con diseño, documentación, revisión, coordinación, difusión.
 
-### ¿Cuál es el horario de sesiones?
-El evento se realizara del 4 al 9 de octubre y los talleres comenzaran en agosto en próximos días compartiremos los horarios
+### ¿Cuál es el horario del evento?
+El evento se realizará el 10 y 11 de noviembre
+
+* El primer día con charlas, si no puedes asistir a la sede principal no te preocupes puedes asistir alguna de las sedes remotas.
+
+
+* El segundo día se continuará con un sprint de contribución.
+
+* Talleres previos de diferentes proyectos de open source.
+
 
 
 ### ¿Hay algún canal de comunicación entre participantes?
 Sí, hay un workspace de slack. Para ingresar visita https://sg1.run/ccoss-slack
 
 ### ¿Tienen un código de conducta?
-Sí. Es muy importante para nosotros que todos los participantes se sientan a gusto y seguras(os). El código de conducta está disponible [aquí](/coc). y todos los participantes, conferencistas y patrocinadores de CCOSS deben seguirlo.
+Sí. Es muy importante para nosotros que todos los participantes se sientan a gusto y seguras(os). El código de conducta está disponible aquí. y todos los participantes, conferencistas y patrocinadores de CCOSS deben seguirlo.
 
 Si antes o después del evento consideras que alguien lo está violando o simplemente te está incomodando, por favor no dudes en contactar a cualquier persona del equipo organizador.
 

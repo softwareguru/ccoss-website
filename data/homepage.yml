@@ -5,34 +5,34 @@ banner:
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "Online. 4 al 9 de octubre 2021 (workshops previos inician en agosto 2021)."
+  date_time : "Evento Híbrido 11 y 12 de noviembre 2022, Guadalajara México"
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : false
-    label : "LIVE"
-    link : "/live"
+    label : "Registrete"
+    link : "/"
 
 
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo? ¡Participa!"
-  description : "El propósito principal de CCOSS es aumentar la cantidad de personas y organizaciones de Latinoamérica que contribuyen a los proyectos de código abierto."
-  contribution: "En esta edición contaremos con sesiones de contribución en vivo, iniciando en agosto."
-  cta_text: "Conoce más"
-  cta_link: "https://youtu.be/6QTSc0y69Rc"
+  title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo?"
+  description : "El propósito principal de CCOSS es impulsar la contribución de personas y organizaciones al open source en Latinoamérica."
+  contribution: "En esta edición previo al evento presencial contaremos con talleres prácticos en formato online para diferentes perfiles de asistentes, desde principiante a experto."
+  cta_text: "Conoce más sobre la edición anterior"
+  cta_link: "https://ccoss.org/sessions/2021/"
   features: 
-    - number : "+ 1500"
-      label : "Participantes online"
+    - number : "Híbrido"
+      label : "Asiste en persona o en línea"
       
-    - number : "6"
+    - number : "2"
       label : "Días"
 
-    - number : "+ 30"
-      label : "Pláticas y talleres"
+    - number : "+ 8"
+      label : "Proyectos de contribución"
 
-    - number : "49"
-      label : "horas sprint de contribución"
+    - number : "Principiantes y expertos"
+      label : "Son bienvenidos"
 
 
 

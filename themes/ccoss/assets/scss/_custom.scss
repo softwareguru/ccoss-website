@@ -257,6 +257,8 @@ section.sponsors {
   
   .statistics-block .numbers {
 	font-size: 40px;
+	word-spacing: 0.0em;
+	line-height: 27pt;     
 	@media (min-width:640px) {
 	  grid-gap: 56px;
 	}

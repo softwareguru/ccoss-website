@@ -47,7 +47,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
 
   [[menu.main]]
-  name = "Sesiones"
+  name = "Edición 2021"
   URL = "/sessions/2021"
   weight = 2
   
@@ -63,15 +63,15 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/sessions/2021/"
   #weight = 2  
 
-  [[menu.main]]
-  name = "Talleres"
-  URL = "/workshops"
-  weight = 2
+  #[[menu.main]]
+  #name = "Talleres"
+  #URL = "/workshops"
+  #weight = 2
 
-  [[menu.main]]
-  name = "Conferencistas"
-  URL = "/speakers"
-  weight = 3
+  #[[menu.main]]
+  #name = "Conferencistas"
+  #URL = "/speakers"
+  #weight = 3
 
 
   #[[menu.main]]
@@ -79,10 +79,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/sponsors"
   #weight = 3
 
-  [[menu.main]]
-  name = "Reconocimientos"
-  URL = "/awards"
-  weight = 4
+  #[[menu.main]]
+  #name = "Reconocimientos"
+  #URL = "/awards"
+  #weight = 4
   
   #[[menu.main]]
   #name = "Kit virtual"
