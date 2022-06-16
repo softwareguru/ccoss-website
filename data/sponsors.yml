@@ -28,7 +28,7 @@ sponsor_group:
                       
 # call to action in sponsor
 sponsorship:
-  enable : true
+  enable : false
   title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
   #button
   label : "Únete como patrocinador"
