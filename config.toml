@@ -107,7 +107,7 @@ logo = "/images/logo-monochrome.svg"
 home = "Home"
 
 # Meta data
-description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
+description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) en colaboración con Software Guru."""
 images = ["/images/CCOSS2021.png"]
 twitter_user = ""
 email = "hola@ccoss.org"
@@ -118,8 +118,7 @@ google_analitycs_id = "UA-165970215-1" # your id
 # search for blog page
 search = true
 
-disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) 
-es una iniciativa de Open Source México (OSOM) y es producida por Software Guru."""
+disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) en colaboración con Software Guru."""
 
 
 # Preloader

@@ -31,8 +31,8 @@ event_info:
     - number : "+ 8"
       label : "Proyectos de contribución"
 
-    - number : "Tod@s"
-      label : "Son bienvenidos"
+    - number : "Son bienvenidos"
+      label : "Nuevos y experimentados en el opensource"
 
 
 
