@@ -27,37 +27,42 @@
 
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css">
 
+    {{ if .IsHome }}
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Cumbre de Contribuidores de Open Source Software (CCOSS)",
-      "startDate": "2020-10-19T11:00-05:00",
-          "endDate": "2020-10-22T19:00-05:00",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "https://ccoss.org"
-            },
-          "image": [
-          "https://ccoss.org/images/card.jpg"
-           ],
-          "description": "La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) y es producida por Software Guru.",
-          "offers": {
-            "@type": "Offer",
-            "url": "https://ccoss.org/register",
-            "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "validFrom": "2020-04-01T12:00"
-          },
-          "performer": {
-            "@type": "PerformingGroup",
-            "name": "CCOSS"
-          }
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "{{ .Site.Title }}",
+        "startDate": "{{ .Site.Params.start_date }}",
+        "endDate": "{{ .Site.Params.end_date }}",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": {{ .Site.BaseURL }}
+        },
+        "image": [ {{ index .Site.Params.images 0 | absURL }}],
+        "description": "{{ .Site.Params.description }}",
+        "offers": {
+          "@type": "Offer",
+          "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2022-07-01T12:00"
+        },
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "CCOSS"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Software Guru",
+          "url": "https://devrel.sg.com.mx"
         }
-        </script>
+      }
+    </script>
+    {{ end }}
 
   </head>
   

@@ -7,4 +7,5 @@ themes/vixcon-hugo
 oldlayouts/
 .firebaserc
 .hugo_build.lock
+.DS_Store
 
