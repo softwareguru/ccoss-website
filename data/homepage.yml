@@ -1,15 +1,15 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
+  title : "CCOSS"
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "Evento Híbrido 11 y 12 de noviembre 2022, Guadalajara México"
+  date_time : "11 y 12 de noviembre 2022. Guadalajara, México"
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : false
-    label : "Registrete"
+    label : "Registrate"
     link : "/"
 
 

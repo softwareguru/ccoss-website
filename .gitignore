@@ -6,3 +6,5 @@ firebase-debug.log
 themes/vixcon-hugo
 oldlayouts/
 .firebaserc
+.hugo_build.lock
+
