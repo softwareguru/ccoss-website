@@ -45,11 +45,11 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-
   [[menu.main]]
-  name = "Edición 2021"
-  URL = "/sessions/2021"
-  weight = 2
+  name = "Acerca de"
+  URL = "/about"
+  weight = 1
+
   
 
   #[[menu.main]]
@@ -98,6 +98,12 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   name = "FAQ"
   URL = "/faq"
   weight = 7
+
+    [[menu.main]]
+  name = "Edición 2021"
+  URL = "/sessions/2021"
+  weight = 8
+
 
 
 

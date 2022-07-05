@@ -14,15 +14,7 @@ La participación está abierta a cualquier persona interesada en contribuir a p
 Sí. Hay distintas formas de contribuir a un proyecto que no involucran programar. Por ejemplo, puedes ayudar con diseño, documentación, revisión, coordinación, difusión.
 
 ### ¿Cuál es el horario del evento?
-El evento se realizará el 10 y 11 de noviembre
-
-* El primer día con charlas, si no puedes asistir a la sede principal no te preocupes puedes asistir alguna de las sedes remotas.
-
-
-* El segundo día se continuará con un sprint de contribución.
-
-* Talleres previos de diferentes proyectos de open source.
-
+El evento se realizará el 11 y 12 de noviembre. El 11 de noviembre se realizarán charlas, y el 12 de noviembre haremos un sprint de contribución para ayudar a las personas a enviar pull requests de contribuciones a proyectos open source. 
 
 
 ### ¿Hay algún canal de comunicación entre participantes?

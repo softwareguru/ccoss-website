@@ -8,9 +8,9 @@ banner:
   date_time : "11 y 12 de noviembre 2022. Guadalajara, México"
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
-    enable : false
-    label : "Registrate"
-    link : "/"
+    enable : true
+    label : "Participa como conferencista o instructor"
+    link : "https://convoca.dev/ccoss-2022/cfp"
 
 
 ############################## Event ##############################
