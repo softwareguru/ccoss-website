@@ -40,7 +40,7 @@ link = "/plugins/bootstrap/js/bootstrap.min.js"
 [[params.plugins.js]]
 link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
 [[params.plugins.js]]
-link="https://kit.fontawesome.com/4a6d2efc2e.js"
+link="https://kit.fontawesome.com/a6f10b653b.js"
 
 ############################## navigation ###############################
 [menu]
@@ -124,7 +124,7 @@ google_analitycs_id = "UA-165970215-1" # your id
 # search for blog page
 search = true
 
-disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es un evento con charlas, talleres y mentorías para impulsar la contribución al open source en Latinoamérica."""
+disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) en colaboración con Software Guru."""
 
 
 
@@ -150,6 +150,10 @@ link = "https://www.youtube.com/playlist?list=PLnLzwYW6HOC6rbYIcrLnVkIMdG_9WB7vn
 [[params.social]]
 icon = "fas fa-envelope"
 link = "mailto:hola@ccoss.org"
+
+[[params.social]]
+icon = "fa-brands fa-slack"
+link = "https://sg1.run/ccoss-slack"
 
 [[params.footer_about]]
 name = "?Quién organiza¿"
