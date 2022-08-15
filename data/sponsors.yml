@@ -25,6 +25,8 @@ sponsor_group:
         link : "https://www.apache.org/"
       - logo : "/images/logos/gnome.png"
         link : "https://www.gnome.org/"
+      - logo : "/images/logos/asyncAPI1.png"
+        link : "https://github.com/asyncapi"
                       
 # call to action in sponsor
 sponsorship:
