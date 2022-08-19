@@ -9,8 +9,8 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/google.png"
-        link : "https://about.google/"
+      - logo : "/images/logos/Logo_AWS.png"
+        link : "https://aws.amazon.com/es/"
 
   - title : ""
     slug : "silver"
@@ -25,7 +25,7 @@ sponsor_group:
         link : "https://www.apache.org/"
       - logo : "/images/logos/gnome.png"
         link : "https://www.gnome.org/"
-      - logo : "/images/logos/asyncAPI1.png"
+      - logo : "/images/logos/Logo_AsyncAPI.png"
         link : "https://github.com/asyncapi"
                       
 # call to action in sponsor
