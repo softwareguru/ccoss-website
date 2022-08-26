@@ -11,6 +11,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/Logo_AWS.png"
         link : "https://aws.amazon.com/es/"
+      - logo : "/images/logos/google.png"
+        link : "https://about.google/"
 
   - title : ""
     slug : "silver"
