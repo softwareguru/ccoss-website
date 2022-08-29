@@ -64,8 +64,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 2  
 
   #[[menu.main]]
-  #name = "Talleres"
-  #URL = "/workshops"
+  #name = "Ticket"
+  #URL = "/ticket"
   #weight = 2
 
   #[[menu.main]]
@@ -135,9 +135,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Register"
-link = "/register"
+enable = true
+label = "Ticket"
+link = "/ticket"
 
 
 
