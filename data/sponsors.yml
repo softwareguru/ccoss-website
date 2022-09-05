@@ -14,9 +14,12 @@ sponsor_group:
       - logo : "/images/logos/google.png"
         link : "https://about.google/"
 
-  - title : ""
+  - title : "Silver"
     slug : "silver"
     sponsor:
+
+      - logo : "/images/logos/Droneco.png"
+        link : "https://www.dronecode.org/"
 
   - title : "Partner"
     slug : "community"
