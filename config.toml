@@ -46,9 +46,35 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 [menu]
 
   [[menu.main]]
+    identifier = "sedes"
+    name = "sedes"
+    url = "/sedes"
+    weight = 2
+  [[menu.main]]
+    identifier = "sedes-virtuales"
+    name = "Sedes Virtuales"
+    url = "/sedes-virtuales"
+    parent = "sedes"
+    weight = 1
+  [[menu.main]]
+    identifier = "sedes-participantes"
+    name = "Sedes Participantes"
+    url = "sedes-participantes"
+    parent = "sedes"
+    weight = 2
+
+
+
+
+  [[menu.main]]
   name = "Acerca de"
   URL = "/about"
   weight = 1
+
+    [[menu.main]]
+  name = "ConTRIBU"
+  URL = "/contribu"
+  weight = 3
 
   
 

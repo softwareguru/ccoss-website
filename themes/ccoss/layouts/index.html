@@ -95,6 +95,48 @@
 <!-- /speaker -->
 
 
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
+
+
+<!-- ConTRIBU -->
+<section class="section-sponsors section">
+    <div class="container">
+      <div class="row section-heading">
+        <div class="col-md-8">
+          <div class="heading">
+            <h2>ConTRIBU Temporada 2</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card" style="border: none;">
+       
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lw9tdJTethU" allowfullscreen></iframe>
+            </div>
+  
+        </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card" style="border: none;">
+       
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ci6zVM4Sqcc" allowfullscreen></iframe>
+            </div>
+  
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- /ConTRIBU -->
+
 <!-- sponsor -->
 {{ if $data.sponsors }}
 <section class="section-sponsors section">
@@ -149,11 +191,7 @@
 {{ end }}
 <!-- /sponsor -->
 
-<!-- blog -->
-{{ if $data.homepage.blog.enable }}
-{{ partial "blog.html" . }}
-{{ end }}
-<!-- /blog -->
+
 
 <!-- organized-by -->
 {{ if $data.homepage.sponsors.enable }}

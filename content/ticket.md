@@ -4,8 +4,6 @@ date: 2022-08-26T12:01:36-05:00
 draft: false
 ---
 
-## Participar en formato online no tiene costo. 
-
 <div id="eventbrite-widget-container-402449024867"></div>
 
 <script src="https://www.eventbrite.com.mx/static/widgets/eb_widgets.js"></script>
@@ -28,9 +26,20 @@ draft: false
 </script>
 
 
-Asistir al evento presencial tiene una cuota de recuperación y tu pase incluye:
-- Kit de asistente
+## ¿Qué incluye mi pase a CCOSS 2022?
 
-- Servicio de cafe y lunch
+El boleto presencial incluye:
 
-- Espacio para participar en el Sprint de contribución el día sábado de manera presencial, donde podrás ser asistido por mentores 
+* Acceso presencial a todas las charlas,
+* Kit de asistente.
+* Espacio para participar en el Sprint de contribución el día sábado de manera presencial, donde podrás ser asistido por mentores,
+* Servicio de café y lunch,
+* Constancia de participación.
+
+
+El pase online incluye:
+
+* Acceso de forma online a todas las charlas,
+* Acceso al slack del evento donde contactaras con conferencistas,
+* Apoyo de mentores de forma online, durante el sprint de contribución,
+* Constancia de participación.
