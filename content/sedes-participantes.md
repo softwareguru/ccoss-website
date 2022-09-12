@@ -28,8 +28,8 @@ draft: false
 
  <td>
  <li>Nombre cordinador: Edgar Diaz</li>
- <li>Ubicación:Bogotá Colombia</li>
- <li>Contacto: edgar.diaz@campusucc.edu.co</li>
+ <li>Ubicación: Bogotá Colombia</li>
+ <li>Contacto: <a href="https://www.ucc.edu.co/">https://www.ucc.edu.co/</a></li>
  </td>                          
 
 </tr>
@@ -46,7 +46,7 @@ draft: false
  <td>
  <li>Nombre cordinador: Alejandro César Rico Martínez</li>
  <li>Ubicación: México, San Luis Potosí, S.L.P.</li>
- <li>Contacto: alejandro.rico@tecsuperiorslp.edu.mx</li>
+ <li>Contacto:  <a href="http://www.tecsuperiorslp.edu.mx/">http://www.tecsuperiorslp.edu.mx/</a></li>
  </td>                          
 
 </tr>
@@ -63,7 +63,7 @@ draft: false
  <td>
  <li>Nombre cordinador: Karina Gutiérrez Fragoso</li>
  <li>Ubicación: Apan, Hidalgo.</li>
- <li>Contacto: kgutierrez@itesa.edu.mx</li>
+ <li>Contacto: <a href="https://www.itesa.edu.mx/">https://www.itesa.edu.mx/</a></li>
  </td>                          
 
 </tr>
