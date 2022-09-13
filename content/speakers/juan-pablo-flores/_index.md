@@ -1,7 +1,8 @@
 ---
 title: "Juan Pablo Flores"
 date: 2021-09-10T12:19:23-05:00
-image : "/images/speakers/juan-pablo-flores.jpg"
+images:
+ - "/images/speakers/juan-pablo-flores.jpg"
 designation : "Program Manager @ GitHub"
 country: "mx"
 twitter: "https://twitter.com/juanpflores_"

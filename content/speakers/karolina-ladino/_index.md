@@ -1,7 +1,8 @@
 ---
 title: "Karolina Ladino"
 date: 2021-09-21T01:26:59-05:00
-image : "/images/speakers/karolina-ladino.jpg"
+images:
+ - "/images/speakers/karolina-ladino.jpg"
 designation : "Robotics Engineer | Content Creation Manager @ RAKwireless"
 country: "co"
 twitter: "https://twitter.com/karobotco"

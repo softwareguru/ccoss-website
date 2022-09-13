@@ -1,7 +1,8 @@
 ---
 title: "Maurice Medina Puente"
 date: 2021-09-10T12:43:37-05:00
-image : "/images/speakers/avatar.jpg"
+images:
+ - "/images/speakers/avatar.jpg"
 designation : ""
 country: "mx"
 twitter: ""

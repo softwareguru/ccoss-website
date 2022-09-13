@@ -1,7 +1,8 @@
 ---
 title: "Joel Ibaceta"
 date: 2021-09-10T12:33:43-05:00
-image : "/images/speakers/joel-ibaceta.jpg"
+images:
+ - "/images/speakers/joel-ibaceta.jpg"
 designation : "CTO @ Kwema"
 country: "ar"
 twitter: "https://twitter.com/joelibaceta"

@@ -1,7 +1,8 @@
 ---
 title: "Ana Dalia Chávez"
 date: 2020-10-01T19:54:52-05:00
-image : /images/speakers/ana-dalia-chavez.jpg
+images:
+ - /images/speakers/ana-dalia-chavez.jpg
 designation: Community Builder @ Decred
 country: 
 twitter: 

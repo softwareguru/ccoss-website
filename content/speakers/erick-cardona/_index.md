@@ -1,7 +1,8 @@
 ---
 title: "Erick Cardona"
 date: 2020-10-08T13:07:07-05:00
-image : /images/speakers/erick-cardona.jpg
+images:
+ - /images/speakers/erick-cardona.jpg
 designation: Linux Systems/DevOps Engineer
 country: 
 twitter: 

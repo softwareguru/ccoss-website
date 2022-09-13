@@ -1,7 +1,8 @@
 ---
 title: "Nuritzi Sánchez"
 date: 2020-10-01T19:44:10-05:00
-image : /images/speakers/nuritzi-sanchez.jpg
+images:
+ - /images/speakers/nuritzi-sanchez.jpg
 designation: Sr. Open Source Program Manager @ GitLab
 country: 
 twitter: https://twitter.com/1nuritzi

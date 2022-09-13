@@ -1,7 +1,8 @@
 ---
 title: "Javier B. Pérez"
 date: 2020-10-15T13:03:07-05:00
-image : /images/speakers/javier-b-perez.jpg
+images:
+ - /images/speakers/javier-b-perez.jpg
 designation: Software Engineer
 country: 
 twitter: 

@@ -1,7 +1,8 @@
 ---
 title: "Eduardo Contreras"
 date: 2020-10-02T17:41:22-05:00
-image : /images/speakers/eduardo-contreras.jpg
+images:
+ - /images/speakers/eduardo-contreras.jpg
 designation: Crossover developer @ Electronic Cats
 country: 
 twitter: 

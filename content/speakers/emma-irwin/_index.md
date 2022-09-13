@@ -1,7 +1,8 @@
 ---
 title: "Emma Irwin"
 date: 2021-09-10T12:25:58-05:00
-image : "/images/speakers/emma-irwin.jpg"
+images:
+ - "/images/speakers/emma-irwin.jpg"
 designation : "Program Manager Open Source @ Microsoft"
 country: "us"
 twitter: "https://twitter.com/sunnydeveloper"

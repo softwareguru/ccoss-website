@@ -1,7 +1,8 @@
 ---
 title: "Alex Mayorga Adame"
 date: 2021-09-27T10:43:14-05:00
-image : "/images/speakers/alex-mayorga-adame.jpg"
+images:
+ - "/images/speakers/alex-mayorga-adame.jpg"
 designation : "Mozillian Mexicano alpha tester de Firefox desde 2007"
 country: "mx"
 twitter: ""

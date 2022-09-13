@@ -1,7 +1,8 @@
 ---
 title: "Nicolás López"
 date: 2020-10-15T12:55:44-05:00
-image : /images/speakers/nicolas-lopez.jpg
+images:
+ - /images/speakers/nicolas-lopez.jpg
 designation: Senior Software Engineer @ Google
 country: 
 twitter: 

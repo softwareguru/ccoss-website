@@ -1,7 +1,8 @@
 ---
 title: "Lee Calcote"
 date: 2020-10-02T18:11:12-05:00
-image : /images/speakers/lee-calcote.jpg
+images:
+ - /images/speakers/lee-calcote.jpg
 designation: Founder @ Layer 5 | 
 country: 
 twitter: https://twitter.com/lcalcote

@@ -1,7 +1,8 @@
 ---
 title: "Ramón Roche"
 date: 2021-09-10T12:38:48-05:00
-image : "/images/speakers/ramon-roche.jpg"
+images:
+ - "/images/speakers/ramon-roche.jpg"
 designation : "Program Manager @ Dronecode"
 country: "mx"
 twitter: "https://twitter.com/mrpollo"

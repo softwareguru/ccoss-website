@@ -1,7 +1,8 @@
 ---
 title: "Norberto Ortigoza"
 date: 2021-09-20T20:59:25-05:00
-image : "/images/speakers/norberto-ortigoza.jpeg"
+images:
+ - "/images/speakers/norberto-ortigoza.jpeg"
 designation : "CEO @ Bunsan"
 country: "mx"
 twitter: "https://twitter.com/hiphoox"

@@ -1,7 +1,8 @@
 ---
 title: "Christos Bacharakis"
 date: 2021-09-10T12:17:43-05:00
-image : "/images/speakers/christos-bacharakis.jpg"
+images:
+ - "/images/speakers/christos-bacharakis.jpg"
 designation : "Senior Program Manager @ GitLab"
 country: "gr"
 twitter: "https://twitter.com/bacharakis"

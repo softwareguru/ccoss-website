@@ -1,7 +1,8 @@
 ---
 title: "Yuliana Reyna"
 date: 2021-09-20T20:56:24-05:00
-image : "/images/speakers/yuliana-reyna.jpg"
+images:
+ - "/images/speakers/yuliana-reyna.jpg"
 designation : "Desarrolladora de software independiente"
 country: "mx"
 twitter: "https://twitter.com/tuxxy"

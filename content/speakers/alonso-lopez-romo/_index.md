@@ -1,7 +1,8 @@
 ---
 title: "Alonso López Romo"
 date: 2021-09-17T14:02:57-05:00
-image : "/images/speakers/alonso-lópez-romo.jpg"
+images:
+ - "/images/speakers/alonso-lópez-romo.jpg"
 designation : "Profesor @ Universidad Tecnológica de Hermosillo"
 country: "mx"
 twitter: "https://twitter.com/aloncello"

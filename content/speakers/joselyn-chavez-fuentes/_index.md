@@ -1,7 +1,8 @@
 ---
 title: "Joselyn Chavez Fuentes"
 date: 2020-07-22T06:27:33-05:00
-image : /images/speakers/joselyn-chavez-fuentes.jpg
+images:
+ - /images/speakers/joselyn-chavez-fuentes.jpg
 designation: 
 country: 
 twitter: https://twitter.com/josschavezf1

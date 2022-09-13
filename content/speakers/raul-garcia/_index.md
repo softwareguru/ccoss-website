@@ -1,7 +1,8 @@
 ---
 title: "Raúl García"
 date: 2021-09-27T10:31:42-05:00
-image : "/images/speakers/raul-garcia.jpeg"
+images:
+ - "/images/speakers/raul-garcia.jpeg"
 designation : "Estudiante de Ingeniería en Computación en la Universidad de Guadalajara"
 country: "mx"
 twitter: ""

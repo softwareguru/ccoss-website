@@ -1,7 +1,8 @@
 ---
 title: "Kristi Progri"
 date: 2021-09-29T18:33:35-05:00
-image : "/images/speakers/kristi-progri.jpg"
+images:
+ - "/images/speakers/kristi-progri.jpg"
 designation : "Program Coordinator at GNOME Foundation"
 country: "mx"
 twitter: ""

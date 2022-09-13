@@ -1,7 +1,8 @@
 ---
 title: "Luis Hector Chávez"
 date: 2020-10-02T17:57:51-05:00
-image : /images/speakers/luis-hector-chavez.jpg
+images:
+ - /images/speakers/luis-hector-chavez.jpg
 designation: Software Engineer @ Google | CTO @ OmegaUp
 country: 
 twitter: https://twitter.com/lhchavez

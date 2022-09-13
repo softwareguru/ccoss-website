@@ -1,7 +1,8 @@
 ---
 title: "Ivan Chavero"
 date: 2020-10-02T18:49:15-05:00
-image : /images/speakers/ivan-chavero.jpg
+images:
+ - /images/speakers/ivan-chavero.jpg
 designation: Curriculum Developer @ Red Hat
 country: 
 twitter: 

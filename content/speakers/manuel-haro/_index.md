@@ -1,7 +1,8 @@
 ---
 title: "Manuel Haro"
 date: 2021-09-21T00:44:00-05:00
-image : "/images/team/manuel-haro.png"
+images:
+ - "/images/team/manuel-haro.png"
 designation : "Coordinador @ LABSOL"
 country: "mx"
 twitter: "https://twitter.com/caxcan70?lang=en"

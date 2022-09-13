@@ -1,7 +1,8 @@
 ---
 title: "Carol Valencia"
 date: 2021-10-01T22:54:18-05:00
-image : "/images/speakers/carol-valencia.png"
+images:
+ - "/images/speakers/carol-valencia.png"
 designation : "Software Developer en Aqua Security"
 country: "mx"
 twitter: "https://twitter.com/krol_valencia"

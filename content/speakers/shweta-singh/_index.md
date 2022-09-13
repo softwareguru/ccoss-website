@@ -1,7 +1,8 @@
 ---
 title: "Shweta Singh"
 date: 2021-09-28T18:54:11-05:00
-image : "/images/speakers/shweta-singh.jpg"
+images:
+ - "/images/speakers/shweta-singh.jpg"
 designation : "Technical Program Manager"
 country: "mx"
 twitter: ""

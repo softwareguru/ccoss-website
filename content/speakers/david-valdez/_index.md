@@ -1,7 +1,8 @@
 ---
 title: "David Valdez"
 date: 2020-10-15T13:18:04-05:00
-image : /images/speakers/david-valdez.jpg
+images:
+ - /images/speakers/david-valdez.jpg
 designation: Desarrollador backend
 country: 
 twitter: 

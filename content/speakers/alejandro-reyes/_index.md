@@ -1,7 +1,8 @@
 ---
 title: "Alejandro Reyes"
 date: 2020-10-17T13:16:26-05:00
-image : /images/speakers/alejandro-reyes.jpg
+images:
+ - /images/speakers/alejandro-reyes.jpg
 designation: Data Scientist @ Novartis
 country: 
 twitter: https://twitter.com/areyesq

@@ -1,7 +1,8 @@
 ---
 title: "Paulino Calderón"
 date: 2020-10-02T18:20:49-05:00
-image : /images/speakers/paulino-calderon.jpg
+images:
+ - /images/speakers/paulino-calderon.jpg
 designation: Cofounder @ WebSec México | Nmap contributor
 country: 
 twitter: https://twitter.com/calderpwn

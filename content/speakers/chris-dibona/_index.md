@@ -1,7 +1,8 @@
 ---
 title: "Chris DiBona"
 date: 2020-10-01T20:11:44-05:00
-image : /images/speakers/chris-dibona.jpg
+images:
+ - /images/speakers/chris-dibona.jpg
 designation: Director of Open Source @ Google
 country: 
 twitter: https://twitter.com/cdibona

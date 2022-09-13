@@ -1,7 +1,8 @@
 ---
 title: "Arianne Navarro"
 date: 2020-10-13T18:51:24-05:00
-image : /images/speakers/arianne-navarro.png
+images:
+ - /images/speakers/arianne-navarro.png
 designation: Spectrum Scale Manager at IBM
 country: 
 twitter: https://twitter.com/ari_liss

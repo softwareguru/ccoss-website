@@ -1,7 +1,8 @@
 ---
 title: "Joel Humberto Gómez Paredes"
 date: 2021-09-10T12:24:05-05:00
-image : "/images/speakers/joel-humberto-gomez.jpg"
+images:
+ - "/images/speakers/joel-humberto-gomez.jpg"
 designation : "Desarrollador de software @ IBM"
 country: "mx"
 twitter: "https://twitter.com/DezkaReid"

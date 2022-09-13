@@ -1,7 +1,8 @@
 ---
 title: "Federico Bongiovanni"
 date: 2020-10-15T13:02:48-05:00
-image : /images/speakers/federico-bongiovanni.jpg
+images:
+ - /images/speakers/federico-bongiovanni.jpg
 designation: Senior Engineering Manager @ Google
 country: 
 twitter: 

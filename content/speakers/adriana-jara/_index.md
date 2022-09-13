@@ -1,7 +1,8 @@
 ---
 title: "Adriana Jara"
 date: 2020-10-13T10:33:00-05:00
-image : /images/speakers/adriana-jara.jpg
+images:
+ - /images/speakers/adriana-jara.jpg
 designation: 
 country: 
 twitter: 

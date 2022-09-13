@@ -1,7 +1,8 @@
 ---
 title: "Diego Ponce García"
 date: 2020-10-15T09:31:40-05:00
-image : /images/speakers/diego-ponce.jpg
+images:
+ - /images/speakers/diego-ponce.jpg
 designation: Software Engineer @ Nowports
 country: 
 twitter: 

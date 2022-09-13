@@ -1,7 +1,8 @@
 ---
 title: "Daniel Ruiz"
 date: 2021-09-27T10:38:26-05:00
-image : "/images/speakers/daniel-ruiz.jpg"
+images:
+ - "/images/speakers/daniel-ruiz.jpg"
 designation : "Estudiante de Ingeniería en Computación en la Universidad de Guadalajara"
 country: "mx"
 twitter: ""

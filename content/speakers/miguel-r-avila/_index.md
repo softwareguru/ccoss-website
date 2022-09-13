@@ -1,7 +1,8 @@
 ---
 title: "Miguel R. Ávila"
 date: 2021-09-10T12:20:46-05:00
-image : "/images/speakers/miguel-avila.png"
+images:
+ - "/images/speakers/miguel-avila.png"
 designation : "Web Developer @ DealerGeek"
 country: "mx"
 twitter: "https://twitter.com/migueravila"

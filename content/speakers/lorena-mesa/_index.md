@@ -1,7 +1,8 @@
 ---
 title: "Lorena Mesa"
 date: 2020-10-01T19:32:04-05:00
-image : /images/speakers/lorena-mesa.jpg
+images:
+ - /images/speakers/lorena-mesa.jpg
 designation: Director @ Python Software Foundation | Data Engineer @ GitHub
 country: 
 twitter: https://twitter.com/loooorenanicole

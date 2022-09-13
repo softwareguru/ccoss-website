@@ -1,7 +1,8 @@
 ---
 title: "Andrés Sabas"
 date: 2020-10-02T17:40:20-05:00
-image : /images/speakers/andres-sabas.jpg
+images:
+ - /images/speakers/andres-sabas.jpg
 designation: Promotor del hardware libre
 country: 
 twitter: https://twitter.com/sabasacustico

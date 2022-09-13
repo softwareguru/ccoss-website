@@ -1,7 +1,8 @@
 ---
 title: "Santiago Torres"
 date: 2020-10-06T18:20:27-05:00
-image : /images/speakers/santiago-torres.png
+images:
+ - /images/speakers/santiago-torres.png
 designation: Profesor @ Purdue University
 country: 
 twitter: https://twitter.com/torresariass

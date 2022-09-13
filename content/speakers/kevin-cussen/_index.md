@@ -1,7 +1,8 @@
 ---
 title: "Kevin Cussen"
 date: 2020-10-16T13:40:01-05:00
-image : /images/speakers/kevin-cussen.jpg
+images:
+ - /images/speakers/kevin-cussen.jpg
 designation: Product Leader | Supply Chain | Blockchain
 country: 
 twitter: 

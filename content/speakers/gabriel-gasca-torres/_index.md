@@ -1,7 +1,8 @@
 ---
 title: "Gabriel Gasca Torres"
 date: 2020-10-16T20:44:56-05:00
-image : /images/speakers/avatar.jpg
+images:
+ - /images/speakers/avatar.jpg
 designation: Solutions Architect
 country: 
 twitter: 

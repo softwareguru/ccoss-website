@@ -1,7 +1,8 @@
 ---
 title: "Aldo Luévano"
 date: 2020-10-16T09:49:57-05:00
-image : /images/speakers/aldo-luevano.jpg
+images:
+ - /images/speakers/aldo-luevano.jpg
 designation: CEO Roomie / Intel Board of Advisors Member / Humanoid Robotics & Artificial Intelligence
 country: 
 twitter: 

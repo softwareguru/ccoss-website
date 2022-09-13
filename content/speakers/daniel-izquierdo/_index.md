@@ -1,7 +1,8 @@
 ---
 title: "Daniel Izquierdo"
 date: 2020-10-13T09:49:09-05:00
-image : /images/speakers/daniel-izquierdo.jpg
+images:
+ - /images/speakers/daniel-izquierdo.jpg
 designation: Bitergia Co-Founder | Member at the Board of Directors, InnerSource Commons | Board Member, CHAOSS
 country: 
 twitter: https://twitter.com/dizquierdo?lang=en

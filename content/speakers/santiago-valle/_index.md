@@ -1,7 +1,8 @@
 ---
 title: "Santiago Valle"
 date: 2021-09-20T20:50:37-05:00
-image : "/images/speakers/santiago-valle.jpg"
+images:
+ - "/images/speakers/santiago-valle.jpg"
 designation : "Estudiante de Ingeniería en Computación en la Universidad de Guadalajara"
 country: "mx"
 twitter: ""

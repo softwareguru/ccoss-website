@@ -1,7 +1,8 @@
 ---
 title: "Lina Castro"
 date: 2021-09-21T01:35:29-05:00
-image : "/images/speakers/lina-castro.jpg"
+images:
+ - "/images/speakers/lina-castro.jpg"
 designation : "Desarrolladora y líder en Ubuntu Colombia"
 country: "co"
 twitter: "https://twitter.com/lirrums"

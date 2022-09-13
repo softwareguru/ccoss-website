@@ -1,7 +1,8 @@
 ---
 title: "Eryx Paredes"
 date: 2021-09-21T01:46:07-05:00
-image : "/images/team/eryx-paredes.jpg"
+images:
+ - "/images/team/eryx-paredes.jpg"
 designation : "Security Engineer @ Lyft | Profesor @ ITESO"
 country: "mx"
 twitter: "https://twitter.com/heryxpc"

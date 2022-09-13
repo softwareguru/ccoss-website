@@ -1,7 +1,8 @@
 ---
 title: "Adolfo Garcia Veytia"
 date: 2020-10-07T16:46:48-05:00
-image : /images/speakers/adolfo-garcia.jpeg
+images:
+ - /images/speakers/adolfo-garcia.jpeg
 designation: Release Manager Associate @ Kubernetes
 country: 
 twitter: https://twitter.com/puerco

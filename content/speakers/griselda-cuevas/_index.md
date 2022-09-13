@@ -1,7 +1,8 @@
 ---
 title: "Griselda Cuevas"
 date: 2020-07-22T06:27:31-05:00
-image : /images/speakers/griselda-cuevas.jpg
+images:
+ - /images/speakers/griselda-cuevas.jpg
 designation: VP Diversity & Inclusion @ ASF | Product Manager @ Google Cloud 
 country: 
 twitter: https://twitter.com/griscz

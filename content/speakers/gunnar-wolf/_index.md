@@ -1,7 +1,8 @@
 ---
 title: "Gunnar Wolf"
 date: 2021-09-10T12:31:55-05:00
-image : "/images/speakers/gunnar-wolf.jpg"
+images:
+ - "/images/speakers/gunnar-wolf.jpg"
 designation : "Docente @ UNAM | Desarrollador Debian"
 country: "mx"
 twitter: "https://twitter.com/GwolfWolf"

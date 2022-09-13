@@ -1,7 +1,8 @@
 ---
 title: "Alex Callejas"
 date: 2020-10-02T18:49:07-05:00
-image : /images/speakers/alex-callejas.jpg
+images:
+ - /images/speakers/alex-callejas.jpg
 designation: Senior Technical Support Engineer @ Red Hat
 country: 
 twitter: https://twitter.com/dark_axl

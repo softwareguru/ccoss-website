@@ -1,7 +1,8 @@
 ---
 title: "Berenice Medel"
 date: 2020-07-22T06:27:31-05:00
-image : /images/speakers/berenice-medel.jpg
+images:
+ - /images/speakers/berenice-medel.jpg
 designation: Desarrolladora de software @ Bunsan
 country: mx
 twitter: https://twitter.com/bemesa21

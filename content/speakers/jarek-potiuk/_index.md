@@ -1,7 +1,8 @@
 ---
 title: "Jarek Potiuk"
 date: 2021-09-21T01:29:23-05:00
-image : "/images/speakers/jarek-potiuk.jpg"
+images:
+ - "/images/speakers/jarek-potiuk.jpg"
 designation : "Independent open source contributor | Airflow PMC member"
 country: "pl"
 twitter: ""

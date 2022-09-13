@@ -1,7 +1,8 @@
 ---
-title: "Andrea Gomez"
+title: "Andrea Gómez"
 date: 2020-10-06T18:20:48-05:00
-image : /images/speakers/andrea-gomez.jpg
+images:
+ - /images/speakers/andrea-gomez.jpg
 designation: Site Reliability Engineer @ Wizeline
 country: 
 twitter: 

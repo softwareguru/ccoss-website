@@ -1,7 +1,8 @@
 ---
 title: "Leah Cole"
 date: 2021-09-21T01:29:23-05:00
-image : "/images/speakers/leah-cole.jpg"
+images:
+ - "/images/speakers/leah-cole.jpg"
 designation : "Developer Relations Engineer @ Google"
 country: "us"
 twitter: "https://twitter.com/leahecole"

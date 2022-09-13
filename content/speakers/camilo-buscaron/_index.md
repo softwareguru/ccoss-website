@@ -1,7 +1,8 @@
 ---
 title: "Camilo Buscarón"
 date: 2021-09-28T13:42:11-05:00
-image : "/images/speakers/camilo-buscaron.jpg"
+images:
+ - "/images/speakers/camilo-buscaron.jpg"
 designation : "Robotics technologist and strategist @ AWS"
 country: "mx"
 twitter: ""

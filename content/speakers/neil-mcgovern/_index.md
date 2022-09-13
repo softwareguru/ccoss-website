@@ -1,7 +1,8 @@
 ---
 title: "Neil McGovern"
 date: 2020-09-21T22:57:47-05:00
-image : /images/speakers/neil-mcgovern.jpg
+images:
+ - /images/speakers/neil-mcgovern.jpg
 designation: Executive Director @ GNOME Foundation
 country: 
 twitter: https://twitter.com/nmcgovern

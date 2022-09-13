@@ -3,14 +3,9 @@ id: w-archlinux
 title: "Taller de contribución a Arch Linux"
 url: /sessions/w-archlinux
 speakers:
-
-speaker1: Santiago Torres Arias
-speaker2: Jesús Castro
-speaker3: Andrea Gómez
-
-linkspeaker1: /speakers/santiago-torres/
-linkspeaker2: /speakers/jesus-castro/
-linkspeaker3: /speakers/andrea-gomez/
+ - Andrea Gómez
+ - Jesús Castro
+ - Santiago Torres
 
 time_start: 2020-10-22T17:30:00-05:00
 time_end:   2020-10-22T20:30:00-05:00

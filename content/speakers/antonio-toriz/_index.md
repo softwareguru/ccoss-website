@@ -1,7 +1,8 @@
 ---
 title: "Antonio Toriz"
 date: 2021-09-10T12:41:13-05:00
-image : "/images/speakers/antonio-toriz.jpg"
+images:
+ - "/images/speakers/antonio-toriz.jpg"
 designation : ""
 country: "mx"
 twitter: ""

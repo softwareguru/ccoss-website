@@ -1,7 +1,8 @@
 ---
 title: "Ignacio Anaya"
 date: 2021-09-20T12:25:58-05:00
-image : "/images/speakers/ignacio-anaya.jpg"
+images:
+ - "/images/speakers/ignacio-anaya.jpg"
 designation : "Lead Open Source Engineer @ Checkly"
 country: "ar"
 twitter: "https://twitter.com/ianaya89"

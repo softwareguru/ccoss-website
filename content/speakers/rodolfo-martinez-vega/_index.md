@@ -1,7 +1,8 @@
 ---
 title: "Rodolfo Martínez Vega"
 date: 2021-09-10T12:22:31-05:00
-image : "/images/speakers/rodolfo-martinez.jpg"
+images:
+ - "/images/speakers/rodolfo-martinez.jpg"
 designation : "Software developer @ Rackspace"
 country: "mx"
 twitter: "https://twitter.com/ramrodo"

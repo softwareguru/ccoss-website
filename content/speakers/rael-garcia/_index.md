@@ -1,7 +1,8 @@
 ---
 title: "Rael Garcia"
 date: 2021-10-01T22:56:19-05:00
-image : "/images/speakers/rael-garcia.png"
+images:
+ - "/images/speakers/rael-garcia.png"
 designation : "Site Reliability Engineer en Red Hat"
 country: "mx"
 twitter: "https://twitter.com/raelga"

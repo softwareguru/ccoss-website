@@ -1,7 +1,8 @@
 ---
 title: "Patrick Mcfadin"
 date: 2020-10-14T20:04:35-05:00
-image : /images/speakers/patrick-mcfadin.jpeg
+images:
+ - /images/speakers/patrick-mcfadin.jpeg
 designation: VP of Developer Relations, @ DataStax
 country: 
 twitter: 

@@ -1,7 +1,8 @@
 ---
 title: "Felipe Borges"
 date: 2020-10-14T16:28:13-05:00
-image : /images/speakers/felipe-borges.jpg
+images:
+ - /images/speakers/felipe-borges.jpg
 designation: GNOME Board director
 country: 
 twitter: https://twitter.com/felipeborges

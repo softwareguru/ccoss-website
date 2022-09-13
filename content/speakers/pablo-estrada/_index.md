@@ -1,7 +1,8 @@
 ---
 title: "Pablo Estrada"
 date: 2020-10-14T17:22:09-05:00
-image : /images/speakers/pablo-estrada.jpg
+images:
+ - /images/speakers/pablo-estrada.jpg
 designation: Software Engineer at Google. PMC member, Apache Beam.
 country: 
 twitter: 

@@ -1,7 +1,8 @@
 ---
 title: "Ale Quetzalli"
 date: 2021-09-20T20:53:45-05:00
-image : "/images/speakers/ale-quetzalli.jpg"
+images:
+ - "/images/speakers/ale-quetzalli.jpg"
 designation : "Senior OSS Technical Writer @ Postman (AsyncAPI)"
 country: "mx"
 twitter: "https://twitter.com/QuetzalliAle"

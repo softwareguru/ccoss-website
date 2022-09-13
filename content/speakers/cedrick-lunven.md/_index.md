@@ -1,7 +1,8 @@
 ---
 title: "Cédrick Lunven"
 date: 2020-10-14T20:09:00-05:00
-image : /images/speakers/cedrick-lunven.png
+images:
+ - /images/speakers/cedrick-lunven.png
 designation: Director of Developer Advocacy, @ DataStax
 country: 
 twitter: 

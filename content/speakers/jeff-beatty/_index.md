@@ -1,7 +1,8 @@
 ---
 title: "Jeff Beatty"
 date: 2020-09-21T23:19:52-05:00
-image : /images/speakers/jeff-beatty.jpg
+images:
+ - /images/speakers/jeff-beatty.jpg
 designation: Sr. Head of Localization @ Mozilla
 country: 
 twitter: https://twitter.com/guerojeff

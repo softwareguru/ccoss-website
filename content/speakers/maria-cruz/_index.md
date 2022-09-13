@@ -1,7 +1,8 @@
 ---
 title: "Maria Cruz"
 date: 2020-07-22T06:27:32-05:00
-image : /images/speakers/maria-cruz.jpg
+images:
+ - /images/speakers/maria-cruz.jpg
 designation: Program manager @ Google Cloud
 country: 
 twitter: 
