@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>{{ .Title }}{{ if not .IsHome }} | CCOSS 2021{{ end }}</title>
+    <title>{{ .Title }}{{ if not .IsHome }} | CCOSS{{ end }}</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
@@ -9,7 +9,22 @@
   
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
+
+    {{ with .Site.GoogleAnalytics }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
   
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '{{ . }}');
+    </script>
+    {{ end }}
+      
+
     {{ "<!-- plugins -->" | safeHTML }}
     {{ range .Site.Params.plugins.css }}
     <link rel="stylesheet" href="{{ .link | relURL }}">
@@ -23,46 +38,56 @@
     <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
     <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
     
-    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css">
 
     {{ if .IsHome }}
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Event",
-        "name": "{{ .Site.Title }}",
-        "startDate": "{{ .Site.Params.start_date }}",
-        "endDate": "{{ .Site.Params.end_date }}",
+        "name": {{ .Site.Title }},
+        "startDate": {{ .Site.Params.start_date }},
+        "endDate": {{ .Site.Params.end_date }},
         "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
-          "@type": "VirtualLocation",
-          "url": {{ .Site.BaseURL }}
+          "@type": "Place",
+          "name": "{{ with .Site.Params.venue.name }}{{ . }}{{ end }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ with .Site.Params.venue.street }}{{ . }}{{ end }}",
+            "addressLocality": "{{ with .Site.Params.venue.city }}{{ . }}{{ end }}",
+            "postalCode": "{{ with .Site.Params.venue.zipcode }}{{ . }}{{ end }}",
+            "addressRegion": "{{ with .Site.Params.venue.region }}{{ . }}{{ end }}",
+            "addressCountry": "{{ with .Site.Params.venue.country }}{{ . }}{{ end }}"
+          }
         },
-        "image": [ {{ index .Site.Params.images 0 | absURL }}],
-        "description": "{{ .Site.Params.description }}",
+        "image": [
+          {{ .Site.Params.image | absURL }}
+        ],
+        "description": {{ .Site.Params.description }},
         "offers": {
           "@type": "Offer",
           "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
-          "price": "0",
-          "priceCurrency": "USD",
+          "price": "400",
+          "priceCurrency": "MXN",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2022-07-01T12:00"
+          "validFrom": "2022-09-01T12:00"
         },
         "performer": {
           "@type": "PerformingGroup",
-          "name": "CCOSS"
+          "name": "Software Guru"
         },
         "organizer": {
           "@type": "Organization",
           "name": "Software Guru",
-          "url": "https://devrel.sg.com.mx"
+          "url": "https://sg.com.mx/dataday"
         }
       }
     </script>
-    {{ end }}
+  {{ end }}
+  
 
   </head>
   

@@ -141,17 +141,27 @@ home = "Home"
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es un evento con charlas, talleres y mentorías para impulsar la contribución al open source en Latinoamérica."""
 images = ["/images/CCOSS2022.jpg"]
-twitter_user = ""
+twitter_user = "@RevistaSG"
 email = "hola@ccoss.org"
 author = "Software Guru"
 
 # Google Analitycs
-google_analitycs_id = "UA-165970215-1" # your id
+googleAnalytics = "G-M9TKWBTNE6" # your id
 # search for blog page
 search = true
 
 disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es una iniciativa de Open Source México (OSOM) en colaboración con Software Guru."""
 
+start_date = "2022-11-10T10:00-05:00"
+end_date = "2022-11-12T16:00-05:00"
+
+[params.venue]
+name = "Intel GDC"
+street = "Av. del Bosque 1001"
+city = "Zapopan"
+region = "JAL"
+zipcode = "45017"
+country = "Mexico"
 
 
 # Preloader
@@ -162,8 +172,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Ticket"
-link = "/ticket"
+label = "Boletos"
+link = "/tickets"
 
 
 
