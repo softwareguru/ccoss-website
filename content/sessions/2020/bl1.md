@@ -3,9 +3,7 @@ id: bl1
 title: "Colabora en Kubernetes como Shadow del Release Team!"
 url: /sessions/kubernetes-como-shadow-release-team
 speakers:
- - Adolfo García Veytia
-speaker1: Adolfo García Veytia
-linkspeaker1: /speakers/adolfo-garcia/
+ - adolfo-garcia
 language: Español
 
 time_start: 2020-10-20T17:00:00.000Z

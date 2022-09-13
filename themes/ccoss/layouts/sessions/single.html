@@ -13,7 +13,7 @@
               {{ range (.GetTerms "speakers") }}
               <figure class="thumb">
                 <a href="{{ .Permalink }}">
-                  <img class="rounded-circle" width="150" src="{{ .Params.Image | relURL}}" alt="">
+                  <img class="rounded-circle" width="150" src="{{ with .Params.images }}{{ index . 0 | relURL}}{{ end }}" alt="">
                   <h5 class="name" style="color: #17A8BC;">{{ .Title }}</h5>
                 </a>
               </figure>

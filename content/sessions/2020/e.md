@@ -2,9 +2,6 @@
 id: e
 title: "Viernes: Apertura del Sprint"
 url: /sessions/sesion-de-apertura-del-sprint
-speakers:
- - Abierto
-speaker1: Abierto
 time_start: 2020-10-23T14:00:00-05:00
 time_end:   2020-10-23T15:00:00-05:00
 day_num: 5 

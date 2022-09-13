@@ -4,6 +4,8 @@ baseURL = "https://ccoss.org/"
 title = "CCOSS"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
+RemovePathAccents = true
+
 
 theme = "ccoss"
 # post pagination
@@ -12,7 +14,7 @@ paginate = "8"
 
 # output
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark]
@@ -23,7 +25,6 @@ home = ["HTML", "RSS", "JSON"]
   tag = "tags"
   category = "categories"
   speaker = "speakers"
-  track = "tracks"
 
 ############################# Plugins ##############################
 # CSS Plugins

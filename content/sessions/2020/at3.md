@@ -3,9 +3,7 @@ id: at3
 title: "¿Inner Source? ¿Quién es ese pokemon?"
 url: /sessions/inner-source
 speakers:
- - Joel Humberto Gómez
-speaker1: Joel Humberto Gómez
-linkspeaker1: /speakers/joel-humberto-gomez/
+ - Joel Humberto Gómez Paredes
 language: Español
 time_start: 2020-10-19T12:50:00-05:00
 time_end:   2020-10-19T13:15:00-05:00

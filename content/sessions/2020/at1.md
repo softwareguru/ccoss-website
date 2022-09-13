@@ -3,10 +3,8 @@ id: at1
 title: "Mi experiencia contribuyendo a OS: Phoenix framework y los árboles de supervisión"
 url: /sessions/contribucion-phoenix-arboles-supervision
 speakers:
- - Berenice Medel Sánchez
+ - Berenice Medel
 
-speaker1: Berenice Medel Sánchez
-linkspeaker1: /speakers/berenice-medel/
 language: Español
 
 time_start: 2020-10-19T11:30:00-05:00
