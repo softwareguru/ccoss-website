@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes
-date: 0202-05-01T08:30:24+00:00
+date: 2022-09-01T08:30:24+00:00
 description: Details for participation in Beam Summit.
 bg_image: images/bg/cta-bg.jpg
 url: /faq
