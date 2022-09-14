@@ -12,7 +12,7 @@
         {{ range first 2 (where .Site.RegularPages "Type" "blog" )}}
         <div class="col-lg-4 col-md-6">
           <div class="blog-item card border-0 mb-5 mb-lg-0">
-            <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid">
+            <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid">
             <div class="p-4">
               <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
             </div>

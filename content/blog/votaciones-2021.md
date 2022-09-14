@@ -4,7 +4,8 @@ date: 2021-09-15T13:18:40-05:00
 draft: false
 description: ""
 # post thumb
-image : "images/blog/CCOSS-voto.png"
+images: 
+ - "images/blog/CCOSS-voto.png"
 # author
 author: "CCOSS" 
 

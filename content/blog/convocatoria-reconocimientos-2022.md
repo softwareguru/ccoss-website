@@ -1,10 +1,11 @@
 ---
 title: "Convocatoria de nominaciones a Premios CCOSS 2022"
-date: 2021-09-15T13:18:40-05:00
+date: 2022-09-13T14:18:40-05:00
 draft: false
-description: ""
+description: "En CCOSS reconoceremos a miembros de la comunidad que han contribuido a proyectos de código abierto."
 # post thumb
-image : "images/blog/CCOSS-voto.png"
+images: 
+ - "images/blog/thumbs-up.webp"
 # author
 author: "CCOSS" 
 
@@ -17,9 +18,9 @@ Sabemos que hay personas increíbles que han apoyado incansablemente el código 
 
 Tenemos un par de categorías de reconocimientos:
 
-* Contribuidor, conoces alguien que ha contribuido a un proyecto de código abierto de forma constante y que te gustaría agradecerle. 
+* __Contribuidor__ - conoces alguien que ha contribuido a un proyecto de código abierto de forma constante y que te gustaría agradecerle. 
 
-* Facilitador, conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source.
+* __Facilitador__ - conoces alguien que ha ayudado a que más personas contribuyan a proyectos open source.
 
 
 Necesitamos tu ayuda para nominar a candidatxs. Por favor llena la siguiente forma.

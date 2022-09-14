@@ -2,9 +2,9 @@
 title: "ConTRIBU: sesiones de contribución en vivo rumbo a CCOSS 2021"
 date: 2021-09-15T13:18:36-05:00
 draft: false
-description: ""
 # post thumb
-image : "images/blog/CCOSS-contribu.png"
+images: 
+ - "images/blog/CCOSS-contribu.png"
 # author
 author: "CCOSS" 
 ---
