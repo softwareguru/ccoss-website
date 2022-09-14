@@ -26,6 +26,11 @@ home = ["HTML", "RSS"]
   category = "categories"
   speaker = "speakers"
 
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
 ############################# Plugins ##############################
 # CSS Plugins
 [[params.plugins.css]]

@@ -2,7 +2,8 @@
 title: "Tickets"
 date: 2022-08-26T12:01:36-05:00
 draft: false
-priority: 0.7
+sitemap:
+  priority: 0.9
 ---
 
 <div id="eventbrite-widget-container-402449024867"></div>
