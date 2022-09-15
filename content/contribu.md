@@ -1,7 +1,7 @@
 ---
 title: "ConTRIBU 2022"
 date: 2022-09-10T18:44:54-05:00
-draft: false
+draft: true
 ---
 
 ## Conoce más acerca de CCOSS
@@ -24,9 +24,9 @@ ConTRIBU regresa rumbo a CCOSS  2022, en esta temporada conoceremos proyectos op
         <div class="col mb-4">
           <div class="card" style="border: none;">
           <h2>Episodio2: Contribución a Odoo y la Asociación de la Comunidad de Odoo (OCA)</h2>
-                <a href="https://sg1.run/contribuep2">
-  <img src="../images/blog/CCOSS 2022-ConTRIBU-2.png" class="img-fluid" >
-  </a>
+  <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ci6zVM4Sqcc" allowfullscreen></iframe>
+            </div>
  </div>
  <p>Este taller te ayudará a pasar por el proceso de contribución de módulos de Odoo, a la Asociación de la comunidad de Odoo y a familiarizarte con la integración continua que se utiliza allí.
 
