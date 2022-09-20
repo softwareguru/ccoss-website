@@ -1,0 +1,41 @@
+
+<section class="section contribu">
+    <div class="container">
+        <div class="row section-heading">
+          <div class="col-md-8">
+            <div class="heading">
+              <h2>Próximos talleres de contribución en línea</h2>
+            </div>
+          </div>
+        </div>
+    
+{{ range first 2 (where (where .Site.RegularPages.ByDate "Type" "contribu" ) ".Params.upcoming" true) }}
+
+<div class="card mb-3">
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <div class="card-body">
+        <a href="{{.Permalink}}"><img src="{{ with .Params.images }}{{ index . 0 | relURL}}{{ end }}" class="card-img" alt="..." /></a>
+      </div>
+    </div>
+    <div class="col-12 col-md-8">
+      <div class="card-body">
+        <h3 class="card-title" style="color: #17a8bc"><a href="{{.Permalink}}">
+          {{ with .Params.time_start | time }}{{ .Format "2-Jan" }}{{ end
+          }}: {{ .Title }}
+        </h3></a>
+        <p class="card-text">{{ .Summary }}</p>
+        <div class="d-flex flex-row-reverse">
+          <a href="{{ .Params.cta_link}}" target="_blank">
+            <button type="button" class="btn btn-info px-3">
+              Regístrate
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+</section>

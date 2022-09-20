@@ -1,11 +1,13 @@
 ---
-title: "Episodio 4: Contribución a la documentación de Kubernetes en Español"
-date: 2021-10-01T16:22:17-05:00
-image: "/images/blog/CCOSS 2022 - ConTRIBU - HD (1920 × 1080 px) - t2e4 - Contribución a la documentación de Kubernetes en Español.png"
-description: 
-button: Registrate aquí
-link: https://sg1.run/contribuep4
-draft: false
+title: "Contribución a la documentación de Kubernetes en Español"
+date: 2022-09-04T16:00:00-05:00
+time_start: 2022-09-27T19:00:00-05:00
+speakers:
+ - Rodolfo Martínez Vega
+images: 
+ - "images/blog/contribu-t2e4.webp"
+upcoming: true
+cta_link: https://sg1.run/contribuep4
 ---
 
 En este taller comenzaremos hablando de Kubernetes como proyecto de Open Souce y de su gran comunidad que se encuentra alrededor. Después explicaremos qué es el Release Team de Kubernetes y los diferentes Grupos de Interés (SIGs) en los que se divide el proyecto. Y por supuesto, veremos los requisitos y les guiaremos en el flujo para poder contribuir a Kubernetes, en específico, en el SIG de Docs.

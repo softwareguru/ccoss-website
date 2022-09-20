@@ -2,32 +2,60 @@
 
 <section class="kitvirtual section">
   <div class="container">
-    <div class="lead">
-      {{ .Content }}
-    </div>
-    <div class="row">
-        {{ range .Data.Pages.ByTitle }}
-      <div class="col-12 col-md-4 px-3 mb-3">
-        <div class="card h-100">
-            <img src="{{ .Params.Image }}" class="card-img-top" alt="...">
+    <div>{{ .Content }}</div>
+    <h3 class="mb-3">Próximos talleres</h3>
+    <p>Conoce los próximos talleres y regístrate para participar.</p>
+    {{ range (where .Data.Pages.ByDate ".Params.upcoming" true) }}
+    <div class="card mb-3">
+      <div class="row">
+        <div class="col-12 col-md-4">
           <div class="card-body">
-            <h3 class="card-title" style="color: #17A8BC;">{{ .Title }}</h3>        
-            <p class="module line-clamp">{{ .Summary }}</p>
-          
-
-            <div><a href="{{.Permalink}} " style="color: #E62485;">Leer más ...</a></div>
-            
-            </div>
-            <center>
-              <a href="{{ .Params.Link }}" target="_blank">
-                <button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3" >{{ .Params.Button}}</button>
-             </a>
-        </center>
-        <br>
+            <a href="{{.Permalink}}"><img src="{{ with .Params.images }}{{ index . 0 | relURL}}{{ end }}" class="card-img" alt="..." /></a>
           </div>
         </div>
-        {{ end }}
+        <div class="col-12 col-md-8">
+          <div class="card-body">
+            <h3 class="card-title" style="color: #17a8bc"><a href="{{.Permalink}}">
+              {{ with .Params.time_start | time }}{{ .Format "2-Jan" }}{{ end
+              }}: {{ .Title }}
+            </h3></a>
+            <p class="card-text">{{ .Summary }}</p>
+            <div class="d-flex flex-row-reverse">
+              <a href="{{ .Params.cta_link}}" target="_blank">
+                <button type="button" class="btn btn-info px-3">
+                  Regístrate
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    {{ end }}
+
+    <h3 class="mt-4 mb-3">Talleres anteriores</h3>
+    <p>Consulta las grabaciones de los talleres anteriores.</p>
+    <div class="row">
+      {{ range (where .Data.Pages.ByDate ".Params.upcoming" false) }}
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card-body">
+              <a href="{{.Permalink}}"
+                ><img src="{{ with .Params.images }}{{ index . 0 | relURL}}{{ end }}" class="card-img" alt="..." /></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="card-body">
+              <h3 class="card-title" style="color: #17a8bc">
+                <a href="{{.Permalink}}">{{ .Title }}</a>
+              </h3>
+              <p class="card-text">{{ .Summary }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>

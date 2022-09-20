@@ -5,11 +5,11 @@ banner:
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "11 y 12 de noviembre 2022. Guadalajara, México"
+  date_time : "11 y 12 de noviembre 2022. Intel GDC, Guadalajara, México"
   venue : "Forma parte de los principales proyectos open source en el mundo."
   button:
     enable : true
-    label : "Registro"
+    label : "Boletos"
     link : "https://ccoss22.eventbrite.com/"
 
 
@@ -18,7 +18,7 @@ event_info:
   enable : true
   title : "¿Te interesa contribuir a proyectos open source pero no sabes cómo hacerlo?"
   description : "El propósito principal de CCOSS es impulsar la contribución de personas y organizaciones al open source en Latinoamérica."
-  contribution: "En esta edición previo al evento presencial contaremos con talleres prácticos en formato online para diferentes perfiles de asistentes, desde principiante a experto."
+  contribution: "Participa en los talleres de contribución online y luego acompáñanos en las charlas y sprint de contribución."
   cta_text: "Conoce más sobre la edición anterior"
   cta_link: "https://ccoss.org/sessions/2021/"
   features: 
@@ -41,10 +41,6 @@ speakers:
   enable : false
   title : "Keynote speakers"
 
-####################### Schedule #############################
-schedule:
-  enable : true
-  # schedule data comes from "schedule.yml" file
 
 ####################### pricing #############################
 pricing:
@@ -61,6 +57,10 @@ blog:
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # blog content comes from "content/blog" folder
 
+############################### Contribu ######################################
+contribu:
+  enable : true
+  title: "Próximos talleres"
 
   
 ############################### organized by ######################################
