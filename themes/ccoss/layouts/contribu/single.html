@@ -53,7 +53,11 @@
             {{ end }}
 
             <div class="content mt-4">{{ .Content }}</div>
-          
+
+            {{ if eq .Params.upcoming true }} 
+            <a href="{{ .Params.cta_link }}" target="_blank"><img src="{{ with .Params.images }}{{ index . 0 | relURL}}{{ end }}" class="card-img" alt="..." /></a>
+            {{ end }}
+        
           </div>
         </div>
       </div>
