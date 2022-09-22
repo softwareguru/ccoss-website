@@ -20,6 +20,9 @@ sponsor_group:
 
       - logo : "/images/logos/Droneco.png"
         link : "https://www.dronecode.org/"
+      - logo : "/images/logos/Github.png"
+        link : "https://github.com/asyncapi"
+
 
   - title : "Partner"
     slug : "community"

@@ -5,7 +5,7 @@ time_start: 2022-09-27T19:00:00-05:00
 speakers:
  - Rodolfo Martínez Vega
 images: 
- - "images/blog/contribu-t2e4.webp"
+ - "images/blog/contribu-t2-e4-1.png"
 upcoming: true
 cta_link: https://sg1.run/contribuep4
 ---
