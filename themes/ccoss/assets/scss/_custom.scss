@@ -81,13 +81,8 @@ section.register p, section.swag p {
 
 .team-strip {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: 20px;
-
-	@include mobile {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
 }
 
 .profile-item .headshot {
@@ -232,19 +227,19 @@ section.sponsors {
 		font-size: 40px;
 	}
 }
-  
+
   .event-info .content {
 	display: grid;
 	grid-gap: 32px;
 	grid-template-columns: 1fr;
-  
+
 	@media (min-width:640px) {
 	  grid-gap: 64px;
-	  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));    
+	  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 	}
-  
+
   }
-  
+
   .statistics-block {
 	display: grid;
 	width:100%;
@@ -254,16 +249,16 @@ section.sponsors {
 	  grid-gap: 32px;
 	}
   }
-  
+
   .statistics-block .numbers {
 	font-size: 40px;
 	word-spacing: 0.0em;
-	line-height: 27pt;     
+	line-height: 27pt;
 	@media (min-width:640px) {
 	  grid-gap: 56px;
 	}
   }
-  
+
   .statistics-block .numbers:after {
 	content: "";
 	display: block;
@@ -272,7 +267,7 @@ section.sponsors {
 	background-color: $yellow;
 	margin-top:10px;
   }
-  
+
   .statistics-block .label {
 	margin-top: 4px;
   }
@@ -287,7 +282,7 @@ section.sponsors {
 
 .list-content {
 	margin-bottom: 1.6em;
-}	
+}
 
 #event-info {
 	display: block;
