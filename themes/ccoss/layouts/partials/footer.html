@@ -9,12 +9,15 @@
 					<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
 					{{ end }}
 				</ul>
-			</div>			
+			</div>
 			<div>
 				<h5>Acerca de</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_about }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					{{ end }}
+					{{ range .Site.Params.footer_source }}
+					<li><a href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
@@ -37,8 +40,8 @@
 		</div>
 		{{ with .Site.Params.disclaimer }}
 		<div class="disclaimer">
-			{{ . }}  
-		</div>			
+			{{ . }}
+		</div>
         {{ end }}
 	</div>
 </footer>
@@ -52,4 +55,3 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-
