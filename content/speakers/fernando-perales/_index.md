@@ -5,9 +5,12 @@ images:
  - /images/speakers/fernando-perales.jpg
 designation: Software developer @ thoughtbot
 country: 
-twitter: 
-linkedin: 
-github: 
+twitter: https://twitter.com/ferperales
+linkedin: https://linkedin.com/in/ferperales
+github: https://github.com/ferperales
+events:
+ - 2022
+ - 2019
 ---
 
 Fernando is a Software engineer who writes web applications on his favorite language: Ruby.

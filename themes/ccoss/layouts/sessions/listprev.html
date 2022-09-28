@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <p class="text-center">
+        {{ .Content }}
+    </p>
+
+    <table class="table table-bordered" data-toggle="table" data-search="true" data-search-align="left" >
+        <thead>
+            <tr>
+                <th data-field="title">Título</th>
+                <th data-field="speaker">Ponente(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range sort .Data.Pages ".Params.time_end" }}
+            <tr>
+                <td><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></td>
+                <td><ul class="taglist">{{ range .Params.speakers }}{{ with . | urlize }}{{ with $.Site.GetPage print "/speakers/" . }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end }}{{ end }}{{ end }}</ul></td>
+                            
+            </tr>
+            {{ end }}
+        </tbody>
+      </table>
+      
+</div>
+
+
+
+{{ end }}
+

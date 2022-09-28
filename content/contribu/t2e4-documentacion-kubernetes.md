@@ -4,6 +4,8 @@ date: 2022-09-04T16:00:00-05:00
 time_start: 2022-09-27T19:00:00-05:00
 speakers:
  - Rodolfo Martínez Vega
+ - Víctor Morales
+ - Rael García
 images: 
  - "images/blog/contribu-t2e4.webp"
 upcoming: true

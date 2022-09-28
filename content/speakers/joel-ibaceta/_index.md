@@ -5,10 +5,12 @@ images:
  - "/images/speakers/joel-ibaceta.jpg"
 designation : "CTO @ Kwema"
 country: "ar"
-twitter: "https://twitter.com/joelibaceta"
-linkedin: ""
-github: "https://github.com/joelibaceta"
-year: "2021"
+twitter:  https://twitter.com/joelibaceta
+linkedin: https://www.linkedin.com/in/joelibaceta/
+github:   https://github.com/joelibaceta
+events:
+ - 2022
+ - 2021
 ---
 
 He escrito código casi toda mi vida, empece a los 9 años, obtuve mi primer titulo tecnico a los 11, todos estos años me han permitido ser testigo del surgimiento y caida de varios paradigmas, tecnologías y lenguajes de programación, creo en que lo único constante es el cambio y la diversidad de conocimientos genera sinergias increíbles. 

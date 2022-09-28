@@ -8,6 +8,9 @@ country:
 twitter: https://twitter.com/sabasacustico
 linkedin: https://www.linkedin.com/in/andressabas/
 github: https://github.com/sabas1080
+events:
+ - 2022
+ - 2019
 ---
 
 Andrés Sabas es Director de Electronic Cats. Es un maker apasionado y cofundador de The Inventor’s House Hackerspace en Aguascalientes.

@@ -1,14 +1,17 @@
 ---
-title: "Rael Garcia"
-date: 2021-10-01T22:56:19-05:00
+title: "Rael García"
+date: 2022-09-01T22:56:19-05:00
 images:
- - "/images/speakers/rael-garcia.png"
+ - "/images/speakers/rael-garcia.jpg"
 designation : "Site Reliability Engineer en Red Hat"
-country: "mx"
+country: "es"
 twitter: "https://twitter.com/raelga"
 linkedin: "https://www.linkedin.com/in/rael/"
 github: "https://github.com/raelga"
-year: "2021"
+events: 
+ - 2022
+ - 2021
+
 ---
 
 

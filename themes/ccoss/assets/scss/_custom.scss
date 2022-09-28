@@ -300,3 +300,22 @@ section.sponsors {
 	color: white;
 	text-decoration: underline;
 }
+
+ul.taglist {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  ul.taglist li {
+	display: inline;
+  }
+  
+  ul.taglist li:after {
+	content: ", ";
+  }
+  
+  ul.taglist li:last-child:after {
+	content: "";
+  }

@@ -8,10 +8,13 @@ country: "mx"
 twitter: "https://twitter.com/diana_nerd"
 linkedin: "https://www.linkedin.com/in/diananerd/"
 github: "https://github.com/nerddiana"
-year: "2021"
+events:
+ - 2022
+ - 2021
 ---
 
-Mujer trans, Fullstack Developer y entusiasta de la robótica.
+Desarrolladora de software y entusiasta de la robótica.
 
 Fundadora de Robots Latam, la comunidad internacional para promover la robótica en latinoamérica.
 
+Instructora en Platzi.

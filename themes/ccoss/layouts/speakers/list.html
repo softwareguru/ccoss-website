@@ -6,7 +6,7 @@
       {{ .Content }}
     </div>
     <div class="speaker-strip">
-      {{ range .Data.Pages.ByTitle }} 
+      {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }} 
         {{ if in .Params.events "2022" }}
       <div class="speaker-item">
         <div class="speaker-block">
