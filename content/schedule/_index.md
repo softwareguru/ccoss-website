@@ -10,7 +10,7 @@ blocks:
   - id: a
     info: Sesiones confirmadas
     language: 
-    time_start: 2021-10-04T16:00:00.000Z
+    time_start: 2022-11-10T16:00:00.000Z
 
   - id: b
     info: Sesiones confirmadas

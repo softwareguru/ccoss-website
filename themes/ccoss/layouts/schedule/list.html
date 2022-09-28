@@ -1,103 +1,117 @@
 {{ define "main" }}
 
-    <div class="container">
-      <div class="content mt-4">
-        {{ .Content }} 
-    </div>  
-   
-      <div class="row">
-          {{ range .Data.Pages }}
-        <div class="col-12 col-md-4 px-3 mb-3">
-          <div class="card h-100">
-
-              <a href="#date-{{.Params.id}}">
-                
-                <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">
-            
-            <div class="card-body">
-              <h3 class="card-title">{{ .Title }}</h3>     
-            </a>    
-              <h6 class="card-subtitle mb-4 text-muted">{{ .Params.Description }}</h6>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
- 
-
-
 <div class="container">
-    <div class="content my-4">
-        <!--El horario de las sesiones se despliega en tu horario local.-->
+    <div class="content mt-4">
+        {{ .Content }}
+    </div>
 
-    </div>  
+    <h3 class="mt-4">Filter by track</h3> 
+    <div class="color-code-list">
+        <div id="track-all" class="btn color-code-item track-all" onclick="showTrack(this,'all')">All</div>
+        {{ range .Params.tracks }}
+        <div id="track-{{ .slug }}" class="btn color-code-item track-{{ .slug }}" onclick="showTrack(this,'{{.slug}}')">{{ .label }}</div>
+        {{ end }}
+    </div>
 
-    {{ range .Params.blocks}}
-    <div class="schedule-block">
-        <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
-        <div class="session-list">
-            {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
-            <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
-            <div class="">
-                <div id="time-{{.Params.id}}" class="session-time">
-                </div>
-              </div>            
-                <div class="session-info">
-                    <h4><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.id}}" style="color: white;">{{ .Params.title }}</a>{{ with .Params.language }}{{ if eq . "chinese" }} (Chinese){{ end }}{{ end }}</h4>
-                    {{ with .Params.speakers }}<p class="speakers-list" style="color: white;">Por {{ delimit . ", " " & " }}</p>{{ end }}
-                    <div class="collapse card-abstract" id="abs-{{.Params.id}}" style="color: white;">
-                      {{ .Summary }}
-                        <div><a href="{{.Permalink}}" style="color: white;">Leer más ...</a></div>
-                </div>
+    <h3 class="mt-4">Filter by day</h3> 
+    <div id="day-buttons" class="mb-4 text-center">
+    {{ range .Params.days }}
+        <button id="button-day-{{ .id }}" type="button" class="btn btn-outline-danger mx-2" onclick="showDay(this,'{{.id}}')">{{ .title_short }}</button>
+    {{ end }}
+    </div>    
+
+    {{ range .Params.days }}
+      {{ $curr_day :=  .id }}
+      {{ $rooms :=  .rooms }}
+
+    <div id="dayblock-{{.id}}" class="dayblock my-5">
+        <h3 class="mb-3">{{.title_full}}</h3>
+        {{ range .timeslots }}
+            {{ $time_id := .id }}
+            {{ $time_label := .time_start | time }}
+            <div class="time-row {{ .type }}">
+                <div class="time-label">{{ $time_label.Format "15:04" }}</div>
+                {{ if eq .type "break" }}
+                    <div class="time-room">
+                        <div class="session-item">
+                            <div class="session-title text-center font-weight-normal">{{ .name }}</div>
+                        </div>
+                    </div>
+                {{ else }}   
+                {{ range $rooms }}
+                    <div class="time-room room-{{.}}">
+                        {{ range sort (where (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day ) ".Params.timeslot" $time_id) ".Params.room" . ) ".Params.timeorder" }}
+                        <div class="session-item order-{{ .Params.timeorder }} track-{{ .Params.track }}" data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
+                            <div class="session-time">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</div>
+                            <div class="session-title"><a href="{{.Permalink}}" target="_blank">{{ .Title }}</a></div>
+                            <div class="session-speakers">{{ with .Params.speakers }}by {{ delimit . ", " " & " }}{{ end }}</div>
+                            <div class="session-room">Room: {{ .Params.room }}</div>
+                            <div id="live-{{ .Params.slot }}" class="live-button text-center d-none"><a class="btn btn-danger btn-sm" href="{{ .Params.live_url }}" target="_blank">Watch</a></div>
+                        </div>
+                        {{ end }}
+                    </div>
+                {{ end }}
+                {{ end }}
+
             </div>
-          </div>
-          
-            {{ end }}
-            <br>
-        </div>
+            
+        {{ end }}
     </div>
     {{ end }}
+
 </div>
-
 <script>
-    function adjTime(elemId, timeStart, timeEnd, timeBlock) {
-        let dateStart = new Date(Date.parse(timeStart));
-        let dateEnd = new Date(Date.parse(timeEnd));
-        let dateBlock = new Date(Date.parse(timeBlock));
-        let adjString = dateStart.getHours()+":"+(('0'+dateStart.getMinutes()).slice(-2))+"-"+dateEnd.getHours()+":"+(('0'+dateEnd.getMinutes()).slice(-2));
-        if (dateStart.getDay() > dateBlock.getDay()) {
-          adjString += "<br /><em>(+1 day)</em>";
-        }  
-        document.getElementById(elemId).innerHTML=adjString;
-    }
-    function adjBlock(elemId, date1, language) {
-        let parseDate1 = Date.parse(date1);
-        let jsDate1 = new Date(parseDate1);
-        var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-        let adjString = days[jsDate1.getDay()]+", Octubre "+jsDate1.getDate();
-        document.getElementById(elemId).innerHTML=adjString;
-    }
-        {{ range .Params.blocks }}
-      {{ $block_start := .time_start | time  }}
-      adjBlock("date-{{ .id }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ humanize .language }}");
-      {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_start" }}
-        {{ $time_start := .Params.time_start | time  }}
-        {{ $time_end := .Params.time_end | time  }}
-        adjTime("time-{{ .Params.id }}", "{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}");
-      {{ end }}  
-    {{ end }}
 
+function showTrack(obj,track) {
+
+    if (track == "all") {
+        document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'block' });        
+    }
+    else {
+        document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'none' });        
+        document.getElementsByClassName("session-item track-"+track).forEach(block => { block.style.display = 'block' });        
+    }
+}
+
+function showDay(obj, id) {
+
+    document.getElementsByClassName("dayblock").forEach(block => { block.style.display = 'none' });
+    document.getElementById("dayblock-"+id).style.display = 'block';
+
+}
 </script>
 
+<script>
+    function checkWatch(item) {
+      let curDate = new Date();
+      let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+      let dateStart = new Date(Date.parse(item.dataset.timestart));
+      let dateEnd = new Date(Date.parse(item.dataset.timeend));
 
+      if (!item.dataset.slot) {
+        return;
+      }
+
+      if (item.dataset.track == "workshop") {
+        return;
+      }
+      console.log("Session: "+item.dataset.slot+". Start: "+dateStart);
+  
+      // Check if it finish time is not past and if start time is within one hour of now.
+      if (curDate < dateEnd && oneMoreHour > dateStart) {
+        // Remove d-none class so that the button shows up.
+        console.log("Show this one");
+        document.getElementById('live-'+item.dataset.slot).classList.remove("d-none");
+      }
+  
+    }
+
+document.querySelectorAll('.session-item').forEach(function(item) {
+    checkWatch(item)
+    });
+  
+</script>
 
   
 
 {{ end }}
-
-
-
-
-
