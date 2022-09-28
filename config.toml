@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
 baseURL = "https://ccoss.org/"
-title = "CCOSS"
+title = "Cumbre de Contribuidores de Open Source Software (CCOSS)"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
