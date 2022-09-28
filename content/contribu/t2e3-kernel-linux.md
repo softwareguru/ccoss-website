@@ -6,8 +6,8 @@ speakers:
  - Miguel Bernal Marín
 images: 
  - "images/blog/contribu-t2e3.webp"
-upcoming: true
-cta_link: https://sg1.run/contribuep3
+upcoming: false
+video: https://youtu.be/PoErAKvQ6hQ
 ---
 
 En este taller veremos cómo mandar parches al kernel de Linux y cómo está organizado el kernel, qué son los subsistemas y veremos las diferentes listas de distribución de estos subsistemas.
