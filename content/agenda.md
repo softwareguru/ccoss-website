@@ -2,7 +2,10 @@
 title: "Agenda"
 date: 2021-06-04T09:37:06-05:00
 url: /agenda
+description: "Conoce las sesiones de la Cumbre de Contribuidores de Open Source 2022"
+
 layout: agenda
+
 
 blocks: 
 
@@ -24,4 +27,11 @@ blocks:
 
 ---
 
-*Times are shown in CDT timezone (GMT-5)*
+
+## Estructura de agenda
+
+ * El jueves 10 de noviembre tendremos charlas solamente online.
+ * El viernes 11 de noviembre tendremos charlas en persona (Intel GDC Guadalajara) y también se transmitirán online.
+ * El sábado 12 de noviembre tendremos un taller (en persona) y adicionalmente el sprint de contribución (en persona y remoto).
+
+A continuación puedes ver la agenda de sesiones (*los horarios se refieren a la hora del Centro de México (GMT-5)*)

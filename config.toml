@@ -84,11 +84,11 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   
 
-  #[[menu.main]]
-  #  identifier = "program"
-  #  name = "Agenda"
-  #  url = "/schedule"
-  #  weight = 1
+  [[menu.main]]
+    identifier = "agenda"
+    name = "Agenda"
+    url = "/agenda"
+    weight = 1
 
   #[[menu.main]]
   #name = "Talleres"
