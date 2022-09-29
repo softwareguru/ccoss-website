@@ -8,7 +8,7 @@ speakers:
  - Rael García
 images: 
  - "images/blog/contribu-t2-e4-1.png"
-upcoming: true
+upcoming: false
 cta_link: https://sg1.run/contribuep4
 ---
 

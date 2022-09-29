@@ -9,10 +9,13 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/Logo_AWS.png"
-        link : "https://aws.amazon.com/es/"
-      - logo : "/images/logos/google.png"
+      - logo : "/images/logos/Google-logo.png"
         link : "https://about.google/"
+      - logo : "/images/logos/AWS_1.png"
+        link : "https://aws.amazon.com/es/"
+      #- logo : "/images/logos/Intel_prueba.png"
+      #  link : "#"
+
 
   - title : "Silver"
     slug : "silver"
@@ -29,9 +32,9 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/osom.jpg"
         link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
-      - logo : "/images/logos/apache.jpg"
+      - logo : "/images/logos/Apache-logo.png"
         link : "https://www.apache.org/"
-      - logo : "/images/logos/gnome.png"
+      - logo : "/images/logos/Gnome-logo.png"
         link : "https://www.gnome.org/"
       - logo : "/images/logos/Logo_AsyncAPI.png"
         link : "https://github.com/asyncapi"

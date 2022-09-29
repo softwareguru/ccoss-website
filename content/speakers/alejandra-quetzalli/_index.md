@@ -11,6 +11,7 @@ github: "https://github.com/alequetzalli"
 events: 
  - 2022
  - 2021
+ - 2022
 ---
 
 He estado en tecnología durante 9 años. Durante ese tiempo, realicé SEO, búsqueda paga, desarrollo front-end y full-stack, UX/UI, relaciones con desarrolladores y redacción técnica (documentación de ingeniería). También he tenido la oportunidad de trabajar en FAANG, varias startups y Open Source (OSS).
