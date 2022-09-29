@@ -1,7 +1,7 @@
 ---
 title: "¡Vamos a Generar Código y Documentación con AsyncAPI!"
 date: 2022-09-04T16:00:00-05:00
-time_start: 2022-10-11T19:00:00-05:00
+time_start: 2022-10-11T11:00:00-05:00
 speakers:
  - Alejandra Quetzalli
  - Sergio Moya
