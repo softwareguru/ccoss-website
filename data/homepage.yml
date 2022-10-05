@@ -25,7 +25,7 @@ event_info:
     - number : "Híbrido"
       label : "Asiste en persona o en línea"
       
-    - number : "2"
+    - number : "3"
       label : "Días"
 
     - number : "+ 8"

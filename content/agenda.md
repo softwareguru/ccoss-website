@@ -34,4 +34,4 @@ blocks:
  * El viernes 11 de noviembre tendremos charlas en persona (Intel GDC Guadalajara) y también se transmitirán online.
  * El sábado 12 de noviembre tendremos un taller (en persona) y adicionalmente el sprint de contribución (en persona y remoto).
 
-A continuación puedes ver la agenda de sesiones (*los horarios se refieren a la hora del Centro de México (GMT-5)*)
+A continuación puedes ver la agenda de sesiones (los horarios se refieren a la hora del Centro de México (GMT-5))

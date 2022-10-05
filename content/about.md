@@ -10,14 +10,15 @@ La Cumbre de Contribuidores de Open Source Software (CCOSS) es un evento con dis
 
 
 ### ¿Cuándo y dónde?
-La próxima edición de la Cumbre de Contribuidores de Open Source Software se realizará el 11 y 12 de noviembre de 2022 en Guadalajara, Jalisco. Adicionalmente, las sesiones se transmitirán en vivo (live streaming).
+La próxima edición de la Cumbre de Contribuidores de Open Source Software se realizará el 10 charlas solamente en linea 11 y 12 de noviembre, 2022 en Intel Guadalajara Design Center ubicado en: Av. del Bosque 1001, El Bajío, 45017 Zapopan, Jal.
 
 ### ¿Para quién?
 CCOSS conjunta a personas con experiencia contribuyendo a open source, y personas que desean aprender cómo (y por qué) contribuir y buscan asesoría.
 
-### ¿Cómo puedo participar como ponente o guía?
-Si tú tienes algo de experiencia contribuyendo a proyectos open source nos encantaría que nos acompañes y platiques al respecto. Puedes dar una plática de 30 minutos o facilitar un taller de medio día enfocado a enseñar cómo contribuir a un proyecto open source específico.
+## ¿Si no puedo asistir a Guadalajara me puedo unir de alguna forma?
 
-Para conocer más detalles y enviar una propuesta por favor llena el formato de [convocatoria de ponencias](https://convoca.dev/ccoss-2022/cfp).
+Si no te es posible viajar a Guadalajara para CCOSS pero quieres convivir con otras personas interesadas en open source, te invitamos a organizar una sede virtual con tu escuela, empresa o comunidad.
+
+Más información en https://ccoss.org/sedes-virtuales/
 
 

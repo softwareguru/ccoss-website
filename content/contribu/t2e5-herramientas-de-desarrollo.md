@@ -6,8 +6,9 @@ speakers:
  - Irving Cancino
 images: 
  - "images/blog/contribu-t2-e5.png"
-upcoming: true
-cta_link: https://sg1.run/contribuep5
+upcoming: false
+#cta_link: https://sg1.run/contribuep5
+video: https://youtu.be/80-buSrgcqs
 ---
 
 En este taller aprenderás a construir aplicaciones Web3 con NEAR Protocol, conocerás las herramientas necesarias para desarrollar contratos inteligentes y contribuir al ecosistema. También realizarás tu primer contacto con la tecnología descentralizada, blockchain.

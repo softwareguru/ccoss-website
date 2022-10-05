@@ -14,11 +14,25 @@ La participación está abierta a cualquier persona interesada en contribuir a p
 Sí. Hay distintas formas de contribuir a un proyecto que no involucran programar. Por ejemplo, puedes ayudar con diseño, documentación, revisión, coordinación, difusión.
 
 ### ¿Cuál es el horario del evento?
-El evento se realizará el 11 y 12 de noviembre. El 11 de noviembre se realizarán charlas, y el 12 de noviembre haremos un sprint de contribución para ayudar a las personas a enviar pull requests de contribuciones a proyectos open source. 
+
+El evento se realizará del 10 al 12 de noviembre.
+
+- El jueves 10 de noviembre tendremos charlas solamente online.
+- El viernes 11 de noviembre tendremos charlas en persona (Intel GDC Guadalajara) y también se transmitirán online.
+- El sábado 12 de noviembre tendremos un taller (en persona) y adicionalmente el sprint de contribución (en persona y remoto).
+
+Te invitamos a ver la agenda [completa del evento](https://ccoss.org/agenda/).
 
 
 ### ¿Hay algún canal de comunicación entre participantes?
 Sí, hay un workspace de slack. Para ingresar visita https://sg1.run/ccoss-slack
+
+
+### ¿Habrá alguna precaución sanitaria considerada contra el Covid?
+
+Se requerirá que los asistentes usen máscaras faciales en las salas de conferencias y actividades en interiores.
+
+Habrá estaciones de desinfectante alrededor del lugar del evento.
 
 ### ¿Tienen un código de conducta?
 Sí. Es muy importante para nosotros que todos los participantes se sientan a gusto y seguras(os). El código de conducta está disponible aquí. y todos los participantes, conferencistas y patrocinadores de CCOSS deben seguirlo.
