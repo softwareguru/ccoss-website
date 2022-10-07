@@ -25,6 +25,8 @@ sponsor_group:
         link : "https://www.dronecode.org/"
       - logo : "/images/logos/github-logo.png"
         link : "https://github.com/"
+      - logo : "/images/logos/CNCF.png"
+        link : "https://github.com/cncf"
 
 
   - title : "Partner"
