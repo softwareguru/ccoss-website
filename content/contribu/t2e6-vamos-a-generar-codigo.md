@@ -7,8 +7,9 @@ speakers:
  - Sergio Moya
 images: 
  - "images/blog/contribu-t2-e6.png"
-upcoming: true
-cta_link: https://sg1.run/contribuep6
+upcoming: false
+#cta_link: https://sg1.run/contribuep6
+video: https://youtu.be/qdHymBvBLZQ
 ---
 
 AsyncAPI es una iniciativa de código abierto que busca mejorar el estado actual de las Arquitecturas Dirigidas por Eventos (Event-Driven Architecture o EDA en Inglés). Nuestro objetivo a largo plazo es hacer que trabajar con EDA sea tan fácil como trabajar con API REST. Eso va desde la documentación hasta la generación de código, desde el descubrimiento hasta la gestión de eventos.

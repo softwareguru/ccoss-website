@@ -86,6 +86,24 @@ draft: false
 
 </tr>
 
+
+<tr>
+
+ <td>
+ <center>
+ <img src="" class="img-fluid" width="230px"><br>
+ Universidad Tecnologica de Hermosillo
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Prof. Ivan R. Chenoweth</li>
+ <li>Ubicación: Blvd. de los Seris Final Col. Parque Industrial, Hermosillo, Sonora.</li>
+ <li>Contacto: <a href="http://www.uthermosillo.edu.mx/">http://www.uthermosillo.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
 <tr>
 
  <td>
@@ -130,6 +148,55 @@ draft: false
  <li>Nombre cordinador: Ing. Lizbeth Cabello Amaya</li>
  <li>Ubicación: Durango, Dgo.</li>
  <li>Contacto: <a href="https://utd.edu.mx/">https://utd.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+
+ <td>
+ <center>
+ <img src="/images/logos/Tecnologico-Monterrey-Logo.jpg" class="img-fluid" width="350px"><br>
+ Tecnológico de Monterrey
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Sergio Camacho</li>
+ <li>Ubicación: Monterrey, Nuevo León, México.</li>
+ <li>Contacto: <a href="https://tec.mx/en">https://tec.mx/en</a></li>
+ </td>                          
+
+</tr>
+
+
+<tr>
+ <td>
+ <center>
+ <img src="" class="img-fluid" width="230px"><br>
+ Instituto Tecnológico de Pabellón de Arteaga
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Eduardo Flores Gallegos</li>
+ <li>Ubicación: Pabellón de Arteaga, Aguascalientes.</li>
+ <li>Contacto: <a href="http://pabellon.tecnm.mx/">http://pabellon.tecnm.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="" class="img-fluid" width="230px"><br>
+ TecNM campus San Andrés Tuxtla
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Rogelio Enrique Telona Torres</li>
+ <li>Ubicación: San Andrés Tuxtla, Veracruz. México.</li>
+ <li>Contacto: <a href="http://www.itssat.edu.mx/">http://www.itssat.edu.mx/</a></li>
  </td>                          
 
 </tr>
