@@ -30,7 +30,7 @@ Para los estudiantes, contribuir al open source **es una gran oportunidad de des
 * Constancia de participación como sede virtual para la institución/organización por parte del equipo organizador.
 * Constancia para el coordinador de la sede virtual por parte del equipoorganizador.
 * Constancia de participación para todos los asistentes de la sede virtual.
-* Se enviarán un paquete con souvenir para rifar entre participantes.
+* Se enviarán un paquete con souvenir para rifar entre participantes, solo a las sedes registradas antes del 19 de octubre 2022.
 
 
 ## ¿Qué necesitaría como sede virtual?
