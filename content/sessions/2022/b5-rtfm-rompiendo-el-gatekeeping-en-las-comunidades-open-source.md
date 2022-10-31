@@ -3,7 +3,7 @@ id: b5
 title: "RTFM: rompiendo el gatekeeping en las comunidades Open Source"
 url: sessions/2022/rtfm-rompiendo-el-gatekeeping-en-las-comunidades-open-source 
 speakers:
- - Yuliana Reyna Jiménez
+ - Yuliana Reyna
 time_start: 2022-11-11T12:00:00.000-05:00
 time_end: 2022-11-11T12:30:00.000-05:00
 format: session

@@ -188,7 +188,7 @@ draft: false
 <tr>
  <td>
  <center>
- <img src="" class="img-fluid" width="230px"><br>
+ <img src="/images/logos/ITTSAT.png" class="img-fluid" width="330px"><br>
  TecNM campus San Andrés Tuxtla
  </center>
  </td>
@@ -197,6 +197,70 @@ draft: false
  <li>Nombre cordinador: Rogelio Enrique Telona Torres</li>
  <li>Ubicación: San Andrés Tuxtla, Veracruz. México.</li>
  <li>Contacto: <a href="http://www.itssat.edu.mx/">http://www.itssat.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="/images/logos/ITSON_azul (1).png" class="img-fluid" width="330px"><br>
+ Instituto Tecnológico de Sonora campus Guaymas
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Laura Marcela Salazar Lio</li>
+ <li>Ubicación: Guaymas, Sonora.</li>
+ <li>Contacto: <a href="https://www.itson.mx/universidad/Paginas/campus-guaymas.aspx">https://www.itson.mx/universidad/Paginas/campus-guaymas.aspx</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="/images/logos/Universidad del Golfo.png" class="img-fluid" width="430px"><br>
+ Universidad Computación del Golfo
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Jafet Rodríguez Garcia</li>
+ <li>Ubicación: Veracruz.</li>
+ <li>Contacto: <a href="https://www.cg.edu.mx/">https://www.cg.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="/images/logos/Universidad de la Costa.jpg" class="img-fluid" width="330px"><br>
+ Centro Universitario de la Costa de la Universidad de Guadalajara
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Dr. Aurelio Enrique López Barrón</li>
+ <li>Ubicación: Guadalajara.</li>
+ <li>Contacto: <a href="https://udg.mx/">https://udg.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="/images/logos/logoFIC.png" class="img-fluid" width="330px"><br>
+ Facultad de Ingeniería y Ciencias
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Alan Díaz Manríquez</li>
+ <li>Ubicación: Cd. Victoria, Tamaulipas.</li>
+ <li>Contacto: <a href="https://fic.uat.edu.mx/">https://fic.uat.edu.mx/</a></li>
  </td>                          
 
 </tr>

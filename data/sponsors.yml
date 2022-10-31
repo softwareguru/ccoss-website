@@ -27,6 +27,10 @@ sponsor_group:
         link : "https://github.com/"
       - logo : "/images/logos/CNCF.png"
         link : "https://github.com/cncf"
+      - logo : "/images/logos/ClowderSpace.png"
+        link : "https://clowder.space/"
+      - logo : "/images/logos/microsoft.png"
+        link : "https://developer.microsoft.com/es-es/"
 
 
   - title : "Partner"
@@ -40,6 +44,10 @@ sponsor_group:
         link : "https://www.gnome.org/"
       - logo : "/images/logos/Logo_AsyncAPI.png"
         link : "https://github.com/asyncapi"
+      - logo : "/images/logos/OpenSourceInovationLabs.png"
+        link : "#"
+      - logo : "/images/logos/InnovationLabs.png"
+        link : "#"
                       
 # call to action in sponsor
 sponsorship:

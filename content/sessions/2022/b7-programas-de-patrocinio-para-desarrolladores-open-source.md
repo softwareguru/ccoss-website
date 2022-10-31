@@ -1,7 +1,7 @@
 ---
 id: b7
-title: "Programas de patrocinio para desarrolladores open source"
-url: sessions/2022/programas-de-patrocinio-para-desarrolladores-open-source 
+title: "El precio del open source"
+url: sessions/2022/el-precio-del-open-source 
 speakers:
  - Manuel Gil
 time_start: 2022-11-11T13:00:00.000-05:00
@@ -11,4 +11,4 @@ block: b
 slot: 7
 ---
 
-Platicaremos sobre opciones de sustento económico por medio de patrocinios, en especial el programa de GitHub sponsors.
+Hablaré sobre los beneficios de crear proyectos open source desde el punto de vista de un creador de contenidos y las opciones que existen para mantener los proyectos a largo plazo a través de programas como el programa de GitHub Sponsor.
