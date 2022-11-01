@@ -1,14 +1,14 @@
 ---
-id: b9
+id: b11
 title: "Desarrollando un estándar abierto para datos legislativos en México"
 url: sessions/2022/estandar-abierto-datos-legislativos 
 speakers:
  - Ricardo Mirón
-time_start: 2022-11-11T14:30:00.000-05:00
-time_end: 2022-11-11T15:00:00.000-05:00
+time_start: 2022-11-11T15:00:00.000-05:00
+time_end: 2022-11-11T15:30:00.000-05:00
 format: session
 block: b
-slot: 9
+slot: 11
 ---
 
 La apertura de datos en América Latina se ha centrado casi exclusivamente en el poder ejecutivo, pero las legislaturas y los congresos tienen un gran potencial para liberar datos que sirvan no solo para la rendición de cuentas de quienes hacen las leyes, sino también para facilitar la interacción con los ciudadanos.

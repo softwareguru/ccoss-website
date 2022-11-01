@@ -1,5 +1,5 @@
 ---
-id: a2
+id: a3
 title: "El nuevo código abierto y la optimización para crear seguidores más allá de clientes"
 url: sessions/2022/el-nuevo-codigo-abierto-y-la-optimizacion-para-crear-seguidores-mas-alla-de-clientes
 speakers:
@@ -8,7 +8,7 @@ time_start: 2022-11-10T10:30:00.000-05:00
 time_end: 2022-11-10T11:00:00.000-05:00
 format: session
 block: a
-slot: 2
+slot: 3
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-id: a10
+id: a11
 title: "EduScrum para mejoramiento del proceso de desarrollo de proyectos de Ingeniería en Sistemas Computacionales."
 url: sessions/2022/eduscrum 
 speakers:
  - José Alfredo Román Cruz
-time_start: 2022-11-10T16:30:00.000-05:00
-time_end: 2022-11-10T17:00:00.000-05:00
+time_start: 2022-11-10T16:00:00.000-05:00
+time_end: 2022-11-10T16:30:00.000-05:00
 format: session
 block: a
-slot: 10
+slot: 11
 ---
 
 The objective of the research is the application of the EduScrum framework and the use of the GitHub Education platform in the Computer Systems Engineering career of the Technological Institute of Tlaxiaco, with the subjects of Discrete Mathematics, Fundamentals of Software Engineering and Management of Software Projects. Software. The purpose is to facilitate the development of learning skills, development of software projects, to strengthen and improve the academic productivity of students.

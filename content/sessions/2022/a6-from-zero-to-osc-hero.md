@@ -1,5 +1,5 @@
 ---
-id: a4
+id: a6
 title: "From Zero to OSC Hero"
 url: sessions/2022/from-zero-to-osc-hero 
 speakers:
@@ -8,7 +8,7 @@ time_start: 2022-11-10T12:00:00.000-05:00
 time_end: 2022-11-10T12:30:00.000-05:00
 format: session
 block: a
-slot: 4
+slot: 6
 ---
 
 El **código abierto** (open source, en inglés) es una forma de trabajar en un proyecto que se basa en la colaboración, la descentralización y el acceso. El software de código abierto, también llamado **software libre** (OSS, por sus cifras en inglés), pone el código fuente a disposición de los usuarios e invita a una comunidad de colaboradores, técnicos y no técnicos, a desarrollarlo y mejorarlo.

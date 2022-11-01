@@ -1,14 +1,14 @@
 ---
-id: a5
+id: a7
 title: "Experience Open Source through None Code Contributions"
-url: sessions/2022/none-code-contributions 
+url: sessions/2022/experience-open-source-through-none-code-contributions
 speakers:
  - Anita ihuman
 time_start: 2022-11-10T12:30:00.000-05:00
 time_end: 2022-11-10T13:00:00.000-05:00
 format: session
 block: a
-slot: 5
+slot: 7
 ---
 
 A common misconception about open source contributions is that all contributions must be code-based. This ideology has made contributing to Open Source a nightmare for persons with little or no technical experience.

@@ -1,14 +1,14 @@
 ---
-id: b12
+id: b15
 title: "La aventura de escribir drivers para ROS"
 url: sessions/2022/la-aventura-de-escribir-drivers-para-ros 
 speakers:
  - Alexis Guijarro
-time_start: 2022-11-11T16:30:00.000-05:00
-time_end: 2022-11-11T17:00:00.000-05:00
+time_start: 2022-11-11T17:30:00.000-05:00
+time_end: 2022-11-11T18:00:00.000-05:00
 format: session
 block: b
-slot: 12
+slot: 15
 ---
 
 Durante esta plática, compartiré mi aventura en la creación de drivers para Robot Operating System (ROS). Desde la primera interacción con el entorno, hasta la contribución de software útil y listo para usar por estudiantes, científicos y profesionales alrededor del mundo.

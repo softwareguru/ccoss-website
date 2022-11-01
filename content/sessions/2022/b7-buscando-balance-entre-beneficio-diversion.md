@@ -1,5 +1,5 @@
 ---
-id: b6
+id: b7
 title: "Consultoría y Open Source: buscando el balance entre beneficio y la diversión"
 url: sessions/2022/buscando-balance-entre-beneficio-diversion 
 speakers:
@@ -8,7 +8,7 @@ time_start: 2022-11-11T12:30:00.000-05:00
 time_end: 2022-11-11T13:00:00.000-05:00
 format: session
 block: b
-slot: 6
+slot: 7
 ---
 
 40 horas a la semana parecen tiempo suficiente para realizar el trabajo que nuestros clientes necesitan y el trabajo que disfrutamos hacer pero, en la práctica, siempre tenemos que hacer sacrificios para lograr ese balance sin comprometer nuestra salud a largo plazo.

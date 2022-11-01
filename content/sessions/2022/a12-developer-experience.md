@@ -1,14 +1,14 @@
 ---
-id: a11
+id: a12
 title: "Developer eXperience"
 url: sessions/2022/developer-experience 
 speakers:
  - Joel Ibaceta
-time_start: 2022-11-10T17:00:00.000-05:00
-time_end: 2022-11-10T17:30:00.000-05:00
+time_start: 2022-11-10T16:30:00.000-05:00
+time_end: 2022-11-10T17:00:00.000-05:00
 format: session
 block: a
-slot: 11
+slot: 12
 ---
 
 Muchas de las empresas de tecnologia mas importantes del mundo han empezado a considerar al desarrollador o integrador como un cliente mas por cuya experiencia hay que velar y para ello se estan implementando departamentos especificos que buscan construir APIs amigables, SDKs intuitivos, Documentaciones faciles de leer y gestionar programas de apertura de codigo, publicacion de herramientas y acompañamiento de la comunidad de programadores.
