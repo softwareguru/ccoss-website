@@ -4,8 +4,8 @@ title: "Developer eXperience"
 url: sessions/2022/developer-experience 
 speakers:
  - Joel Ibaceta
-time_start: 2022-11-10T16:30:00.000-05:00
-time_end: 2022-11-10T17:00:00.000-05:00
+time_start: 2022-11-10T16:30:00.000-06:00
+time_end: 2022-11-10T17:00:00.000-06:00
 format: session
 block: a
 slot: 12

@@ -4,8 +4,8 @@ title: "Desarrollando un estándar abierto para datos legislativos en México"
 url: sessions/2022/estandar-abierto-datos-legislativos 
 speakers:
  - Ricardo Mirón
-time_start: 2022-11-11T15:00:00.000-05:00
-time_end: 2022-11-11T15:30:00.000-05:00
+time_start: 2022-11-11T15:00:00.000-06:00
+time_end: 2022-11-11T15:30:00.000-06:00
 format: session
 block: b
 slot: 11

@@ -4,8 +4,8 @@ title: "El nuevo código abierto y la optimización para crear seguidores más a
 url: sessions/2022/el-nuevo-codigo-abierto-y-la-optimizacion-para-crear-seguidores-mas-alla-de-clientes
 speakers:
  - Andrea Liliana
-time_start: 2022-11-10T10:30:00.000-05:00
-time_end: 2022-11-10T11:00:00.000-05:00
+time_start: 2022-11-10T10:30:00.000-06:00
+time_end: 2022-11-10T11:00:00.000-06:00
 format: session
 block: a
 slot: 3

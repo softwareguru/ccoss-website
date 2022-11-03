@@ -4,8 +4,8 @@ title: "Consultoría y Open Source: buscando el balance entre beneficio y la div
 url: sessions/2022/buscando-balance-entre-beneficio-diversion 
 speakers:
  - Fernando Perales
-time_start: 2022-11-11T12:30:00.000-05:00
-time_end: 2022-11-11T13:00:00.000-05:00
+time_start: 2022-11-11T12:30:00.000-06:00
+time_end: 2022-11-11T13:00:00.000-06:00
 format: session
 block: b
 slot: 7

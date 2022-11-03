@@ -4,8 +4,8 @@ title: "El precio del open source"
 url: sessions/2022/el-precio-del-open-source 
 speakers:
  - Manuel Gil
-time_start: 2022-11-11T13:00:00.000-05:00
-time_end: 2022-11-11T13:30:00.000-05:00
+time_start: 2022-11-11T13:00:00.000-06:00
+time_end: 2022-11-11T13:30:00.000-06:00
 format: session
 block: b
 slot: 8

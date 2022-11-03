@@ -4,8 +4,8 @@ title: "Cómo hacer machine learning de forma abierta y colaborativa"
 url: sessions/2022/machine-learning-abierto 
 speakers:
  - Omar Sanseviero
-time_start: 2022-11-10T10:00:00.000-05:00
-time_end: 2022-11-10T10:30:00.000-05:00
+time_start: 2022-11-10T10:00:00.000-06:00
+time_end: 2022-11-10T10:30:00.000-06:00
 format: session
 block: a
 slot: 2

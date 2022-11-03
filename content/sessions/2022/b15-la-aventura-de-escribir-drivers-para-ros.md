@@ -4,8 +4,8 @@ title: "La aventura de escribir drivers para ROS"
 url: sessions/2022/la-aventura-de-escribir-drivers-para-ros 
 speakers:
  - Alexis Guijarro
-time_start: 2022-11-11T17:30:00.000-05:00
-time_end: 2022-11-11T18:00:00.000-05:00
+time_start: 2022-11-11T17:30:00.000-06:00
+time_end: 2022-11-11T18:00:00.000-06:00
 format: session
 block: b
 slot: 15

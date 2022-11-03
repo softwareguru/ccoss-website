@@ -4,8 +4,8 @@ title: "Experience Open Source through None Code Contributions"
 url: sessions/2022/experience-open-source-through-none-code-contributions
 speakers:
  - Anita ihuman
-time_start: 2022-11-10T12:30:00.000-05:00
-time_end: 2022-11-10T13:00:00.000-05:00
+time_start: 2022-11-10T12:30:00.000-06:00
+time_end: 2022-11-10T13:00:00.000-06:00
 format: session
 block: a
 slot: 7

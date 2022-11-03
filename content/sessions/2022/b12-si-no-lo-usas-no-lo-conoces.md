@@ -4,8 +4,8 @@ title: "Si no lo usas, no lo conoces"
 url: sessions/2022/si-no-lo-usas-no-lo-conoces 
 speakers:
  - Miguel Bernal Marin
-time_start: 2022-11-11T15:30:00.000-05:00
-time_end: 2022-11-11T16:00:00.000-05:00
+time_start: 2022-11-11T15:30:00.000-06:00
+time_end: 2022-11-11T16:00:00.000-06:00
 format: session
 block: b
 slot: 12

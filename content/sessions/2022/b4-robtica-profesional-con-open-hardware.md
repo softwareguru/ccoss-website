@@ -4,8 +4,8 @@ title: "Robótica Profesional con Open Hardware"
 url: sessions/2022/robtica-profesional-con-open-hardware 
 speakers:
  - Diana Martínez
-time_start: 2022-11-11T11:00:00.000-05:00
-time_end: 2022-11-11T11:30:00.000-05:00
+time_start: 2022-11-11T11:00:00.000-06:00
+time_end: 2022-11-11T11:30:00.000-06:00
 format: session
 block: b
 slot: 4

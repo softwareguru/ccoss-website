@@ -4,8 +4,8 @@ title: "From Zero to OSC Hero"
 url: sessions/2022/from-zero-to-osc-hero 
 speakers:
  - Manasés Jesús
-time_start: 2022-11-10T12:00:00.000-05:00
-time_end: 2022-11-10T12:30:00.000-05:00
+time_start: 2022-11-10T12:00:00.000-06:00
+time_end: 2022-11-10T12:30:00.000-06:00
 format: session
 block: a
 slot: 6

@@ -4,8 +4,8 @@ title: "De Sistemas Financieros a los fierros... La cadena de contribución del 
 url: sessions/2022/de-sistemas-financieros-a-los-fierros 
 speakers:
  - Josue Araujo
-time_start: 2022-11-11T14:30:00.000-05:00
-time_end: 2022-11-11T15:00:00.000-05:00
+time_start: 2022-11-11T14:30:00.000-06:00
+time_end: 2022-11-11T15:00:00.000-06:00
 format: session
 block: b
 slot: 10

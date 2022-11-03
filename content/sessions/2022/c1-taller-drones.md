@@ -6,8 +6,8 @@ speakers:
  - Ramón Roche
  - Diana Martínez
  - Alexis Guijarro
-time_start: 2022-11-12T9:30:00.000-05:00
-time_end: 2022-11-12T11:30:00.000-05:00
+time_start: 2022-11-12T9:30:00.000-06:00
+time_end: 2022-11-12T11:30:00.000-06:00
 format: session
 block: c
 slot: 1
