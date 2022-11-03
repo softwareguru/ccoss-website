@@ -1,7 +1,8 @@
 ---
 id: c1
 title: "Crea un robot repartidor open source con PX4 y ROS"
-url: crea-robot-repartidor-os-px4-ros
+url: sessions/2022/crea-robot-repartidor-os-px4-ros
+alias: crea-robot-repartidor-os-px4-ros
 speakers:
  - Ramón Roche
  - Diana Martínez

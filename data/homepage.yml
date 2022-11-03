@@ -5,8 +5,8 @@ banner:
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "10 al 12 de noviembre 2022. Intel GDC, Guadalajara, México"
-  venue : "Forma parte de los principales proyectos open source en el mundo."
+  date_time : "10 al 12 de noviembre 2022. Intel Guadalajara Design Center."
+  venue : "Acompáñanos en persona o remoto."
   button:
     enable : true
     label : "Boletos"

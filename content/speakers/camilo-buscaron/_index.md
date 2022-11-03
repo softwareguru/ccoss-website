@@ -8,6 +8,10 @@ country: "mx"
 twitter: ""
 linkedin: https://www.linkedin.com/in/camilo-buscaron-93739827/
 github: https://github.com/cbuscaron
-year: "2021"
+events: 
+ - 2019
+ - 2020
+ - 2021
+ - 2022
 ---
 
