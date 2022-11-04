@@ -5,7 +5,7 @@ time_start: 2022-11-08T19:00:00-06:00
 speakers:
  - Camilo Buscarón
 images: 
- - "images/blog/contribu-t2-e9.png"
+ - "images/blog/contribu-t2-e9.jpg"
 upcoming: false
 cta_link: https://sg1.run/contribuep9
 
