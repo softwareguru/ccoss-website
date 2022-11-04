@@ -84,14 +84,19 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     weight = 2
 
   [[menu.main]]
+    name = "Conferencistas"
+    URL = "/speakers"
+    weight = 3
+
+  [[menu.main]]
     name = "Sprint"
     URL = "/sprint-contribucion"
-    weight = 3
+    weight = 4
   
   [[menu.main]]
     name = "ConTRIBU"
     URL = "/contribu"
-    weight = 4
+    weight = 5
 
   #[[menu.main]]
   #name = "Talleres"
@@ -103,10 +108,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/ticket"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Conferencistas"
-  #URL = "/speakers"
-  #weight = 3
 
 
   #[[menu.main]]
