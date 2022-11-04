@@ -6,7 +6,7 @@ speakers:
  - Camilo Buscarón
 images: 
  - "images/blog/contribu-t2-e9.jpg"
-upcoming: false
+upcoming: true
 cta_link: https://sg1.run/contribuep9
 
 ---
