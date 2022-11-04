@@ -3,7 +3,7 @@ title: Sergio Méndez
 date: 2022-11-01T16:46:48-05:00
 images:
  - /images/speakers/sergio-mendez.jpg
-designation: 
+designation: DevOps @ Yalo | Profesor @ Universidad San Carlos
 country: 
 twitter: 
 linkedin: https://www.linkedin.com/in/sergioarmgpl/

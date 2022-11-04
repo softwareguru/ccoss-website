@@ -7,6 +7,7 @@ time_end: 2022-11-10T11:30:00.000-06:00
 format: session
 speakers:
  - Sergio Méndez
+ - Flynn
 
 block: a
 slot: 4
