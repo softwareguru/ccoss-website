@@ -5,7 +5,7 @@ image: /images/networking/Ebook.png
 description: 
 button: Conocer más
 link: http://mng.bz/Qq5j
-draft: false
+draft: true
 ---
 
 Al asistir a sesiones en vivo, participas en la rifa de 3 eBooks "Logging in Action" de Phil Wilkins, publicados por editorial Manning. (La rifa se realizará en el cirre del Sprint de contribución).

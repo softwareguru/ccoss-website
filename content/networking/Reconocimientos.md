@@ -5,7 +5,7 @@ image: /images/networking/reconocimientos.png
 description: 
 button: ¡Quiero Votar!
 link: https://docs.google.com/forms/d/e/1FAIpQLSfZkkqF23CZOsxabDPRsFGJw2Df5qjnpFIYJgF0LBjWxIa-Cw/viewform?embedded=true
-draft: false
+draft: true
 ---
 
 Ayudanos a reconocer a los contribuidores y facilitadores del Open Source en Latam que lo merecen. Vota ahora por tu preferido(a)

@@ -5,7 +5,7 @@ image: /images/networking/royal-travel.png
 description: 
 button: Conocer más
 link: https://experienciasroyal.wixsite.com/ccoss
-draft: false
+draft: true
 ---
 
 Gana una estancia vacacional de 4 dias 3 noches para 2 adultos y 2 menores. Regístrate y participa.

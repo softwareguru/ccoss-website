@@ -91,7 +91,7 @@ draft: false
 
  <td>
  <center>
- <img src="" class="img-fluid" width="230px"><br>
+ <img src="/images/logos/uth.png" class="img-fluid" width="330px"><br>
  Universidad Tecnologica de Hermosillo
  </center>
  </td>
@@ -261,6 +261,39 @@ draft: false
  <li>Nombre cordinador: Alan Díaz Manríquez</li>
  <li>Ubicación: Cd. Victoria, Tamaulipas.</li>
  <li>Contacto: <a href="https://fic.uat.edu.mx/">https://fic.uat.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
+<tr>
+ <td>
+ <center>
+ <img src="" class="img-fluid" width="330px"><br>
+ Universidad Tecnológica de Nogales 
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Gabriel Antonio López Valencia</li>
+ <li>Ubicación: Nogales Sonora.</li>
+ <li>Contacto: <a href="http://www.utnogales.edu.mx/">http://www.utnogales.edu.mx/</a></li>
+ </td>                          
+
+</tr>
+
+
+<tr>
+ <td>
+ <center>
+ <img src="/images/logos/Tecnológico Nacional de México Campus el Llano.jpeg" class="img-fluid" width="330px"><br>
+ Tecnológico Nacional de México Campus el Llano
+ </center>
+ </td>
+
+ <td>
+ <li>Nombre cordinador: Marco Antonio Vázquez Gutiérrez</li>
+ <li>Ubicación: El Llano, Aguascalientes.</li>
+ <li>Contacto: <a href="https://llano.tecnm.mx/">https://llano.tecnm.mx/</a></li>
  </td>                          
 
 </tr>

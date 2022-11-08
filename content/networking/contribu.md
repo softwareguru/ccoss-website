@@ -5,7 +5,7 @@ image: "/images/blog/CCOSS-contribu.png"
 description: 
 button: Conocer más
 link: /blog/contribu/
-draft: false
+draft: true
 ---
 
 Posterios al CCOSS continuaremos contribuyendo al Open Source, y tendremos 2 episodios mas de ConTribu en esta temporada. Aparta la fecha jueves 14 y jueves 28 de octubre, en punto de las 21hrs. CST.

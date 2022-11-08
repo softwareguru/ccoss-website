@@ -5,7 +5,7 @@ image: /images/networking/trivia.png
 description: 
 button: Unirme a Slack
 link: https://join.slack.com/t/ccoss/shared_invite/zt-8tda67q8-stdStEpGV_2cXG6wGpNm_Q
-draft: false
+draft: true
 ---
 
 

@@ -125,10 +125,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/kit-virtual"
   #weight = 5
 
-  #[[menu.main]]
-  #name = "Networking"
-  #URL = "/networking"
-  #weight = 5
+  [[menu.main]]
+  name = "Networking"
+  URL = "/networking"
+  weight = 5
 
   [[menu.main]]
   name = "FAQ"
