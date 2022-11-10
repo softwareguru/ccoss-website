@@ -10,7 +10,7 @@ banner:
   button:
     enable : true
     label : "Boletos"
-    link : "https://ccoss22.eventbrite.com/"
+    link : "/tickets"
 
 
 ############################## Event ##############################
