@@ -1,5 +1,5 @@
 ---
-title: "Participa por una giftcard con Microsoft"
+title: "Participa por una gift card con Microsoft"
 date: 2021-10-01T16:22:17-05:00
 image: /images/networking/regalo.png
 description: 

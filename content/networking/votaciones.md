@@ -4,7 +4,7 @@ date: 2021-10-01T16:22:17-05:00
 image: /images/networking/reconocimientos.png
 description: 
 button: Conocer más
-link: https://ccoss22.eventbrite.com
+link: https://ccoss.org/networking/votaciones/
 draft: false
 ---
 
