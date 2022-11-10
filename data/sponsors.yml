@@ -13,8 +13,8 @@ sponsor_group:
         link : "https://about.google/"
       - logo : "/images/logos/AWS_1.png"
         link : "https://aws.amazon.com/es/"
-      #- logo : "/images/logos/Intel_prueba.png"
-      #  link : "#"
+      - logo : "/images/logos/logo-intel.png"
+        link : "https://www.intel.com/"
 
 
   - title : "Silver"
