@@ -9,8 +9,8 @@ banner:
   venue : "Acompáñanos en persona o remoto."
   button:
     enable : true
-    label : "Boletos"
-    link : "/tickets"
+    label : "Sesiones en vivo"
+    link : "/live"
 
 
 ############################## Event ##############################
