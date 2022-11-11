@@ -4,8 +4,8 @@ title: "Crear, Mantener y Defender productos que usan Open Source."
 url: sessions/2022/crear-mantener-defender-productos-que-usan-open-source 
 speakers:
  - Mariano Renteria
-time_start: 2022-11-11T10:30:00.000-06:00
-time_end: 2022-11-11T11:00:00.000-06:00
+time_start: 2022-11-11T11:00:00.000-06:00
+time_end: 2022-11-11T11:30:00.000-06:00
 format: session
 block: b
 slot: 3
