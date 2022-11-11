@@ -4,8 +4,8 @@ title: "Mi viaje en open source contribuidor a evangelizador técnico"
 url: sessions/2022/mi-viaje-contribuidor-technical-evangelist 
 speakers:
  - Mario García
-time_start: 2022-11-11T17:30:00.000-06:00
-time_end: 2022-11-11T18:00:00.000-06:00
+time_start: 2022-11-11T17:45:00.000-06:00
+time_end: 2022-11-11T18:15:00.000-06:00
 format: session
 block: b
 slot: 16
