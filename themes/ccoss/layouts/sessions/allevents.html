@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <table class="table table-bordered" data-toggle="table" data-search="true" data-search-align="left" >
+        <thead>
+            <tr>
+                <th data-field="title">Edición</th>
+                <th data-field="speaker">Sesiones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range sort .Data.Pages.ByDate.Reverse }}
+            <tr>
+                <td><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></td>
+                <td>{{ .Pages | len }} sesiones</td>
+                            
+            </tr>
+            {{ end }}
+        </tbody>
+      </table>
+</div>
+
+{{ end }}
+

@@ -9,6 +9,9 @@ time_end: 2022-11-10T10:30:00.000-06:00
 format: session
 block: a
 slot: 2
+slide: 
+video: https://youtu.be/Nw4XrjyMyHc
+
 ---
 
 Platicaremos sobre iniciativas y herramientas disponibles para hacer ciencia de datos de forma abierta y colaborativa, así como las oportunidades que esto representa para personas en todo el mundo.

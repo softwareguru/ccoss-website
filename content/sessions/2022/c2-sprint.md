@@ -8,6 +8,7 @@ time_end: 2022-11-12T16:00:00.000-06:00
 format: session
 block: c
 slot: 1
+draft: true
 ---
 
 El sprint de contribución brinda un tiempo y espacio para que personas puedan trabajar en contribuciones a proyectos open source, apoyadas de asesoría.

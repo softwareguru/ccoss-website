@@ -2,6 +2,7 @@
 title: "Sprint de Contribución"
 date: '2022-09-10T07:51:25.000+00:00'
 priority: 0.7
+draft: true
 ---
 
 **El propósito del sprint es brindar un tiempo y espacio para que personas puedan trabajar en contribuciones a proyectos open source, apoyadas de asesoría.**

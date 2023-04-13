@@ -9,6 +9,8 @@ time_end: 2022-11-10T13:00:00.000-06:00
 format: session
 block: a
 slot: 7
+slide:
+video: https://youtu.be/AJzljmYIfxo
 ---
 
 A common misconception about open source contributions is that all contributions must be code-based. This ideology has made contributing to Open Source a nightmare for persons with little or no technical experience.

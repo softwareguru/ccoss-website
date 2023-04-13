@@ -9,6 +9,8 @@ time_end: 2022-11-11T11:30:00.000-06:00
 format: session
 block: b
 slot: 3
+slide:
+video: https://youtu.be/pjRCAuZ0u_8
 ---
 
 En esta charla platicaré de nuestra experiencia desarrollando un producto de software algunos de los retos al usar Open Source: 

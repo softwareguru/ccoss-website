@@ -9,6 +9,8 @@ time_end: 2022-11-11T16:00:00.000-06:00
 format: session
 block: b
 slot: 12
+slide:
+video: https://youtu.be/FcnxFYMwS1o
 ---
 
 En esta platica abordaremos lo necesario para aportar a algún proyecto de código abierto, que esencialmente es: si no usas un software, no conoces sus errores y no conoces que se le puede mejorar. Veremos como involucrarnos y ver las maneras de contribuir.

@@ -9,8 +9,8 @@ banner:
   venue : "Acompáñanos en persona o remoto."
   button:
     enable : true
-    label : "Sesiones en vivo"
-    link : "/live"
+    label : "Ver sesiones anteriores"
+    link : "/sessions"
 
 
 ############################## Event ##############################

@@ -9,6 +9,8 @@ time_end: 2022-11-11T12:00:00.000-06:00
 format: session
 block: b
 slot: 4
+slide:
+video: https://youtu.be/a6GtSeekoXc
 ---
 
 Los últimos años han aparecido nuevas tendencias y tecnologías de código abierto que están comenzando a tomar su lugar dentro de la industria de la robótica profesional.

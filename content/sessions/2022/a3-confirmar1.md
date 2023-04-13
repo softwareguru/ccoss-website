@@ -9,7 +9,8 @@ time_end: 2022-11-10T11:00:00.000-06:00
 format: session
 block: a
 slot: 3
-
+slide:
+video: https://youtu.be/AD8fy5SdcpI
 ---
 
 

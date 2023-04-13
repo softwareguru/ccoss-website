@@ -9,6 +9,8 @@ time_end: 2022-11-10T15:30:00.000-06:00
 format: session
 block: a
 slot: 9
+slide:
+video: https://youtu.be/mBIAaspI53Q
 ---
 
 AsyncAPI es un proyecto de código abierto que busca promover y facilitar el desarrollo de API asíncronas y arquitecturas dirigidas por eventos (EDA). En esta charla, Alejandra detalla cómo las contribuciones de nuestro proyecto GSoD 2022 cambiaron por completo la arquitectura de la información y el UX de AsyncAPI Docs. Al final de esta charla, la audiencia conocerá las contribuciones de escritura individuales realizadas por los intern@s de AsyncAPI Docs, las mejoras individuales de UX incorporadas en colaboración con los colaboradores de diseño, y la retroalimentación de la comunidad resultante.

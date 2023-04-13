@@ -9,6 +9,8 @@ time_end: 2022-11-10T16:30:00.000-06:00
 format: session
 block: a
 slot: 11
+slide:
+video: https://youtu.be/Q0cwGGJKGiQ
 ---
 
 The objective of the research is the application of the EduScrum framework and the use of the GitHub Education platform in the Computer Systems Engineering career of the Technological Institute of Tlaxiaco, with the subjects of Discrete Mathematics, Fundamentals of Software Engineering and Management of Software Projects. Software. The purpose is to facilitate the development of learning skills, development of software projects, to strengthen and improve the academic productivity of students.

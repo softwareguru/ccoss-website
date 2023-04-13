@@ -9,6 +9,8 @@ time_end: 2022-11-10T16:00:00.000-06:00
 format: session
 block: a
 slot: 10
+slide:
+video: https://youtu.be/svSC53HqpEY
 ---
 
 La computacion cuantica es un tema apasionante que une ciencias de la computacion, fisica y matematicas. En esta platica te hablaré de como involucrarte en proyectos open source y conectar con la comunidad internacional. No es necesario que sepas computacion cuantica para empezar.

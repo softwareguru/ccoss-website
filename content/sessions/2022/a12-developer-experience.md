@@ -9,6 +9,8 @@ time_end: 2022-11-10T17:00:00.000-06:00
 format: session
 block: a
 slot: 12
+slide:
+video: https://youtu.be/mKvMzMk_8_A
 ---
 
 Muchas de las empresas de tecnologia mas importantes del mundo han empezado a considerar al desarrollador o integrador como un cliente mas por cuya experiencia hay que velar y para ello se estan implementando departamentos especificos que buscan construir APIs amigables, SDKs intuitivos, Documentaciones faciles de leer y gestionar programas de apertura de codigo, publicacion de herramientas y acompañamiento de la comunidad de programadores.

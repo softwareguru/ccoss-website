@@ -9,6 +9,8 @@ time_end: 2022-11-11T15:30:00.000-06:00
 format: session
 block: b
 slot: 11
+slides: https://docs.google.com/presentation/d/1aZnYnu3zV44Cn7TwgRkvK9mXZgS4_qOEtgKtrMIgbWw/edit?usp=sharing
+video: https://youtu.be/WUA2r8v7C70
 ---
 
 La apertura de datos en América Latina se ha centrado casi exclusivamente en el poder ejecutivo, pero las legislaturas y los congresos tienen un gran potencial para liberar datos que sirvan no solo para la rendición de cuentas de quienes hacen las leyes, sino también para facilitar la interacción con los ciudadanos.

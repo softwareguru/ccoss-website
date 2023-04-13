@@ -9,6 +9,8 @@ time_end: 2022-11-11T13:30:00.000-06:00
 format: session
 block: b
 slot: 7
+slide:
+video: https://youtu.be/iGVIoYq6pRQ
 ---
 
 40 horas a la semana parecen tiempo suficiente para realizar el trabajo que nuestros clientes necesitan y el trabajo que disfrutamos hacer pero, en la práctica, siempre tenemos que hacer sacrificios para lograr ese balance sin comprometer nuestra salud a largo plazo.

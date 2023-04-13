@@ -9,6 +9,8 @@ time_end: 2022-11-11T17:45:00.000-06:00
 format: session
 block: b
 slot: 15
+slide:
+video: https://youtu.be/fR8IXp-shYY
 ---
 
 Durante esta plática, compartiré mi aventura en la creación de drivers para Robot Operating System (ROS). Desde la primera interacción con el entorno, hasta la contribución de software útil y listo para usar por estudiantes, científicos y profesionales alrededor del mundo.
