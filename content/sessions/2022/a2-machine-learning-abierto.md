@@ -10,7 +10,7 @@ format: session
 block: a
 slot: 2
 slide: 
-video: https://youtu.be/Nw4XrjyMyHc
+video: https://youtu.be/L_T_cM0uISI
 
 ---
 
