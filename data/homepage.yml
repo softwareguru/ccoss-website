@@ -6,7 +6,7 @@ banner:
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
   date_time : "23 al 24 de febrero 2023."
-  venue : ""
+  venue : "Guadalajara, México."
   button:
     enable : true
     label : "Ver sesiones anteriores"
