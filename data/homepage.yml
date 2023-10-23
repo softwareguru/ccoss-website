@@ -5,8 +5,8 @@ banner:
   logo : "/images/logo.svg"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
-  date_time : "10 al 12 de noviembre 2022. Intel Guadalajara Design Center."
-  venue : "Acompáñanos en persona o remoto."
+  date_time : "23 al 24 de febrero 2023."
+  venue : ""
   button:
     enable : true
     label : "Ver sesiones anteriores"
