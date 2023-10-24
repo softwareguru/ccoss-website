@@ -148,7 +148,7 @@ home = "Home"
 
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es un evento con charlas, talleres y mentorías para impulsar la contribución al open source en Latinoamérica."""
-images = ["/images/CCOSS2022.jpg"]
+images = ["/images/CCOSS-2023.jpg"]
 twitter_user = "@RevistaSG"
 email = "hola@ccoss.org"
 author = "Software Guru"
