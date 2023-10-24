@@ -1,17 +1,18 @@
 
-<section class="section blog">
+<!-- Sección de Noticias recientes que se encuentra en index.html como "blog"-->
+
+<section class="section blog text-center"> 
+
+  <h2 class="mt-3">NOTICIAS RECIENTES</h2>
+ 
+  <br>
+
   <div class="container">
-    <div class="row section-heading">
-      <div class="col-md-8">
-        <div class="heading">
-          <h2>Noticias recientes</h2>
-        </div>
-      </div>
-    </div>
+   
     <div class="row">
         {{ range first 2 (where .Site.RegularPages "Type" "blog" )}}
-        <div class="col-lg-4 col-md-6">
-          <div class="blog-item card border-0 mb-5 mb-lg-0">
+        <div class="col-lg-6 col-md-6">
+          <div class="blog-item card border-0 mb-5 mb-lg-0 bg-transparent" > 
             <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid">
             <div class="p-4">
               <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
@@ -21,5 +22,17 @@
         {{ end }}
       </div>
     </div>
+    
+
 </section>
-  
+
+<div class="description-wrapper">
+  <div class="container">
+  <p>Participa como patrocinador de CCOSS y vincúlate con más de 500 desarrolladores de software interesados en construir software de clase mundial.</p>
+
+  <p>Consulta la <a href="https://docs.google.com/presentation/d/1Jr4MWoMLHr_7MzRfnWFImFr0shrPH8v59sU22t9YobI/edit?usp=sharing">guía de patrocinios</a></p>
+  </div>
+ 
+</div>
+
+<img src="/images/linea-de-colores.png" class="img-fluid line">

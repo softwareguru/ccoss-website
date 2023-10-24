@@ -3,6 +3,7 @@ banner:
   enable : true
   title : "CCOSS"
   logo : "/images/logo.svg"
+  line: "/images/linea-de-colores.png"
   img: "/images/background-ccoss.jpg" 
   bg_image: ""
   date_time : "23 al 24 de febrero 2023."

@@ -23,11 +23,15 @@ ul.footer_links {
 	font-size: 14px;
 }
 
-.footer a:hover {
-	color: $secondary-color;
+.footer a{
+	color: $yellow2;
 }
 
-.footer h5 {
+.footer a:hover {
+	color: $yellow-strong;
+}
+
+.footer h5 { 
 	color: #404040;
 }
 

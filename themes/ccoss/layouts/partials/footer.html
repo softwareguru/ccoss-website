@@ -1,17 +1,17 @@
-<footer class="section footer">
+<footer class="section footer" style="background-color:  #0828b2;">
 	<div class="container">
 		<div class="footer-strip">
 			<div>
-				<h3 class="mb-3">{{ .Site.Title | markdownify }}</h3>
+				<h3 class="mb-3 text-white">{{ .Site.Title | markdownify }}</h3>
 
-				<ul class="list-inline footer-socials">
+				<ul class="list-inline footer-socials ">
 					{{ range .Site.Params.social }}
-					<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+					<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}" style="color: white;"></i></a></li>
 					{{ end }}
 				</ul>
 			</div>
 			<div>
-				<h5>Acerca de</h5>
+				<h5 class="text-white">Acerca de</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_about }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -22,7 +22,7 @@
 				</ul>
 			</div>
 			<div>
-				<h5>Recursos</h5>
+				<h5 class="text-white">Recursos</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_previous }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -30,7 +30,7 @@
 				</ul>
 			</div>
 			<div>
-				<h5>Contáctanos</h5>
+				<h5 class="text-white">Contáctanos</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		{{ with .Site.Params.disclaimer }}
-		<div class="disclaimer">
+		<div class="disclaimer text-white">
 			{{ . }}
 		</div>
         {{ end }}

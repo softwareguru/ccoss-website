@@ -7,7 +7,7 @@
 <section class="section banner">
 
   <div class="logo">
-    <img src="{{ .logo }}">
+    <img src="{{ .logo }}">   
   </div>
 
   <div class="meta">
@@ -20,9 +20,11 @@
     {{ end }}
     {{ end }}
 
-
   </div>
 </section>
+
+<img src="{{ .line }}" class="img-fluid line ">
+
 {{ end }}
 <!-- /banner -->
 
@@ -94,11 +96,11 @@
 {{ end }}
 <!-- /speaker -->
 
-<!-- contribu -->
+<!-- contribu 
 {{ if $data.homepage.contribu.enable }}
 {{ partial "contribu.html" . }}
 {{ end }}
-<!-- /contribu -->
+ /contribu -->
 
 
 <!-- blog -->
@@ -111,27 +113,13 @@
 <!-- sponsor -->
 {{ if $data.sponsors }}
 <section class="section-sponsors section">
-  <div class="description-wrapper">
-        <div class="container">
-        <p>Participa como patrocinador de CCOSS y vincúlate con más de 500 desarrolladores de software interesados en construir software de clase mundial.</p>
-
-        <p>Consulta la <a href="https://docs.google.com/presentation/d/1Jr4MWoMLHr_7MzRfnWFImFr0shrPH8v59sU22t9YobI/edit?usp=sharing">guía de patrocinios</a></p>
-        </div>
-    </div>
+  
     <br> 
     <div class="container">
-      <div class="row section-heading">
-        <div class="col-md-8">
-          <div class="heading">
-            <h2>Patrocinadores</h2>
-          </div>
-        </div>
-      </div>
-      <br><br>
         {{ $data := index .Site.Data }}
         {{ with $data.sponsors }}
         {{ range .sponsor_group }}
-        <div class="row mb-5">
+        <div class="row" style="margin-top: -25px;">
             <div class="col-lg-8">
                 <h4 class="mb-4 letter-spacing text-sm">{{ .title | markdownify }}</h4>
             </div>
