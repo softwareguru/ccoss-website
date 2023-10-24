@@ -28,18 +28,18 @@
 		padding-right: 120px;
 	
 		@include desktop {
-		padding-left: auto;
-		padding-right: auto;
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 	
 	@include tablet {
-		padding-left: auto;
-		padding-right: auto;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	@include mobile {
-		padding-left: auto;
-		padding-right: auto;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
   }
