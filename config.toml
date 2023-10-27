@@ -69,9 +69,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
    # parent = "sedes"
    # weight = 2
 
-
-
-
   [[menu.main]]
     name = "Acerca de"
     URL = "/about"
@@ -83,20 +80,15 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   # url = "/agenda"
   # weight = 2
 
-  [[menu.main]]
-    name = "Conferencistas"
-    URL = "/speakers"
-    weight = 3
-
   #[[menu.main]]
   # name = "Sprint"
   # URL = "/sprint-contribucion"
   # weight = 4
   
-  [[menu.main]]
-    name = "ConTRIBU"
-    URL = "/contribu"
-    weight = 5
+  #[[menu.main]]
+  #  name = "ConTRIBU"
+  #  URL = "/contribu"
+  #  weight = 5
 
   #[[menu.main]]
   #name = "Talleres"
@@ -112,11 +104,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #name = "Patrocinadores"
   #URL = "/sponsors"
   #weight = 3
-
-  [[menu.main]]
-  name = "Sesiones"
-  URL = "/sessions/2022"
-  weight = 4
   
   #[[menu.main]]
   #name = "Kit virtual"
@@ -128,10 +115,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/networking"
   #weight = 5
 
-  [[menu.main]]
-  name = "FAQ"
-  URL = "/faq"
-  weight = 7
+  #[[menu.main]]
+  #name = "FAQ"
+  #URL = "/faq"
+  #weight = 7
 
 #    [[menu.main]]
 #  name = "Edición 2021"
@@ -158,7 +145,7 @@ googleAnalytics = "G-M9TKWBTNE6" # your id
 # search for blog page
 search = true
 
-disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es realizado por Software Guru en colaboración con Open Source México (OSOM)"""
+disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS)y el KCD México son realizados por Software Guru en colaboración con la comunidad  Kubernetes México."""
 
 start_date = "2022-11-10T10:00-05:00"
 end_date = "2022-11-12T16:00-05:00"
@@ -179,9 +166,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Live"
-link = "/live"
+enable = true
+label = "Eventos Previos"
+link = "/sessions/"
 
 
 
@@ -200,8 +187,12 @@ icon = "fa-brands fa-slack"
 link = "https://sg1.run/ccoss-slack"
 
 [[params.footer_about]]
-name = "?Quién organiza¿"
+name = "Organizadores"
 link = "/team/"
+
+[[params.footer_about]]
+name = "Eventos Previos"
+link = "/sessions/"
 
 [[params.footer_source]]
 name = "Código fuente del sitio"

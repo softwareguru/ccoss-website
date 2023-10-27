@@ -1,54 +1,26 @@
 enable :  true
-title : "Patrocinadores"
+title : ""
 sponsor_group:
-  - title : ""
-    slug : "platinum"
-    sponsor:
 
-
-  - title : "Gold"
+  - title : "Respaldado por"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/Google-logo.png"
-        link : "https://about.google/"
-      - logo : "/images/logos/AWS_1.png"
-        link : "https://aws.amazon.com/es/"
-      - logo : "/images/logos/logo-intel.png"
-        link : "https://www.intel.com/"
-
+      - logo : "/images/logos/CNCF.png"
+        link : "https://github.com/cncf"
 
   - title : "Silver"
     slug : "silver"
     sponsor:
 
-      - logo : "/images/logos/Droneco.png"
-        link : "https://www.dronecode.org/"
-      - logo : "/images/logos/github-logo.png"
-        link : "https://github.com/"
-      - logo : "/images/logos/CNCF.png"
-        link : "https://github.com/cncf"
       - logo : "/images/logos/ClowderSpace.png"
         link : "https://clowder.space/"
-      - logo : "/images/logos/microsoft.png"
-        link : "https://developer.microsoft.com/es-es/"
-
 
   - title : "Partner"
     slug : "community"
-    sponsor:
-      - logo : "/images/logos/osom.jpg"
-        link : "https://www.meetup.com/es-ES/Open-SOurce-Mexico-OSOM/"                  
+    sponsor:               
       - logo : "/images/logos/Apache-logo.png"
         link : "https://www.apache.org/"
-      - logo : "/images/logos/Gnome-logo.png"
-        link : "https://www.gnome.org/"
-      - logo : "/images/logos/Logo_AsyncAPI.png"
-        link : "https://github.com/asyncapi"
-      - logo : "/images/logos/OpenSourceInovationLabs.png"
-        link : "#"
-      - logo : "/images/logos/InnovationLabs.png"
-        link : "#"
-                      
+
 # call to action in sponsor
 sponsorship:
   enable : true

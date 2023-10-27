@@ -4,24 +4,24 @@
 
 <!-- banner -->
 {{ with $data.homepage.banner }}
-<section class="section banner">
 
-  <div class="logo">
-    <img src="{{ .logo }}">   
-  </div>
 
-  <div class="meta">
-    <p>{{ .date_time }}</p>
-    <p>{{ .venue }}</p>
+<section class="section banner ">
+  <section class="degradado">
+  <div class="row margen-hero">
+      <div class="col-lg-8">
+        <h2>FORMA PARTE DE</h2>
+        <h1>Cumbre de Contribuidores de Open Source Software & Kubernetes Community Day <br>(CCOSS + KCD)</h1>
+        <br>
 
-    {{ if .button.enable }}
-    {{ with .button }}
-    <a href="{{ .link | relURL }}" class="btn btn-banner1 mt-3">{{ .label }}</a>
-    {{ end }}
-    {{ end }}
-
-  </div>
+      </div>
+      <div class="col-lg-4 imagenes-hero">
+        <img src="/images/ccoss+kcd.png" class="img-fluid">
+      </div>
+    </div>
+  </section>
 </section>
+
 
 <img src="{{ .line }}" class="img-fluid line ">
 
@@ -112,14 +112,13 @@
 
 <!-- sponsor -->
 {{ if $data.sponsors }}
+
 <section class="section-sponsors section">
-  
-    <br> 
     <div class="container">
         {{ $data := index .Site.Data }}
         {{ with $data.sponsors }}
         {{ range .sponsor_group }}
-        <div class="row" style="margin-top: -25px;">
+        <div class="row" style="margin-top: 0px;">
             <div class="col-lg-8">
                 <h4 class="mb-4 letter-spacing text-sm">{{ .title | markdownify }}</h4>
             </div>
@@ -135,6 +134,7 @@
                 {{ end }}
             </div>
         </div>
+        <br>
         {{ end }}
         {{ if .sponsorship.enable }}
         {{ with .sponsorship }}
@@ -146,7 +146,19 @@
         {{ end }}
         {{ end }}
     </div>
+    <br>
 </section>
+
+
+<div class="description-wrapper" style="margin-top: -25px;">
+  <div class="container">
+  <p>Participa como patrocinador de CCOSS y vincúlate con más de 500 desarrolladores de software interesados en construir software de clase mundial.</p>
+
+  <p>Consulta la <a href="https://docs.google.com/presentation/d/1Jr4MWoMLHr_7MzRfnWFImFr0shrPH8v59sU22t9YobI/edit?usp=sharing">guía de patrocinios</a></p>
+  </div>
+ 
+
+
 {{ end }}
 <!-- /sponsor -->
 
