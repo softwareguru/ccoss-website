@@ -1,5 +1,5 @@
 ---
-title: "Acerca de CCOSS"
+title: "Acerca de CCOSS y KCD"
 date: '2019-09-10T07:51:25.000+00:00'
 url: "/about"
 priority: 0.7
