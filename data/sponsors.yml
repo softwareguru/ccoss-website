@@ -21,11 +21,18 @@ sponsor_group:
       - logo : "/images/logos/Apache-logo.png"
         link : "https://www.apache.org/"
 
+  - title : "Sede"
+    slug : "community"
+    sponsor:
+      - logo : "/images/logos/cucea.png"
+        link : "https://www.cucea.udg.mx/es/acerca-de-cucea/ubicacion"
+
+
 # call to action in sponsor
 sponsorship:
   enable : true
   title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
   #button
   label : "Únete como patrocinador"
-  link : "/files/CCOSS2022 Hybrid - Prospectus.pdf"
+  link : "/files/CCOSS&KCD2023Prospectus.pdf"
 

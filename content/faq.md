@@ -7,37 +7,20 @@ url: /faq
 type: faq
 
 ---
-### ¿Quién puede asistir?
-La participación está abierta a cualquier persona interesada en contribuir a proyectos open source, desde principiantes hasta expertos
 
-### ¿Puedo participar aunque no sea un(a) desarrollador(a) de software?
-Sí. Hay distintas formas de contribuir a un proyecto que no involucran programar. Por ejemplo, puedes ayudar con diseño, documentación, revisión, coordinación, difusión.
+## ¿Qué es?
 
-### ¿Cuál es el horario del evento?
+CCOSS + KCD Guadalajara 2024 es un evento que integra La Cumbre de Contribuidores de Open Source Software y Kubernetes Community Day (KCD). El objetivo de este evento es promover no solo el uso sino también la contribución hacia proyectos open source en Latinoamérica. 
 
-El evento se realizará del 10 al 12 de noviembre.
+## ¿Cuándo y dónde?
 
-- El jueves 10 de noviembre tendremos charlas solamente online.
-- El viernes 11 de noviembre tendremos charlas en persona (Intel GDC Guadalajara) y también se transmitirán online.
-- El sábado 12 de noviembre tendremos un taller (en persona) y adicionalmente el sprint de contribución (en persona y remoto).
+Se llevará a cabo el 23 y 24 de Febrero de 2024 en el Centro Universitario de Ciencias Económico Administrativas CUCEA, Guadalajara México. 
 
-Te invitamos a ver la agenda [completa del evento](https://ccoss.org/agenda/).
+## ¿Para quién?
+
+La audiencia de CCOSS son personas con experiencia contribuyendo al código Open Source y personas que desean aprender cómo (y por qué) contribuir.
 
 
-### ¿Hay algún canal de comunicación entre participantes?
-Sí, hay un workspace de slack. Para ingresar visita https://sg1.run/ccoss-slack
+## ¿Si no puedo asistir a Guadalajara me puedo unir de alguna forma?
 
-
-### ¿Habrá alguna precaución sanitaria considerada contra el Covid?
-
-Se requerirá que los asistentes usen máscaras faciales en las salas de conferencias y actividades en interiores.
-
-Habrá estaciones de desinfectante alrededor del lugar del evento.
-
-### ¿Tienen un código de conducta?
-Sí. Es muy importante para nosotros que todos los participantes se sientan a gusto y seguras(os). El código de conducta está disponible aquí. y todos los participantes, conferencistas y patrocinadores de CCOSS deben seguirlo.
-
-Si antes o después del evento consideras que alguien lo está violando o simplemente te está incomodando, por favor no dudes en contactar a cualquier persona del equipo organizador.
-
-Si tienes alguna otra pregunta por favor háznosla llegar a hola@ccoss.org
-
+Si no te es posible viajar a Guadalajara para CCOSS pero quieres convivir con otras personas interesadas en Open Source, te invitamos a organizar una sede virtual con tu escuela, empresa o comunidad.

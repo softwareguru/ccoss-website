@@ -4,31 +4,12 @@
 	background-image: url(/images/ciudad-background.png);
 	background-size: cover;
     background-position: center;
-	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn{
+	background-color: $primary-color !important;
+	border-color: $primary-color !important;
+}
 
 .blog-article{
 	-webkit-transition: all .35s ease;
@@ -68,7 +49,6 @@
 		background: $border-color;
 	}
 }
-
 
 // Blog Sidebar
 // 

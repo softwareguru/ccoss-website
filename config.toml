@@ -115,10 +115,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/networking"
   #weight = 5
 
-  #[[menu.main]]
-  #name = "FAQ"
-  #URL = "/faq"
-  #weight = 7
+  [[menu.main]]
+  name = "FAQ"
+  URL = "/faq"
+  weight = 7
 
 #    [[menu.main]]
 #  name = "Edición 2021"
