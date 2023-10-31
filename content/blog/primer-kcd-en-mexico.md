@@ -28,7 +28,7 @@ link: /blog/primer-kcd-en-mexico
 
 <center>
 <a href="/about">
-<button type="button" style="align-items: center;" class="btn btn-info col-md-10 px-3">Conoce más sobre CCOSS & KCD</button>
+<button type="button" style="align-items: center;" class="btn btn-info col-md-5 px-3">Conoce más sobre CCOSS & KCD</button>
 </a>
 <center>
 

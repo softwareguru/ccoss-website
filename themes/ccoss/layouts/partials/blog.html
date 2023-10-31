@@ -7,10 +7,10 @@
  
   <br>
     <div class="container">
-      <div class="card-deck">
+      <div class="card-deck ">
         {{ range first 3 (where .Site.RegularPages "Type" "blog" )}}
          
-        <div class="card">
+        <div class="card shadow">
     
           <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" class="img-fluid" alt="{{ .Title | markdownify }}">
           <div class="card-body ">
@@ -20,8 +20,9 @@
             
           </div>
 
-          <a style="color: white;" href="{{ .Params.link }}" >
-          <button type="button" class="btn btn-primary">Ver más&nbsp;&nbsp; </a><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a> 
+            <a href="{{ .Params.link }}">
+              <button class="btn btn-primary">Conocer más</button>
+            </a>
           <br>
           
         </div>
