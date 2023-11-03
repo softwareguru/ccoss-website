@@ -15,11 +15,11 @@ sponsor_group:
       - logo : "/images/logos/ClowderSpace.png"
         link : "https://clowder.space/"
 
-  - title : "Partner"
-    slug : "community"
-    sponsor:               
-      - logo : "/images/logos/Apache-logo.png"
-        link : "https://www.apache.org/"
+#  - title : "Partner"
+#    slug : "community"
+#    sponsor:               
+#      - logo : "/images/logos/Apache-logo.png"
+#        link : "https://www.apache.org/"
 
   - title : "Sede"
     slug : "community"
