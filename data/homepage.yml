@@ -18,8 +18,8 @@ banner:
 event_info:
   enable : true
   title : "¿Te interesa contribuir a proyectos Open Source pero no sabes cómo hacerlo?"
-  description : "CCOSS + KCD Guadalajara 2024 integra dos eventos: La Cumbre de Contribuidores de Open Source Software y Kubernetes Community Day. "
-  contribution: "El objetivo de este evento es promover no solo el uso sino también la contribución hacia proyectos Open Source desde Latinoamérica."
+  description : "CCOSS + KCD Guadalajara 2024 integra dos eventos: La Cumbre de Contribuidores de Open Source Software y KCD (antes Kubernetes Community Day)."
+  contribution: ""
   cta_text: "Conoce más sobre la edición anterior"
   cta_link: "https://ccoss.org/sessions/2021/"
   features: 
