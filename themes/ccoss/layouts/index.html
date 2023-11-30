@@ -37,11 +37,19 @@
 {{ end }}
 <!-- /banner -->
 
+
 <!-- event_info  -->
 {{ if $data.homepage.event_info.enable }}
 {{ partial "event_info.html" . }}
 {{ end }}
 <!-- /event_info -->
+
+
+ <!-- Carousel -->
+ {{ if $data.homepage.event_info.enable }}
+ {{ partial "carousel.html" . }}
+ {{ end }}
+ <!-- /Carousel -->
 
 
 <!-- feature -->
@@ -112,11 +120,14 @@
  /contribu -->
 
 
+
+
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 {{ partial "blog.html" . }}
 {{ end }}
 <!-- /blog -->
+
 
 
 <!-- sponsor -->

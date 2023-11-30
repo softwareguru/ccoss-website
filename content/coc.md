@@ -27,4 +27,5 @@ Esperamos que los participantes sigan estas reglas en la la conferencia, tallere
 
 —–
 
-Este código de conducta está inspirado en el [JSConf™ Code of Conduct](https://jsconf.com/codeofconduct.html)
+Kubernetes Community Days se rigen por el Código de Conducta de la Linux Foundation Code disponible en https://events.linuxfoundation.org/code-of-conduct/.
+Estamos comprometidos con hacer de la participación de todos los involucrados en este evento una experiencia libre de hostigamiento de cualquier índole, sin importar su nivel de experiencia, género, identidad y expresión de género, orientación sexual, discapacidad, aspecto personal, tamaño corporal, raza, grupo étnico, edad, religión ni su nacionalidad.
