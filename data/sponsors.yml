@@ -8,6 +8,14 @@ sponsor_group:
       - logo : "/images/logos/CNCF.png"
         link : "https://github.com/cncf"
 
+  - title : "Platinum"
+    slug : "platinum"
+    sponsor:
+
+      - logo : "/images/logos/digital-challengers.png"
+        link : "https://digitalchallengers.com.mx//"
+
+
   - title : "Silver"
     slug : "silver"
     sponsor:
