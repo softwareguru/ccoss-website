@@ -44,6 +44,11 @@
 {{ end }}
 <!-- /event_info -->
 
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
 
  <!-- Carousel -->
  {{ if $data.homepage.event_info.enable }}
@@ -122,11 +127,7 @@
 
 
 
-<!-- blog -->
-{{ if $data.homepage.blog.enable }}
-{{ partial "blog.html" . }}
-{{ end }}
-<!-- /blog -->
+
 
 
 
