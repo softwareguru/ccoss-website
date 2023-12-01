@@ -1,0 +1,13 @@
+{{ $data := index .Site.Data }}
+
+{{ with $data.projects }}
+<section class="section featured-projects">
+  <div class="d-flex justify-content-around flex-wrap">
+    {{ range .projects }}
+      <div class="project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+    {{ end }}
+  </div>  
+</section>
+
+<img src="/images/linea-de-colores.png" class="img-fluid line">
+{{ end }}

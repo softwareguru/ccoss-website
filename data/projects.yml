@@ -1,0 +1,13 @@
+############################## Event ##############################
+projects:
+    - name: CNCF
+      image: /images/logos/CNCF.png
+
+    - name: Digital Challengers
+      image: /images/logos/digital-challengers.png
+
+    - name: Clowder Space
+      image: /images/logos/ClowderSpace.png
+
+    - name: CUCEA
+      image: /images/logos/cucea.png
