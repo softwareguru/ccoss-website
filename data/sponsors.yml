@@ -2,19 +2,12 @@ enable :  true
 title : ""
 sponsor_group:
 
-  - title : "Respaldado por"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/CNCF.png"
-        link : "https://github.com/cncf"
-
   - title : "Platinum"
     slug : "platinum"
     sponsor:
 
       - logo : "/images/logos/digital-challengers.png"
         link : "https://digitalchallengers.com.mx//"
-
 
   - title : "Silver"
     slug : "silver"
@@ -23,6 +16,21 @@ sponsor_group:
       - logo : "/images/logos/ClowderSpace.png"
         link : "https://clowder.space/"
 
+  - title : "Respaldado por"
+    slug : "silver"
+    sponsor:
+      - logo : "/images/logos/CNCF.png"
+        link : "https://github.com/cncf"
+      - logo : "/images/logos/logo-gnome.png"
+        link : "https://www.gnome.org/"
+      - logo : "/images/logos/dedica-fundacion.png"
+        link : "https://www.dedica.org.mx/"
+      - logo : "/images/logos/OpenSourceInovationLabs.png"
+        link : "#"
+      - logo : "/images/logos/fundacion-cloud-native.png"
+        link : "https://fhcn.webflow.io/"
+
+
 #  - title : "Partner"
 #    slug : "community"
 #    sponsor:               
@@ -30,9 +38,9 @@ sponsor_group:
 #        link : "https://www.apache.org/"
 
   - title : "Sede"
-    slug : "community"
+    slug : "platinum"
     sponsor:
-      - logo : "/images/logos/cucea.png"
+      - logo : "/images/logos/cucea-logo.png"
         link : "https://www.cucea.udg.mx/es/acerca-de-cucea/ubicacion"
 
 

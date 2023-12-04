@@ -1,6 +1,14 @@
 {{ $data := index .Site.Data }}
 
+
+
 {{ with $data.projects }}
+
+<br><br>
+<h3 class="container text-center">¡Será un orgullo para los mexicanos recibir en tierras tapatías a la comunidad Open Source y Cloud Native de Latinoamérica y de todo el mundo! <img src="images/icons/world.png" alt=""></h3>
+<br><br>
+
+<!--
 <section class="section featured-projects">
   <div class="d-flex justify-content-around flex-wrap">
     {{ range .projects }}
@@ -8,6 +16,7 @@
     {{ end }}
   </div>  
 </section>
+-->
 
 <img src="/images/linea-de-colores.png" class="img-fluid line">
 {{ end }}
