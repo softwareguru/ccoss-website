@@ -40,6 +40,12 @@
     
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css">
 
+    {{ with .Params.scripts }}
+      {{ range . }}
+        <script src="{{.}}" async></script>
+      {{ end }}
+    {{ end }}  
+
     {{ if .IsHome }}
 
     <script type="application/ld+json">

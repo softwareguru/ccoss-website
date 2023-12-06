@@ -2,33 +2,19 @@
 title: "Tickets"
 date: 2022-08-26T12:01:36-05:00
 draft: false
+scripts: 
+ - https://js.tito.io/v2/with/facebook,ga4,hits
+
 sitemap:
   priority: 0.9
 ---
 
-<div id="eventbrite-widget-container-402449024867"></div>
+<tito-widget
+      event="softwareguru/ccosskcd-2024"
+      save-metadata-parameters="utm_*"
+    ></tito-widget>
 
-<script src="https://www.eventbrite.com.mx/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '402449024867',
-        iframeContainerId: 'eventbrite-widget-container-402449024867',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
-
-
-## ¿Qué incluye mi pase a CCOSS 2022?
+## ¿Qué incluye mi pase a CCOSS?
 
 El boleto presencial incluye:
 
