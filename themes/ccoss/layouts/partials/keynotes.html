@@ -1,0 +1,35 @@
+{{ $data := index .Site.Data }}
+
+
+<div class="heading mb-4 text-center">
+    <h3>¡Conoce a nuestros Keynote speakers!</h3>
+  </div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        
+        <div class="speaker-strip">
+            {{ range where (where .Site.Pages.ByDate "Type" "speakers") "Params.keynote" true }}
+            <div class="speaker-item">
+              <div class="speaker-block">
+                <div class="headshot-box">
+                    <a href="{{.Permalink}}">
+                        <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+                      </a>
+                </div>
+                <div class="speaker-info text-center">
+                    <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+                    <p style="color: #E62485;">{{ .Params.Designation}}</p>
+                  </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+<img src="/images/linea-de-colores.png" class="img-fluid line">
+
