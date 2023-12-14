@@ -37,6 +37,14 @@ sponsor_group:
 #      - logo : "/images/logos/Apache-logo.png"
 #        link : "https://www.apache.org/"
 
+  - title : "Comunidades"
+    slug : "silver"
+    sponsor:
+      - logo : "/images/logos/wdt-logo.png"
+        link : "https://twitter.com/webdevtalksmx?lang=en"
+      - logo : "/images/logos/isotipo.png"
+        link : "https://xalapacode.com/"
+
   - title : "Sede"
     slug : "platinum"
     sponsor:
