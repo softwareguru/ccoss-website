@@ -44,6 +44,8 @@ sponsor_group:
         link : "https://twitter.com/webdevtalksmx?lang=en"
       - logo : "/images/logos/isotipo.png"
         link : "https://xalapacode.com/"
+      - logo : "/images/logos/data-engieneering-latam.png"
+        link : "https://www.linkedin.com/company/data-engineering-latam/?originalSubdomain=pe"
 
   - title : "Sede"
     slug : "platinum"
