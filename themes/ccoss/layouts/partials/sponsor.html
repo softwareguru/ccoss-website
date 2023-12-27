@@ -11,7 +11,7 @@
         {{ range .sponsor }}
         <div class="sponsor-item">
           {{ if and (ne .link "") (ne .link "#") }}
-          <a href="{{ .link }}"><img src="{{ .logo | relURL }}" alt="" class="img-fluid"></a>
+          <a href="{{ .link }}" target="_blank"><img src="{{ .logo | relURL }}" alt="" class="img-fluid"></a>
           {{ else }}
           <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
           {{ end }}
@@ -25,8 +25,8 @@
     <div class="row">
       <div class="col-lg-12">
         <!--<h5 class="mt-5 mb-4">{{ .title }}</h5>
-        <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }}</a>-->
-        <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }} <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="_blank">{{ .label }}</a>-->
+        <a href="{{ .link | safeURL }}" class="btn btn-banner2" style="color: #ffffff;" target="_blank">{{ .label }} <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
     {{ end }}

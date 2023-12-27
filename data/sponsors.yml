@@ -7,7 +7,7 @@ sponsor_group:
     sponsor:
 
       - logo : "/images/logos/digital-challengers.png"
-        link : "https://digitalchallengers.com.mx//"
+        link : "https://digitalchallengers.com.mx"
 
   - title : "Silver"
     slug : "silver"
@@ -18,8 +18,8 @@ sponsor_group:
       - logo : "/images/logos/infotec.png"
         link : "https://www.infotec.mx/"
 
-  - title : "Respaldado por"
-    slug : "silver"
+  - title : "Partners"
+    slug : "partner"
     sponsor:
       - logo : "/images/logos/CNCF.png"
         link : "https://github.com/cncf"
@@ -31,6 +31,10 @@ sponsor_group:
         link : "#"
       - logo : "/images/logos/fundacion-cloud-native.png"
         link : "https://fhcn.webflow.io/"
+      - logo : "/images/logos/kube-careers.svg"
+        link : "https://kube.careers/"
+      - logo : "/images/logos/kube-events.svg"
+        link : "https://kube.events"
 
 
 #  - title : "Partner"
@@ -40,7 +44,7 @@ sponsor_group:
 #        link : "https://www.apache.org/"
 
   - title : "Comunidades"
-    slug : "silver"
+    slug : "community"
     sponsor:
       - logo : "/images/logos/wdt-logo.png"
         link : "https://twitter.com/webdevtalksmx?lang=en"
