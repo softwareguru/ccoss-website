@@ -18,6 +18,7 @@ sponsor_group:
       - logo : "/images/logos/infotec.png"
         link : "https://www.infotec.mx/"
 
+
   - title : "Partners"
     slug : "partner"
     sponsor:
@@ -37,6 +38,7 @@ sponsor_group:
         link : "https://kube.events"
 
 
+
 #  - title : "Partner"
 #    slug : "community"
 #    sponsor:               
@@ -52,6 +54,8 @@ sponsor_group:
         link : "https://xalapacode.com/"
       - logo : "/images/logos/data-engieneering-latam.png"
         link : "https://www.linkedin.com/company/data-engineering-latam/?originalSubdomain=pe"
+      - logo : "/images/logos/open-infra.png"
+        link : "https://openinfra.mx/about/"
 
   - title : "Sede"
     slug : "platinum"
