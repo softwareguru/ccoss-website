@@ -11,6 +11,14 @@ sponsor_group:
       - logo : "/images/logos/suse.png"
         link : "https://www.suse.com/"
 
+
+  - title : "Gold"
+    slug : "gold"
+    sponsor:
+
+      - logo : "/images/logos/Improving.png"
+        link : "https://www.improving.com/"
+
   - title : "Silver"
     slug : "silver"
     sponsor:
