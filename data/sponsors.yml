@@ -8,6 +8,8 @@ sponsor_group:
 
       - logo : "/images/logos/digital-challengers.png"
         link : "https://digitalchallengers.com.mx"
+      - logo : "/images/logos/suse.png"
+        link : "https://www.suse.com/"
 
   - title : "Silver"
     slug : "silver"
