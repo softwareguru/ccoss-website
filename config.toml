@@ -100,10 +100,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/ticket"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Patrocinadores"
-  #URL = "/sponsors"
-  #weight = 3
+  [[menu.main]]
+  name = "Sede"
+  URL = "/sede"
+  weight = 3
   
   #[[menu.main]]
   #name = "Kit virtual"

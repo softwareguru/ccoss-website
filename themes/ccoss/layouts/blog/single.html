@@ -5,19 +5,9 @@
       <div class="col-12">
         <div class="content">
           <div class="card mb-3 bg-transparent border-0">
-            <div class="row no-gutters">
-              
-              <div class="col-md-4">
-                <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{end}}" class="card-img" alt="{{.Title}}">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <div class="card-text text-justify">
+           
                     {{ .Content }}
-                  </div> 
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
