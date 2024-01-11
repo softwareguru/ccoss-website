@@ -27,13 +27,13 @@ sponsor_group:
         link : "https://clowder.space/"
       - logo : "/images/logos/infotec.png"
         link : "https://www.infotec.mx/"
+      - logo : "/images/logos/CNCF.png"
+        link : "https://github.com/cncf"
 
 
   - title : "Partners"
     slug : "partner"
     sponsor:
-      - logo : "/images/logos/CNCF.png"
-        link : "https://github.com/cncf"
       - logo : "/images/logos/logo-gnome.png"
         link : "https://www.gnome.org/"
       - logo : "/images/logos/dedica-fundacion.png"
