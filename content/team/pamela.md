@@ -5,5 +5,6 @@ image: "/images/team/pamela.jpg"
 twitter: 
 linkedin: 
 group: sg
+designation: Diseño, Software Guru
 ---
 

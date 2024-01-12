@@ -5,5 +5,6 @@ image : "/images/team/Ivett.jpg"
 twitter: "https://twitter.com/valevetts"
 group: sg
 linkedin: ""
+designation: Project Manager, Software Guru
 ---
 

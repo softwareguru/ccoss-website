@@ -5,5 +5,6 @@ image: "/images/team/teyza.jpg"
 twitter: 
 linkedin: "https://www.linkedin.com/in/teyza-ponce-alvarez-19308519b/"
 group: sg
+designation: Project and Communications Manager, Software Guru
 ---
 

@@ -6,15 +6,20 @@
       {{ .Content }}
     </div> 
 
-    <h2 class="mb-5 mt-3" style="text-align: center;">Software Guru</h2>
+    <!--<h2 class="mb-5 mt-2" style="text-align: center;">Software Guru</h2>-->
     <div class="team-strip">
       {{ range where .Data.Pages.ByTitle "Params.group" "sg" }}
-      <div class="profile-item d-flex">
-        <div class="headshot">
-          <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid rounded-circle img-thumbnail">
-        </div>
-        <div class="info">
-          <h4 class="mt-3">{{ .Title }}</h4>
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+
+              <img src="{{ .Params.image }}" width="400" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p style="color: #E62485;">{{ .Params.Designation}}</p>
+            
           <ul class="list-inline">
             {{ with .Params.twitter }}
             <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-twitter"></i></a></li>
@@ -23,6 +28,7 @@
             <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-linkedin"></i></a></li>
             {{ end }}
           </ul>
+          </div>
         </div>
       </div>
       {{ end }}
@@ -30,23 +36,20 @@
 
     <br>
 
-    <h2 class="mb-5 mt-3" style="text-align: center;">Kubernetes y otras comunidades Cloud Native </h2>
+    <!--<h2 class="mb-5 mt-3" style="text-align: center;">Kubernetes y otras comunidades Cloud Native </h2>-->
     <div class="team-strip"> 
       {{ range where .Data.Pages.ByTitle "Params.group" "comunidades" }}
-      <div class="profile-item d-flex">
-        <div class="headshot">
-          <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid rounded-circle img-thumbnail">
-        </div>
-        <div class="info">
-          <h4 class="mt-3">{{ .Title }}</h4>
-          <ul class="list-inline">
-            {{ with .Params.twitter }}
-            <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-twitter"></i></a></li>
-            {{ end }}
-            {{ with .Params.linkedin }}
-            <li class="list-inline-item"><a href="{{ . }}"><i class="tf-ion-social-linkedin"></i></a></li>
-            {{ end }}
-          </ul>
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p style="color: #E62485;">{{ .Params.Designation}}</p>
+          </div>
         </div>
       </div>
       {{ end }}
@@ -55,3 +58,5 @@
 </section>
 
 {{ end }}
+
+
