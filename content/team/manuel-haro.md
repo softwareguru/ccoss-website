@@ -5,6 +5,7 @@ image : "/images/team/manuel-haro.jpg"
 linkedin: "https://www.linkedin.com/in/manuel-haro-89631a56/"
 twitter: "https://twitter.com/caxcan70?lang=en"
 group: comunidades
+designation: Comunidad de Red Laboratorios OSIL - Gnome Foundation | SAlianza con comunidades, Sponsors y Contenidos
 ---
 
  
