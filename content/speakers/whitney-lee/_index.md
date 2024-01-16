@@ -6,7 +6,7 @@ images :
 designation : "Staff Technical Advocate at VMware"
 country: "mx"
 twitter: ""
-linkedin: "https://www.linkedin.com/in/whitneylee/overlay/about-this-profile/"
+linkedin: "https://www.linkedin.com/in/whitneylee/"
 github: ""
 events:
  - 2023
