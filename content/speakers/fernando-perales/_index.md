@@ -1,17 +1,11 @@
 ---
-title: Fernando Perales
-date: 2020-10-07T16:46:48-05:00
+title: "Fernando Perales"
+designation: "Senior Developer @ thoughtbot"
 images:
- - /images/speakers/fernando-perales.jpg
-designation: Software developer @ thoughtbot
-country: 
-twitter: https://twitter.com/ferperales
+ - images/speakers/fernando-perales.jpg
 linkedin: https://linkedin.com/in/ferperales
-github: https://github.com/ferperales
 events:
- - 2022
- - 2019
+ - 2024
 ---
 
-Fernando is a Software engineer who writes web applications on his favorite language: Ruby.
-Fer is actively involved in the local communities and is currently running RubyMX community as well as member and co-organizer of the RailsBridge Mexican chapter.
+Fer is a software engineer who writes web applications in his favorite language: Ruby. He has been working as a software consultant for around 10 years and now is continuing the consulting path at thoughtbot. He is actively involved in the local communities by running the Mexican Ruby community as well as being a member and co-organizer of the RailsBridge Mexican chapter.

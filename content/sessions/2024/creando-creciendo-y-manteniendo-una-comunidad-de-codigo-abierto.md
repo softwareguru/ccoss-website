@@ -1,0 +1,12 @@
+---
+title: "Creando, creciendo, y manteniendo una comunidad de código abierto"
+slug: creando-creciendo-y-manteniendo-una-comunidad-de-codigo-abierto
+speakers:
+ - Andres Almiray
+time_start: 2024-02-24 10:10:00
+time_end: 2024-02-24 13:00:00
+track: Inspiration and guidance for open source contribution
+format: Workshop
+---
+
+Tal vez te sorprenda pero el aspecto mas importante a cuidar en un proyecto de código libre no es el código mismo sino la gente a su alrededor tanto colegas, aliados, usuarios, consumidoers, patrocinadores, y demás. En este taller cubriremos conceptos, técnicas, y herramientas que ayudan a fomentar una comunidad saludable y próspera.

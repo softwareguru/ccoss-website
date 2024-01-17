@@ -1,0 +1,18 @@
+---
+title: "Aprende K8s creando un cluster \"a pie\""
+slug: aprende-k8s-creando-un-cluster-a-pie
+speakers:
+ - Jorge Gaona
+time_start: 2024-02-23 11:05:00
+time_end: 2024-02-23 13:40:00
+track: Cloud native tools & technologies
+format: Workshop
+---
+
+En este taller aprenderás los conceptos básicos de Kubernetes creando un cluster sin asistentes, instaladores o alguna otra herramienta de automatización. 
+ 
+Usando máquinas virtuales, herramientas open source y la línea de comandos, iremos armando nuestro cluster paso a paso para entender la arquitectura de Kubernetes, el funcionamiento de cada componente y la relación entre ellos. 
+ 
+La práctica está enfocada para quienes deseen entender como funciona Kubernetes; es a nivel básico y sólo se requiere un entendimiento a nivel principiante-intermedio de Linux, en especial en el uso de la línea de comandos.
+ 
+Este taller es una versión extendida y tropicalizada del tutorial creado por Kelsey Hightower, "Kubernetes The Hard Way".

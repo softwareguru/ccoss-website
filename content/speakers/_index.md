@@ -8,5 +8,5 @@ sitemap:
   priority: 0.7
 ---
 
-Pronto publicarmeos a los conferencistas participantes en esta edición.
+### Conoce a nuestros conferencistas de esta edición.
 

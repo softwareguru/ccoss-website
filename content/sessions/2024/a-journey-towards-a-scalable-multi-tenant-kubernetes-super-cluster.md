@@ -1,0 +1,12 @@
+---
+title: "A Journey Towards a Scalable, Multi-Tenant Kubernetes Super Cluster"
+slug: a-journey-towards-a-scalable-multi-tenant-kubernetes-super-cluster
+speakers:
+ - Angel Ramirez
+time_start: 2024-02-23 13:05:00
+time_end: 2024-02-23 13:40:00
+track: Cloud native practices & considerations
+format: Talk
+---
+
+Kubernetes has revolutionized the way we manage containerized applications, making it a go-to choice for modern infrastructure orchestration. While the conventional approach is to maintain separate clusters for different environments, we dare to challenge this convention and propose an exciting alternative. Our approach focuses on creating a single, scalable, multi-tenant Kubernetes super cluster to cater to diverse workloads securely.

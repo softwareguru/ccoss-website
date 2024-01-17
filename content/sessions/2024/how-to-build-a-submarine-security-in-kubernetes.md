@@ -1,0 +1,18 @@
+---
+title: "How to build a Submarine: Security in Kubernetes"
+slug: how-to-build-a-submarine-security-in-kubernetes
+speakers:
+ - Jairo Andrés Correa Pérez
+time_start: 2024-02-23 12:25:00
+time_end: 2024-02-23 13:00:00
+track: Cloud native practices & considerations
+format: Talk
+---
+
+Kubernetes is a powerful tool for deploying and managing containerized applications. However, it can also be a complex and challenging platform to secure.
+ 
+ In this presentation, we'll discuss some of the security challenges. It will start with an overview of the Kubernetes security landscape, including the threats that Kubernetes applications face. Then, I will discuss specific security controls that can be implemented.
+ 
+ We'll highlight real-world examples of Kubernetes security breaches and how they were mitigated. Finally, I will provide information on tools and resources that can be used to secure Kubernetes, such as security frameworks and monitoring tools.
+ 
+ By the end of this presentation, you will better understand the security challenges of Kubernetes and how to overcome them.

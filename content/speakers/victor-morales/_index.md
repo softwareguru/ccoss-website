@@ -1,16 +1,11 @@
 ---
 title: "Victor Morales"
-date: 2021-09-10T12:40:06-05:00
+designation: "Senior Staff Software Engineer"
 images:
- - "/images/speakers/victor-morales.jpeg"
-designation : "Ingeniero de software senior @ Samsung Electronics"
-country: "mx"
-twitter: "https://twitter.com/electrocucarach"
-linkedin: "https://www.linkedin.com/in/electrocucaracha/"
-github: "https://github.com/electrocucaracha/"
+ - images/speakers/victor-morales.jpg
+linkedin: https://linkedin.com/in/electrocucaracha/
 events:
- - 2021
- - 2022
+ - 2024
 ---
 
-Master en Tecnologías de la Información, Co-fundador de la comunidad de OpenStackGDL y Cloud-Native El Salvador. Contribuidor al codigo fuente de proyectos para las fundaciones de OpenStack, OPNFV, ONAP y CNCF, Victor Morales es un apasionado programador con mas de 15 años de experiencia en la industria, experto en el dominio de lenguajes de programacion Java, C#, Visual Basic, Python, Go y SQL. Actualmente representa los intereses y el compromiso de Samsung en los proyectos de código abierto en adopción de tecnologías del computo en la nube. Ávido lector, que disfruta del aprendizaje de nuevas tecnologías y metodologías de software.
+Masters in Information Technology, Co-founder of the OpenStackGDL and Cloud-Native El Salvador communities and active contributor to CNCF, LFN and Open Infrastructure projects, Victor Morales is a passionate Sr. Staff Software Engineer with an interest in automated software development. He enjoys to build solutions that are easy to use, scale and adapt. Fervent supporter of the DevOps culture with over 18 years of experience in the industry.

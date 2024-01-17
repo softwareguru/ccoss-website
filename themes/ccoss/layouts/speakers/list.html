@@ -2,17 +2,21 @@
 
 <section class="speaker-2 section">
   <div class="container">
-    <div class="lead">
+    <div class="lead mb-4">
       {{ .Content }}
     </div>
     <div class="speaker-strip">
       {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }} 
-        {{ if in .Params.events "2022" }}
+        {{ if in .Params.events 2024 }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="{{.Permalink}}">
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+              {{ $img := resources.Get (index .Params.images 0) }}
+              {{ with $img }}
+                {{ $imgp := $img.Resize "400x webp" }}
+                <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+              {{ end }}  
             </a>
           </div>
           <div class="speaker-info text-center">

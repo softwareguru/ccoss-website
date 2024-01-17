@@ -1,0 +1,20 @@
+---
+title: "Revolutionizing Legacy: Adapting JMeter for Cloud-Native Ecosystems with Helm, K8s and Prometheus"
+slug: revolutionizing-legacy-adapting-jmeter-for-cloud-native-ecosystems-with-helm-k8s-and-prometheus
+speakers:
+ - Juan Carlos Martinez Carrillo
+time_start: 2024-02-23 11:45:00
+time_end: 2024-02-23 12:20:00
+track: Cloud native practices & considerations
+format: Talk
+---
+
+In this session, we will explore the transformative journey of adapting JMeter, a traditional load testing tool, to the dynamic demands of cloud-native environments. With a history predating the cloud-native era, JMeter has been the go-to tool in load testing for many years, however, its conventional application often falls short in the scalable and ephemeral nature of modern cloud-native ecosystems.
+ 
+ 
+ 
+ During the session, I want to present some patterns and Helm Chart suggestions to run JMeter within a Kubernetes environment using Deployments, Statefulsets and jobs to manage the Test Simulation lifecycle, while using sidecar containers to push metrics to Prometheus pushgateway.
+ 
+ 
+ 
+ I bootstrap everything in a web app written in Go to trigger new Simulations with multiple parameters.

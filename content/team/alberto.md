@@ -6,5 +6,6 @@ twitter:
 linkedin: "https://www.linkedin.com/in/alberto-rodriguez-jim/"
 group: sg
 designation: Web developer, Software Guru
+draft: true
 ---
 

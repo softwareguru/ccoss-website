@@ -80,15 +80,11 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
    url = "/agenda"
    weight = 2
 
-  #[[menu.main]]
-  # name = "Sprint"
-  # URL = "/sprint-contribucion"
-  # weight = 4
-  
-  #[[menu.main]]
-  #  name = "ConTRIBU"
-  #  URL = "/contribu"
-  #  weight = 5
+  [[menu.main]]
+   identifier = "speakers"
+   name = "Conferencistas"
+   url = "/speakers"
+   weight = 3
 
   #[[menu.main]]
   #name = "Talleres"

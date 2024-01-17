@@ -1,66 +1,229 @@
-id,title,slug,type,event-slug,speakers,content,time_start,time_end
-a0,Bienvenida,bienvenida,session,2022,,,2022-11-10T09:45:00.000-05:00,2022-11-10T10:00:00.000-05:00
-a1,Cómo hacer machine learning de forma abierta y colaborativa,machine-learning-abierto,session,2022,Omar Sanseviero,"Platicaremos sobre iniciativas y herramientas disponibles para hacer ciencia de datos de forma abierta y colaborativa, así como las oportunidades que esto representa para personas en todo el mundo.",2022-11-10T10:00:00.000-05:00,2022-11-10T10:30:00.000-05:00
-a2,Sesión por confirmar,confirmar1,session,2022,,,2022-11-10T10:30:00.000-05:00,2022-11-10T11:00:00.000-05:00
-a3,Sesión por confirmar,sesin-por-confirmar,session,2022,,,2022-11-10T11:00:00.000-05:00,2022-11-10T11:30:00.000-05:00
-a4,From Zero to OSC Hero,from-zero-to-osc-hero,session,2022,Manasés Jesús,"El **código abierto** (open source, en inglés) es una forma de trabajar en un proyecto que se basa en la colaboración, la descentralización y el acceso. El software de código abierto, también llamado **software libre** (OSS, por sus cifras en inglés), pone el código fuente a disposición de los usuarios e invita a una comunidad de colaboradores, técnicos y no técnicos, a desarrollarlo y mejorarlo.
+Session Id,Title,Abstract,Speakers,Email,Track,Format,Do you plan to mention your employer in the talk?,Room,Time start,Duration,Time end,Speaker Ids
+599458,"Kubernetes, la plataforma para plataformas","Conforme Kubernetes se ha vuelto una tecnología ""aburrida"" y ""madura"", se a vuelto un cliché hablar de lo difícil que es usar Kubernetes, incluso llegando al punto de hablar de que Kubernetes ""fue un error"", y que sería más fácil correr servicios en una máquina virtual. 
+ 
+En esta plática, hablaremos como Kubernetes no es una plataforma, sino una plataforma para construir plataformas. Nos adentraremos en las diferentes partes de Kubernetes para entender por que están ahí, para qué sirven, y como nos pueden ayudar (o no) a crear abstracciones de cómputo muy poderosas.   
+ 
+Fue Kubernetes un error? Si Kubernetes no existiera, que tendríamos que hacer? Juntos lleguemos a la respuesta!",Ramiro Berrelleza,ramiro@okteto.com,Cloud native tools & technologies,Keynote,Maybe,Auditorio 1,2024-02-23 9:30,30,2024-02-23 10:00,767f84bc-4509-4121-9136-3a90a0611096
+570825,Gestionando Entornos de Despliegue con ArgoCD y GitOps,"En esta sesión, exploraremos cómo ArgoCD y GitOps se han convertido en pilares esenciales para la gestión eficiente de entornos de despliegue en aplicaciones y servicios. Aprenderás cómo implementar y mantener pipelines de entrega continuada basadas en Git, lo que permitirá una gestión declarativa y controlada de los despliegues en Kubernetes y otros entornos. Analizaremos las ventajas de esta metodología, las mejores prácticas y los desafíos comunes, y proporcionaremos ejemplos concretos de implementación. Si buscas mejorar la confiabilidad y la automatización en tu proceso de despliegue, esta sesión es para ti.",Alex Parra,parraletz@gmail.com,Cloud native practices & considerations,Talk,No,Auditorio 4,2024-02-23 11:05,35,2024-02-23 11:40,279479c1-f533-463b-a511-f0517bcc463f
+579897,El software libre como motor de la colaboración y la comunidad.,"¿Qué es el software libre y por qué es importante? ¿Cómo puedes participar y contribuir al software libre? ¿Qué papel juegan las comunidades tecnológicas en el software libre? 
+ 
+ En está charla explicaremos todo lo que necesitas saber sobre el software libre, las comunidades tecnológicas, y cómo puedes unirte a este movimiento que nos hace más libres, colaborativos y comunitarios.
+ 
+ 
+ 
+ Te platicaré acerca de mi trayectoria organizando y participando en comunidades, así como la experiencia de participar en eventos que promueven la contribución al software libre como son FLISOL, Hacktoberfest, y MLH.",Juan Luis Ordoñez Pérez,juanluis1231@outlook.com,Inspiration and guidance for open source contribution,Talk,No,Auditorio 3,2024-02-23 11:05,35,2024-02-23 11:40,d57a1c83-6896-45ec-9533-73d92835220d
+583311,Optimizando Operadores de Kubernetes y Control de Admisión con Pepr,"Hoy en día, qué y cómo se admiten cosas en Kubernetes es más importante que nunca. Aprenda el rol del Admission Controller y comprenda las fases de Mutación y Validación mientras exploramos estrategias para una gestión óptima del cluster. Veamos cómo proyectos como Istio y OpenShift aprovechan estos controladores y mostraremos la creación de un controlador personalizado con Pepr. Ideal para cualquier persona que aspire a mejorar y automatizar la seguridad y la integracion de apps in K8s!",Casey Wylie,casewylie@gmail.com,Cloud native tools & technologies,Talk,No,Auditorio 2,2024-02-23 11:05,35,2024-02-23 11:40,ac09c5f5-9456-4a4e-951b-374533259acf
+596616,Mi primer Wordpress en la era de kubernetes,"Mostrar como se puede montar una página pública de Wordpress con configuraciones sencillas usando Terraform, Azure, Helm y Kubernetes, la Charla Ira mostrando el código en terraform, el acceso a la consola de azure y las instrucciones para actualizar helm y cómo evolucionar los scripts para hacer más compleja la página.",Aleph Ramos,albertoaleph@gmail.com,Cloud native tools & technologies,Talk,Yes,Auditorio 1,2024-02-23 11:05,35,2024-02-23 11:40,b80d0cbe-9ee5-4e5a-9363-468c4b8c5756
+568575,"Aprende K8s creando un cluster ""a pie""","En este taller aprenderás los conceptos básicos de Kubernetes creando un cluster sin asistentes, instaladores o alguna otra herramienta de automatización. 
+ 
+Usando máquinas virtuales, herramientas open source y la línea de comandos, iremos armando nuestro cluster paso a paso para entender la arquitectura de Kubernetes, el funcionamiento de cada componente y la relación entre ellos. 
+ 
+La práctica está enfocada para quienes deseen entender como funciona Kubernetes; es a nivel básico y sólo se requiere un entendimiento a nivel principiante-intermedio de Linux, en especial en el uso de la línea de comandos.
+ 
+Este taller es una versión extendida y tropicalizada del tutorial creado por Kelsey Hightower, ""Kubernetes The Hard Way"".",Jorge Gaona,jorgegaona@yahoo.com,Cloud native tools & technologies,Workshop,Maybe,Aula 1,2024-02-23 11:05,155,2024-02-23 13:40,4b8d24b3-d367-49ad-b342-e5e841a9e912
+569757,Kyverno: El Futuro de la Gobernanza en Kubernetes,"En esta charla, exploraremos Kyverno, una herramienta clave para Kubernetes. Descubrirás qué es, cómo funciona y cómo puedes utilizarlo para aplicar políticas de manera efectiva en tus clústers. Te llevaré a través de su estructura y te mostraré ejemplos prácticos de cómo Kyverno puede mejorar la gobernanza y la seguridad en tus clústers Kubernetes.",Enrique Tejeda,quique.tejeda.68@gmail.com,Cloud native tools & technologies,Talk,Maybe,Auditorio 2,2024-02-23 11:45,35,2024-02-23 12:20,99bb5b43-ce13-4da8-9693-307f2a13d177
+585289,Cómo iniciar a contribuir al Open Source y no morir en el intento.,"¿Interesado en ser parte del mundo del Open Source pero no sabes por dónde empezar? Esta conferencia te ofrece el camino para adentrarte en el mundo de la contribución al Open Source de manera práctica y sencilla. Descubre proyectos Open Source, estrategias, herramientas y mejores prácticas para iniciarte en proyectos de código abierto sin sentirte abrumado.",Cristina Mariscal,cristinamariscal2b@gmail.com,Inspiration and guidance for open source contribution,Talk,No,Auditorio 3,2024-02-23 11:45,35,2024-02-23 12:20,b612e363-e41a-4ff4-acdc-33ddc4839ac4
+596516,Operadores de Kubernetes: El poder de la automatización,"En esta charla, abordaré una visión general simplificada de los Operadores de Kubernetes, centrándome en hacer el concepto comprensible para aquellos que son nuevos en el tema. Comenzaremos explicando los fundamentos de Kubernetes y un ejemplo de una aplicación desplegada con Kubernetes y sus componentes por defecto. Luego, exploraremos los Operadores de Kubernetes, sus componentes, cómo construirlos y por qué son relevantes en la gestión de aplicaciones en Kubernetes. Profundizaremos en los beneficios de utilizar Operadores y en cómo simplifican el despliegue y la gestión de aplicaciones complejas, como las bases de datos. Los asistentes obtendrán una comprensión de cómo los Operadores automatizan tareas operativas, tales como el escalado, la actualización y el monitoreo de aplicaciones.",Edith Puclla,edithpuclla20@gmail.com,Cloud native tools & technologies,Talk,No,Auditorio 1,2024-02-23 11:45,35,2024-02-23 12:20,6abf0521-e794-4933-b57b-e7b9faa42e56
+602514,"Revolutionizing Legacy: Adapting JMeter for Cloud-Native Ecosystems with Helm, K8s and Prometheus","In this session, we will explore the transformative journey of adapting JMeter, a traditional load testing tool, to the dynamic demands of cloud-native environments. With a history predating the cloud-native era, JMeter has been the go-to tool in load testing for many years, however, its conventional application often falls short in the scalable and ephemeral nature of modern cloud-native ecosystems.
+ 
+ 
+ 
+ During the session, I want to present some patterns and Helm Chart suggestions to run JMeter within a Kubernetes environment using Deployments, Statefulsets and jobs to manage the Test Simulation lifecycle, while using sidecar containers to push metrics to Prometheus pushgateway.
+ 
+ 
+ 
+ I bootstrap everything in a web app written in Go to trigger new Simulations with multiple parameters.",Juan Carlos Martinez Carrillo,jcroyoaun@gmail.com,Cloud native practices & considerations,Talk,Maybe,Auditorio 4,2024-02-23 11:45,35,2024-02-23 12:20,98136c04-c0d4-44c0-90dd-3b50d4d44d26
+575048,How to build a Submarine: Security in Kubernetes,"Kubernetes is a powerful tool for deploying and managing containerized applications. However, it can also be a complex and challenging platform to secure.
+ 
+ In this presentation, we'll discuss some of the security challenges. It will start with an overview of the Kubernetes security landscape, including the threats that Kubernetes applications face. Then, I will discuss specific security controls that can be implemented.
+ 
+ We'll highlight real-world examples of Kubernetes security breaches and how they were mitigated. Finally, I will provide information on tools and resources that can be used to secure Kubernetes, such as security frameworks and monitoring tools.
+ 
+ By the end of this presentation, you will better understand the security challenges of Kubernetes and how to overcome them.",Jairo Andrés Correa Pérez,jairo.correa@live.com,Cloud native practices & considerations,Talk,Maybe,Auditorio 2,2024-02-23 12:25,35,2024-02-23 13:00,bd203648-c8be-4705-acca-810aeddc83d6
+585266,Liberando a producción con confianza,"Cuántas veces nos hemos preguntado si es buena idea liberar a producción en Viernes por la tarde? El software a producción es suficientemente robusto y/o poco vulnerable? Cómo podemos detectar y corregir problemas de seguridad en producción? Mejor aún, cómo podemos prevenir dichos problemas o ataques? En los últimos años el tema de Seguridad en la Cadena de Suministro de Software (Software Supply Chain Security) ha tomado mayor importancia. Conceptos como SBOMs, SLSA, Reproducible Builds, Seguridad en CI/CD se discuten ampliamente para dar respuesta a las preguntas anteriores. En ésta sesión descubriremos qué son éstos conceptos y cómo aplicarlos en tus proyectos.",Andres Almiray,aalmiray@yahoo.com,Tools for open source development and collaboration,Talk,Maybe,Auditorio 4,2024-02-23 12:25,35,2024-02-23 13:00,720cdc7d-0ae6-44d3-af2a-eebc0a086508
+594995,Viaje al centro de la máquina virtual,"¿Cómo se añade nuevas funcionalidades al lenguaje de JavaScript? ¿Cómo se implementan estas funcionalidades en un motor de JavaScript? En esta charla, hablaremos sobre el proceso de estandarización de una propuesta para una nueva funcionalidad en TC39, el comité que es responsable del estándar de JavaScript. Después, vamos a ver la arquitectura de SpiderMonkey, el motor de JavaScript en Firefox, para entender mejor cómo implementar una nueva funcionalidad dentro del motor. Finalmente, veremos cómo pueden contribuir a TC39, SpiderMonkey o los dos. Muchas propuestas de TC39 están implementadas en SpiderMonkey por voluntarios, y esta puede ser una buena manera de aprender cómo funciona un motor de JavaScript.",Daniel Minor,daniel.minor@gmail.com,Inspiration and guidance for open source contribution,Talk,Yes,Auditorio 3,2024-02-23 12:25,35,2024-02-23 13:00,d839fd9c-21ea-4b55-ba3b-6eecfe2cf18c
+600793,Adoptando GitOps en Telecom con Nephio,Nephio es un proyecto de código abierto donado por Google y que ha sido recientemente agregado a la Linux Foundation Networking. Su principal objetivo es facilitar el despliegue y administración de Aplicaciones de Red (como puede ser 5G) a gran escala. Este proyecto permite a las empresas de Telecomunicaciones utilizar prácticas como GitOps y Cloud-Native en el control de sus aplicaciones y que han sido ampliamente adoptadas por la industria. Durante esta sesión describiremos el problema actual que muchas empresas de Telecomunicaciones enfrentan al adoptar Tecnologías Nativas para la Nube y la propuesta actual que el proyecto Nephio ofrece ante dicho panorama.,Victor Morales,chipahuac@hotmail.com,Cloud native tools & technologies,Talk,No,Auditorio 1,2024-02-23 12:25,35,2024-02-23 13:00,d1e62963-aad6-4355-8431-03ff7b16314e
+568576,"A Journey Towards a Scalable, Multi-Tenant Kubernetes Super Cluster","Kubernetes has revolutionized the way we manage containerized applications, making it a go-to choice for modern infrastructure orchestration. While the conventional approach is to maintain separate clusters for different environments, we dare to challenge this convention and propose an exciting alternative. Our approach focuses on creating a single, scalable, multi-tenant Kubernetes super cluster to cater to diverse workloads securely.",Angel Ramirez,angel@cuemby.com,Cloud native practices & considerations,Talk,No,Auditorio 1,2024-02-23 13:05,35,2024-02-23 13:40,321c0ab1-2f3d-4ba0-9477-e10986a5590c
+572116,Diseñando soluciones de seguridad en Kubernetes con Open Source,"La seguridad en Kubernetes no necesita ser complicada. En esta sesión ahondaremos en diferentes soluciones de seguridad Open Source para cubrir los frentes de ataque más comunes en Kubernetes: Detección de vulnerabilidades, malas configuraciones y anomalías.
+ 
+ 
+ 
+ Se explicará a grandes rasgos cómo gestionamos actualmente estas herramientas en clusters de gran tamaño, las ventajas de utilizar gestión de políticas y como visualizar la información de manera sencilla.
+ 
+ 
+ 
+ Algunas de las herramientas de la CNCF que se utilizarán son: Prometheus, Kyverno, Falco y Trivy.",Franco Hielpos,fhielpos@gmail.com,Cloud native tools & technologies,Talk,No,Auditorio 2,2024-02-23 13:05,35,2024-02-23 13:40,5a3ed06c-8448-4a62-bb50-456091235c63
+588352,How to support open source products (and not die trying),"In this talk, I will talk about my experience in the last two years as a young leader in the technical support area where we provide customer support for open source products from Electronic Cats. The problems and challenges that my area has faced, and the contributions made by the open source community. As well as the future of the technical support agent with the arrival of AI tools.",Jazmin Hernandez Estrada,support@electroniccats.com,Inspiration and guidance for open source contribution,Talk,Maybe,Auditorio 3,2024-02-23 13:05,35,2024-02-23 13:40,70656555-4d21-46f5-998e-5c8ee9abeec7
+602526,INFOTEC - Bienvenidos a la Transformación Digital de Mexico,"INFOTEC es un Centro Público de Investigación del ramo TIC que forma parte del Conahcyt y está alineado a la Estrategia Digital Nacional. INFOTEC busca contribuir a la transformación digital de México a través de la investigación, la innovación, la formación académica y el desarrollo de de productos y servicios TIC fundamentados en Open Source. Algunas de las acciones de este Centro de Investigación se enfocan en desarrollar e implementar soluciones tecnológicas de código abierto, dirigidos a la mejora continua de los servicios públicos así como al cumplimiento de los principios de eficiencia, eficacia y transparencia. Asimismo, los programas de formación de talento humano que ofrece INFOTEC dan especial relevancia al uso de las tecnologías open source.",Federico Waite,federicowaite@gmail.com,Inspiration and guidance for open source contribution,Talk,Yes,Auditorio 4,2024-02-23 13:05,35,2024-02-23 13:40,3bd0e87f-b147-4b94-ab44-3d080e266de6
+578471,The Efficient Way of Autoscaling Your Workload in Kubernetes,"Have you faced limited access to observability data for Horizontal Pod Autoscaler (HPA) or dealt with provisioning resources that result in unnecessary costs? Organizations often create autoscaling rules based on CPU and memory usage, but guaranteeing reliability and cost efficiency solely with CPU can be challenging in a Kubernetes environment. How can we effectively leverage observability data in autoscaling rules?
+ 
+ 
+ 
+ Discover Keptn's Metric Server, addressing these challenges by consolidating observability data in Kubernetes. Through a real example showcasing inefficient HPA rules, this session explains how Keptn can enhance and optimize the autoscaling process utilizing metrics from Istio/Envoy, but also the cost of your workload.",Nestor Zapata,nestor.zapata@dynatrace.com,Cloud native practices & considerations,Talk,No,Auditorio 1,2024-02-23 14:45,35,2024-02-23 15:20,"9d8a7f7c-68fd-4855-bcf9-881c24af40ee, f5b69a01-ef60-4f70-af5c-3c8180e8eafe"
+585293,Dark Services for Kubernetes. Protect your Kubernetes Services and Cluster using OpenZiti.io,"In this session we will learn how OpenZiti.io (opensource project) can help us to protect our cluster even when we need to access it from a different network, but at the same time without having to open a single port in the firewall and having all the cluster elements running within a private subnet, avoiding the usage of reverse proxies, bastion servers, VPNs, DMZ, etc.
+ 
+ We'll deploy a service (Dark Service) inside K8s and access it securely from a public network, without having to open ports for incoming traffic. It sounds disruptive, but that is exactly the reason for this session.
+ 
+ We'll share with the audience how OpenZiti.io embeds the network into applications and services, and how we can incorporate it into any technology, from JAVA applications, APIs, Database Drivers, IoT, etc.",Rolando Carrasco,rcarrascosps@gmail.com,Cloud native tools & technologies,Talk,No,Auditorio 2,2024-02-23 14:45,35,2024-02-23 15:20,0f73fc84-075b-4b17-9b61-d632a6785547
+596636,"Abrirse Camino en Open Source: Oportunidades, Contribuciones y Carrera","¿Quieres empezar en open source pero no sabes cómo?
+ 
+ En esta presentación, hablaré sobre cómo comencé a contribuir en Open Source, específicamente en Apache Airflow, y cómo mis contribuciones facilitaron mi reinserción laboral después de dos años de desempleo. Compartiré estas oportunidades y cómo tú también puedes aprovecharlas. Detallaré mi experiencia realizando contribuciones no técnicas en Kubernetes y Docker, así como mi trayectoria para convertirme en embajadora de la Cloud Native Computing Foundation, Capitana de Docker, y trabajar en una empresa completamente dedicada a Open Source, entre otras oportunidades. Esta sesión está diseñada para ayudarte a sumergirte en el mundo de open source, especialmente si eres nuevo en el campo y buscas oportunidades en el mundo tech.",Edith Puclla,edithpuclla20@gmail.com,Inspiration and guidance for open source contribution,Talk,Maybe,Auditorio 3,2024-02-23 14:45,35,2024-02-23 15:20,6abf0521-e794-4933-b57b-e7b9faa42e56
+602913,Cloud Native Community Impact,"The Cloud Native Computing Foundation (CNCF) community has had a significant impact on the way cloud applications are developed, deployed and managed, leading to greater efficiency, scalability and security in the cloud.
+ 
+ 
+ 
+ Join Audra's session to learn how you can get started with Cloud Native, or take your journey one step further to help grow yours and others' technical and professional careers.",Audra Montenegro,audra@cncf.io,Inspiration and guidance for open source contribution,Talk,Yes,Auditorio 4,2024-02-23 14:45,35,2024-02-23 15:20,a2f0ce6e-261e-4a24-b239-a77bcbf3a19e
+579124,Taller: Tu primera contribución Open Source,"La idea es dar un taller donde se de un recorrido de herramientas y flujos básicos de contribución a proyectos open source. 
+ 
+ Se va a crear el proyecto: contribu donde cada commit va a hacer mención a una foto de perfil de la persona que estará contribuyendo. Adicional una breve descripción de la persona.
+ 
+ 
+ 
+ Este taller tiene como objetivo llevar un tracking en cada evento de ccoss para contabilizar solo las primeras contribuciones que se han llevado a cabo.",Chuy Lerma,jesus.lerma@clikauto.com,Inspiration and guidance for open source contribution,Workshop,No,Aula 1,2024-02-23 14:45,150,2024-02-23 17:15,74eb201a-e7ff-4bad-a568-5b6724f1c8c2
+568414,Desbloquea tu potencial: Crea OpenSource sin miedos,"Learn how to overcome your fears and unlock your creativity. Regardless of your level of experience, this conference will guide you every step of the way to share your work, get feedback and build your reputation.
+ 
+ 
+ 
+ In this conference, I will share with you strategies, experiences and practical tips to overcome the fear of creating OpenSource. In addition, we will discuss the importance of receiving and giving constructive feedback, as well as building our reputation in the OpenSource community.",Manuel Gil,atencion.ms@gmail.com,Inspiration and guidance for open source contribution,Talk,No,Auditorio 3,2024-02-23 15:25,35,2024-02-23 16:00,1b1b4e96-74b9-40b1-b58a-ee81cba6dfd5
+568436,OpenSource Sentinel: Beats-EL(K|Grafana) Harmonization,"The OpenSource Sentinel: Beats-EL(K|Grafana) Harmonization is a cutting-edge, real-time monitoring solution that leverages the power of open-source technologies. Integrating Beats for data shipping, with the analytics of Elasticsearch and the visualization capabilities of Kibana and Grafana, it offers a comprehensive, unified view of system and network health. This synergy enables seamless observation and insightful analytics, facilitating proactive issue resolution and performance enhancements in IT environments.",Ivan Zenteno,chefs.limiter0y@icloud.com,I am not sure,Talk,No,Auditorio 1,2024-02-23 15:25,35,2024-02-23 16:00,c6a8877d-2856-4d66-8ad5-a688207de332
+589550,Cloud Native Shield: Fortaleciendo la Seguridad de Kubernetes en la Era Cloud,"En el actual mundo digital, un alto porcentaje de las empresas adoptan Kubernetes para desarrollar sus tecnologías, enfrentándose a un entorno con crecientes ataques cibernéticos. La charla 'Cloud Native Shield' te invita a convertirte en un iniciador en seguridad de la nube. Con las incursiones cibernéticas aumentando en un 43% anualmente, te enseñaremos cómo mejorar la defensa y reducir los ataques hasta en un 60%. Participa en esta charla para aprender a construir una defensa sólida, protegiendo tus aplicaciones y proyectos en la nube",Johan Heimar Prieto Benavides,johan.h.prieto@gmail.com,Cloud native tools & technologies,Talk,Maybe,Auditorio 2,2024-02-23 15:25,35,2024-02-23 16:00,e8759f53-2c22-49d4-af20-267cec0780c6
+602094,Llevando tu Proyecto de Hobby a la Cloud Native Computing Foundation,"Descubre cómo llevar tu proyecto personal a nuevas alturas en la Cloud Native Computing Foundation (CNCF). En esta sesión, compartiremos nuestra travesía con Microcks, desde un proyecto personal hasta el sandbox de la CNCF. Obtén consejos prácticos y conoce los recursos clave que facilitaron nuestra transición.
+ 
+ 
+ 
+ Exploraremos los beneficios tangibles de unirte a la CNCF, desde mayor visibilidad hasta la construcción de comunidades sólidas. Esta experiencia práctica proporcionará a los desarrolladores las herramientas necesarias para ampliar el alcance y la relevancia de sus proyectos personales.",Hugo Guerrero,hguerrer@redhat.com,Inspiration and guidance for open source contribution,Talk,Maybe,Auditorio 4,2024-02-23 15:25,35,2024-02-23 16:00,e546ec56-9837-46b5-b3fa-4f79381b5aaa
+578300,Agricultura y Hogares Inteligentes con IoT y Kubernetes,"En un mundo cada vez más conectado, el Internet de las cosas (IoT) y Kubernetes (K8S) están impulsando una transformación significativa en diferentes industrias como la agricultura y los hogares inteligentes. Esta presentación explorará cómo la orquestación eficiente y la gestión centralizada pueden potenciar la agricultura sostenible y mejorar la calidad de vida.",Igor Ariza,igorariza@gmail.com,Open hardware,Talk,Maybe,Auditorio 2,2024-02-23 16:05,35,2024-02-23 16:40,a15a2e5c-00a8-4775-af0d-02a6bc83d5a4
+601997,Explorando KEDA,"Aprende qué es HPA y KEDA. Implemente auto escalamiento utilizando KEDA. 
+ 
+ 
+ 
+ Los eventos son parte de nuestra vida cotidiana, por esto es importante adaptarnos y reaccionar a ellos. KEDA nos ayuda implementar el auto escalamiento basado en estos eventos. 
+ 
+ 
+ 
+ Es un recurso que será de mucha ayuda a los administradores y desarrolladores de Kubernetes.",Jorge Luis Andrade Escobar,jandrade@i-t-m.com,Cloud native tools & technologies,Talk,Maybe,Auditorio 1,2024-02-23 16:05,35,2024-02-23 16:40,6b8e2a66-7927-4c40-8454-fdc54f7d2dc9
+603226,Guía práctica para convertirse en contribuidor de Open Source en 10 años (o más),"En una era donde todo mundo buscamos la satisfacción y los resultados inmediatos, compartiré mi camino de 10 años en el ecosistema de Ruby en el que me he convertido de usuario del lenguaje a contribuidor frecuente en una empresa con más de 1,000 millones de descargas de bibliotecas de Ruby. 
+ 
+ 
+ 
+ Los días son largos, pero los años son cortos y, si 10 años no son suficientes para convertirte en contribuidor de Open Source, siempre puedes tomar un año mas y repetir el proceso.",Fernando Perales,me@ferperales.net,Inspiration and guidance for open source contribution,Talk,No,Auditorio 3,2024-02-23 16:05,35,2024-02-23 16:40,c0bd48f3-f868-41c0-adb2-a3da5fbd4588
+603268,Learn how to shape the future of Kubernetes: Your Path is with SIG-Release!,"SIG Release is responsible for the management and delivery of Kubernetes releases. But did you know that this team is responsible for hundreds of people getting their start with OpenSource contributions and leadership roles in the community? 
+ 
+ 
+ 
+ This interactive session will provide the following overview:
+ 
+ 
+ 
+ Key Topics: 
+ 
+ 
+ 
+ - Career Growth Through Contribution: Learn how contributing to Kubernetes can accelerate your growth.
+ 
+ - Pathways to Involvement: Various roles within SIG-Release and starting points for contributing.
+ 
+ - Effective Contribution Strategies: Identifying areas to contribute within SIG-Release.
+ 
+ 
+ 
+ Join this session to discover your path with SIG Release, make impactful contributions, gain invaluable experience, and play a vital role in the vibrant Kubernetes community.",Joseph Sandoval,joseph.r.sandoval@gmail.com,Inspiration and guidance for open source contribution,Talk,No,Auditorio 4,2024-02-23 16:05,35,2024-02-23 16:40,f6c9e874-fe51-4a29-a732-fc078cb33c3b
+599474,Ask me Anything: Contribuye al Open Source hoy,"El Open Source es uno de los movimientos tecnológicos mas radicales e influyentes de los últimos 30-40 años. Es tan existoso, que básicamente no hay ser humano que, de una u otra manera, no se beneficie de algún proyecto Open Source todos los días de su vida. Es maravilloso. 
+ 
+ 
+ 
+ Pero muchas veces parece que ser parte de un proyecto open source es also difícil, y apto solo para ""los elegidos"". 
+ 
+ 
+ 
+ En esta sesión vamos a tener una conversación abierta sobre las diferentes maneras en que se puede participar en proyectos open source. Desde como encontrar proyectos y como ser un usuario responsable, pasando por como convertirse en contribuidor, hasta el mundo del open source comercial. 
+ 
+ 
+ 
+ Trae tus preguntas, trae tus respuestas, y aprendamos juntos como participar en el mundo del open source!",Ramiro Berrelleza,ramiro@okteto.com,Inspiration and guidance for open source contribution,Talk,No,Auditorio 3,2024-02-23 16:45,35,2024-02-23 17:20,767f84bc-4509-4121-9136-3a90a0611096
+603338,eBPF: Into the Kernel Space,"El espacio del kernel es donde los procesos privilegiados del sistema operativo se encuentran, separados del usuario y resguardados de él, o almenos asi fue hasta que los humanos crearon a eBPF, un bicho capaz de viajar por el espacio del kernel y no solo para observarlo sino tambien para manipularlo!",Alvin Estrada,adawolfs@gmail.com,Cloud native tools & technologies,Talk,No,Auditorio 1,2024-02-23 16:45,35,2024-02-23 17:20,ff25dac3-4609-4aca-a507-3e36b656ed2d
+588747,The Path To Maintainer,"Everyone tells you that getting involved in open source projects is easy - just show up, right? But there's more to it than that, because projects are made of people, and people are complicated. This talk will guide you through some of the ways to effectively earn trust in a project, and progress from user, through contributor, to maintainer.",Rich Bowen,rbowen@rcbowen.com,Inspiration and guidance for open source contribution,Keynote,No,Auditorio 1,2024-02-23 18:00,30,2024-02-23 18:30,31b3b3d9-1d0f-4c0e-a765-66351fff9e1f
+591010,Security Showdown: The Overconfident Operator Vs the Nefarious Ne’er-Do-Well,"Ozzie the Overconfident Operator has secured their cluster! They have done it all: role-based access control, encryption at rest, TLS…and as they congratulate themself on a job well done, Nova the Nefarious Ne’er-do-well watches from around the corner, drooling with anticipation. Spoiler alert⎯Ozzie is about to get HACKED.
+ 
+ 
+ 
+ In this talk, the speakers play the characters of Ozzie and Nova and playfully demo cluster security as Nefarious Nova exploits each of Ozzie’s security decisions. What can Overconfident Ozzie do when Nova gets the upper hand? How can Ozzie proactively keep Nova’s threats at bay?
+ 
+ 
+ 
+ Take security beyond the firewall and discover cloud native security concepts such as identity management, container image scanning and signing, creating and implementing policies, runtime security, and secrets management.
+ 
+ 
+ 
+ Learn security basics alongside Overconfident Ozzie, who is sure the cluster is COMPLETELY secure this time. There is nothing Nova can do to break… uh-oh. Not again!","Whitney Lee, Lewis Denham-Parry",wiggitywhitney@gmail.com,Cloud native practices & considerations,Keynote,No,Auditorio 1,2024-02-24 9:00,30,2024-02-24 9:30,"3f4d3de3-3518-49b8-9e41-ce9a02d43c24, 964af3ac-fd5e-46f6-b582-6c0d2da30db4"
+568497,How to build a cloud-native environment for ML training from scratch,"Have you ever wondered how AI products are developed? One of the key parts of the process is called Training. There are multiple ways to do this and, in consequence, several ways to fail and a lot of complexity.
+ 
+ 
+ 
+ In this session we'll design and deploy a K8s-native environment we'll use to train an ML model, live and from scratch.
+ 
+ 
+ 
+ You'll learn some of the principles that guide the modern and scalable development of AI models.",David Espejo,david.espejo@union.ai,Cloud native tools & technologies,Workshop,No,Aula 2,2024-02-24 10:10,170,2024-02-24 13:00,906e0b1b-44dc-4fa0-8c3c-43f203860f2e
+578381,GitOps At Scale,"GitOps at Scale Workshop
+ 
+ 
+ 
+ Performing GitOps deployments on a single environment for a single application is straightforward. When multiple environments are in play (e.g. qa/staging/production), you need a sound strategy for managing all applications and knowing which version is deployed where.
+ 
+ 
+ 
+ In this workshop, the participant will learn the following:
+ 
+ 
+ 
+ Introduction to GitOps and ArgoCD
+ 
+ Git repository organization strategies
+ 
+ Multi Cluster management
+ 
+ Apps-of-apps and ApplicationSets
+ 
+ Promotions with Argo CD image updater
+ 
+ Hooks and sync/waves for deployment ordering
+ 
+ Diff customization
+ 
+ Notifications
+ 
+ Sync Windows",Alejandro Mercado,mercadoalex@gmail.com,Cloud native tools & technologies,Workshop,No,Aula 3,2024-02-24 10:10,170,2024-02-24 13:00,eda906bc-afed-4714-a8ae-12ad3dfd041c
+584673,Iníciate como aportador en el proyecto LibreOffice,"Charla y tutorial para realizar colaboraciones para el proyecto LibreOffice, desde los distintos tipos de aportaciones, hasta como realizar la primera colaboración. El objetivo es que los asistentes tengan pleno conocimiento de cómo integrarse al proyecto, clonarlo, compilarlo, crear un parche o realizar una mejora.",Adlair Cerecedo-Mendez,adlair.cerecedo@gmail.com,Open source contribution workshop,Workshop,Yes,Auditorio 1,2024-02-24 10:10,170,2024-02-24 13:00,bc63d915-9fc7-42db-98e6-05cb03fe0280
+585282,"Creando, creciendo, y manteniendo una comunidad de código abierto","Tal vez te sorprenda pero el aspecto mas importante a cuidar en un proyecto de código libre no es el código mismo sino la gente a su alrededor tanto colegas, aliados, usuarios, consumidoers, patrocinadores, y demás. En este taller cubriremos conceptos, técnicas, y herramientas que ayudan a fomentar una comunidad saludable y próspera.",Andres Almiray,aalmiray@yahoo.com,Inspiration and guidance for open source contribution,Workshop,Maybe,Aula 1,2024-02-24 10:10,170,2024-02-24 13:00,720cdc7d-0ae6-44d3-af2a-eebc0a086508
+596837,Cómo contribuir al kernel de Linux,"En este taller se mostrará que se tiene que hacer para contribuir al kernel de Linux: configuración de correo, uso de git para enviar un parche, etc. Linux es el proyecto de código abierto más grande del mundo con muchos contribuidores al rededor del mundo. Su metodología para contribuir es un poco diferente a la de muchos proyectos, pero es fácil de utilizar.",Miguel Bernal Marin,miguel.bernal.marin@gmail.com,Open source contribution workshop,Workshop,Maybe,Auditorio 2,2024-02-24 10:10,170,2024-02-24 13:00,82f8266b-5ca7-46a3-9066-a3c880897025
+600213,Contribución a la documentación de Kubernetes en Español,"En este taller comenzaremos hablando de Kubernetes como proyecto de Open Souce y de su gran comunidad que se encuentra alrededor. Después explicaremos los diferentes Grupos de Interés (SIGs) en los que se divide el proyecto. Y por supuesto, veremos los requisitos y les guiaremos en el flujo para poder contribuir a Kubernetes, en específico, en el SIG de Docs.","Rodolfo Martínez, Victor Morales",rodomar@outlook.com,Open source contribution workshop,Workshop,Maybe,Auditorio 3,2024-02-24 10:10,170,2024-02-24 13:00,"25bfa9c4-f651-43bd-88e4-e916504fd1d4, d1e62963-aad6-4355-8431-03ff7b16314e"
+600644,Realiza tu primera contribución a la OCA,"Taller para guiar a los participantes a realizar su primera contribución a la Asociación de la Comunidad Odoo (OCA - Odoo Community Association). 
+ 
+Este taller lo ayudará a pasar por el proceso de contribución de módulos de Odoo (https://odoo.com) a la Asociación de la comunidad de Odoo (https://odoo-community.org) y a familiarizarse con la integración continua que se utiliza allí.
+ 
+La Asociación Comunitaria de Odoo, OCA, es una organización basada en miembros, establecida en 2013 para promover y respaldar las soluciones colaborativas de Odoo ERP y fomentar la excelencia del código abierto. Juntos hacemos Odoo más poderoso.
+ 
+https://odoo-community.org",Maxime Chambreuil,vvega@opensourceintegrators.com,Open source contribution workshop,Workshop,Yes,Auditorio 4,2024-02-24 10:10,170,2024-02-24 13:00,50a69102-6bd7-4d82-880d-69db4dda74dd
+603004,Cómo hacer paquetes para Debian y Ubuntu,"Debian es la distribución comunitaria más grande del mundo. Además es la que más distribuciones derivadas tiene. Hacer paquetes para Debian es una manera de cubrir una amplia cantidad de sistemas Linux.
+ 
+Este taller será sobre cómo hacer paquetes .deb para Debian y Ubuntu, desde algunos conceptos hasta las buenas prácticas y lo que se espera de un mantenedor de paquetes. No es tan fácil como suena pero con el empujón correcto, los participantes saldrán haciendo paquetes sencillos con fundamentos sólidos.",Octavio Alvarez,octalccoss@alvarezp.org,Open source contribution workshop,Workshop,No,Aula 6,2024-02-24 10:10,170,2024-02-24 13:00,5e6ad817-bc6c-4850-87dd-19afae83ae7c
+603331,Backports de libreoffice para CentOS,"El ejercicio de backport de Libreoffice para CentOS responde a la necesidad de ejecutarlo como servicio en un sistema operativo estable, ya sea en scripts de importación de formatos o (más importante) como servicio en línea ""LibreOffice OnLine"" para la edición colaborativa de documentos e integración con Nextcloud.
+ 
+ Para hacer el backport se tuvieron que hacer modicicaciones al spec de Fedora, además del backport de los paquetes que se requieren como dependencia, en sus respectivos archivos spec.
+ 
+ Además de las modificaciones a los specs se han tenido que habilitar repositorios propios y distintos ambientes de compilación con distintas características.",Sandino Araico 🇲🇽,sandino@sandino.net,Tools for open source development and collaboration,Workshop,Maybe,Aula 4,2024-02-24 10:10,170,2024-02-24 13:00,3a0b5e45-69e8-4064-80f2-f708037543d0
+603302,Cultural Challenges for OpenSource in LATAM,"Any open-source product is still a “maybe or nah” in LATAM. It’s easier to pay millions for commercial products, where the vendor takes full responsibility from the delivery to the support. It’s also easier to blame the success or failure on the vendor and the quality of the product. LATAM still has a cultural gap regarding OpenSource.",Alvaro Soto,alsotoes@gmail.com,Cloud native practices & considerations,Lightning talk,Maybe,Auditorio 1,2024-02-24 13:05,10,2024-02-24 13:15,b4703bd6-529b-43e1-b4d6-af9837817eca
+606037,"No todo es código, aprende a contribuir a proyectos Open Source usando inteligencia artificial","En esta charla se abordará un proyecto en particular, Tiny Tapeout, cuyo enfoque va dirigido a la creación de hardware personalizado, más específicamente, a la creación de ASICs (Application Specific Integrated Circuit), con el objetivo de que cualquier persona pueda crear su propio chip. El enfoque de la charla será en la contribución al proyecto, mostrando como ejemplo el proceso de traducción de la documentación del proyecto al español utilizando inteligencia artificial. El público objetivo son aquellas personas que no sepan por dónde comenzar a contribuir a proyectos Open Source, por lo que en el ejemplo se utilizarán herramientas de inteligencia artificial para facilitar el proceso. Se abordarán herramientas tanto gratuitas como de pago, para que el asistente pueda elegir.",Jose Francisco Torres Guido,jose.torresguido@gmail.com,Inspiration and guidance for open source contribution,Lightning talk,Yes,Auditorio 1,2024-02-24 13:15,10,2024-02-24 13:25,ab0178c0-7686-4625-9aa1-d647674162ef
+603333,Certificación CKA: Un Viaje Comunitario en Kubernetes - Lecciones de Dedicación y Colaboración,"En esta cautivadora charla, compartiré mi experiencia al estudiar a fondo Kubernetes, obtener la certificación CKA, y cómo decidí llevar este proceso un paso más allá al formar un grupo de estudio en comunidades de Latinoamérica.
+ 
+ 
+ 
+ Compartiré las lecciones aprendidas en este viaje, destacando cómo la dedicación y la colaboración no solo conducen al éxito personal, sino también a contribuciones significativas al código abierto. Descubrirás cómo la certificación CKA puede ser un impulso clave para participar activamente en proyectos de código abierto y cómo la participación en comunidades puede ser un factor clave para contribuir al crecimiento del ecosistema.",José Flores,josefloressv@gmail.com,Inspiration and guidance for open source contribution,Lightning talk,No,Auditorio 1,2024-02-24 13:25,10,2024-02-24 13:35,2488324a-6984-4c79-a808-9991c24b7ae4
+590453,Escalador Automático Impulsado por Eventos en Kubernetes,"En este workshop, veremos cómo podemos aprovechar KEDA | Kubernetes Event-driven Autoscaling para escalar automáticamente aplicaciones nativas de nube implementadas como contenedores o pods en un clúster de Kubernetes, según los eventos siguientes.
 
-A primera instancia podría pensarse que el software libre no es una práctica lucrativa, pero la realidad es que sí puede serlo; de hecho, muchas empresas transnacionales como IBM figuran en el **índice de contribuidores de código abierto** (OSCI, por sus cifras en inglés); éstas utilizan software libre, lo patrocinan y también desarrollan su propio software comercial basado en proyectos de software libre. Cabe mencionar que existen **colaboradores de código abierto** independientes (OSC) que obtienen buenos ingresos por desarrollar y mantener software libre.
-
-En esta charla veremos los puntos clave, herramientas y procesos para iniciar o contribuir a cualquier proyecto de código abierto, y lo que sucede después de eso.
-
-Key Take Aways
-* OSS - Qué es y por qué es importante
-* Open Source Swiss Army knife
-* Diferentes maneras de generar ingresos
-* Mejores prácticas
-* Licencias, gobernanza y liderazgo",2022-11-10T12:00:00.000-05:00,2022-11-10T12:30:00.000-05:00
-a5,Experience Open Source through None Code Contributions,none-code-contributions,session,2022,Anita ihuman,"A common misconception about open source contributions is that all contributions must be code-based. This ideology has made contributing to Open Source a nightmare for persons with little or no technical experience.
-However, experiencing open source goes beyond that. Whether you are a novice in programming, a seasoned developer, or a non-engineer, there are several ways to start your contributions to open-source software beyond code. Contributing to Open Source also serves as a suitable catalyst for personal and professional growth; during this session, I would like to share with you:
-- What open source is all about,
-- Getting started with Open source
-- Contributing beyond code
-- Open source as a growth catalyst
-- Benefits of contributing to Open source",2022-11-10T12:30:00.000-05:00,2022-11-10T13:00:00.000-05:00
-a6,Sesión por confirmar,confirmar2,session,2022,,,2022-11-10T13:00:00.000-05:00,2022-11-10T13:30:00.000-05:00
-a7,Cómo AsyncAPI Docs obtuvo un cambio de imagen: Colaboraciones de GSoD 2022,asyncapi-docs-gsod,session,2022,Alejandra Quetzalli,"AsyncAPI es un proyecto de código abierto que busca promover y facilitar el desarrollo de API asíncronas y arquitecturas dirigidas por eventos (EDA). En esta charla, Alejandra detalla cómo las contribuciones de nuestro proyecto GSoD 2022 cambiaron por completo la arquitectura de la información y el UX de AsyncAPI Docs. Al final de esta charla, la audiencia conocerá las contribuciones de escritura individuales realizadas por los intern@s de AsyncAPI Docs, las mejoras individuales de UX incorporadas en colaboración con los colaboradores de diseño, y la retroalimentación de la comunidad resultante.",2022-11-10T15:00:00.000-05:00,2022-11-10T15:30:00.000-05:00
-a8,Sesión por confirmar,confirmar3,session,2022,,,2022-11-10T15:30:00.000-05:00,2022-11-10T16:00:00.000-05:00
-a9,¿Cómo contribuir a la computación cuantica?,contribuir-computacion-cuantica,session,2022,Luis Martinez,"La computacion cuantica es un tema apasionante que une ciencias de la computacion, fisica y matematicas. En esta platica te hablaré de como involucrarte en proyectos open source y conectar con la comunidad internacional. No es necesario que sepas computacion cuantica para empezar.",2022-11-10T16:00:00.000-05:00,2022-11-10T16:30:00.000-05:00
-a10,EduScrum para mejoramiento del proceso de desarrollo de proyectos de Ingeniería en Sistemas Computacionales.,eduscrum,session,2022,José Alfredo Román Cruz,"The objective of the research is the application of the EduScrum framework and the use of the GitHub Education platform in the Computer Systems Engineering career of the Technological Institute of Tlaxiaco, with the subjects of Discrete Mathematics, Fundamentals of Software Engineering and Management of Software Projects. Software. The purpose is to facilitate the development of learning skills, development of software projects, to strengthen and improve the academic productivity of students.
-The article presents the facts, concepts about Agile methodologies, EduScrum, GitHub Education and the progressive process of the implementation of the Agile framework, between the proponent of the method and the students. The results obtained during a year of implementation of the methodology are described, showing that the EduScrum framework is an excellent alternative to apply in educational institutions to improve the learning process and eradicate traditional teaching in the classroom.",2022-11-10T16:30:00.000-05:00,2022-11-10T17:00:00.000-05:00
-a11,Developer eXperience,developer-experience,session,2022,Joel Ibaceta,"Muchas de las empresas de tecnologia mas importantes del mundo han empezado a considerar al desarrollador o integrador como un cliente mas por cuya experiencia hay que velar y para ello se estan implementando departamentos especificos que buscan construir APIs amigables, SDKs intuitivos, Documentaciones faciles de leer y gestionar programas de apertura de codigo, publicacion de herramientas y acompañamiento de la comunidad de programadores.
-
-En mi experiencia he tenido la oportunidad de iniciar y guiar tecnicamente la implementacion del equipo de developer experience en MercadoPago, el brazo fintech de MercadoLibre un unicornio tecnologico, y en esta charla les contare alguno de los aprendizajes, buenas practicas historias de exito y recomendaciones sobre como iniciar, canalizar y llevar adelante iniciativas de codigo abierto tu empresa.",2022-11-10T17:00:00.000-05:00,2022-11-10T17:30:00.000-05:00
-a12,Presentación de proyectos,presentaciones-proyectos,session,2022,Varios,,2022-11-10T17:30:00.000-05:00,2022-11-10T18:00:00.000-05:00
-b1,Cómo empecé a contribuir al hardware abierto,como-empece-contribuir-hardware-abierto,session,2022,Andrés Sabas,"En esta charla hablaré sobre mi experiencia contribuyendo a proyectos de hardware abierto de seguridad hasta proyectos de hardware abierto como Arduino, algunas de mis experiencias, errores y aprendizajes en el mundo del hardware, además como terminé creando una empresa de hardware abierto y como manejamos las contribuciones de nuestros clientes",2022-11-11T09:30:00.000-05:00,2022-11-11T10:00:00.000-05:00
-b2,Sesión por confirmar,confirmar4,session,2022,,,2022-11-11T10:00:00.000-05:00,2022-11-11T10:30:00.000-05:00
-b3,"Crear, Mantener y Defender productos que usan Open Source.",crear-mantener-defender-productos-que-usan-open-source,session,2022,Mariano Renteria,"En esta charla platicaré de nuestra experiencia desarrollando un producto de software algunos de los retos al usar Open Source: 
-- ¿Hacer upgrade a nuevas versiones?
-- ¿Es seguro utilizar Open Source?
-- Experiencia interactuando con las comunidades
-- Lidiar con las distintas licencias Open Source.
-- Externos preguntando por tus tecnologías",2022-11-11T10:30:00.000-05:00,2022-11-11T11:00:00.000-05:00
-b4,Robótica Profesional con Open Hardware,robtica-profesional-con-open-hardware,session,2022,Diana Martínez,"Los últimos años han aparecido nuevas tendencias y tecnologías de código abierto que están comenzando a tomar su lugar dentro de la industria de la robótica profesional.
-
-Tecnologías cómo ROS y Gazeebo, son herramientas de la comunidad que hoy en día se están utilizando en toda clase de productos y servicios de Robótica móvil, de uso industrial, agropecuario, doméstico, etc.
-
-En esta charla hablaré sobre cuáles son algunas de estas tecnologías y porqué comenzar a aprenderlas.",2022-11-11T11:00:00.000-05:00,2022-11-11T11:30:00.000-05:00
-b5,RTFM: rompiendo el gatekeeping en las comunidades Open Source,rtfm-rompiendo-el-gatekeeping-en-las-comunidades-open-source,session,2022,Yuliana Reyna Jiménez,"Construir comunidades de código abierto es difícil. Hay mucha gente que lo hace, pero repetimos las lecciones difíciles una y otra vez. En esta charla, repasaremos lecciones aprendidas que se ha tenido haciendo comunidades código abierto, desde como manejar canales de comunicaciones, códigos de conducta, objetivos propuestos por equipos de voluntarios, mejorar la comunicación dentro del proyecto para hacer un ambiente amigable para todas las personas que deseen colaborar, y cómo combatir a los *cuida ranchos* que aún nos desaniman a colaborar.",2022-11-11T12:00:00.000-05:00,2022-11-11T12:30:00.000-05:00
-b6,Consultoría y Open Source: buscando el balance entre beneficio y la diversión,buscando-balance-entre-beneficio-diversion,session,2022,Fer Perales,"40 horas a la semana parecen tiempo suficiente para realizar el trabajo que nuestros clientes necesitan y el trabajo que disfrutamos hacer pero, en la práctica, siempre tenemos que hacer sacrificios para lograr ese balance sin comprometer nuestra salud a largo plazo.
-
-En esta charla compartiré lo que he aprendido en nueve años de trabajo en consultoría sobre cómo combinar la diversión que ofrece el desarrollo open source sin sacrificar la parte económica que la consultoría aporta a la ecuación.",2022-11-11T12:30:00.000-05:00,2022-11-11T13:00:00.000-05:00
-b7,Programas de patrocinio para desarrolladores open source,programas-de-patrocinio-para-desarrolladores-open-source,session,2022,Manuel Gil,"Platicaremos sobre opciones de sustento económico por medio de patrocinios, en especial el programa de GitHub sponsors.",2022-11-11T13:00:00.000-05:00,2022-11-11T13:30:00.000-05:00
-b8,De Sistemas Financieros a los fierros... La cadena de contribución del FLOSS...,de-sistemas-financieros-a-los-fierros,session,2022,Josue Araujo,"Los componentes y/o desarrollos de Software Libre y Software Abierto, no son componentes aislados, mas bien, son componentes interconectados en un ecosistema de colaborativo que depende de muchos participantes, en el cuál, un una nueva funcionalidad (o error), puede afectar a todos. En esta charla hablaré de mi experiencia enviando algunas contribuciones a Apache Fineract, y como estas me llevaron (por error) hasta OpenJPA para resolver un error de 1 línea en este.",2022-11-11T14:00:00.000-05:00,2022-11-11T14:30:00.000-05:00
-b9,Desarrollando un estándar abierto para datos legislativos en México,estandar-abierto-datos-legislativos,session,2022,Ricardo Mirón,"La apertura de datos en América Latina se ha centrado casi exclusivamente en el poder ejecutivo, pero las legislaturas y los congresos tienen un gran potencial para liberar datos que sirvan no solo para la rendición de cuentas de quienes hacen las leyes, sino también para facilitar la interacción con los ciudadanos.
-
-Hasta ahora ha sido muy difícil crear herramientas digitales que funcionen a nivel nacional o internacional ya que todos los congresos publican información diferente y en distintos formatos (si es que lo hacen). Es por esto que estamos creando un estándar abierto de datos legislativos, para tener datos interoperables entre cada uno de los estados de México e incluso entre países.
-
-Cuando pensamos en *Open Source*, casi siempre se trata de código, pero vemos el potencial para aplicar esta misma filosofía en estándares, modelos e incluso política pública. Estos esfuerzos son realizados voluntariamente por la comunidad de Codeando México en colaboración con varias OSCs para impulsar su adopción.",2022-11-11T14:30:00.000-05:00,2022-11-11T15:00:00.000-05:00
-b10,"Si no lo usas, no lo conoces",si-no-lo-usas-no-lo-conoces,session,2022,Miguel Bernal Marin,"En esta platica abordaremos lo necesario para aportar a algún proyecto de código abierto, que esencialmente es: si no usas un software, no conoces sus errores y no conoces que se le puede mejorar. Veremos como involucrarnos y ver las maneras de contribuir.",2022-11-11T15:00:00.000-05:00,2022-11-11T15:30:00.000-05:00
-b11,Resuelve esa pequeña necesidad y compártela como open source,resuelve-necesidad-comparte-open-source,session,2022,Tito Sanchez,Creating plugins for MySQLWorkbench: A story about how you can learn to solve a something you need when commercial or closed solutions are not an option then you decide to create a *small* piece of code and share it as open soure to help other beyond yourself.,2022-11-11T16:00:00.000-05:00,2022-11-11T16:30:00.000-05:00
-b12,La aventura de escribir drivers para ROS,la-aventura-de-escribir-drivers-para-ros,session,2022,Alexis Guijarro,"Durante esta plática, compartiré mi aventura en la creación de drivers para Robot Operating System (ROS). Desde la primera interacción con el entorno, hasta la contribución de software útil y listo para usar por estudiantes, científicos y profesionales alrededor del mundo.
-
-También, hablaré brevemente de cómo ha impactado mi vida el desear ser un actor más en la contribución de la robótica Open Source y así como dar tips para contribuir a este tipo de proyectos.
-
-Finalmente, expondré los esfuerzos hechos en la actualidad a través de varias comunidades, que tienen como propósito la creación de contenido educativo y accesible para la incursión en la robótica.",2022-11-11T16:30:00.000-05:00,2022-11-11T17:00:00.000-05:00
-b13,Mi viaje en open source contribuidor a evangelizador técnico,mi-viaje-contribuidor-technical-evangelist,session,2022,Mario García,"Community and philosophy behind, and the idea that many people benefit from any contribution you make is what attracted me to Open Source source. With this in mind, I started contributing after my first approach to Linux back in 2006. Mozilla, GitLab, GitKraken, HashiCorp and TerminusDB are some of the organizations I've been involved with through the years, being a volunteer, an active contributor or an intern. Localization, documentation, evangelism, mentorship and training are some of the areas I've made contributions to. All this previous experience let me the position I had dreamed of, Technical Evangelist at Percona, a company I joined a few months ago. This talk is about how contributing to Open Source projects can help you build your career and lessons I can share about my own experience.",2022-11-11T17:00:00.000-05:00,2022-11-11T17:30:00.000-05:00
+ - Evento externo o trigger.
+ - Redis
+ - Evento HTTP
+ 
+ Utilizaremos Kind para hacer el arranque de un clúster de Kubernetes.",Eduar Tua,eduartua@gmail.com,Cloud native tools & technologies,Workshop,No,,,,,3e804689-7f9a-48b1-b59e-254c804f5d14

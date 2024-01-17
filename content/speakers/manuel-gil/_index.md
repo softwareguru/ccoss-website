@@ -1,16 +1,11 @@
 ---
 title: "Manuel Gil"
-date: 2021-09-10T12:13:57-05:00
+designation: "Dev & Content Creator"
 images:
- - "/images/speakers/manuel-gil.png"
-designation : "Desarrollador y creador de contenidos"
-country: "vo"
-twitter: "https://twitter.com/imgildev"
-linkedin: ""
-github: "https://github.com/manuelgil"
+ - images/speakers/manuel-gil.png
+linkedin: https://www.linkedin.com/in/imgildev/
 events:
- - 2022
- - 2021
+ - 2024
 ---
 
-Manuel es un desarrollador de software y creador de contenido con varios años de experiencia construyendo aplicaciones de escritorio, móviles y web. Manuel frecuentemente publica videos y tutoriales sobre desarrollo de software en su [canal de YouTube](https://www.youtube.com/imgildev).
+A dev & content creator with extensive experience in Angular, Nestjs, Java and PHP. As an empirical, creative, and curious person, I enjoy exploring several options for a specific project. My passion for software development and Open Source stems from its great impact on our daily lives. I find satisfaction in analyzing everyday problems and using technology to find solutions. I stay up-to-date with new technologies and methodologies to improve my skills and knowledge.

@@ -1,0 +1,12 @@
+---
+title: "Cómo iniciar a contribuir al Open Source y no morir en el intento."
+slug: como-iniciar-a-contribuir-al-open-source-y-no-morir-en-el-intento
+speakers:
+ - Cristina Mariscal
+time_start: 2024-02-23 11:45:00
+time_end: 2024-02-23 12:20:00
+track: Inspiration and guidance for open source contribution
+format: Talk
+---
+
+¿Interesado en ser parte del mundo del Open Source pero no sabes por dónde empezar? Esta conferencia te ofrece el camino para adentrarte en el mundo de la contribución al Open Source de manera práctica y sencilla. Descubre proyectos Open Source, estrategias, herramientas y mejores prácticas para iniciarte en proyectos de código abierto sin sentirte abrumado.

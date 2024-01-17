@@ -1,0 +1,12 @@
+---
+title: "Cultural Challenges for OpenSource in LATAM"
+slug: cultural-challenges-for-opensource-in-latam
+speakers:
+ - Alvaro Soto
+time_start: 2024-02-24 13:05:00
+time_end: 2024-02-24 13:15:00
+track: Cloud native practices & considerations
+format: Lightning talk
+---
+
+Any open-source product is still a “maybe or nah” in LATAM. It’s easier to pay millions for commercial products, where the vendor takes full responsibility from the delivery to the support. It’s also easier to blame the success or failure on the vendor and the quality of the product. LATAM still has a cultural gap regarding OpenSource.

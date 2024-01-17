@@ -6,14 +6,14 @@
       {{ .Content }}
     </div> 
 
-    <!--<h2 class="mb-5 mt-2" style="text-align: center;">Software Guru</h2>-->
+    <h2 class="mb-5 mt-2" style="text-align: center;">Producción</h2>
     <div class="team-strip">
       {{ range where .Data.Pages.ByTitle "Params.group" "sg" }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
 
-              <img src="{{ .Params.image }}" width="400" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+              <img src="{{ .Params.image }}" width="300" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
 
           </div>
           <div class="speaker-info text-center">
@@ -36,7 +36,7 @@
 
     <br>
 
-    <!--<h2 class="mb-5 mt-3" style="text-align: center;">Kubernetes y otras comunidades Cloud Native </h2>-->
+    <h2 class="mb-5 mt-3" style="text-align: center;">Comité de Contenidos y Aliados</h2>
     <div class="team-strip"> 
       {{ range where .Data.Pages.ByTitle "Params.group" "comunidades" }}
       <div class="speaker-item">
