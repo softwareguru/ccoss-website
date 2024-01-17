@@ -74,11 +74,11 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     URL = "/about"
     weight = 1
 
-  #[[menu.main]]
-  # identifier = "agenda"
-  # name = "Agenda"
-  # url = "/agenda"
-  # weight = 2
+  [[menu.main]]
+   identifier = "agenda"
+   name = "Agenda"
+   url = "/agenda"
+   weight = 2
 
   #[[menu.main]]
   # name = "Sprint"
