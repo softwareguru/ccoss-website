@@ -51,40 +51,42 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-  #[[menu.main]]
-   # identifier = "sedes"
-   # name = "sedes"
-   # url = "/sedes"
-   # weight = 2
-  #[[menu.main]]
-   # identifier = "sedes-virtuales"
-   # name = "Sedes Virtuales"
-   # url = "/sedes-virtuales"
-   # parent = "sedes"
-   # weight = 1
-  #[[menu.main]]
-   # identifier = "sedes-participantes"
-   # name = "Sedes Participantes"
-   # url = "sedes-participantes"
-   # parent = "sedes"
-   # weight = 2
+[[menu.main]]
+    identifier = "category"
+    name = "Programa"
+    url = "/#"
+    weight = 2
+  [[menu.main]]
+    identifier = "category1"
+    name = "Agenda"
+    url = "/agenda"
+    parent = "category"
+    weight = 1
+  [[menu.main]]
+    identifier = "category2"
+    name = "Conferencistas"
+    url = "/speakers"
+    parent = "category"
+    weight = 2
+
+
+[[menu.main]]
+    identifier = "asistentes"
+    name = "Asistentes"
+    url = "/#"
+    weight = 3
+  [[menu.main]]
+    identifier = "vacantes"
+    name = "Vacantes"
+    url = "/vacantes"
+    parent = "asistentes"
+    weight = 4
+
 
   [[menu.main]]
     name = "Acerca de"
     URL = "/about"
     weight = 1
-
-  [[menu.main]]
-   identifier = "agenda"
-   name = "Agenda"
-   url = "/agenda"
-   weight = 2
-
-  [[menu.main]]
-   identifier = "speakers"
-   name = "Conferencistas"
-   url = "/speakers"
-   weight = 3
 
   #[[menu.main]]
   #name = "Talleres"

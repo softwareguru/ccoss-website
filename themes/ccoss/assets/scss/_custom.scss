@@ -67,7 +67,13 @@ section.register p, section.swag p {
 
 
 .logo-b {
-	height: 40px;
+	height: 60px;
+
+	@include mobile {
+		height: 50px;
+		margin-left: -30px;
+	}
+	
 }
 
 .info-buttons {

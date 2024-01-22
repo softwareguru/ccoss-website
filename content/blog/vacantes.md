@@ -9,6 +9,7 @@ images:
 # author
 author: "CCOSS" 
 link: /blog/vacantes
+aliases: /vacantes
 ---
 
 ### Consulta las vacantes que nuestros patrocinadores tienen para ti. 
