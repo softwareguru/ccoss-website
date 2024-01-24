@@ -18,6 +18,10 @@ sponsor_group:
 
       - logo : "/images/logos/Improving.png"
         link : "https://www.improving.com/"
+      - logo : "/images/logos/logo-gnome.png"
+        link : "https://www.gnome.org/" 
+      - logo : "/images/logos/libre-office.png"
+        link : "https://es.libreoffice.org/"
 
   - title : "Silver"
     slug : "silver"
@@ -33,11 +37,9 @@ sponsor_group:
         link : "https://www.civo.com/"
 
 
-  - title : "Partners"
+  - title : "Aliados"
     slug : "partner"
     sponsor:
-      - logo : "/images/logos/logo-gnome.png"
-        link : "https://www.gnome.org/"
       - logo : "/images/logos/dedica-fundacion.png"
         link : "https://www.dedica.org.mx/"
       - logo : "/images/logos/OpenSourceInovationLabs.png"
@@ -48,6 +50,8 @@ sponsor_group:
         link : "https://kube.careers/"
       - logo : "/images/logos/kube-events.svg"
         link : "https://kube.events"
+      - logo : "/images/logos/github-logo.png"
+        link : "https://github.com/"
 
 
 
