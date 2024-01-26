@@ -20,8 +20,7 @@ sponsor_group:
         link : "https://www.improving.com/"
       - logo : "/images/logos/logo-gnome.png"
         link : "https://www.gnome.org/" 
-      - logo : "/images/logos/libre-office.png"
-        link : "https://es.libreoffice.org/"
+
 
   - title : "Silver"
     slug : "silver"
