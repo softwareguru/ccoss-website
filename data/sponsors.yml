@@ -51,6 +51,8 @@ sponsor_group:
         link : "https://kube.events"
       - logo : "/images/logos/github-logo.png"
         link : "https://github.com/"
+      - logo : "/images/logos/endava.png"
+        link : "https://www.endava.com/"
 
 
 
