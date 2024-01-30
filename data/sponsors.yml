@@ -34,6 +34,8 @@ sponsor_group:
         link : "https://github.com/cncf"
       - logo : "/images/logos/civo.png"
         link : "https://www.civo.com/"
+      - logo : "/images/logos/oracle.png"
+        link : "https://www.oracle.com/"
 
 
   - title : "Aliados"
