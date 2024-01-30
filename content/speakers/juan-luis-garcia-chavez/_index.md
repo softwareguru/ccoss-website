@@ -3,7 +3,7 @@ title: "Juan Luis García Chávez"
 date: 2024-01-30T12:10:49-06:00
 images :
  - "/images/speakers/juan-luis-garcia-chavez.jpg"
-designation : "Team Lead"
+designation : "Team Lead at Improving"
 country: "mx"
 twitter: "https://twitter.com/g_luis04"
 linkedin: "https://www.linkedin.com/in/luis-g"
