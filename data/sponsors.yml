@@ -34,8 +34,8 @@ sponsor_group:
         link : "https://github.com/cncf"
       - logo : "/images/logos/civo.png"
         link : "https://www.civo.com/"
-      - logo : "/images/logos/oracle.png"
-        link : "https://www.oracle.com/"
+      #- logo : "/images/logos/oracle.png"
+      #  link : "https://www.oracle.com/"
 
 
   - title : "Aliados"
@@ -75,6 +75,10 @@ sponsor_group:
         link : "https://www.linkedin.com/company/data-engineering-latam/?originalSubdomain=pe"
       - logo : "/images/logos/open-infra.png"
         link : "https://openinfra.mx/about/"
+      - logo : "/images/logos/enchiladasdevops.png"
+        link : "https://www.facebook.com/enchiladasdevops"
+      - logo : "/images/logos/cloudnativegdl.png"
+        link : "https://twitter.com/cloudnativegdl"
 
   - title : "Sede"
     slug : "platinum"
