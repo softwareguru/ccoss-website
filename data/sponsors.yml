@@ -76,7 +76,7 @@ sponsor_group:
       - logo : "/images/logos/open-infra.png"
         link : "https://openinfra.mx/about/"
       - logo : "/images/logos/enchiladasdevops.png"
-        link : "https://www.facebook.com/enchiladasdevops"
+        link : "https://enchiladasdevops.com/"
       - logo : "/images/logos/cloudnativegdl.png"
         link : "https://twitter.com/cloudnativegdl"
 
