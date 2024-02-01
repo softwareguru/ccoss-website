@@ -1,5 +1,5 @@
 ---
-title: "Federico Waite"
+title: "Federico González Waite"
 designation: "Director Ejecutivo INFOTEC"
 images:
  - images/speakers/federico-waite.jpg
