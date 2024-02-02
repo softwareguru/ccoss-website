@@ -55,6 +55,8 @@ sponsor_group:
         link : "https://github.com/"
       - logo : "/images/logos/endava.png"
         link : "https://www.endava.com/"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com/"
 
 
 
@@ -79,6 +81,8 @@ sponsor_group:
         link : "https://enchiladasdevops.com/"
       - logo : "/images/logos/cloudnativegdl.png"
         link : "https://twitter.com/cloudnativegdl"
+      - logo : "/images/logos/hackergarage.png"
+        link : "https://hackergarage.mx/"
 
   - title : "Sede"
     slug : "platinum"
