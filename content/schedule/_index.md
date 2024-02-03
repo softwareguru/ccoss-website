@@ -5,103 +5,122 @@ url: /agenda
 layout: list
 draft: true
 days: 
-  - id: 2023mty
-    title_short: Martes
-    title_full: Martes 14 de noviembre
-    rooms: ["Sala principal", "Aula 104", "Aula 105"]
+  - id: ccoss2024
+    title_short: Viernes
+    title_full: Viernes 23 de febrero
+    rooms: ["Auditorio 1", "Auditorio 2", "Auditorio 3", "Auditorio 4", "Aula 1"]
     schedule_items: 
       - type: timelabel
-        label: "8:30 - 8:40"
+        label: "9:00 - 9:25"
         gridarea: "1/1/2/2"
       - type: timelabel
-        label: "8:40 - 9:10"
+        label: "9:25 - 9:55"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "9:10 - 9:40"
+        label: "9:55 - 10:25"
         gridarea: "3/1/4/2"
       - type: timelabel
-        label: "9:40 - 10:10"
+        label: "10:25 - 11:05"
         gridarea: "4/1/5/2"
       - type: timelabel
-        label: "10:10 - 10:40"
+        label: "11:05 - 11:45"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "10:40 - 11:10"
+        label: "11:45 - 12:25"
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "11:10 - 11:30"
+        label: "12:25 - 13:05"
         gridarea: "7/1/8/2"
       - type: timelabel
-        label: "11:30 - 12:05"
+        label: "13:05 - 13:45"
         gridarea: "8/1/9/2"
       - type: timelabel
-        label: "12:10 - 12:45"
+        label: "13:45 - 14:45"
         gridarea: "9/1/10/2"
       - type: timelabel
-        label: "12:50 - 13:40"
+        label: "14:45 - 15:25"
         gridarea: "10/1/11/2"
       - type: timelabel
-        label: "13:40 - 14:15"
+        label: "15:25 - 16:05"
         gridarea: "11/1/12/2"
       - type: timelabel
-        label: "14:20 - 14:55"
+        label: "16:05 - 16:45"
         gridarea: "12/1/13/2"
       - type: timelabel
-        label: "15:00 - 15:35"
+        label: "16:45 - 17:20"
         gridarea: "13/1/14/2"
       - type: timelabel
-        label: "15:40 - 16:15"
+        label: "17:20 - 18:00"
         gridarea: "14/1/15/2"
       - type: timelabel
-        label: "16:20 - 16:40"
+        label: "18:00 - 18:30"
         gridarea: "15/1/16/2"
       - type: timelabel
-        label: "16:40 - 17:15"
+        label: "18:30 - 19:00"
         gridarea: "16/1/17/2"
-      - type: timelabel
-        label: "17:20 - 17:55"
-        gridarea: "17/1/18/2"
-      - type: timelabel
-        label: "18:00 - 19:00"
-        gridarea: "18/1/19/2"
       - type: activity
         label: "Bienvenida"
-        gridarea: "1/2/2/5"
+        gridarea: "1/2/2/7"
         timelabel: "8:30-8:40"
         gridaream: "1/1/2/2"
       - type: activity
         label: "Break"
-        gridarea: "7/2/8/5"
-        timelabel: "11:10-11:30"
-        gridaream: "7/1/8/2"
+        gridarea: "4/2/5/7"
+        timelabel: "10:25-11:05"
+        gridaream: "4/1/5/2"
       - type: activity
-        label: "Comida"
-        gridarea: "10/2/11/5"
+        label: "Lunch"
+        gridarea: "9/2/10/7"
         timelabel: "12:50-13:40"
-        gridaream: "14/1/15/2"
+        gridaream: "13/1/14/2"
       - type: activity
         label: "Break"
-        gridarea: "15/2/16/5"
+        gridarea: "14/2/15/7"
         timelabel: "16:20-16:40"
-        gridaream: "25/1/26/2"
-      - type: activity
-        label: "Coctel"
-        gridarea: "18/2/19/5"
-        timelabel: "18:00-19:00"
-        gridaream: "31/1/32/2"
+        gridaream: "24/1/25/2"
+
+
+  - id: ccoss2024-1
+    title_short: Sábado
+    title_full: Sábado 24 de febrero
+    rooms: ["Auditorio 1", "Auditorio 2", "Auditorio 3", "Auditorio 4", "Aula 1"]
+    schedule_items: 
+      - type: timelabel
+        label: "09:00 - 09:30"
+        gridarea: "17/1/18/2"
+      - type: timelabel
+        label: "09:30 - 10:05"
+        gridarea: "18/1/19/2"
+      - type: timelabel
+        label: "10:10 - 13:00"
+        gridarea: "19/1/20/2"
+      - type: timelabel
+        label: "13:05 - 13:15"
+        gridarea: "20/1/21/2"
+      - type: timelabel
+        label: "13:15 - 13:25"
+        gridarea: "21/1/22/2"
+      - type: timelabel
+        label: "13:25 - 13:35"
+        gridarea: "22/1/23/2"
+      - type: timelabel
+        label: "13:35 - 14:45"
+        gridarea: "23/1/24/2"
+
 
 tracks:
-  - slug: logística-y-consumo
-    label: Logística y consumo
-  - slug: bienestar-y-salud
-    label: Bienestar y salud
-  - slug: machine-learning-en-la-industria
-    label: Machine Learning en la industria 
-  - slug: ingeniería-de-datos
-    label: Ingeniería de datos
-  - slug: estrategia-de-datos
-    label: Estrategia de datos
-
+  - slug: cloud-native-tools-technologies
+    label: Cloud native tools & technologies
+  - slug: cloud-native-practices-considerations
+    label: Cloud native practices & considerations
+  - slug: tools-for-open-source-development-and-collaboration
+    label: Tools for open source development and collaboration
+  - slug: inspiration-and-guidance-for-open-source-contribution
+    label: Inspiration and guidance for open source contribution
+  - slug: open-hardware
+    label: Open hardware
+  - slug: open-source-contribution-workshop
+    label: Open source contribution workshop
 
 ---
 

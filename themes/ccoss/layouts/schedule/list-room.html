@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+
+<div class="container">
+    <div class="content mt-4">
+      {{ .Content }}
+    </div>
+
+    <h1>{{.Params.room}}</h1>
+
+    {{ range sort (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" .Params.day ) ".Params.room" .Params.room) ".Params.time_start" }}
+    <div style="margin-bottom: 20px">
+        <p class="my-1" style="color: #ff6600">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</p>
+        <h3>{{ .Title }}</h3>
+        <table>
+            {{ range .Params.speakers }}                                
+                {{ $speaker_url := print "/speakers/" . | urlize }}
+                  {{ with $.Site.GetPage $speaker_url }}
+                    <tr>
+                        <td style="padding-right: 1em" width="180">{{ with .Params.images}}
+                            <img class="img-fluid" src="{{ index . 0 | relURL }}" alt="">
+                            {{ end }}
+                        </td>
+                        <td>
+                            <h4>{{ .Title }}</h4>
+                            {{ with .Params.designation }}<em>{{ . }}</em>{{ end }}
+                            <div style="font-size: 0.9em">{{.Content}}</div>
+                        </td>
+                    </tr>
+                  {{ end }}
+            {{ end }}
+        </table> 
+        <hr style="border-bottom: solid 1px #404040;">
+    </div>
+
+    {{ end }}
+
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{{ define "main" }}
+
+
+<div class="container">
+    <div class="content mt-4">
+        {{ .Content }}
+    </div>
+
+    {{ range .Params.days }}
+      {{ $curr_day :=  .id }}
+
+    <div id="dayblock-{{.id}}" class="dayblock my-5">
+      <h3 class="mb-3">{{.title_full}}</h3>
+      <div class="d-none d-sm-block">
+        <div class="daygrid">
+            {{ range .schedule_items }}
+              <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};"{{end}}>{{.label}}</div>
+            {{ end }}
+            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.time_start" }}
+              <div class="session-item track-{{ .Params.track | anchorize }}" {{ with .Params.gridarea }}style="grid-area: {{. | safeCSS}};"{{end}} data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
+                <div class="session-time hour d-none">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}. </div>
+                <div class="session-title"><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.slug}}">{{ .Params.title }}</a></div>
+                <div class="session-speakers names">{{ with .Params.speakers }}Por {{ delimit . ", " " & " }}{{ end }}</div>
+                <div class="track-name">{{ with .Params.track }}Track: {{ . }}{{ end }}</div>
+
+                <div class="collapse card-abstract" id="abs-{{.Params.slug}}">
+                  <div class="my-2">{{ .Summary }}</div>
+                  <div><a href="{{.Permalink}}" class="read-more">Leer más ...</a></div>
+                </div>
+              </div> 
+            {{ end }}
+        </div> <!-- daygrid -->
+      </div>
+      <div class="d-block d-sm-none">
+        <div class="daygrid-xs">
+            {{ range (where .schedule_items ".type" "activity") }}
+              <div class="{{.type}}" {{ with .gridaream }}style="grid-area: {{ . | safeCSS}};"{{end}}><div class="session-time hour">{{.timelabel}}</div>{{.label}}</div>
+            {{ end }}
+
+            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.timeslot" }}
+              <div class="session-item track-{{ .Params.track | anchorize }}" {{ with .Params.gridaream }}style="grid-area: {{. | safeCSS}};"{{end}} data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
+                <div class="session-time hour">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}. {{ end }}{{ with .Params.room }}{{.}}{{ end }}</div>
+                <div class="session-title"><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.slug}}">{{ .Params.title }}</a></div>
+                <div class="session-speakers names">{{ with .Params.speakers }}Por {{ delimit . ", " " & " }}{{ end }}</div>
+                <div class="track-name">{{ with .Params.track }}Track: {{ . }}{{ end }}</div>
+
+                <div class="collapse card-abstract" id="abs-{{.Params.slug}}">
+                  <div class="my-2">{{ .Summary }}</div>
+                  <div><a href="{{.Permalink}}" class="read-more">Leer más ...</a></div>
+                </div>
+              </div> 
+            {{ end }}
+        </div> <!-- daygrid -->
+      </div>
+
+    </div>    
+    {{ end }}
+</div>
+
+<script>
+
+    function showTrack(obj,track) {
+    
+        if (track == "all") {
+            document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'block' });        
+        }
+        else {
+            document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'none' });        
+            document.getElementsByClassName("session-item track-"+track).forEach(block => { block.style.display = 'block' });        
+        }
+    }
+    
+    function showDay(obj, id) {
+    
+        document.getElementsByClassName("dayblock").forEach(block => { block.style.display = 'none' });
+        document.getElementById("dayblock-"+id).style.display = 'block';
+    
+    }
+    </script>
+    
+    <script>
+        function checkWatch(item) {
+          let curDate = new Date();
+          let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+          let dateStart = new Date(Date.parse(item.dataset.timestart));
+          let dateEnd = new Date(Date.parse(item.dataset.timeend));
+    
+          if (!item.dataset.slot) {
+            return;
+          }
+    
+          if (item.dataset.track == "workshop") {
+            return;
+          }
+          console.log("Session: "+item.dataset.slot+". Start: "+dateStart);
+      
+          // Check if it finish time is not past and if start time is within one hour of now.
+          if (curDate < dateEnd && oneMoreHour > dateStart) {
+            // Remove d-none class so that the button shows up.
+            console.log("Show this one");
+            document.getElementById('live-'+item.dataset.slot).classList.remove("d-none");
+          }
+      
+        }
+    
+    document.querySelectorAll('.session-item').forEach(function(item) {
+        checkWatch(item)
+        });
+      
+    </script>
+
+  
+
+{{ end }}
