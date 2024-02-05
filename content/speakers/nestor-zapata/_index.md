@@ -6,5 +6,6 @@ images:
 linkedin: https://www.linkedin.com/in/nestorzapata/
 events:
  - 2024
+draft: true 
 ---
 
