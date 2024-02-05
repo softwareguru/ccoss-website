@@ -6,6 +6,7 @@ images:
 linkedin: https://www.linkedin.com/in/adawolfs/
 events:
  - 2024
+draft: true
 ---
 
 Software Architect and Cloud Engineer, with multiple years of experience helping companies to adopt Cloud Native technologies and DevOps culture to improve their product development lifecycle.

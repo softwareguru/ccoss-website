@@ -138,27 +138,32 @@
 	background-color: #ababab;
 }
 
-.track-cloud-native-tools--technologies {
-	background-color: #00a1997e;
+.track-cloud-native-tools--practices {
+	background-color: #2ba15b30;
 }
 
-.track-cloud-native-practices--considerations {
-	background-color: #0844c57a;
+.track-fundamentos {
+	background-color: #0844c550;
 }
 
-.track-tools-for-open-source-development-and-collaboration { 
-	background-color: #e6248578;
+.track-contribución-a-open-source { 
+	background-color: #e6248540;
 }
 
-.track-inspiration-and-guidance-for-open-source-contribution {
-	background-color: #6f0c9968;
-}
-.track-open-hardware {
-	background-color: #c9cf0470;
+.track-devops {
+	background-color: #ad38056e;
 }
 
-.track-open-source-contribution-workshop {
-	background-color: #cfc2125d;
+.track-keynote {
+	background-color: #ff310350;
+}
+
+.track-cloud-native-security {
+	background-color: #cfc21240;
+}
+
+.track-casos-de-estudio {
+	background-color: #0183c350;
 }
 
 
@@ -210,15 +215,20 @@ color: #404040;
 	font-weight: 500;
 }
 
-.daygrid {
+.daygrid.ccoss2024-1 {
 	display: grid;
-	grid-template-columns: 100px repeat(5, 1fr);
+	grid-template-columns: 100px repeat(4, 1fr) repeat(2, 150px);
 	grid-template-rows: auto;
 	grid-column-gap: 1em;
 	grid-row-gap: 0px;
-	@media (max-width: 576px) {
-		grid-template-columns: 60px 1fr;
-	}
+}
+
+.daygrid.ccoss2024-2 {
+	display: grid;
+	grid-template-columns: 100px repeat(10, 1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
+	grid-row-gap: 0px;
 }
 
 .daygrid-xs {

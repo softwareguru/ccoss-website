@@ -3,6 +3,7 @@ title: "Agenda"
 date: '2024-01-10T07:51:25.000+00:00'
 priority: 0.7
 draft: false
+url: /agenda-alt
 ---
 <div class="text-center mb-2">Local time: Guadalajara (GMT -6)</div>
 

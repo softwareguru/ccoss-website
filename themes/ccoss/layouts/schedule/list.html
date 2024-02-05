@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
-<div class="container">
+<div class="container-fluid">
     <div class="content mt-4">
         {{ .Content }}
     </div>
@@ -12,7 +12,7 @@
     <div id="dayblock-{{.id}}" class="dayblock my-5">
       <h3 class="mb-3">{{.title_full}}</h3>
       <div class="d-none d-sm-block">
-        <div class="daygrid">
+        <div class="daygrid {{.id}}">
             {{ range .schedule_items }}
               <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};"{{end}}>{{.label}}</div>
             {{ end }}
