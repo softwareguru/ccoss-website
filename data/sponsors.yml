@@ -47,16 +47,16 @@ sponsor_group:
         link : "#"
       - logo : "/images/logos/fundacion-cloud-native.png"
         link : "https://fhcn.webflow.io/"
+      - logo : "/images/logos/github-logo.png"
+        link : "https://github.com/"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com/"
+      - logo : "/images/logos/endava.png"
+        link : "https://www.endava.com/"
       - logo : "/images/logos/kube-careers.svg"
         link : "https://kube.careers/"
       - logo : "/images/logos/kube-events.svg"
         link : "https://kube.events"
-      - logo : "/images/logos/github-logo.png"
-        link : "https://github.com/"
-      - logo : "/images/logos/endava.png"
-        link : "https://www.endava.com/"
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com/"
 
 
 
