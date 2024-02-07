@@ -31,11 +31,11 @@ sponsor_group:
       - logo : "/images/logos/infotec.png"
         link : "https://www.infotec.mx/"
       - logo : "/images/logos/CNCF.png"
-        link : "https://github.com/cncf"
+        link : "https://www.linuxfoundation.org/"
       - logo : "/images/logos/civo.png"
         link : "https://www.civo.com/"
-      #- logo : "/images/logos/oracle.png"
-      #  link : "https://www.oracle.com/"
+      - logo : "/images/logos/Oracle_1.png"
+        link : "https://www.oracle.com/"
 
 
   - title : "Aliados"
