@@ -108,18 +108,14 @@ days:
 
 
 tracks:
-  - slug: cloud-native-tools-technologies
-    label: Cloud native tools & technologies
-  - slug: cloud-native-practices-considerations
-    label: Cloud native practices & considerations
-  - slug: tools-for-open-source-development-and-collaboration
-    label: Tools for open source development and collaboration
-  - slug: inspiration-and-guidance-for-open-source-contribution
-    label: Inspiration and guidance for open source contribution
-  - slug: open-hardware
-    label: Open hardware
-  - slug: open-source-contribution-workshop
-    label: Open source contribution workshop
+  - Keynote
+  - Cloud native tools & practices
+  - Fundamentos
+  - Contribución a open source
+  - DevOps
+  - Casos de estudio
+  - Workshop
+
 
 ---
 
