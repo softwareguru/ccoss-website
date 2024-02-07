@@ -2,7 +2,7 @@
 title: "Octavio Alvarez"
 designation: "Debian Maintainer para el proyecto Debian y como consultor"
 images:
- - images/speakers/octavio-alvarez.png
+ - /images/speakers/octavio-alvarez.png
 linkedin: https://www.linkedin.com/in/alvarezp2000/
 events:
  - 2024
