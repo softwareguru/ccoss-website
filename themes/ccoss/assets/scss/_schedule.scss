@@ -192,17 +192,22 @@ color: #404040;
 	padding: 12px 18px; 
 	border-radius: 4px; 
     margin-right: 1em;
-	color: white;
+	color: #404040;
 }
 
+.color-code-item:hover {
+	background-color: white;
+	border-color: #404040;
+}
 .session-meta {
   margin: 0;
   font-size: 0.9em;
 }
 
-#day-buttons .btn:focus, #day-buttons.btn.focus {
-	background-color: #dc3545;
-	color: #ffffff;
+#day-buttons .btn:hover, #day-buttons.btn.focus {
+	background-color: white;
+	color: #404040;
+	border-color: #404040;
 }
 
 .card-abstract {

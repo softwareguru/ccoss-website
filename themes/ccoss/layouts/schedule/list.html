@@ -6,6 +6,21 @@
         {{ .Content }}
     </div>
 
+    <h3 class="mt-4">Filtrar por track</h3> 
+    <div class="color-code-list">
+        <div id="track-all" class="btn color-code-item track-all" onclick="showTrack(this,'all')">Todos</div>
+        {{ range .Params.tracks }}
+        <button id="track-{{ anchorize . }}" type="button" class="btn color-code-item track-{{ anchorize . }}" onclick="showTrack(this,'{{ anchorize . }}')">{{ . }}</button>
+        {{ end }}
+    </div>
+
+    <h3 class="mt-3">Filtrar por día</h3> 
+    <div id="day-buttons" class="mb-4 text-center">
+    {{ range .Params.days }}
+        <button id="button-day-{{ .id }}" type="button" class="btn btn-outline-danger mx-2" onclick="showDay(this,'{{.id}}')">{{ .title_short }}</button>
+    {{ end }}
+    </div>    
+
     {{ range .Params.days }}
       {{ $curr_day :=  .id }}
 
@@ -62,17 +77,20 @@
     function showTrack(obj,track) {
     
         if (track == "all") {
-            document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'block' });        
+            console.log("selecting all as visible");
+            document.querySelectorAll('.session-item').forEach(block => { block.style.display = 'block' });        
         }
         else {
-            document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'none' });        
-            document.getElementsByClassName("session-item track-"+track).forEach(block => { block.style.display = 'block' });        
+            document.querySelectorAll('.session-item').forEach(block => { block.style.display = 'none' });
+            trackSelector = ".session-item.track-"+track;
+            console.log("TrackSelector: "+trackSelector);
+            document.querySelectorAll(trackSelector).forEach(block => { block.style.display = 'block' });        
         }
     }
     
     function showDay(obj, id) {
     
-        document.getElementsByClassName("dayblock").forEach(block => { block.style.display = 'none' });
+        document.querySelectorAll('.dayblock').forEach(block => { block.style.display = 'none' });
         document.getElementById("dayblock-"+id).style.display = 'block';
     
     }
