@@ -103,7 +103,7 @@ days:
         label: "13:25 - 13:35"
         gridarea: "22/1/23/2"
       - type: timelabel
-        label: "13:35 - 14:45"
+        label: "13:35 - 13:55"
         gridarea: "23/1/24/2"
 
 

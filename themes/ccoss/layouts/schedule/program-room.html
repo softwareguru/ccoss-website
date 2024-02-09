@@ -1,0 +1,19 @@
+
+<div class="container">
+    <div class="content mt-4">
+      <h2>{{ .Params.room }} Day {{ .Params.day }}</h2>
+    </div>
+
+    <div>
+        <table>
+        {{ range sort (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" .Params.day) ".Params.room" .Params.room) ".Params.time_start" }}
+        <tr>
+            <td valign="top">{{ (.Params.time_start | time).Format "15:04" }}-{{ (.Params.time_end | time).Format "15:04" }}</td>
+            <td>{{.Title}}{{ with .Params.speakers }}<br><em>por {{ delimit . ", " " & " }}{{ end }}</em></td>            
+
+        </li>
+        {{ end }}
+        </ul>
+    </div>
+</div>
+
