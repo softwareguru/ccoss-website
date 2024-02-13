@@ -18,8 +18,8 @@ sponsor_group:
 
       - logo : "/images/logos/Improving.png"
         link : "https://www.improving.com/"
-      - logo : "/images/logos/logo-gnome.png"
-        link : "https://www.gnome.org/" 
+      #- logo : "/images/logos/logo-gnome.png"
+      #  link : "https://www.gnome.org/" 
 
 
   - title : "Silver"
