@@ -7,6 +7,8 @@ designation: Engineer/trainer at Ferrous Systems
 twitter: 
 linkedin: https://www.linkedin.com/in/miguel-raz-guzm%C3%A1n-64895a127/
 github: 
+events:
+ - 2024
 ---
 
 Me gusta Rust, Julia, y rebanarle nanosegundos a mis codiguitos.
