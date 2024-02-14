@@ -13,6 +13,7 @@ gridarea: "19 / 11 / 20 / 12"
 timeslot: 53
 day: ccoss2024-2
 room: Laboratorio
+draft: true
 ---
 
 En este workshop, veremos cómo podemos aprovechar KEDA | Kubernetes Event-driven Autoscaling para escalar automáticamente aplicaciones nativas de nube implementadas como contenedores o pods en un clúster de Kubernetes, según los eventos siguientes.

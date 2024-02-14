@@ -2,6 +2,10 @@
     flex-grow: 0 !important;
 }
 
+.fixed-top {
+	z-index: 10;
+}
+
 #slides-iframe {
 	margin-top: 2em;
 }
