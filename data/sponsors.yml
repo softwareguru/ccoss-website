@@ -61,6 +61,8 @@ sponsor_group:
         link : "https://kube.careers/"
       - logo : "/images/logos/kube-events.svg"
         link : "https://kube.events"
+      - logo : "/images/logos/cuemby.png"
+        link : "https://www.cuemby.com/"
 
 
 
