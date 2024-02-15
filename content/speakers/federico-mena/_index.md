@@ -8,6 +8,8 @@ country:
 twitter: https://twitter.com/federicomena
 linkedin: 
 github: 
+events:
+ - 2024
 ---
 
 Co-fundador de GNOME, ciclista, carpintero, cocinero, cartógrafo, jardinero, él.

@@ -22,41 +22,44 @@ days:
         label: "10:15 - 10:45"
         gridarea: "4/1/5/2"
       - type: timelabel
-        label: "10:45 - 11:25"
+        label: "10:45 - 10:55"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "11:25 - 12:05"
+        label: "11:00 - 11:10"
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "12:05 - 12:40"
+        label: "11:15 - 12:00"
         gridarea: "7/1/8/2"
       - type: timelabel
-        label: "12:45 - 13:20"
+        label: "12:05 - 12:40"
         gridarea: "8/1/9/2"
       - type: timelabel
-        label: "13:20 - 14:20"
+        label: "12:45 - 13:20"
         gridarea: "9/1/10/2"
       - type: timelabel
-        label: "14:20 - 14:55"
+        label: "13:20 - 14:20"
         gridarea: "10/1/11/2"
       - type: timelabel
-        label: "15:00 - 15:35"
+        label: "14:20 - 14:55"
         gridarea: "11/1/12/2"
       - type: timelabel
-        label: "15:40 - 16:15"
+        label: "15:00 - 15:35"
         gridarea: "12/1/13/2"
       - type: timelabel
-        label: "16:15 - 16:30"
+        label: "15:40 - 16:15"
         gridarea: "13/1/14/2"
       - type: timelabel
-        label: "16:30 - 17:05"
+        label: "16:15 - 16:30"
         gridarea: "14/1/15/2"
       - type: timelabel
-        label: "17:10 - 17:45"
+        label: "16:30 - 17:05"
         gridarea: "15/1/16/2"
       - type: timelabel
-        label: "17:50 - 18:25"
+        label: "17:10 - 17:45"
         gridarea: "16/1/17/2"
+      - type: timelabel
+        label: "17:50 - 18:25"
+        gridarea: "17/1/18/2"
       - type: activity
         label: "Bienvenida"
         gridarea: "1/2/2/6"
@@ -64,19 +67,19 @@ days:
         gridaream: "1/1/2/2"
       - type: activity
         label: "Break"
-        gridarea: "6/2/7/6"
-        timelabel: "11:25-12:05"
-        gridaream: "6/1/7/2"
+        gridarea: "7/2/8/6"
+        timelabel: "11:15 - 12:00"
+        gridaream: "7/1/8/2"
       - type: activity
         label: "Lunch"
-        gridarea: "9/2/10/6"
-        timelabel: "13:20-14:20"
-        gridaream: "15/1/16/2"
+        gridarea: "10/2/11/6"
+        timelabel: "13:20 - 14:20"
+        gridaream: "16/1/17/2"
       - type: activity
         label: "Break"
-        gridarea: "13/2/14/6"
+        gridarea: "14/2/15/6"
         timelabel: "16:15-16:30"
-        gridaream: "30/1/31/2"
+        gridaream: "31/1/32/2"
 
 
   - id: ccoss2024-2
