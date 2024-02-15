@@ -28,7 +28,7 @@
         <div class="inner-column">
           <div class="text-box">
             <h3>{{ .Title }}</h3>
-            <p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2. 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }}{{ end }} (CDT, GMT-6)</p>
+            <p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2. 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }}. {{ end }}{{ with .Params.room}}Sala: {{.}}{{ end }}</p>
             <!--<p class="session-meta" id="lang">{{ with .Params.language }}Language: {{ humanize . }}{{ end }}</p>-->
             <div class="d-lg-none d-xl-none">
               By 
