@@ -1,6 +1,6 @@
 ---
 title: "Juan Carlos Martinez Carrillo"
-designation: "KodeKloud trainer and Grid Dyamics Senior DevOps Engineer"
+designation: "KodeKloud trainer | Sr. DevOps Engineer at Grid Dynamics"
 images:
  - images/speakers/juan-carlos-martinez-carrillo.png
 linkedin: https://www.linkedin.com/in/jcroyoaun

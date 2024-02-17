@@ -31,7 +31,7 @@
             {{ range .schedule_items }}
               <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};"{{end}}>{{.label}}</div>
             {{ end }}
-            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.time_start" }}
+            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Params.room") ".Params.time_start" }}
               <div class="session-item track-{{ .Params.track | anchorize }}" {{ with .Params.gridarea }}style="grid-area: {{. | safeCSS}};"{{end}} data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
                 <div class="session-time hour d-none">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}. </div>
                 <div class="session-title"><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.slug}}">{{ .Params.title }}</a></div>
@@ -52,7 +52,7 @@
               <div class="{{.type}}" {{ with .gridaream }}style="grid-area: {{ . | safeCSS}};"{{end}}><div class="session-time hour">{{.timelabel}}</div>{{.label}}</div>
             {{ end }}
 
-            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.timeslot" }}
+            {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Params.room") ".Params.time_start" }}
               <div class="session-item track-{{ .Params.track | anchorize }}" {{ with .Params.gridaream }}style="grid-area: {{. | safeCSS}};"{{end}} data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
                 <div class="session-time hour">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}. {{ end }}{{ with .Params.room }}{{.}}{{ end }}</div>
                 <div class="session-title"><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.slug}}">{{ .Params.title }}</a></div>
