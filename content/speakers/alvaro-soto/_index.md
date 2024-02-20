@@ -8,6 +8,4 @@ events:
  - 2024
 ---
 
-I was born in a little town in Chile called Linares. I moved to Mexico at 19 years old to continue my Computer Science Engineering degree (after getting expelled from a university in Chile) and a master's degree in computer science nearly ten years later.
- 
- I've worked as a freelancer, implementation engineer, and support engineer for larger and small companies in LATAM: Chile, Argentina, Bolivia, Colombia, and Mexico.
+Alvaro nació en Linares, Chile y emigró a México a los 19 años para realizar sus estudios en Ciencias Computacionales. A lo largo de su carrera se ha desempeñado como ingeniero de software en empresas de distintos rubros y tamaños en Chile, Argentina, Bolivia, Colombia y México.

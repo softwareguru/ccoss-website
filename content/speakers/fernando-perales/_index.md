@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-Fer is a software engineer who writes web applications in his favorite language: Ruby. He has been working as a software consultant for around 10 years and now is continuing the consulting path at thoughtbot. He is actively involved in the local communities by running the Mexican Ruby community as well as being a member and co-organizer of the RailsBridge Mexican chapter.
+Fer es un ingeniero de software que construye aplicaciones web en su lenguaje favorito: Ruby. Ha sido consultor por más de 10 años y actualmente colabora con thoughtbot. Colabora activamente con comunidades tecnológicas y dirige la comunidad mexicana de Ruby además de coorganizar el capítulo en México de RailsBridge.

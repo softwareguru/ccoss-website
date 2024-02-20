@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-Hugo Guerrero works as a developer advocate. He has spent more than 20 years working in software. During that time, he has held various roles, including developer, consultant, architect, and software development factory manager. He is a passionate advocate for a new way of building applications using AsyncAPI, and he volunteers to help spread the word about this technology. He also contributes to open source projects. He is responsible for maintaining the Microcks Docker Desktop Extension.
+Hugo ha dedicado más de 20 años a trabajar en la industria de software, desempeñándose en distintos roles como desarrollador, consultor, arquitecto y gerente. Le entusiasma contribuir a proyectos open source y es responsable del mantenimiento de la Microrocks Docker Desktop Extension. Entre sus intereses recientes está el fomentar el desarrollo de aplicaciones usando AsyncAPI.

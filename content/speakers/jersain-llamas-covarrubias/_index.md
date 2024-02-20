@@ -2,7 +2,7 @@
 title: "Jersain Zadamig Llamas Covarrubias"
 designation: "Profesor en Universidad de Guadalajara | Cofundador Legal Hackers Guadalajara"
 images:
- - images/speakers/joseph-sandoval.jpg
+ - images/speakers/jersain-llamas-covarrubias.jpg
 linkedin: https://www.linkedin.com/in/josephrsandoval/
 events:
  - 2024

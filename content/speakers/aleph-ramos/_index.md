@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-Soy devops en grid dynamics tengo mas de 15 años de experiencia y antes de que existiera las herramientas de automatización usaba bash para sobrevivir en un mundo on premise. Ahora uso Python, terraform para un mundo en las nubes, me gusta el café, las raspberry’s y el IoT
+Soy devops en Grid Dynamics. Tengo mas de 15 años de experiencia y antes de que existiera las herramientas de automatización usaba bash para sobrevivir en un mundo on premise. Ahora uso Python, terraform para un mundo en las nubes, me gusta el café, las raspberry’s y el IoT

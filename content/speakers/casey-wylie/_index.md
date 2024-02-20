@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-Casey Wylie is an engineer and architect specializing in hybrid cloud environments. Passionate about making a positive impact, Casey develops software for Kubernetes, data centers, and VMs. Sharing knowledge through mentoring, speaking, blogging, and open source contributions, Casey holds certifications as a Kubernetes Application Developer, Administrator, and Security Specialist.
+Casey Wylie es un ingeniero y arquitecto especializado en ambientes de nube híbrida. Casey está certificado como Kubernetes Application Developer, Administrator y Security Specialist, y le entusiasma compartir conocimiento por medio de impartir charlas, mentoría, escribir y contribuir al open source.

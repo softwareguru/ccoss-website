@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+
+<!-- Speaker Detail -->
+<section class="room-detail" >
+  <div class="container">
+    <h2>{{ .Title }}</h2>
+
+    {{ range where (.Data.Pages.ByParam "time_start") ".Type" "sessions" }}
+    <div class="mb-3">
+        <p class="my-1">{{ with .Params.time_start | time }}{{ .Format "Jan-2. 15:04" }}{{ end }}{{ with .Params.time_end | time }}-{{ .Format "15:04" }}{{ end }}.</p>
+        <h3>{{ .Title }}</h3>
+        <table>
+            {{ range .Params.speakers }}                                
+                {{ $speaker_url := print "/speakers/" . | urlize }}
+                  {{ with $.Site.GetPage $speaker_url }}
+                    <tr>
+                        <td style="padding-right: 1em" width="180">{{ with .Params.images}}
+                            <img class="img-fluid" src="{{ index . 0 | relURL }}" alt="">
+                            {{ end }}
+                        </td>
+                        <td>
+                            <h4>{{ .Title }}</h4>
+                            {{ with .Params.designation }}<em>{{ . }}</em>{{ end }}
+                            <div style="font-size: 0.9em">{{.Content}}</div>
+                        </td>
+                    </tr>
+                  {{ end }}
+            {{ end }}
+        </table> 
+        <hr style="border-bottom: solid 1px #404040;">
+    </div>
+
+    {{ end }}
+
+</div>
+</section>
+
+</body>
+</html>

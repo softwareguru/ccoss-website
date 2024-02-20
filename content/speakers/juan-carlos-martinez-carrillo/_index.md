@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-Juan Carlos Martinez is an IT professional with 12+ years of experience. He’s worked across various sectors as a Backend Engineer and DevOps, and has worked as an instructor for the renowned training platform KodeKloud. His efforts are driven by a deep passion for learning and teaching.
+Juan Carlos es un profesionista con más de 12 años de experiencia en la industria de tecnología. Se ha desempañado principalmente como desarrollador backend y DevOps y es instructor para la plataforma educativa KodeKloud.

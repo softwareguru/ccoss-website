@@ -8,4 +8,4 @@ events:
  - 2024
 ---
 
-A dev & content creator with extensive experience in Angular, Nestjs, Java and PHP. As an empirical, creative, and curious person, I enjoy exploring several options for a specific project. My passion for software development and Open Source stems from its great impact on our daily lives. I find satisfaction in analyzing everyday problems and using technology to find solutions. I stay up-to-date with new technologies and methodologies to improve my skills and knowledge.
+Manuel es un desarrollador y creador de contenido. Como persona creativa y curiosa, disfruta explorar distintas opciones para cada proyecto en que colabora. Su pasión por el desarrollo de software y el open source nace del gran impacto que tienen en nuestras vidas.

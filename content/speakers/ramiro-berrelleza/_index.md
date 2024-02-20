@@ -13,6 +13,6 @@ events:
 keynote: true
 ---
 
-Ramiro Berrelleza is one of the founders of Okteto. He has spent most of his career (and his free time) building cloud services and developer tools. Before starting Okteto, Ramiro was an Architect at Atlassian and a Software Engineer at Microsoft Azure. 
- 
-Originally from Mexico, he currently lives in Oakland, California.
+Ramiro Berrelleza es uno de los fundadores de Okteto, donde se dedica a construir servicios y herramientas para desarrolladores. Antes de comenzar Okteto, Ramiro fue arquitecto en Atlassian e ingeniero de software en Microsoft.
+
+Ramiro es originario de México y actualmente radica en Oakland, California.

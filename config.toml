@@ -25,6 +25,7 @@ home = ["HTML", "RSS"]
   tag = "tags"
   category = "categories"
   speaker = "speakers"
+  room = "room"
 
 [sitemap]
   changefreq = 'weekly'

@@ -8,6 +8,4 @@ events:
  - 2024
 ---
 
-I work to improve sleep quality with application containers and automation pipelines in the cloud.
- 
-With over 10 years of experience in DevOps practices such as Configuration Management, Release Management, Pipeline Management, and Testing. Proven track record as a Technical Leader for DevOps, Support and testing teams, both in project delivery and support roles. He is also a proven speaker and teacher in the DevOps space.
+Jairo tiene más de 10 años de experiencia en roles de desarrollo, soporte, pruebas y liderazgo para ambientes cloud native. Actualmente dirige la práctica de gestión de aplicaciones, infraestructura y DevOps en Endava Colombia, donde es responsable de la construcción y gestión pipelines de automatización en la nube que permitan a sus clientes dormir más tranquilos. 

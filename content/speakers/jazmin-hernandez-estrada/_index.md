@@ -8,4 +8,5 @@ events:
  - 2024
 ---
 
-I am an Electronic Engineer, current Support Area Leader at Electronic Cats and content creator for the Spanish-speaking community, developing projects and workshops between different areas of study to bring students and enthusiasts closer to technology, electronics, and the open source community. My hobby is learning languages and their cultures.
+Soy una ingeniera electrónica, actualmente líder del área de soporte en Electronic Cats y creadora de contenido, desarrollando proyectos y talleres para atraer estudiantes y entusiastas a la electrónica y el open source.
+Mi hobby es aprender idiomas y culturas de distintos lugares.

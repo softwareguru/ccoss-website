@@ -1,6 +1,6 @@
 ---
 title: "Rolando Carrasco"
-designation: "CTO"
+designation: "CTO en SPS"
 images:
  - images/speakers/rolando-carrasco.jpg
 linkedin: https://www.linkedin.com/in/rolandocarrasco/
@@ -8,6 +8,4 @@ events:
  - 2024
 ---
 
-Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. 
- 
- Rolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.
+Rolando es un entusiasta de la tecnología con más de 20 años de experiencia, especializdo en sistemas distribuidos, integración y arquitecturas dirigidas por eventos. Es un conferencista frecuente en eventos internacionales, así como colaborador en iniciativas para comunidades tecnológicas.
