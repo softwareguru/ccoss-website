@@ -65,6 +65,9 @@ sponsor_group:
         link : "https://www.cuemby.com/"
       - logo : "/images/logos/canieti.png"
         link : "https://www.canietisedeoccidente.org/"
+      - logo : "/images/logos/logo-gnome.png"
+        link : "https://www.gnome.org/" 
+
 
 
 
