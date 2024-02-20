@@ -9,6 +9,8 @@ sitemap:
   priority: 0.9
 ---
 
+### CCOSS+KCD es un evento 100% presencial, por favor no te registres si no planeas venir en persona.
+
 <tito-widget
       event="softwareguru/ccosskcd-2024"
       save-metadata-parameters="utm_*"
