@@ -1,34 +1,14 @@
 {{ define "main" }}
 
-<section class="speaker-2 section">
+<section class="section {{ .Type }}">
   <div class="container">
-    <div class="lead mb-4">
-      {{ .Content }}
-    </div>
-    <div class="speaker-strip">
-      {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }} 
-        {{ if in .Params.events 2024 }}
-      <div class="speaker-item">
-        <div class="speaker-block">
-          <div class="headshot-box">
-            <a href="{{.Permalink}}">
-              {{ $img := resources.Get (index .Params.images 0) }}
-              {{ with $img }}
-                {{ $imgp := $img.Resize "400x webp" }}
-                <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
-              {{ end }}  
-            </a>
-          </div>
-          <div class="speaker-info text-center">
-            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
-            <p style="color: #E62485;">{{ .Params.Designation}}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
+    <div class="list-content">{{.Content}}</div>
+    <ul>
+          {{ range .Data.Pages }}
+            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+          {{ end }}
+    </ul>
   </div>
 </section>
- 
+
 {{ end }}
