@@ -3,7 +3,7 @@ id: wc1a
 title: "Taller de contribución a AsyncAPI"
 url: /sessions/2021/taller-contribucion-asyncapi
 speakers:
- - Ale Quetzalli
+ - Alejandra Quetzalli
 format: workshop
 block: w
 time_start: 2021-10-06T14:00:00-05:00

@@ -52,36 +52,17 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-[[menu.main]]
-    identifier = "category"
-    name = "Programa"
-    url = "/#"
-    weight = 2
-  [[menu.main]]
-    identifier = "category1"
-    name = "Agenda"
-    url = "/agenda"
-    parent = "category"
-    weight = 1
-  [[menu.main]]
-    identifier = "category2"
-    name = "Conferencistas"
-    url = "/speakers"
-    parent = "category"
-    weight = 2
-
-
-[[menu.main]]
-    identifier = "asistentes"
-    name = "Asistentes"
-    url = "/#"
-    weight = 3
-  [[menu.main]]
-    identifier = "vacantes"
-    name = "Vacantes"
-    url = "/vacantes"
-    parent = "asistentes"
-    weight = 4
+#[[menu.main]]
+#    identifier = "asistentes"
+#    name = "Asistentes"
+#    url = "/#"
+#    weight = 3
+#  [[menu.main]]
+#    identifier = "vacantes"
+#    name = "Vacantes"
+#    url = "/vacantes"
+#    parent = "asistentes"
+#    weight = 4
 
 
   [[menu.main]]
@@ -100,14 +81,14 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 2
 
   [[menu.main]]
-  name = "Sede"
-  URL = "/sede"
+  name = "Sesiones anteriores"
+  URL = "/sessions/2024"
   weight = 3
   
-  #[[menu.main]]
-  #name = "Kit virtual"
-  #URL = "/kit-virtual"
-  #weight = 5
+  [[menu.main]]
+  name = "Conferencistas anteriores"
+  URL = "/speakers/archive"
+  weight = 5
 
   #[[menu.main]]
   #name = "Networking"
