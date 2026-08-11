@@ -1,88 +1,79 @@
 ############################# banner ################################
 banner:
-  enable : true
-  title : "CCOSS"
-  logo : "/images/logo.svg"
-  line: "/images/linea-de-colores.png"
-  img: "/images/background-ccoss.jpg" 
-  bg_image: ""
-  date_time : "23 al 24 de febrero 2024."
-  venue : "Guadalajara, México."
+  enable: true
+  title: 'CCOSS'
+  logo: '/images/logo.svg'
+  line: '/images/linea-de-colores.png'
+  img: '/images/background-ccoss.jpg'
+  bg_image: ''
+  date_time: '23 al 24 de febrero 2024.'
+  venue: 'Guadalajara, México.'
   button:
-    enable : true
-    label : "Ver sesiones anteriores"
-    link : "/sessions"
-
+    enable: true
+    label: 'Ver sesiones anteriores'
+    link: '/sessions'
 
 ############################## Event ##############################
 event_info:
-  enable : true
-  title : "¿Te interesa contribuir a proyectos Open Source pero no sabes cómo hacerlo?"
-  description : "CCOSS + KCD Guadalajara 2024 integra dos eventos:"
-  contribution: "La Cumbre de Contribuidores de Open Source Software y el primer Kubernetes Community Day en México"
-  cta_text: "Conoce más sobre la edición anterior"
-  cta_link: "https://ccoss.org/sessions/2021/"
-  features: 
-    - number : "Híbrido"
-      label : "Asiste en persona o en línea"
-      
-    - number : "3"
-      label : "Días"
+  enable: true
+  title: '¿Te interesa contribuir a proyectos Open Source pero no sabes cómo hacerlo?'
+  description: 'Integrate a conocer proyectos y desarrollos tecnológicos globales,'
+  contribution: 'sumate a sus estrategias de contribución y consolidemos un ecosistema Latinoamericano de colaboración para fortalecer la innovación tecnológica.'
+  cta_text: 'Conoce más sobre la edición anterior'
+  cta_link: 'https://ccoss.org/sessions/2021/'
+  features:
+    - number: 'Híbrido'
+      label: 'Asiste en persona o en línea'
 
-    - number : "Contribuye"
-      label : "A Software Open Source"
+    - number: '3'
+      label: 'Días'
 
-    - number : "A"
-      label : "Pláticas y talleres"
+    - number: 'Contribuye'
+      label: 'A Software Open Source'
 
-
+    - number: 'A'
+      label: 'Pláticas y talleres'
 
 ####################### Speakers #############################
 speakers:
-  enable : false
-  title : "Keynote speakers"
-
+  enable: false
+  title: 'Keynote speakers'
 
 ####################### pricing #############################
 pricing:
-  enable : true
+  enable: true
   # pricing data comes from "pricing.yml" file
-
-
-
 
 ############################### Blog ######################################
 blog:
-  enable : true
-  title : "Noticias recientes"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  enable: true
+  title: 'Noticias recientes'
+  content: 'Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.'
   # blog content comes from "content/blog" folder
 
 ############################### Contribu ######################################
 contribu:
-  enable : true
-  title: "Próximos talleres"
+  enable: true
+  title: 'Próximos talleres'
 
-  
 ############################### organized by ######################################
 
 organized_by:
-  logo: "/images/ccoss.JPG"
+  logo: '/images/ccoss.JPG'
 
   organizingTitle: Organizado por
-  organizerDescription: "La Cumbre de Contribuidores de Open Source Software es una iniciativa de la comunidad Open Source México. El evento es producido por Software Guru."
+  organizerDescription: 'La Cumbre de Contribuidores de Open Source Software es una iniciativa de la comunidad Open Source México. El evento es producido por Software Guru.'
   organizerButton: Conoce al equipo
-  organizerLink: "/team/"
+  organizerLink: '/team/'
 
+  collaboratingTitle: '¿Cómo colaboro?'
+  collaborationDescription: 'Puedes unirte como conferencista, voluntario o patrocinador.'
+  contactusButton: 'Contáctanos'
+  contactLink: ''
 
-  collaboratingTitle: "¿Cómo colaboro?"
-  collaborationDescription: "Puedes unirte como conferencista, voluntario o patrocinador."
-  contactusButton: "Contáctanos"
-  contactLink: ""
-
-  img: "/images/1.jpg"
-  img2: "/images/2.jpg"
-  img3: "/images/3.JPG"
-  img4: "/images/4.jpg"
-  img5: "/images/5.jpg"
-  img6: "/images/6.JPG"
+  img: '/images/1.jpg'
+  img2: '/images/2.jpg'
+  img3: '/images/3.JPG'
+  img4: '/images/4.jpg'
+  img5: '/images/5.jpg'
+  img6: '/images/6.JPG'

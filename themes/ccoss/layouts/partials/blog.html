@@ -1,37 +1,41 @@
-
 <!-- Sección de Noticias recientes que se encuentra en index.html como "blog"-->
 
-<section class="section blog text-center"> 
-
+<section class="section blog text-center">
   <h2 class="mt-3">NOTICIAS RECIENTES</h2>
- 
-  <br>
-    <div class="container">
-      <div class="card-deck ">
-        {{ range first 3 (where .Site.RegularPages "Type" "blog" )}}
-         
-        <div class="card shadow">
-    
-          <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" class="img-fluid" alt="{{ .Title | markdownify }}">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><strong >{{ .Title | markdownify }}</strong></h5>
-         
-              <p class="module line-clamp">{{ .Summary }}</p>
-            
-          </div>
 
-            <a href="{{ .Params.link }}">
-              <button class="btn btn-primary col-md-8 mb-3" >Conocer más</button>
-            </a>
-          <br>
-          
-        </div>
-       
+  <br />
+  <div class="container">
+    <div class="card-deck">
+      {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+
+      <div class="card shadow news-card">
+        {{ with .Params.images }}
+        <img
+          src="{{ index . 0 | relURL }}"
+          class="card-img-top news-card-image"
+          alt="{{ $.Title | plainify }}"
+        />
         {{ end }}
-      </div>
-      </div>
-    
 
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title text-center">
+            <strong>{{ .Title | markdownify }}</strong>
+          </h5>
+
+          <p class="news-card-summary">{{ .Summary | plainify }}</p>
+
+          <a
+            href="{{ .Params.link }}"
+            class="btn btn-primary news-card-button mt-auto"
+          >
+            Conocer más
+          </a>
+        </div>
+      </div>
+
+      {{ end }}
+    </div>
+  </div>
 </section>
 
-<img src="/images/linea-de-colores.png" class="img-fluid line">
+<img src="/images/linea-de-colores.png" class="img-fluid line" />

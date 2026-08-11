@@ -1,71 +1,46 @@
-{{ define "main" }}
+{{ define "main" }} {{ $data := index .Site.Data }}
 
-{{ $data := index .Site.Data }}
+<!-- Banner -->
+{{ with $data.homepage.banner }} {{ $banner := resources.Get
+"images/banner/bannerweb2.png" }}
 
-<!-- banner -->
-{{ with $data.homepage.banner }}
-
-<section class="section banner ">
-  <section class="degradado">
-  <div class="row margen-hero">
-      <div class="col-lg-6">
-        <br><br><br>
-        <h1>CCOSS + KCD Guadalajara</h1>
-        <br>
-        <h2>23 y 24 de Febrero, 2024</h2>
-        <br>
-        <!--
-        <a href="/tickets" target="_blank">
-          <button type="button" id="nav-button" class="btn btn-primary">¡Obtener un boleto! &nbsp;&nbsp;
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </button>
-        </a>
-        -->
-      </div>
-      <div class="col-lg-6 imagenes-hero">
-        <img src="/images/ccoss+kcd.png" class="img-fluid" >
-      </div>
-    </div>
-  </section>
+<section
+  style="width: 100%; height: 75vh; margin: 0; padding: 0; overflow: hidden"
+>
+  <img
+    src="{{ $banner.RelPermalink }}"
+    alt="CCOSS 2026"
+    style="display: block; width: 100%; height: 100%; padding-top: 100px"
+  />
+  <img src="/images/linea-de-colores.png" class="img-fluid line" />
 </section>
-
-
-<img src="{{ .line }}" class="img-fluid line ">
-
 {{ end }}
-<!-- /banner -->
+<!-- /Banner -->
 
-
-<!-- featured-projects -->
+<!-- Featured projects -->
 {{ partial "featured-projects.html" . }}
-<!-- featured-projects -->
+<!-- /Featured projects -->
 
-<!-- featured-projects -->
+<!-- Keynotes -->
 {{ partial "keynotes.html" . }}
-<!-- featured-projects -->
+<!-- /Keynotes -->
 
-<!-- event_info  -->
-{{ if $data.homepage.event_info.enable }}
-{{ partial "event_info.html" . }}
-{{ end }}
-<!-- /event_info -->
+<!-- Event information -->
+{{ if $data.homepage.event_info.enable }} {{ partial "event_info.html" . }} {{
+end }}
+<!-- /Event information -->
 
-<!-- blog -->
-{{ if $data.homepage.blog.enable }}
-{{ partial "blog.html" . }}
-{{ end }}
-<!-- /blog -->
+<!-- Blog -->
+{{ if $data.homepage.blog.enable }} {{ partial "blog.html" . }} {{ end }}
+<!-- /Blog -->
 
- <!-- Carousel -->
- {{ if $data.homepage.event_info.enable }}
- {{ partial "carousel.html" . }}
- {{ end }}
- <!-- /Carousel -->
+<!-- Carousel -->
+{{ if $data.homepage.event_info.enable }} {{ partial "carousel.html" . }} {{ end
+}}
+<!-- /Carousel -->
 
-
-<!-- feature -->
-{{ if $data.homepage.feature.enable }}
-{{ with $data.homepage.feature }}
+<!-- Features -->
+{{ if $data.homepage.feature.enable }} {{ with $data.homepage.feature }}
 <section id="section-feature">
   <div class="container">
     <div class="row">
@@ -73,8 +48,11 @@
       <div class="col-lg-4 col-md-6">
         <div class="feature-box">
           <i class="{{ .icon }}"></i>
+
           <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
+
           <div class="divider"></div>
+
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
@@ -82,64 +60,54 @@
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
-<!-- /feature -->
+{{ end }} {{ end }}
+<!-- /Features -->
 
-<!-- schedule -->
-{{ if $data.homepage.schedule.enable }}
-{{ partial "schedule.html" . }}
-{{ end }}
-<!-- /schedule -->
+<!-- Schedule -->
+{{ if $data.homepage.schedule.enable }} {{ partial "schedule.html" . }} {{ end
+}}
+<!-- /Schedule -->
 
-<!-- pricing -->
-{{ if $data.homepage.pricing.enable }}
-{{ partial "pricing.html" . }}
-{{ end }}
-<!-- /pricing  -->
+<!-- Pricing -->
+{{ if $data.homepage.pricing.enable }} {{ partial "pricing.html" . }} {{ end }}
+<!-- /Pricing -->
 
-<!-- speaker -->
+<!-- Speakers -->
 {{ if $data.homepage.speakers.enable }}
 <section class="section speakers">
   <div class="container">
-    {{ with $data.homepage.speakers }}
-    {{ partial "section_title.html" . }}
-    {{ end }}
+    {{ with $data.homepage.speakers }} {{ partial "section_title.html" . }} {{
+    end }}
+
     <div class="speakers-wrapper">
-      {{ range (where (where .Site.RegularPages.ByTitle "Type" "speakers") ".Params.featured" true) }}
+      {{ range ( where (where .Site.RegularPages.ByTitle "Type" "speakers")
+      ".Params.featured" true ) }}
 
       <div class="speaker">
         <a href="{{ .Permalink }}">
-          <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+          <img
+            src="{{ .Params.Image | relURL }}"
+            alt="{{ .Title }}"
+            class="img-fluid rounded-circle"
+          />
         </a>
+
         <h4 class="mb-0 mt-3">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .Permalink }}"> {{ .Title }} </a>
         </h4>
+
         <p>{{ .Params.Designation }}</p>
       </div>
+
       {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
-<!-- /speaker -->
+<!-- /Speakers -->
 
-<!-- contribu 
-{{ if $data.homepage.contribu.enable }}
-{{ partial "contribu.html" . }}
-{{ end }}
- /contribu -->
-
-
-
-
-
-<!-- sponsor -->
+<!-- Sponsors -->
 {{ partial "sponsor.html" . }}
-<!-- /sponsor -->
-
-
-
+<!-- /Sponsors -->
 
 {{ end }}
-
