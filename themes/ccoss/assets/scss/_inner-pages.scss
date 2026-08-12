@@ -1,69 +1,71 @@
 // Page Header
-.page-header{
-	background: url("/images/ccoss-bg-darker.jpg") no-repeat;
-	background-size: cover;
-	background-position: center;
-	margin-top:60px;
-	padding: 30px 0px;
-	position: relative;
+.page-header {
+  margin-top: 60px;
+  padding: 0;
 }
 
-.overly{
-	position: absolute;
-	content:"";
-	left: 0px;
-	top:0px;
-	width: 100%;
-	height: 100%;
-	background-color: #404040;
-	opacity: .4;
+.page-header-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-title {
+  padding: 30px 0;
+}
+
+.overly {
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #404040;
+  opacity: 0.4;
 }
 
 .description-wrapper {
-	background-color: #f0f0f0;
-	padding: 30px 0px 20px 0px;
-	
-
+  background-color: #f0f0f0;
+  padding: 30px 0px 20px 0px;
 }
 
 // FAQ
 
 #faqs {
-
-	h4{
-		color: #444;
-	}
+  h4 {
+    color: #444;
+  }
 }
 
 // CONTACT PAGE
 
-.text-sm-2{
-	font-size: 16px;
+.text-sm-2 {
+  font-size: 16px;
 }
 
-.socials-links{
-	a{
-		font-size: 18px;
-		padding: 5px 10px 0px 0px;
-	}
+.socials-links {
+  a {
+    font-size: 18px;
+    padding: 5px 10px 0px 0px;
+  }
 }
 
-#map{
-	min-height:550px;
+#map {
+  min-height: 550px;
 }
 
-.google-map{
-	position: relative;
+.google-map {
+  position: relative;
 }
 .contact-info-block {
-	position: absolute;
-	content:"";
-	left: 30px;
-	top:30px;
-	z-index: 1;
-	background: $white;
-	@include mobile {
-		position: static;
-	}
+  position: absolute;
+  content: '';
+  left: 30px;
+  top: 30px;
+  z-index: 1;
+  background: $white;
+  @include mobile {
+    position: static;
+  }
 }
-

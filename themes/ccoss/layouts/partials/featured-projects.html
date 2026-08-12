@@ -1,18 +1,18 @@
-{{ $data := index .Site.Data }}
+{{ $data := index .Site.Data }} {{ with $data.projects }}
 
+<br /><br />
+<h3 class="container text-center">
+  La Comunidad Open Source de Latinoamérica se integra para potenciar el
+  fantástico ecosistema empresarial y del talento del Sureste, a disfrutarlo y
+  contribuir! <img src="images/icons/world.png" alt="" />
+</h3>
+<br /><br />
 
-
-{{ with $data.projects }}
-
-<br><br>
-<h3 class="container text-center">¡Será un orgullo para los mexicanos recibir en tierras tapatías a la comunidad Open Source y Cloud Native de Latinoamérica y de todo el mundo! <img src="images/icons/world.png" alt=""></h3>
-<br><br>
-
-        <!-- Countdown 
+<!-- Countdown 
         <div class="count-down mb-5">
   
           <div class="circle-progress-wrap">
-            <div class="circle-progress">
+            <div class="circle-progress   ">
                 <svg width="56" height="56">
                   <circle cx="28" cy="28" r="26" stroke-width="3" stroke="#c8c8c87a" fill="none"></circle>
                   <circle id="circle2-weeks" cx="28" cy="28" r="26" stroke-width="2" stroke="#951B81" fill="none" transform="matrix(0,-1,1,0,0, 56)" stroke-dasharray="70.79055446089001 92.57226352577925"></circle>
@@ -121,5 +121,5 @@
 </section>
 -->
 
-<img src="/images/linea-de-colores.png" class="img-fluid line">
+<img src="/images/linea-de-colores.png" class="img-fluid line" />
 {{ end }}

@@ -1,12 +1,12 @@
 ---
-title: "ConTRIBU: sesiones de contribución en vivo rumbo a CCOSS 2021"
+title: 'ConTRIBU: sesiones de contribución en vivo rumbo a CCOSS 2021'
 date: 2021-09-15T13:18:36-05:00
-draft: false
+draft: true
 # post thumb
-images: 
- - "images/blog/CCOSS-contribu.png"
+images:
+  - 'images/blog/CCOSS-contribu.png'
 # author
-author: "CCOSS" 
+author: 'CCOSS'
 ---
 
 ### El camino hacia un pull request
@@ -26,7 +26,6 @@ Las charlas de ConTRIBU también buscan motivar a todos los usuarios de software
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BQhwunTylrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
-
 
 En este primer episodio, nuestro invitado fue Jesús Lerma. Trabajamos en un issue de Meshery, una herramienta open source que te permite hacer deploy, configurar, medir, operar y modificar múltiples service mesh (Istio, Linkerd, etc). Finalmente enviamos un pull request y Chuy nos compartió sus consejos y algo de motivación.
 
@@ -65,8 +64,6 @@ Cuando hablamos de Open Source, lo primero que se nos viene a la mente es que to
 
 Cuando ves Firefox en español, ves tu trabajo reflejado y, ¡felicidades! Ya eres un(a) contribuidor(a) de Open Source y miles de personas de habla hispana agradecemos eso.
 
-
-
 <br><br>
 
 ## Episodio 4: Live de contribución
@@ -78,5 +75,3 @@ Cuando ves Firefox en español, ves tu trabajo reflejado y, ¡felicidades! Ya er
 </center>
 
 ¡Recordemos la última trasmisión que se dio antes del evento de CCOSS!
-
-

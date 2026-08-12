@@ -1,130 +1,142 @@
-
 .client-item {
-	a {
-		display: block;
-	}
+  a {
+    display: block;
+  }
 
-	float: left;
-	width: 15%;
-	height: 115px;
-	border:1px solid rgba(255, 255, 255, 0.05);
-	padding: 20px;
-	text-align: center;
-	opacity: .7;
-	-webkit-transition: all .45s ease-in-out;
-	-moz-transition: all .45s ease-in-out;
-	-ms-transition: all .45s ease-in-out;
-	-o-transition: all .45s ease-in-out;
-	transition: all .45s ease-in-out;
+  float: left;
+  width: 15%;
+  height: 115px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  text-align: center;
+  opacity: 0.7;
+  -webkit-transition: all 0.45s ease-in-out;
+  -moz-transition: all 0.45s ease-in-out;
+  -ms-transition: all 0.45s ease-in-out;
+  -o-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
 
-	&:hover {
-		opacity: 1;
-		background: $black;
-	}
+  &:hover {
+    opacity: 1;
+    background: $black;
+  }
 
-	@include desktop {
-		width: 20%;
-	}
+  @include desktop {
+    width: 20%;
+  }
 
-	@include tablet {
-		width: 30%;
-	}
+  @include tablet {
+    width: 30%;
+  }
 
-	@include mobile {
-		width: 40%;
-	}
+  @include mobile {
+    width: 40%;
+  }
 
-	@include mobile-xs {
-		width: 50%;
-	}
+  @include mobile-xs {
+    width: 50%;
+  }
 }
 
 .bg-black {
-	background: #000;
+  background: #000;
 }
 
 .letter-spacing {
-	letter-spacing: 2px;
-	text-transform: uppercase;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .text-sm {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 .bg-gray {
-	background: #eee;
+  background: #eee;
 }
 
 .sponsor-strip.platinum {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
 
-	@include tablet {
-		grid-template-columns: 1fr 1fr;
-	}
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
 
-	@include mobile {
-		grid-template-columns: 1fr;
-	}
-
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
 }
 
 .sponsor-strip.gold {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
 
-	@include tablet {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-	@include mobile {
-		grid-template-columns: 1fr;
-	}
-
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
 }
-
 
 .sponsor-strip.silver {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
 
-	@include tablet {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-	@include mobile {
-		grid-template-columns: 1fr;
-	}
-
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
 }
 
-.sponsor-strip.community, .sponsor-strip.partner {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 30px;
-	justify-content: space-between;
-	justify-items: center;
-	align-items: center;
+.sponsor-strip.bronze {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 60px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
 
-	@include tablet {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-	@include mobile {
-		grid-template-columns: 1fr 1fr;
-	}
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
 
+.sponsor-strip.community,
+.sponsor-strip.partner {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 40px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr 1fr;
+  }
 }

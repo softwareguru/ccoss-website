@@ -1,112 +1,69 @@
-enable :  true
-title : ""
+enable: true
+title: ''
 sponsor_group:
+  # - title: 'Platinum'
+  #   slug: 'platinum'
+  #   sponsor:
+  #     - logo: '/images/logos/digital-challengers.png'
+  #       link: 'https://digitalchallengers.com.mx'
+  #     - logo: '/images/logos/suse.png'
+  #       link: 'https://www.suse.com/'
 
-  - title : "Platinum"
-    slug : "platinum"
+  - title: 'Gold'
+    slug: 'gold'
     sponsor:
-
-      - logo : "/images/logos/digital-challengers.png"
-        link : "https://digitalchallengers.com.mx"
-      - logo : "/images/logos/suse.png"
-        link : "https://www.suse.com/"
-
-
-  - title : "Gold"
-    slug : "gold"
-    sponsor:
-
-      - logo : "/images/logos/Improving.png"
-        link : "https://www.improving.com/"
+      - logo: '/images/logos/zabbix.png'
+        link: 'https://www.zabbix.com/'
       #- logo : "/images/logos/logo-gnome.png"
-      #  link : "https://www.gnome.org/" 
+      #  link : "https://www.gnome.org/"
 
-
-  - title : "Silver"
-    slug : "silver"
+  - title: 'Silver'
+    slug: 'silver'
     sponsor:
-
-      - logo : "/images/logos/ClowderSpace.png"
-        link : "https://clowder.space/"
-      - logo : "/images/logos/infotec.png"
-        link : "https://www.infotec.mx/"
-      - logo : "/images/logos/CNCF.png"
-        link : "https://www.linuxfoundation.org/"
-      - logo : "/images/logos/civo.png"
-        link : "https://www.civo.com/"
-      - logo : "/images/logos/Oracle_1.png"
-        link : "https://www.oracle.com/"
-
-
-  - title : "Aliados"
-    slug : "partner"
+      - logo: '/images/logos/redhat.png'
+        link: 'https://www.redhat.com/'
+  - title: 'Bronze'
+    slug: 'bronze'
     sponsor:
-      - logo : "/images/logos/dedica-fundacion.png"
-        link : "https://www.dedica.org.mx/"
-      - logo : "/images/logos/OpenSourceInovationLabs.png"
-        link : "#"
-      - logo : "/images/logos/fundacion-cloud-native.png"
-        link : "https://fhcn.webflow.io/"
-      - logo : "/images/logos/github-logo.png"
-        link : "https://github.com/"
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com/"
-      - logo : "/images/logos/endava.png"
-        link : "https://www.endava.com/"
-      - logo : "/images/logos/ferrous-systems.png"
-        link : "https://ferrous-systems.com"
-      - logo : "/images/logos/codefresh.png"
-        link : "https://codefresh.io/"
-      - logo : "/images/logos/kube-careers.svg"
-        link : "https://kube.careers/"
-      - logo : "/images/logos/kube-events.svg"
-        link : "https://kube.events"
-      - logo : "/images/logos/cuemby.png"
-        link : "https://www.cuemby.com/"
-      - logo : "/images/logos/canieti.png"
-        link : "https://www.canietisedeoccidente.org/"
-      - logo : "/images/logos/logo-gnome.png"
-        link : "https://www.gnome.org/" 
+      - logo: '/images/logos/technova.png'
+        link: 'https://www.dedica.org.mx/'
 
-
-
-
-#  - title : "Partner"
-#    slug : "community"
-#    sponsor:               
-#      - logo : "/images/logos/Apache-logo.png"
-#        link : "https://www.apache.org/"
-
-  - title : "Comunidades"
-    slug : "community"
+  - title: 'Aliados'
+    slug: 'partner'
     sponsor:
-      - logo : "/images/logos/wdt-logo.png"
-        link : "https://twitter.com/webdevtalksmx?lang=en"
-      - logo : "/images/logos/isotipo.png"
-        link : "https://xalapacode.com/"
-      - logo : "/images/logos/data-engieneering-latam.png"
-        link : "https://www.linkedin.com/company/data-engineering-latam/?originalSubdomain=pe"
-      - logo : "/images/logos/open-infra.png"
-        link : "https://openinfra.mx/about/"
-      - logo : "/images/logos/enchiladasdevops.png"
-        link : "https://enchiladasdevops.com/"
-      - logo : "/images/logos/cloudnativegdl.png"
-        link : "https://twitter.com/cloudnativegdl"
-      - logo : "/images/logos/hackergarage.png"
-        link : "https://hackergarage.mx/"
+      - logo: '/images/logos/dedica-fundacion.png'
+        link: 'https://www.dedica.org.mx/'
+      - logo: '/images/logos/nerdearla.jpeg'
+        link: 'https://nerdearla.com/en/'
+      - logo: '/images/logos/tecnologico-software.png'
+        link: ''
+      - logo: '/images/logos/software-guru.jpeg'
+        link: 'https://sg.com.mx/'
+      - logo: '/images/logos/fedora.jpeg'
+        link: 'https://fedoraproject.org/es/'
 
-  - title : "Sede"
-    slug : "platinum"
+  #  - title : "Partner"
+  #    slug : "community"
+  #    sponsor:
+  #      - logo : "/images/logos/Apache-logo.png"
+  #        link : "https://www.apache.org/"
+
+  - title: 'Comunidades'
+    slug: 'community'
     sponsor:
-      - logo : "/images/logos/logo-cucea.png"
-        link : "https://www.cucea.udg.mx/es/acerca-de-cucea/ubicacion"
+      - logo: '/images/logos/OpenSourceInovationLabs.png'
+        link: '#'
 
+  - title: 'Sede'
+    slug: 'platinum'
+    sponsor:
+      - logo: '/images/logos/logo-anahuac.jpeg'
+        link: 'https://www.cucea.udg.mx/es/acerca-de-cucea/ubicacion'
 
 # call to action in sponsor
 sponsorship:
-  enable : true
-  title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
+  enable: true
+  title: 'Support Beam Summit and engage with the community! Join our sponsors and partners.'
   #button
-  label : "Únete como patrocinador"
-  link : "/files/CCOSSKCD2024-Prospectus.pdf"
-
+  label: 'Únete como patrocinador'
+  link: '/files/CCOSS2026-Prospectus_Merida.pdf'
