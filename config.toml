@@ -116,7 +116,7 @@ home = "Home"
 
 # Meta data
 description = """La Cumbre de Contribuidores de Open Source Software (CCOSS) es un evento con charlas, talleres y mentorías para impulsar la contribución al open source en Latinoamérica."""
-images = ["/images/CCOSS+KCD-card.jpg"]
+images = ["images/banner/bannerweb3.png"]
 twitter_user = "@RevistaSG"
 email = "hola@ccoss.org"
 author = "Software Guru"
@@ -126,7 +126,7 @@ googleAnalytics = "G-M9TKWBTNE6" # your id
 # search for blog page
 search = true
 
-disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS)y el KCD México son realizados por Software Guru en colaboración con la comunidad  Kubernetes México."""
+disclaimer = """La Cumbre de Contribuidores de Open Source Software (CCOSS) y Gnome Latam son realizados por el Equipo Organizador de CCOSS en colaboración con la Fundación Gnome."""
 
 start_date = "2022-11-10T10:00-05:00"
 end_date = "2022-11-12T16:00-05:00"

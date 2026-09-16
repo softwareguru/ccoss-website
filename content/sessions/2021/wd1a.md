@@ -10,8 +10,8 @@ format: workshop
 block: w
 time_start: 2021-10-07T14:00:00-05:00
 time_end: 2021-10-07T17:00:00-05:00
-video:
-slides:
+# video:
+# slides:
 workshop: true
 year: "2021"
 weight: 1

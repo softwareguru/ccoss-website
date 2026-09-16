@@ -13,8 +13,8 @@ format: workshop
 block: w
 time_start: 2021-10-07T17:00:00-05:00
 time_end: 2021-10-07T20:00:00-05:00
-video:
-slides:
+# video:
+# slides:
 year: "2021"
 weight: 5
 register: https://us02web.zoom.us/webinar/register/WN_zhxYfRw8SIWHX_LRDS2sWA

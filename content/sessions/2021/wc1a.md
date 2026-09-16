@@ -8,8 +8,8 @@ format: workshop
 block: w
 time_start: 2021-10-06T14:00:00-05:00
 time_end: 2021-10-06T17:00:00-05:00
-video:
-slides:
+# video:
+# slides:
 year: "2021"
 weight: 6
 register: https://us02web.zoom.us/webinar/register/WN_MlAoZSHsRsmRs80Zn0U67A

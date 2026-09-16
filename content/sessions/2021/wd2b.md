@@ -10,8 +10,8 @@ format: workshop
 block: w
 time_start: 2021-10-07T17:00:00-05:00
 time_end: 2021-10-07T20:00:00-05:00
-video:
-slides:
+# video:
+# slides:
 year: "2021"
 register: https://us06web.zoom.us/webinar/register/WN_ZoLQvkGeRmKPH2cll-USbQ
 image: /images/workshop/bluexolo.png

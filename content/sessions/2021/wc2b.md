@@ -8,8 +8,8 @@ format: workshop
 block: w
 time_start: 2021-10-06T17:00:00-05:00
 time_end: 2021-10-06T20:00:00-05:00
-video:
-slides:
+# video:
+# slides:
 year: "2021"
 weight: 3
 image: /images/workshop/PromEX2.png

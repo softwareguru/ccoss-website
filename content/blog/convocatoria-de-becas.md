@@ -8,7 +8,7 @@ images:
  - "images/blog/becas.jpg"
 # author
 author: "CCOSS" 
-draft: true
+# draft: true
 ---
 
 Te interesa contribuir a proyectos open source y asistir presencialmente a la Cumbre de Contribuidores de Open Source Software, pero no cuentas con los recursos necesarios para adquirir tu pase, o no estás en Guadalajara y requieres apoyo para viáticos, Sofware Guru y OSOM te apoyan para que asistas.

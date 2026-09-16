@@ -2,17 +2,34 @@
 
 <!-- Banner -->
 {{ with $data.homepage.banner }} {{ $banner := resources.Get
-"images/banner/bannerweb2.png" }}
+"images/banner/bannerweb1.png" }}
 
 <section
-  style="width: 100%; height: 75vh; margin: 0; padding: 0; overflow: hidden"
+  style="
+    width: 100%;
+    height: 75vh;
+    margin: 0;
+    padding-top: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+  "
 >
   <img
     src="{{ $banner.RelPermalink }}"
     alt="CCOSS 2026"
-    style="display: block; width: 100%; height: 100%; padding-top: 100px"
+    style="
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    "
   />
-  <img src="/images/linea-de-colores.png" class="img-fluid line" />
+
+  <img
+    src="/images/linea-de-colores.png"
+    class="img-fluid line"
+  />
 </section>
 {{ end }}
 <!-- /Banner -->
@@ -109,5 +126,9 @@ end }}
 <!-- Sponsors -->
 {{ partial "sponsor.html" . }}
 <!-- /Sponsors -->
+
+<!-- Call For Proposals -->
+{{ partial "call_proposals.html" . }}
+<!-- /Call For Proposals -->
 
 {{ end }}

@@ -8,11 +8,11 @@ format: workshop
 block: w
 time_start: 2021-10-04T14:00:00-05:00
 time_end: 2021-10-04T17:00:00-05:00
-video: 
-slides:
+# video: 
+# slides:
 year: "2021"
 weight: 6
-register:
+# register:
 image: /images/workshop/Github.png
 register: https://us02web.zoom.us/webinar/register/WN_c0QbL_Q9Tc6jJgCTOynYxA
 video: https://youtu.be/XeSZDL70ImU

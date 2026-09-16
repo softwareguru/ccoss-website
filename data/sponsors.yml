@@ -27,6 +27,8 @@ sponsor_group:
     sponsor:
       - logo: '/images/logos/technova.png'
         link: 'https://www.dedica.org.mx/'
+      - logo: '/images/logos/imagunet.png'
+        link: 'https://www.imagunet.com/'
 
   - title: 'Aliados'
     slug: 'partner'

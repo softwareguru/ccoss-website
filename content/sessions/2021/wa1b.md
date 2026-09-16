@@ -8,11 +8,11 @@ format: workshop
 block: w
 time_start: 2021-10-04T14:00:00-05:00
 time_end: 2021-10-04T17:00:00-05:00
-video: 
-slides:
+# video: 
+# slides:
 year: "2021"
 weight: 6
-register:
+# register:
 image: /images/workshop/Airflow.png
 register: https://us06web.zoom.us/webinar/register/WN_RVLvZshrTyuyNfZQ-Z0p5Q
 video: https://youtu.be/kvccZizzfTk
