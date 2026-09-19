@@ -27,7 +27,7 @@ sponsor_group:
     sponsor:
       - logo: '/images/logos/technova.png'
         link: 'https://www.dedica.org.mx/'
-      - logo: '/images/logos/imagunet.png'
+      - logo: '/images/logos/imagunet.jpeg'
         link: 'https://www.imagunet.com/'
 
   - title: 'Aliados'
@@ -43,6 +43,8 @@ sponsor_group:
         link: 'https://sg.com.mx/'
       - logo: '/images/logos/fedora.jpeg'
         link: 'https://fedoraproject.org/es/'
+      - logo: '/images/logos/lfdt.jpeg'
+        link: 'https://www.lfdecentralizedtrust.org/'
 
   #  - title : "Partner"
   #    slug : "community"
