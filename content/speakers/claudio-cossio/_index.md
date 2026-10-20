@@ -1,6 +1,6 @@
 ---
 title: "Claudio Cossio"
-date: 2020-08-10T16:37:07-05:00
+date: 2026-07-10T16:37:07-05:00
 images: 
   - "/images/team/claudio-cossio.jpeg"
 designation: CEO & Founder Metal
