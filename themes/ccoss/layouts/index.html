@@ -46,6 +46,10 @@
 end }}
 <!-- /Event information -->
 
+<!-- Agenda  -->
+{{ partial "agenda.html" . }} 
+<!-- /Agenda  -->
+
 <!-- Blog -->
 {{ if $data.homepage.blog.enable }} {{ partial "blog.html" . }} {{ end }}
 <!-- /Blog -->

@@ -1,10 +1,10 @@
 ---
 title: 'Jaime Cabrera'
-date: 2026-08-12T12:00:00-06:00
+date: 2026-06-12T12:00:00-06:00
 image: '/images/team/jaime-cabrera.jpeg'
 linkedin: 'https://www.linkedin.com/in/jaimecabrera/'
 twitter: ''
-group: comunidades
+group: sg
 designation: 'Director de la División de Ingeniería de la Universidad Anáhuac Mayab'
 draft: false
 ---

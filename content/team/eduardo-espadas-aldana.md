@@ -1,10 +1,10 @@
 ---
 title: 'Eduardo Espadas Aldana'
-date: 2026-08-12T12:00:00-06:00
+date: 2025-08-12T12:00:00-06:00
 image: '/images/team/eduardo-espadas-aldana.png'
 linkedin: 'https://www.linkedin.com/in/eduardoespadas/'
 twitter: 'https://x.com/espadaseduardo'
-group: comunidades
+group: sg
 designation: 'Director general y fundador del Instituto Tecnológico de Software'
 draft: false
 ---

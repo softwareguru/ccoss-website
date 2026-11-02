@@ -1,5 +1,5 @@
 enable: true
-title: ''
+title: 'Patrocinadores'
 sponsor_group:
   # - title: 'Platinum'
   #   slug: 'platinum'
@@ -22,6 +22,8 @@ sponsor_group:
     sponsor:
       - logo: '/images/logos/redhat.png'
         link: 'https://www.redhat.com/'
+      - logo: '/images/logos/gnome-foundation.png'
+        link: 'https://foundation.gnome.org/'
   - title: 'Bronze'
     slug: 'bronze'
     sponsor:
@@ -29,6 +31,8 @@ sponsor_group:
         link: 'https://www.dedica.org.mx/'
       - logo: '/images/logos/imagunet.jpeg'
         link: 'https://www.imagunet.com/'
+      - logo: '/images/logos/fideture.jpeg'
+        link: 'https://www.yucatan.gob.mx/gobierno/ver_dependencia.php?id=81'
 
   - title: 'Aliados'
     slug: 'partner'
@@ -44,6 +48,8 @@ sponsor_group:
       - logo: '/images/logos/fedora.jpeg'
         link: 'https://fedoraproject.org/es/'
       - logo: '/images/logos/lfdt.jpeg'
+        link: 'https://www.lfdecentralizedtrust.org/'
+      - logo: '/images/logos/visit-yucatan.jpeg'
         link: 'https://www.lfdecentralizedtrust.org/'
 
   #  - title : "Partner"
