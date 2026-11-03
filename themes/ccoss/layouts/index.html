@@ -50,6 +50,43 @@ end }}
 {{ partial "agenda.html" . }} 
 <!-- /Agenda  -->
 
+
+<!-- Conferencistas -->
+{{ if $data.homepage.conferencistas.enable }}
+<section class="section speakers">
+  <div class="container">
+    {{ with $data.homepage.conferencistas }} {{ partial "section_title.html" . }} {{
+    end }}
+
+    <div class="speakers-wrapper">
+      {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }} 
+        {{ if and (in .Params.events 2026) (not .Params.keynote) }}
+
+      <div class="speaker">
+        <a href="{{ .Permalink }}">
+          <img
+            src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}"
+            alt="{{ .Title }}"
+            class="img-fluid rounded-circle"
+          />
+        </a>
+
+        <h4 class="mb-0 mt-3">
+          <a href="{{ .Permalink }}"> {{ .Title }} </a>
+        </h4>
+
+        <p>{{ .Params.Designation }}</p>
+      </div>
+
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<img src="/images/linea-de-colores.png" class="img-fluid line" />
+<!-- /Conferencistas --
+ 
 <!-- Blog -->
 {{ if $data.homepage.blog.enable }} {{ partial "blog.html" . }} {{ end }}
 <!-- /Blog -->
@@ -91,40 +128,7 @@ end }}
 <!-- Pricing -->
 {{ if $data.homepage.pricing.enable }} {{ partial "pricing.html" . }} {{ end }}
 <!-- /Pricing -->
-
-<!-- Speakers -->
-{{ if $data.homepage.speakers.enable }}
-<section class="section speakers">
-  <div class="container">
-    {{ with $data.homepage.speakers }} {{ partial "section_title.html" . }} {{
-    end }}
-
-    <div class="speakers-wrapper">
-      {{ range ( where (where .Site.RegularPages.ByTitle "Type" "speakers")
-      ".Params.featured" true ) }}
-
-      <div class="speaker">
-        <a href="{{ .Permalink }}">
-          <img
-            src="{{ .Params.Image | relURL }}"
-            alt="{{ .Title }}"
-            class="img-fluid rounded-circle"
-          />
-        </a>
-
-        <h4 class="mb-0 mt-3">
-          <a href="{{ .Permalink }}"> {{ .Title }} </a>
-        </h4>
-
-        <p>{{ .Params.Designation }}</p>
-      </div>
-
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /Speakers -->
+>
 
 <!-- Sponsors -->
 {{ partial "sponsor.html" . }}

@@ -38,17 +38,21 @@
           <div class="info-column col-lg-8 col-md-12 col-sm-12">
               <div class="inner-column">
                   <div class="text-box">
-                      <h3>{{ .Title }}</h3>
+                      <!-- <h3>{{ .Title }}</h3> -->
                       {{ with .Params.designation }}<h5>{{.}}</h5>{{ end }}
                       <p>{{ .Content }}</p>
-                      <h4>Sesiones por {{ .Title }}</h4>
-
-                      <!-- Sessions speaker -->
+                      {{ with .Params.sessions }}
+                      <h4>Sesiones </h4>
                       <ul>
-                      {{ range (.Data.Pages.ByParam "time_start").Reverse }}
-                        <li><a href="{{ .Permalink }}" class="color-session-speaker" style="color: #17A8BC;">{{ .Title }}</a>{{ with .Params.time_start | time }} ({{ .Format "2006" }}){{ end }}</li>
-                      {{ end }}
-                      </ul>
+                            {{ range . }}
+                            <li>
+                                <span class="color-session-speaker" style="color: #17A8BC;">
+                                    {{ . }}
+                                </span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
                       <!-- Sessions speaker end -->
                   </div>
               </div>

@@ -9,5 +9,6 @@ linkedin: ''
 github: ''
 events:
   - 2024
+  - 2026
 keynote: true
 ---

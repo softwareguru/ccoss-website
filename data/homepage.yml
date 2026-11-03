@@ -36,9 +36,14 @@ event_info:
 
 ####################### Speakers #############################
 speakers:
-  enable: false
+  enable: true
   title: 'Keynote speakers'
 
+####################### Conferencistas Especializados #############################
+conferencistas:
+  enable: true
+  title: 'Equipo de Conferencistas Especializados'
+  
 ####################### pricing #############################
 pricing:
   enable: true
