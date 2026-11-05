@@ -2,7 +2,7 @@
 title: "Mario Zaldívar"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
+- "/images/speakers/mario-zaldivar.jpeg"
 designation: 'Anahuac Mayab'
 twitter: ''
 linkedin: ''

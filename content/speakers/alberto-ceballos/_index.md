@@ -2,7 +2,7 @@
 title: "Alberto Ceballos"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
+  - "/images/speakers/alberto-ceballos.jpeg"
 designation: ''
 twitter: ''
 linkedin: ''

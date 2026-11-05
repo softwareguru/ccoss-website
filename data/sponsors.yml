@@ -14,8 +14,8 @@ sponsor_group:
     sponsor:
       - logo: '/images/logos/zabbix.png'
         link: 'https://www.zabbix.com/'
-      #- logo : "/images/logos/logo-gnome.png"
-      #  link : "https://www.gnome.org/"
+      - logo : "/images/logos/interledger.jpeg"
+        link : "https://interledger.org/es/"
 
   - title: 'Silver'
     slug: 'silver'

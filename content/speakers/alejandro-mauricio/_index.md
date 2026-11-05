@@ -2,7 +2,7 @@
 title: "Alejandro Mauricio González"
 date: 2026-08-10T16:37:07-05:00
 images: 
- - "/images/speakers/alejandro-mauricio.jpeg"
+ - "/images/speakers/alejandro-mauricio.png"
 designation: UAZ - Comunidad de Red de Laboratorios OSIL | Comunidades FOSS México
 twitter: ''
 linkedin: 'https://www.linkedin.com/in/alejandro-mauricio-gonzalez/'

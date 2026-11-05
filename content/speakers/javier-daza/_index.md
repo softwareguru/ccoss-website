@@ -2,7 +2,7 @@
 title: "Javier Daza"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
+  - "/images/speakers/javier-daza.jpeg"
 designation: 'Imagunet'
 twitter: ''
 linkedin: ''

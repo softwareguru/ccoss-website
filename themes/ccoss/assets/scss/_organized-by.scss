@@ -39,3 +39,14 @@
     height: 100%;
     object-fit: cover;
 }
+
+.speaker img {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}

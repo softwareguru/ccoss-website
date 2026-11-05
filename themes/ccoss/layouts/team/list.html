@@ -1,4 +1,16 @@
 {{ define "main" }}
+<style>
+.speak {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+</style>
 
 <section class="section {{ .Type }}">
   <div class="container">
@@ -13,7 +25,7 @@
         <div class="speaker-block">
           <div class="headshot-box">
 
-              <img src="{{ .Params.image }}" width="300" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-fluid rounded-circle speak">
 
           </div>
           <div class="speaker-info text-center">
@@ -43,7 +55,7 @@
         <div class="speaker-block">
           <div class="headshot-box">
 
-              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow speak">
 
           </div>
           <div class="speaker-info text-center">

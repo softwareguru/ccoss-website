@@ -2,7 +2,7 @@
 title: "José Antonio Espinosa"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
+  - "/images/speakers/jose-espinoza.jpeg"
 designation: 'Tec Mérida'
 twitter: ''
 linkedin: ''
