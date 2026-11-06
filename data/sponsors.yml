@@ -16,6 +16,8 @@ sponsor_group:
         link: 'https://www.zabbix.com/'
       - logo : "/images/logos/interledger.jpeg"
         link : "https://interledger.org/es/"
+      - logo : "/images/logos/ayundamiento_merida.jpeg"
+        link : "https://merida.gob.mx/municipio/portal/index.php"
 
   - title: 'Silver'
     slug: 'silver'
@@ -51,6 +53,13 @@ sponsor_group:
         link: 'https://www.lfdecentralizedtrust.org/'
       - logo: '/images/logos/visit-yucatan.jpeg'
         link: 'https://www.lfdecentralizedtrust.org/'
+      - logo: '/images/logos/canieti_sureste.png'
+        link: 'https://sureste.canieti.org/'
+      - logo: '/images/logos/ieee.jpeg'
+        link: 'https://www.ieee.org'
+
+    
+        
 
   #  - title : "Partner"
   #    slug : "community"

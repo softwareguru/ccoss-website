@@ -1,9 +1,9 @@
 ---
-title: "Alexander Rubeola"
+title: "Alexander Correa"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
-designation: 'Platohedro'
+  - "/images/speakers/alexander-correa.jpeg"
+designation: '- Cofundador/ Codirector Platohedro'
 twitter: ''
 linkedin: ''
 github: ''

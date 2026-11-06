@@ -2,8 +2,8 @@
 title: "Atul Saxena"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
-designation: ''
+ - "images/speakers/atul-saxena.jpeg"
+designation: 'Position- Founder & CTO, Blackdrome AI Labs'
 twitter: ''
 linkedin: ''
 github: ''
