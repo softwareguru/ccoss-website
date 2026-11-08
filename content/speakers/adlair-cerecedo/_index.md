@@ -2,7 +2,7 @@
 title: "Adlair Cerecedo"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
+ - "/images/speakers/adlair-cerecedo.jpeg"
 designation: 'Libreoffice'
 twitter: ''
 linkedin: ''

@@ -2,8 +2,8 @@
 title: "Enrique Camacho"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
-designation: 'Mérida'
+ - "/images/speakers/enrique-camacho.jpeg"
+designation: 'FIUADY'
 twitter: ''
 linkedin: ''
 github: ''
@@ -14,4 +14,4 @@ sessions:
 keynote: false
 
 ---
-Reseña.
+Profesor investigador

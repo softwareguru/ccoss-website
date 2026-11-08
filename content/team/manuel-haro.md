@@ -5,5 +5,5 @@ image: '/images/speakers/manuel-haro.jpeg'
 linkedin: 'https://www.linkedin.com/in/manuel-haro-89631a56/'
 twitter: 'https://twitter.com/caxcan70?lang=en'
 group: sg
-designation: Fundación Dedica | Comunidad de Red Laboratorios OSIL | Gnome Foundation
+designation: CEO Fundación DEDICA
 ---

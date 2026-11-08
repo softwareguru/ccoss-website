@@ -2,8 +2,8 @@
 title: "Daniel Galleguillos"
 date: 2026-08-10T16:37:07-05:00
 images:
-  - ""
-designation: 'Gnome Foundation'
+ - "/images/speakers/daniel-galleguillos.jpeg"
+designation: 'Miembro de Engagement Team, Gnome Foundation'
 twitter: ''
 linkedin: ''
 github: ''

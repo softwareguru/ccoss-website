@@ -15,11 +15,4 @@ keynote: false
 
 ---
 
-Egresado del Instituto Tecnológico de Zacatecas de Ingeniero en Sistemas Computacionales con Especialidad en Redes y Telecomunicaciones por el ITESM Campus Monterrey dentro del Fideicomiso SEP-UNAM; con experiencia de más de 20 años en instalación, manejo y administración de sistemas sobre plataformas Unix y fuerte impulso por más de 15 años del software libre, certificación en varios temas como:
-
-Solaris System Administration I y II por Sun Microsystems
-Unix Systems por Digital de México
-Cisco Select
-Nortel Option 11C Administration
-Latinux Linux Operator
-Latinux Linux administrator 
+Fundador y Presidente de la Fundación para el Desarrollo Digital y el Conocimiento Abierto así como líder de la Red de Laboratorios Open Source Innovation Labs, impulsor de la innovación tecnológica y de las tecnologías Open Source, Docente / Investigador en la Universidad Autónoma de Zacatecas, Fundador del Laboratorio de Software Libre de Zacatecas, Creador del Modelo de Innovación Colaborativa y la Catalización del Talento; desde hace más de 1 lustro fuerte impulsor del desarrollo tecnológico Web3.
