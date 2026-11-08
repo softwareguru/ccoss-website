@@ -3,7 +3,7 @@ title: "Manuel Haro"
 date: 2021-09-21T00:44:00-05:00
 images:
  - "/images/speakers/manuel-haro.jpeg"
-designation : "Coordinador @ LABSOL"
+designation : "CEO Fundación DEDICA "
 country: "mx"
 twitter: "https://twitter.com/caxcan70?lang=en"
 linkedin: "https://www.linkedin.com/in/manuel-haro-89631a56/"
