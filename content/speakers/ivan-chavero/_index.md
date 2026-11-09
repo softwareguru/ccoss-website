@@ -5,9 +5,12 @@ images:
  - /images/speakers/ivan-chavero.jpg
 designation: Curriculum Developer @ Red Hat
 country: 
-twitter: 
-linkedin: 
+twitter: '@imcsk8'
+linkedin: 'https://www.linkedin.com/in/imcsk8'
+instagram: '@imcsk8'
 github: https://github.com/imcsk8
+events:
+ - 2026
 ---
 
 
