@@ -1,9 +1,9 @@
 ---
-title: "Juan Luis Ordoñez Pérez"
+title: "Juan Luis Ordoñez Pérez "
 date: 2026-08-10T16:37:07-05:00
 images:
 - "/images/speakers/jose-ordonez.jpeg"
-designation: ''
+designation: 'Director de Edutics Tapachula'
 twitter: ''
 linkedin: ''
 github: ''
